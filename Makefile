@@ -1,9 +1,8 @@
-
 IDIR =include# directory for header files
 SDIR =src# source directory
 ODIR =obj# object file directory
-CPP = g++# C++ cmpiler used
-CFLAGS = -std=c++11 -Wall -Wshadow -Werror -I$(IDIR)# compiler flags
+CPP =g++# compiler used
+CFLAGS =-std=c++11 -Wall -Wshadow -Werror -I$(IDIR)# compiler flags
 LDFLAGS =# -lm library flags
 TARGET = manp # file executable generated
 
@@ -18,7 +17,7 @@ OBJECTS := $(patsubst $(SDIR)/%.cpp, $(ODIR)/%.o, $(SOURCES))
 HEADERS = $(wildcard $(IDIR)/*.h)
 
 # To print the value of a variable
-# $(info    VAR is $(HEADERS))
+# $(info VAR is $(HEADERS))
 
 # Pattern substitution
 # $(patsubst pattern, substitution, text_to_insert)
@@ -26,7 +25,7 @@ HEADERS = $(wildcard $(IDIR)/*.h)
 
 all : $(TARGET)
 
-$(ODIR)/%.o: $(SDIR)/%.c $(HEADERS)
+$(ODIR)/%.o: $(SDIR)/%.cpp $(HEADERS)
 	@mkdir -p $(@D)
 	$(CPP) -c -o $@ $< $(CFLAGS)
 

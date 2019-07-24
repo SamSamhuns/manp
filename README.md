@@ -4,16 +4,19 @@ Tired of googling common Python functions for documentation. manp is a command-l
 
 ## Installation
 
-1.   Clone the repository.
-2.   Use the following command to compile with `Makefile` to create the `manp` executable.
+1.  Clone the repository.
+2.  Use the following command to compile with `Makefile` to create the `manp` executable.
+
 ```bash
 $ make all
 ```
-3.   Add `manp` to your
+
+3.  Add `manp` to your current PATH variable.
 
 ## Usage
 
 ## Contributions
 
 ## Acknowledgements
+
 -   Python Software Foundation <https://www.python.org/psf/>
