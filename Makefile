@@ -5,9 +5,12 @@ CPP =g++# compiler used
 CFLAGS =-std=c++11 -Wall -Wshadow -Werror -I$(IDIR)# compiler flags
 LDFLAGS =# -lm library flags
 TARGET = manp # file executable generated
+RAW_TXT_DIR =data # location of the txt files to convert to raw string literals
 
-# Getting the list of all cpp and object files
+# Getting the list of all cpp and object files except text_to_raw_string.cpp
 SOURCES := $(wildcard $(SDIR)/*.cpp)
+SOURCES := $(filter-out src/text_to_raw_string.cpp, $(SOURCES))
+
 OBJECTS := $(patsubst $(SDIR)/%.cpp, $(ODIR)/%.o, $(SOURCES))
 
 # TO manually list the header files
@@ -23,7 +26,7 @@ HEADERS = $(wildcard $(IDIR)/*.h)
 # $(patsubst pattern, substitution, text_to_insert)
 # DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-all : $(TARGET)
+all : text_to_raw_string run_text_to_raw_string $(TARGET)
 
 $(ODIR)/%.o: $(SDIR)/%.cpp $(HEADERS)
 	@mkdir -p $(@D)
@@ -32,8 +35,20 @@ $(ODIR)/%.o: $(SDIR)/%.cpp $(HEADERS)
 $(TARGET): $(OBJECTS)
 	$(CPP) -o $@ $^ $(CFLAGS)
 
+$(ODIR)/text_to_raw_string.o: $(SDIR)/text_to_raw_string.cpp $(HEADERS)
+	@mkdir -p $(@D)
+	$(CPP) -c -o $@ $< $(CFLAGS)
+
+text_to_raw_string: $(ODIR)/text_to_raw_string.o
+	$(CPP) -o $@ $^ $(CFLAGS)
+
+# Generate the raw string literals which are required for compiling $(TARGET)
+# The txt files must always be present in the data folder
+run_text_to_raw_string: text_to_raw_string
+	./text_to_raw_string $(RAW_TXT_DIR)
+
 # Any file with the name clean will not interrupt the cmd clean
-.PHONY: clean
+.PHONY: clean all run_text_to_raw_string
 
 clean: clean-obj clean-mac-fsys clean-build
 
@@ -45,3 +60,4 @@ clean-mac-fsys:
 
 clean-build:
 	rm -rf $(TARGET)
+	rm -rf text_to_raw_string
