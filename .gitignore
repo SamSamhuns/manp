@@ -34,5 +34,8 @@
 # Mac OS System files
 *.DS_Store
 
-# Built executable file
+# Built executable files
+### main doc generator
 manp
+### txt to raw txt string literal converter
+text_to_raw_string
