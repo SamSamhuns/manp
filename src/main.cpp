@@ -1,8 +1,15 @@
 #include <iostream>
+#include <unistd.h>
+#include "common.h"
 
-int main(void) {
 
-    std::cout << "Lets Begin" << std::endl;
+int main(int argc, char const *argv[]) {
 
-    return 0;
+	std::cout << "Lets Begin" << std::endl;
+	const char *s =
+	#include "../data/abc.txt"
+	;
+
+	std::cout << s << std::endl;
+	return 0;
 }
