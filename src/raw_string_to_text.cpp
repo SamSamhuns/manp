@@ -13,16 +13,16 @@
 #define START_DELIMITER "R\"========("
 #define END_DELIMITER ")========\""
 
-/* function to convert txt files in raw string literals enclosed by the
-    START_DELIMITER and END_DELIMITERs */
-int text_to_raw_string(std::string &filename);
+/* function to convert raw string literal files to txt enclosed by the
+    START_DELIMITERs and END_DELIMITERs */
+int raw_string_to_text(std::string &filename);
 
 /* function to recursively find txt files */
 int recursively_find_txt_files(std::string &dirpath);
 
 int main(int argc, const char *argv[]) {
 	if (argc != 2) {
-		std::cerr << "Usage: ./text_to_raw_string <PATH_TO_DIR_OR_TXT_FILE>\n";
+		std::cerr << "Usage: ./raw_string_to_text <PATH_TO_DIR_OR_TXT_FILE>\n";
 		return -1;
 	}
 
@@ -63,7 +63,7 @@ int recursively_find_txt_files(std::string &dirpath) {
 
 						switch (dirReadPointer->d_type) {
 						case DT_REG:     // if dirReadPointer points to a regular file
-							text_to_raw_string(pathToFile);
+							raw_string_to_text(pathToFile);
 							break;
 						case DT_DIR:     // if dirReadPointer points to a folder
 							recursively_find_txt_files(pathToFile);
@@ -82,7 +82,7 @@ int recursively_find_txt_files(std::string &dirpath) {
 		// dirpath is a regular file
 		else if (S_ISREG(path_stat.st_mode)) {
 			if (DEBUG) std::cout << dirpath << " is a file\n";
-			text_to_raw_string(dirpath);
+			raw_string_to_text(dirpath);
 		}
 		else {
 			if (DEBUG) std::cerr << dirpath << " is not a regular file or folder\n";
@@ -97,11 +97,9 @@ int recursively_find_txt_files(std::string &dirpath) {
 	return 0;
 }
 
-
-
-/* function to convert txt files in raw string literals enclosed by the
+/* function to convert raw string literal files to txt enclosed by the
     START_DELIMITERs and END_DELIMITERs */
-int text_to_raw_string(std::string &filename) {
+int raw_string_to_text(std::string &filename) {
 	std::fstream in_ptr, out_ptr;
 	std::vector <std::string> line_string_vector;
 	std::string inString;
@@ -119,24 +117,25 @@ int text_to_raw_string(std::string &filename) {
 		return -1;
 	}
 
-	/* Checking if file is already in desired raw string literal format */
+	/* Checking if file is already in a normal text format */
 	std::getline(in_ptr, inString);
-	if (inString == START_DELIMITER) {
-		if (DEBUG) std::cerr << filename << " already in raw literal string format.\n";
+	if (inString != START_DELIMITER) {
+		if (DEBUG) std::cerr << filename << " not in raw string literal text format.\n";
 		return -2;
 	}
-
-	// custom delimiter for start of raw string literal
-	line_string_vector.push_back(START_DELIMITER);
+	int line_count = 1; // to count number of lines in filename
 	line_string_vector.push_back(inString);
 
 	/* Read contents of filename line by line and store in line_string_vector */
 	while (std::getline(in_ptr, inString)) {
 		line_string_vector.push_back(inString);
+		line_count += 1;
 	}
 
-	// custom delimiter for end of raw string literal
-	line_string_vector.push_back(END_DELIMITER);
+	if (line_string_vector[line_count-1] != END_DELIMITER) {
+		if (DEBUG) std::cerr << filename << " not in raw string literal text format.\n";
+		return -2;
+	}
 
 	out_ptr.open(filename, std::ios::out);
 	if (!out_ptr.is_open()) {
@@ -145,12 +144,13 @@ int text_to_raw_string(std::string &filename) {
 	}
 
 	/* Save contents of line_string_vector to the same filename */
-	for (size_t i = 0; i < line_string_vector.size(); i++) {
+	/* avodi adding the first and last strings which are the DELMITERS */
+	for (size_t i = 1; i < (line_string_vector.size()-2); i++) {
 		out_ptr << line_string_vector[i] << "\n";
 	}
 
 	in_ptr.close();
 	out_ptr.close();
-	if (DEBUG) std::cerr << filename << " successfully converted to raw string literal\n";
+	if (DEBUG) std::cerr << filename << " successfully converted to normal text format.\n";
 	return 0;
 }

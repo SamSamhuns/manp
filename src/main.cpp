@@ -10,6 +10,8 @@ int main(int argc, char const *argv[]) {
 	#include "../data/abc.txt"
 	;
 
-	std::cout << s << std::endl;
+	std::string test(s);
+	std::cout << "NOW PRINTING THE STRING\n";
+	std::cout << test << std::endl;
 	return 0;
 }

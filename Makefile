@@ -7,9 +7,11 @@ LDFLAGS =# -lm library flags
 TARGET = manp # file executable generated
 RAW_TXT_DIR =data # location of the txt files to convert to raw string literals
 
-# Getting the list of all cpp and object files except text_to_raw_string.cpp
+# Getting the list of all cpp and object files
+# except text_to_raw_string.cpp and raw_string_to_text
 SOURCES := $(wildcard $(SDIR)/*.cpp)
 SOURCES := $(filter-out src/text_to_raw_string.cpp, $(SOURCES))
+SOURCES := $(filter-out src/raw_string_to_text.cpp, $(SOURCES))
 
 OBJECTS := $(patsubst $(SDIR)/%.cpp, $(ODIR)/%.o, $(SOURCES))
 
@@ -26,7 +28,7 @@ HEADERS = $(wildcard $(IDIR)/*.h)
 # $(patsubst pattern, substitution, text_to_insert)
 # DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-all : text_to_raw_string run_text_to_raw_string $(TARGET)
+all : text_to_raw_string raw_string_to_text run_text_to_raw_string $(TARGET)
 
 $(ODIR)/%.o: $(SDIR)/%.cpp $(HEADERS)
 	@mkdir -p $(@D)
@@ -40,6 +42,13 @@ $(ODIR)/text_to_raw_string.o: $(SDIR)/text_to_raw_string.cpp $(HEADERS)
 	$(CPP) -c -o $@ $< $(CFLAGS)
 
 text_to_raw_string: $(ODIR)/text_to_raw_string.o
+	$(CPP) -o $@ $^ $(CFLAGS)
+
+$(ODIR)/raw_string_to_text.o: $(SDIR)/raw_string_to_text.cpp $(HEADERS)
+	@mkdir -p $(@D)
+	$(CPP) -c -o $@ $< $(CFLAGS)
+
+raw_string_to_text: $(ODIR)/raw_string_to_text.o
 	$(CPP) -o $@ $^ $(CFLAGS)
 
 # Generate the raw string literals which are required for compiling $(TARGET)
@@ -61,3 +70,4 @@ clean-mac-fsys:
 clean-build:
 	rm -rf $(TARGET)
 	rm -rf text_to_raw_string
+	rm -rf raw_string_to_text

@@ -39,3 +39,4 @@
 manp
 ### txt to raw txt string literal converter
 text_to_raw_string
+raw_string_to_text
