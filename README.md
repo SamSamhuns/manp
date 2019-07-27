@@ -16,7 +16,7 @@ $ make all
 $ chmod a+x manp
 ```
 
-3.  Highly recommended to add the `manp` executable to `PATH` var for faster execution. As with this `manp` can be called from any directory and speeds documentation lookup.
+3.  Add the `manp` executable to `PATH` var for faster execution so that `manp` can be called using a `bash` shell from any directory and speeds documentation lookup.
 
     -   **Recommended:**
 
@@ -26,6 +26,8 @@ $ chmod a+x manp
         $ ln -s /[ABSOLUTE_PATH]/manp /usr/local/bin
         ```
 
+        \* If the original location of the `manp` executable is changed, the soft link must be updated again with the above command.
+
     -   **Alternative:**
 
         copy `manp` to `/usr/local/bin` with:
@@ -34,7 +36,7 @@ $ chmod a+x manp
         $ cp manp /usr/local/bin
         ```
 
-        \* Every time, there is a change to the source code, the `manp` binary will have to be recopied to `use/local/bin`.
+        \* Every time, there is a change to the source code, the `manp` binary will have to be recopied to `usr/local/bin`.
 
 **Note:** If there are any permission issues, use `sudo`. The `manp` executable can be directly added to the `PATH` var if `sudo` access is not present.
 
