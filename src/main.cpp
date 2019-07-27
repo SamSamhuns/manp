@@ -4,14 +4,14 @@
 
 
 int main(int argc, char const *argv[]) {
-
-	std::cout << "Lets Begin" << std::endl;
-	const char *s =
-	#include "../data/abc.txt"
+	/* Loading the entire txt documentation that has been pre-converted to
+	raw string format to char ptr */
+	std::string python_doc_string =
+	#include "combined_txt_include.h"
 	;
 
-	std::string test(s);
+	// std::string (python_doc_string);
 	std::cout << "NOW PRINTING THE STRING\n";
-	std::cout << test << std::endl;
+	std::cout << python_doc_string << std::endl;
 	return 0;
 }

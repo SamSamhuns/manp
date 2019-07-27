@@ -10,8 +10,10 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include "common.h"
-#define START_DELIMITER "R\"========("
-#define END_DELIMITER ")========\""
+#define START_DELIMITER "R\"==~~~~==("   // delimits start of raw string
+#define END_DELIMITER ")==~~~~==\""      // delimits end of raw string
+#define CPP_MAP_KEY_VALUE_DELIMITER "CPP==map==key==delimiter"  // splits keys from values
+#define CPP_MAP_MODULE_DELIMITER "CPP==new==module==delimiter"  // splits different modules
 
 /* function to convert raw string literal files to txt enclosed by the
     START_DELIMITERs and END_DELIMITERs */
@@ -102,7 +104,7 @@ int recursively_find_txt_files(std::string &dirpath) {
 int raw_string_to_text(std::string &filename) {
 	std::fstream in_ptr, out_ptr;
 	std::vector <std::string> line_string_vector;
-	std::string inString;
+	std::string inString, module_name;
 
 	/* Check if the file is a txt file */
 	std::size_t found = filename.find_last_of(".");
@@ -118,21 +120,46 @@ int raw_string_to_text(std::string &filename) {
 	}
 
 	/* Checking if file is already in a normal text format */
+	// first line of text must always be START_DELIMITER
 	std::getline(in_ptr, inString);
 	if (inString != START_DELIMITER) {
 		if (DEBUG) std::cerr << filename << " not in raw string literal text format.\n";
 		return -2;
 	}
-	int line_count = 1; // to count number of lines in filename
 	line_string_vector.push_back(inString);
 
+	/* Get the filename to use the C++ map key data struct
+		the filname will be the unique key for the c++ map */
+	std::size_t slash_found = filename.find_last_of("/");
+	// if a slash '/' was not found in the filename
+	if (slash_found == std::string::npos) {
+		module_name = filename;
+	}
+	// if the file path has a slash '/'
+	else {
+		module_name = filename.substr(slash_found+1);
+	}
+	/* remove .txt extension from filename and add the delimiter for C++ map */
+	module_name = module_name.substr(0, module_name.size()-4);
+	module_name += std::string(CPP_MAP_KEY_VALUE_DELIMITER);
+
+	// second line of text must always be CPP_MAP_KEY_VALUE_DELIMITER
+	std::getline(in_ptr, inString);
+	if (inString != module_name.c_str()) {
+		if (DEBUG) std::cerr << filename << " not in raw string literal text format.\n";
+		return -2;
+	}
+	line_string_vector.push_back(inString);
+
+	int line_count = 2; // to count number of lines in filename
 	/* Read contents of filename line by line and store in line_string_vector */
 	while (std::getline(in_ptr, inString)) {
 		line_string_vector.push_back(inString);
 		line_count += 1;
 	}
 
-	if (line_string_vector[line_count-1] != END_DELIMITER) {
+	if ((line_string_vector[line_count-1] != END_DELIMITER) &&
+	    (line_string_vector[line_count-2] != CPP_MAP_MODULE_DELIMITER)) {
 		if (DEBUG) std::cerr << filename << " not in raw string literal text format.\n";
 		return -2;
 	}
@@ -145,7 +172,7 @@ int raw_string_to_text(std::string &filename) {
 
 	/* Save contents of line_string_vector to the same filename */
 	/* avodi adding the first and last strings which are the DELMITERS */
-	for (size_t i = 1; i < (line_string_vector.size()-2); i++) {
+	for (size_t i = 2; i < (line_string_vector.size()-2); i++) {
 		out_ptr << line_string_vector[i] << "\n";
 	}
 
