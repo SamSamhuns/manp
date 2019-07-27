@@ -10,13 +10,9 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include "common.h"
-#define START_DELIMITER "R\"==~~~~==("   // delimits start of raw string
-#define END_DELIMITER ")==~~~~==\""      // delimits end of raw string
-#define CPP_MAP_KEY_VALUE_DELIMITER "CPP==map==key==delimiter"  // splits keys from values
-#define CPP_MAP_MODULE_DELIMITER "CPP==new==module==delimiter"  // splits different modules
 
 /* function to convert txt files in raw string literals enclosed by the
-    START_DELIMITER and END_DELIMITERs */
+    START_DELIM and END_DELIMs */
 int text_to_raw_string(std::string &filename);
 
 /* function to recursively find txt files */
@@ -102,7 +98,7 @@ int recursively_find_txt_files(std::string &dirpath) {
 
 
 /* function to convert txt files in raw string literals enclosed by the
-    START_DELIMITERs and END_DELIMITERs */
+    START_DELIMs and END_DELIMs */
 int text_to_raw_string(std::string &filename) {
 	std::fstream in_ptr, out_ptr;
 	std::vector <std::string> line_string_vector;
@@ -123,13 +119,13 @@ int text_to_raw_string(std::string &filename) {
 
 	/* Checking if file is already in desired raw string literal format */
 	std::getline(in_ptr, inString);
-	if (inString == START_DELIMITER) {
+	if (inString == START_DELIM) {
 		if (DEBUG) std::cerr << filename << " already in raw literal string format.\n";
 		return -2;
 	}
 
 	// custom delimiter for start of raw string literal
-	line_string_vector.push_back(START_DELIMITER); // first elem of line_string_vector
+	line_string_vector.push_back(START_DELIM); // first elem of line_string_vector
 
 	/* Get the filename to use the C++ map key data struct
 	    the filname will be the unique key for the c++ map */
@@ -144,7 +140,7 @@ int text_to_raw_string(std::string &filename) {
 	}
 	/* remove .txt extension from filename and add the delimiter for C++ map */
 	module_name = module_name.substr(0, module_name.size()-4);
-	module_name += std::string(CPP_MAP_KEY_VALUE_DELIMITER);
+	module_name += std::string(CPP_MAP_KEY_VALUE_DELIM);
 
 	line_string_vector.push_back(module_name);     // second elem of line_string_vector
 	line_string_vector.push_back(inString);
@@ -155,9 +151,9 @@ int text_to_raw_string(std::string &filename) {
 	}
 
 	// Add the c++ map delimiter for different modules
-	line_string_vector.push_back(CPP_MAP_MODULE_DELIMITER);
+	line_string_vector.push_back(CPP_MAP_MODULE_DELIM);
 	// custom delimiter for end of raw string literal
-	line_string_vector.push_back(END_DELIMITER);
+	line_string_vector.push_back(END_DELIM);
 
 	out_ptr.open(filename, std::ios::out);
 	if (!out_ptr.is_open()) {

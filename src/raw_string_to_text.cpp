@@ -10,13 +10,9 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include "common.h"
-#define START_DELIMITER "R\"==~~~~==("   // delimits start of raw string
-#define END_DELIMITER ")==~~~~==\""      // delimits end of raw string
-#define CPP_MAP_KEY_VALUE_DELIMITER "CPP==map==key==delimiter"  // splits keys from values
-#define CPP_MAP_MODULE_DELIMITER "CPP==new==module==delimiter"  // splits different modules
 
 /* function to convert raw string literal files to txt enclosed by the
-    START_DELIMITERs and END_DELIMITERs */
+    START_DELIMs and END_DELIMs */
 int raw_string_to_text(std::string &filename);
 
 /* function to recursively find txt files */
@@ -100,7 +96,7 @@ int recursively_find_txt_files(std::string &dirpath) {
 }
 
 /* function to convert raw string literal files to txt enclosed by the
-    START_DELIMITERs and END_DELIMITERs */
+    START_DELIMs and END_DELIMs */
 int raw_string_to_text(std::string &filename) {
 	std::fstream in_ptr, out_ptr;
 	std::vector <std::string> line_string_vector;
@@ -120,9 +116,9 @@ int raw_string_to_text(std::string &filename) {
 	}
 
 	/* Checking if file is already in a normal text format */
-	// first line of text must always be START_DELIMITER
+	// first line of text must always be START_DELIM
 	std::getline(in_ptr, inString);
-	if (inString != START_DELIMITER) {
+	if (inString != START_DELIM) {
 		if (DEBUG) std::cerr << filename << " not in raw string literal text format.\n";
 		return -2;
 	}
@@ -141,9 +137,9 @@ int raw_string_to_text(std::string &filename) {
 	}
 	/* remove .txt extension from filename and add the delimiter for C++ map */
 	module_name = module_name.substr(0, module_name.size()-4);
-	module_name += std::string(CPP_MAP_KEY_VALUE_DELIMITER);
+	module_name += std::string(CPP_MAP_KEY_VALUE_DELIM);
 
-	// second line of text must always be CPP_MAP_KEY_VALUE_DELIMITER
+	// second line of text must always be CPP_MAP_KEY_VALUE_DELIM
 	std::getline(in_ptr, inString);
 	if (inString != module_name.c_str()) {
 		if (DEBUG) std::cerr << filename << " not in raw string literal text format.\n";
@@ -158,8 +154,8 @@ int raw_string_to_text(std::string &filename) {
 		line_count += 1;
 	}
 
-	if ((line_string_vector[line_count-1] != END_DELIMITER) &&
-	    (line_string_vector[line_count-2] != CPP_MAP_MODULE_DELIMITER)) {
+	if ((line_string_vector[line_count-1] != END_DELIM) &&
+	    (line_string_vector[line_count-2] != CPP_MAP_MODULE_DELIM)) {
 		if (DEBUG) std::cerr << filename << " not in raw string literal text format.\n";
 		return -2;
 	}
