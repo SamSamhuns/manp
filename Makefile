@@ -28,7 +28,7 @@ HEADERS = $(wildcard $(IDIR)/*.h)
 # $(patsubst pattern, substitution, text_to_insert)
 # DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-all : text_to_raw_string raw_string_to_text run_text_to_raw_string $(TARGET)
+all : text_to_raw_string raw_string_to_text run_text_to_raw_string run_combine_headers_sh $(TARGET)
 
 $(ODIR)/%.o: $(SDIR)/%.cpp $(HEADERS)
 	@mkdir -p $(@D)
@@ -55,6 +55,10 @@ raw_string_to_text: $(ODIR)/raw_string_to_text.o
 # The txt files must always be present in the data folder
 run_text_to_raw_string: text_to_raw_string
 	./text_to_raw_string $(RAW_TXT_DIR)
+
+run_combine_headers_sh: run_text_to_raw_string
+	chmod u+x combine_headers.sh
+	./combine_headers.sh
 
 # Any file with the name clean will not interrupt the cmd clean
 .PHONY: clean all run_text_to_raw_string
