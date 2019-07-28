@@ -8,6 +8,10 @@
 #include <typeinfo>
 #include "common.h"
 
+// This is a C++ implementation of Peter Norvig's SpellingCorrector <https://norvig.com/spell-correct.html>
+// from Felipe Farinon <felipe.farinon(@)gmail.com> under an MIT License
+#include "SpellingCorrector.h"
+
 /* function to parse the cmd line args
    returns 1 if the program is supposed to be terminated after this function call */
 int parse_cmd_line_arg(std::string &cmd_line_arg, std::vector <std::string> &module_vector);
@@ -23,6 +27,9 @@ std::map<std::string, std::vector<int> > mappify(std::string const& python_doc_s
                                                  std::vector<std::string> &module_vector);
 
 int main(int argc, char const *argv[]) {
+	SpellingCorrector corrector; // creating an instance of the spelling corrector model
+	corrector.load("module_list.txt");
+
 	if (argc != 2) {
 		std::cerr << "Usage: manp [PYTHON_MODULE_OR_FUNC_NAME]" << '\n';
 		std::cerr << "\tFor Help: manp -h" << '\n';
@@ -52,7 +59,10 @@ int main(int argc, char const *argv[]) {
 	}
 
 	if (cpp_map.find(query_input) == cpp_map.end()) { // the queried module does not exist in doc
-		std::cerr << query_input << " not recognized as a python standard module or function.\n";
+		std::cerr << "ERROR: " << query_input << " not recognized as a python standard module or function\n";
+		/* if an unrecognized function/module was entered, attempt to make a guess */
+		std::string correct(corrector.correct(query_input));
+		if (correct != "") std::cout << "Did you mean: " << correct << '\n';
 		return -1;
 	} else {                                          // user query exists in doc
 		query_output = python_doc_string.substr(cpp_map.find(query_input)->second.at(0), cpp_map.find(query_input)->second.at(1));
