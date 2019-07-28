@@ -9,6 +9,8 @@ Submission for tiancai-cup from @SamSamhuns
 
 Tired of Googling common Python modules and function documentations. `manp` is a command-line utility for quickly loading manual pages for all Python Standard Library functions. Similar to how `man printf` works for C/C++ functions. Documentation for other PyPI packages will also be added as an extension.
 
+If incorrect modules are entered, `manp` also has a feature for auto-suggesting most similar named module.
+
 ## Installation
 
 **For OSX and Linux Only**
@@ -63,22 +65,44 @@ $ unlink /usr/local/bin/manp
 
 ## Usage
 
+`manp [PYTHON_MODULE_OR_FUNC_NAME]`
+
+Example:
+
 ```bash
 $ manp hashlib
 ```
 
 ## Workflow
 
+A detailed explanation of how the program functions:
 
+The program requires compilation and running of certain files and script before others which is handled by the `Makefile`.
+
+1.   The `text_to_raw_string.cpp` and `raw_string_to_text.cpp` modules are compiled before main. The `text_to_raw_string.cpp` converts all the txt files inside the `manp/data/` folder to raw string literal txt files with extra `CPP_MAP_KEY_VALUE_DELIM` and `CPP_MAP_MODULE_DELIM` (defined in `common.h`) delimiters for creating C++ maps.
+
+2.   After this, the `combine_headers.sh` will iterate through the `manp/data/` folder and create `combined_txt_include.h` header file that includes all the `txt` raw string literal files.
+
+3.   The `generate_modules_list.sh` will then iterate through the `manp/data/` folder again and create a `module_list.txt` raw string literal txt file containing list of all available modules that will be used for the SpellingCorrector and prediction function.
+
+4.   The `main.cpp` function will finally be compiled and `manp` will be available for execution.
+
+5.   Once the `manp` is added to the `PATH` var one way or another, it can be used as `manp urllib`.
 
 ## Developer instructions
 
-To add documentation for other Python modules and functions, a txt file with the name of the module or function in question should be added to the `data/` folder and the project should be recompiled.
+To add documentation for other Python modules and functions, a txt file with the name of the module or function in question should be added to the `manp/data/` folder and the project should be recompiled.
 
-## Contributions
+### Contributions
 
 [![License](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat.svg)](https://github.com/SamSamhuns/manp/pulls)
 
-## Acknowledgements
+### Acknowledgements
 
 -   Python Software Foundation <https://www.python.org/psf/>
+-   Peter Norvig's <a href='https://norvig.com/spell-correct.html'>*How to Write a Spelling Corrector*</a>
+-   Felipe Farinon's C++ implementation of Peter Norvig's Spell Correcter <felipe.farinon@gmail.com>
+
+### Disclaimer
+
+I am not the creator of the SpellingCorrector C++ modules. The SpellingCorrector module used in this project was first written by Peter Norvig in Python and then converted to C++ by Felipe Farinon.
