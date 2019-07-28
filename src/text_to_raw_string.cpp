@@ -47,7 +47,7 @@ int recursively_find_txt_files(std::string &dirpath) {
 			dirPtr = opendir(dirpath.c_str());
 			if (dirPtr == nullptr) {
 				std::cerr << "ERROR: Unable to open" << dirpath \
-				          << " : " << std::strerror(errno) << std::endl;
+				          << " : " << errno << std::endl;
 				return -1;
 			} else {  // Open the dirpath directory
 				struct dirent *dirReadPointer; // Pointer for reading the DIR stream
@@ -90,7 +90,7 @@ int recursively_find_txt_files(std::string &dirpath) {
 	}
 	else {
 		if (DEBUG) std::cerr << "ERROR in opening " << dirpath << " : " \
-			                 << std::strerror(errno) << '\n';
+			                 << errno << '\n';
 		return -1;
 	}
 	return 0;
