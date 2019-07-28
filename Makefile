@@ -28,14 +28,7 @@ HEADERS = $(wildcard $(IDIR)/*.h)
 # $(patsubst pattern, substitution, text_to_insert)
 # DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-all : text_to_raw_string raw_string_to_text run_text_to_raw_string run_combine_headers_sh $(TARGET)
-
-$(ODIR)/%.o: $(SDIR)/%.cpp $(HEADERS)
-	@mkdir -p $(@D)
-	$(CPP) -c -o $@ $< $(CFLAGS)
-
-$(TARGET): $(OBJECTS)
-	$(CPP) -o $@ $^ $(CFLAGS)
+all : text_to_raw_string raw_string_to_text run_text_to_raw_string run_combine_headers_sh run_generate_modules_list_sh $(TARGET)
 
 $(ODIR)/text_to_raw_string.o: $(SDIR)/text_to_raw_string.cpp $(HEADERS)
 	@mkdir -p $(@D)
@@ -60,6 +53,17 @@ run_combine_headers_sh: run_text_to_raw_string
 	chmod u+x combine_headers.sh
 	./combine_headers.sh
 
+run_generate_modules_list_sh: run_text_to_raw_string
+	chmod u+x generate_modules_list.sh
+	./generate_modules_list.sh
+
+$(ODIR)/%.o: $(SDIR)/%.cpp $(HEADERS)
+	@mkdir -p $(@D)
+	$(CPP) -c -o $@ $< $(CFLAGS)
+
+$(TARGET): $(OBJECTS)
+	$(CPP) -o $@ $^ $(CFLAGS)
+
 # Any file with the name clean will not interrupt the cmd clean
 .PHONY: clean all run_text_to_raw_string
 
@@ -69,7 +73,7 @@ clean-obj:
 	rm -rf $(ODIR)
 
 clean-mac-fsys:
-	rm -rf *.DS_Store
+	find . -name ".DS_Store" -delete
 
 clean-build:
 	rm -rf $(TARGET)
