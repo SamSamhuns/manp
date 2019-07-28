@@ -69,7 +69,11 @@ $ manp hashlib
 
 ## Workflow
 
+
+
 ## Developer instructions
+
+To add documentation for other Python modules and functions, a txt file with the name of the module or function in question should be added to the `data/` folder and the project should be recompiled.
 
 ## Contributions
 
