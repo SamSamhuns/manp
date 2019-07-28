@@ -27,11 +27,16 @@ std::map<std::string, std::vector<int> > mappify(std::string const& python_doc_s
                                                  std::vector<std::string> &module_vector);
 
 int main(int argc, char const *argv[]) {
+    /* load the modules list from the include folder
+    This raw string literal txt file is created by the generate_modules_list bash script */
+    std::string module_list =
+    #include "module_list.txt"
+    ;
 	SpellingCorrector corrector; // creating an instance of the spelling corrector model
-	corrector.load("module_list.txt");
+	corrector.load(module_list);
 
 	if (argc != 2) {
-		std::cerr << "Usage: manp [PYTHON_MODULE_OR_FUNC_NAME]" << '\n';
+		std::cerr << "\033[26;1mUsage:\033[0m manp [PYTHON_MODULE_OR_FUNC_NAME]" << '\n';
 		std::cerr << "\tFor Help: manp -h" << '\n';
 		return -1;
 	}
@@ -59,7 +64,7 @@ int main(int argc, char const *argv[]) {
 	}
 
 	if (cpp_map.find(query_input) == cpp_map.end()) { // the queried module does not exist in doc
-		std::cerr << "ERROR: " << query_input << " not recognized as a python standard module or function\n";
+		std::cerr << "\033[31;1mERROR:\033[0m " << query_input << " not recognized as a python standard module or function\n";
 		/* if an unrecognized function/module was entered, attempt to make a guess */
 		std::string correct(corrector.correct(query_input));
 		if (correct != "") std::cout << "Did you mean: " << correct << '\n';
@@ -72,7 +77,7 @@ int main(int argc, char const *argv[]) {
 	   Remove the temp file later */
 	temp_dump_file_ptr.open(TEMP_DUMP_FILENAME, std::ios::out);
 	if (!temp_dump_file_ptr.is_open()) {
-		std::cerr << "ERROR: Cannot open temp dump file " << TEMP_DUMP_FILENAME << "\n";
+		std::cerr << "\033[31;1mERROR:\033[0m Cannot open temp dump file " << TEMP_DUMP_FILENAME << "\n";
 		return -1;
 	}
 
@@ -138,17 +143,17 @@ std::map<std::string, std::vector<int> > mappify(std::string const& python_doc_s
    returns 1 if the program is supposed to be terminated after this function call */
 int parse_cmd_line_arg(std::string &cmd_line_arg, std::vector <std::string> &module_vector) {
 	if (cmd_line_arg == "-l") {
-		std::cout << "Available modules/functions with documentation:" << '\n';
+		std::cout << "\033[26;1mAvailable modules/functions with documentation:\033[0m" << '\n';
 		for (size_t i = 0; i < module_vector.size(); i++) {
 			std::cout << "  " << module_vector.at(i) << '\n';
 		}
 		return 1;
 	}
 	else if (cmd_line_arg == "-h") {
-		std::cout << "Argument options for manp:" << '\n';
+		std::cout << "\033[26;1mOptions:\033[0m" << '\n';
 		std::cout << "\t -h: Help" << '\n';
 		std::cout << "\t -l: list all python standard library documentations available" << "\n\n";
-		std::cout << "Use options for manp:" << '\n';
+		std::cout << "\033[26;1mUsage:\033[0m" << '\n';
 		std::cout << "\t manp [PYTHON_MODULE_OR_FUNC_NAME]" << '\n';
 		return 1;
 	}

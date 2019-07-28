@@ -21,7 +21,7 @@ int recursively_find_txt_files(std::string &dirpath);
 
 int main(int argc, const char *argv[]) {
 	if (argc != 2) {
-		std::cerr << "Usage: ./raw_string_to_text <PATH_TO_DIR_OR_TXT_FILE>\n";
+		std::cerr << "\033[26;1mUsage:\033[0m ./raw_string_to_text <PATH_TO_DIR_OR_TXT_FILE>\n";
 		return -1;
 	}
 
@@ -46,7 +46,7 @@ int recursively_find_txt_files(std::string &dirpath) {
 			DIR* dirPtr;
 			dirPtr = opendir(dirpath.c_str());
 			if (dirPtr == nullptr) {
-				std::cerr << "ERROR: Unable to open" << dirpath \
+				std::cerr << "\033[31;1mERROR:\033[0m Unable to open" << dirpath \
 				          << " : " << errno << std::endl;
 				return -1;
 			} else {  // Open the dirpath directory
@@ -68,7 +68,7 @@ int recursively_find_txt_files(std::string &dirpath) {
 							recursively_find_txt_files(pathToFile);
 							break;
 						default:         // if dirReadPointer is neither file/folder
-							if (DEBUG) std::cerr << pathToFile << \
+							if (DEBUG) std::cerr << "\033[31;1mERROR:\033[0m " << pathToFile << \
 								    " is not a regular file or folder\n";
 							break;
 						}
@@ -84,12 +84,12 @@ int recursively_find_txt_files(std::string &dirpath) {
 			raw_string_to_text(dirpath);
 		}
 		else {
-			if (DEBUG) std::cerr << dirpath << " is not a regular file or folder\n";
+			if (DEBUG) std::cerr << "\033[31;1mERROR:\033[0m " << dirpath << " is not a regular file or folder\n";
 			return -1;
 		}
 	}
 	else {
-		if (DEBUG) std::cerr << "ERROR in opening " << dirpath << " : " \
+		if (DEBUG) std::cerr << "\033[31;1mERROR:\033[0m in opening " << dirpath << " : " \
 			                 << errno << '\n';
 		return -1;
 	}
@@ -106,13 +106,13 @@ int raw_string_to_text(std::string &filename) {
 	/* Check if the file is a txt file */
 	std::size_t found = filename.find_last_of(".");
 	if ((filename.substr(found+1)) != std::string("txt") ) {
-		if (DEBUG) std::cerr << "ERROR: " << filename << " is not a txt file\n";
+		if (DEBUG) std::cerr << "\033[31;1mERROR:\033[0m " << filename << " is not a txt file\n";
 		return -1;
 	}
 
 	in_ptr.open(filename, std::ios::in);
 	if (!in_ptr.is_open()) {
-		if (DEBUG) std::cerr << "ERROR: Cannot open " << filename << "\n";
+		if (DEBUG) std::cerr << "\033[31;1mERROR:\033[0m Cannot open " << filename << "\n";
 		return -1;
 	}
 
@@ -155,7 +155,7 @@ int raw_string_to_text(std::string &filename) {
 
 	out_ptr.open(filename, std::ios::out);
 	if (!out_ptr.is_open()) {
-		if (DEBUG) std::cerr << "ERROR: Cannot open " << filename << "\n";
+		if (DEBUG) std::cerr << "\033[31;1mERROR:\033[0m Cannot open " << filename << "\n";
 		return -1;
 	}
 
