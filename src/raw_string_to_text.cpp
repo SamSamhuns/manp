@@ -1,10 +1,10 @@
-#include <fstream>
-#include <iostream>
 #include <vector>
 #include <string>
 #include <cerrno>
+#include <fstream>
 #include <stdio.h>
 #include <cstddef>
+#include <iostream>
 #include <dirent.h>
 #include <unistd.h>
 #include <sys/stat.h>
@@ -115,15 +115,6 @@ int raw_string_to_text(std::string &filename) {
 		return -1;
 	}
 
-	/* Checking if file is already in a normal text format */
-	// first line of text must always be START_DELIM
-	std::getline(in_ptr, inString);
-	if (inString != START_DELIM) {
-		if (DEBUG) std::cerr << filename << " not in raw string literal text format.\n";
-		return -2;
-	}
-	line_string_vector.push_back(inString);
-
 	/* Get the filename to use the C++ map key data struct
 		the filname will be the unique key for the c++ map */
 	std::size_t slash_found = filename.find_last_of("/");
@@ -137,25 +128,26 @@ int raw_string_to_text(std::string &filename) {
 	}
 	/* remove .txt extension from filename and add the delimiter for C++ map */
 	module_name = module_name.substr(0, module_name.size()-4);
-	module_name += std::string(CPP_MAP_KEY_VALUE_DELIM);
+	module_name = std::string(START_DELIM) + module_name + std::string(CPP_MAP_KEY_VALUE_DELIM);
 
-	// second line of text must always be CPP_MAP_KEY_VALUE_DELIM
+	/* Checking if file is already in a normal text format */
+	// first line of text must always be START_DELIM + module_name + CPP_MAP_KEY_VALUE_DELIM
 	std::getline(in_ptr, inString);
-	if (inString != module_name.c_str()) {
+	if (inString != module_name) {
 		if (DEBUG) std::cerr << filename << " not in raw string literal text format.\n";
 		return -2;
 	}
 	line_string_vector.push_back(inString);
 
-	int line_count = 2; // to count number of lines in filename
+	int line_count = 1; // to count number of lines in filename
 	/* Read contents of filename line by line and store in line_string_vector */
 	while (std::getline(in_ptr, inString)) {
 		line_string_vector.push_back(inString);
 		line_count += 1;
 	}
 
-	if ((line_string_vector[line_count-1] != END_DELIM) &&
-	    (line_string_vector[line_count-2] != CPP_MAP_MODULE_DELIM)) {
+	if ((line_string_vector[line_count-2] != std::string(CPP_MAP_MODULE_DELIM)) &&
+	(line_string_vector[line_count-1] != std::string(END_DELIM))) {
 		if (DEBUG) std::cerr << filename << " not in raw string literal text format.\n";
 		return -2;
 	}
@@ -168,7 +160,7 @@ int raw_string_to_text(std::string &filename) {
 
 	/* Save contents of line_string_vector to the same filename */
 	/* avodi adding the first and last strings which are the DELMITERS */
-	for (size_t i = 2; i < (line_string_vector.size()-2); i++) {
+	for (size_t i = 1; i < (line_string_vector.size()-2); i++) {
 		out_ptr << line_string_vector[i] << "\n";
 	}
 
