@@ -5,7 +5,7 @@ CPP =g++# compiler used
 CFLAGS =-std=c++11 -Wall -Wshadow -Werror -I$(IDIR)# compiler flags
 LDFLAGS =# -lm library flags
 TARGET = manp # file executable generated
-RAW_TXT_DIR =data # location of the txt files to convert to raw string literals
+RAW_TXT_DIR =data/modules # location of the txt files to convert to raw string literals
 
 # Getting the list of all cpp and object files
 # except text_to_raw_string.cpp and raw_string_to_text

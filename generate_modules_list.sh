@@ -3,7 +3,7 @@ TEXTS=module_list.txt
 
 echo "R\"=~=~=(" > $TEXTS
 # loop through the data folder to find all txt files
-for file in data/*.txt
+for file in data/modules/*.txt
 do
     echo "$(basename ${file%.*} )" >> $TEXTS
 done
