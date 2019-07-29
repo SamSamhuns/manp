@@ -1,9 +1,9 @@
 #!/bin/bash
-TEXTS=modules_list.txt
+TEXTS=functions_list.txt
 
 echo "R\"=~=~=(" > $TEXTS
 # loop through the data folder to find all txt files
-for file in data/modules/*.txt
+for file in data/std_functions/*.txt
 do
     echo "$(basename ${file%.*} )" >> $TEXTS
 done

@@ -1,5 +1,5 @@
-#ifndef COMBINED_H
-#define COMBINED_H
+#ifndef COMBINED_MODULES_H
+#define COMBINED_MODULES_H
 #include "../data/modules/2to3.txt"
 #include "../data/modules/__future__.txt"
 #include "../data/modules/__main__.txt"
