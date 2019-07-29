@@ -5,7 +5,7 @@ CPP =g++# compiler used
 CFLAGS =-std=c++11 -Wall -Wshadow -Werror -I$(IDIR)# compiler flags
 LDFLAGS =# -lm library flags
 TARGET = manp # file executable generated
-RAW_TXT_DIR =data/modules # location of the txt files to convert to raw string literals
+RAW_TXT_DIR =data # location of the txt files to convert to raw string literals
 
 # Getting the list of all cpp and object files
 # except text_to_raw_string.cpp and raw_string_to_text
@@ -28,7 +28,7 @@ HEADERS = $(wildcard $(IDIR)/*.h)
 # $(patsubst pattern, substitution, text_to_insert)
 # DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-all : text_to_raw_string raw_string_to_text run_text_to_raw_string run_combine_headers_sh run_generate_modules_list_sh $(TARGET)
+all : text_to_raw_string raw_string_to_text run_text_to_raw_string run_combine_headers_sh generate_modules_and_functions_list $(TARGET)
 
 $(ODIR)/text_to_raw_string.o: $(SDIR)/text_to_raw_string.cpp $(HEADERS)
 	@mkdir -p $(@D)
@@ -53,9 +53,11 @@ run_combine_headers_sh: run_text_to_raw_string
 	chmod u+x combine_headers.sh
 	./combine_headers.sh
 
-run_generate_modules_list_sh: run_text_to_raw_string
+generate_modules_and_functions_list: run_text_to_raw_string
 	chmod u+x generate_modules_list.sh
+	chmod u+x generate_functions_list.sh
 	./generate_modules_list.sh
+	./generate_functions_list.sh
 
 $(ODIR)/%.o: $(SDIR)/%.cpp $(HEADERS)
 	@mkdir -p $(@D)
