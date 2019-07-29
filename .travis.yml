@@ -1,4 +1,7 @@
 language: cpp
+os:
+  - linux
+  - osx
 sudo: false # only for faster builds
 compiler: g++
 script: make all
