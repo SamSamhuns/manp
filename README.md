@@ -65,12 +65,36 @@ $ unlink /usr/local/bin/manp
 
 ## Usage
 
-`manp [PYTHON_MODULE_OR_FUNC_NAME]`
+To get documentation for a standard lib module or a function:
+
+```bash
+$ manp [PYTHON_FUNCTION_NAME]
+$ manp [PYTHON_MODULE_NAME]
+```
 
 Example:
 
 ```bash
-$ manp hashlib
+$ manp -m hashlib
+$ manp ascii
+```
+
+To display `help`:
+
+```bash
+$ manp -h
+```
+
+To display list of all available modules:
+
+```bash
+$ manp -lm
+```
+
+To display list of all available functions:
+
+```bash
+$ manp -lf
 ```
 
 ## Workflow
@@ -79,21 +103,25 @@ A detailed explanation of how the program functions:
 
 The program requires compilation and running of certain files and script before others which is handled by the `Makefile`.
 
-1.   The `text_to_raw_string.cpp` and `raw_string_to_text.cpp` modules are compiled before main. The `text_to_raw_string.cpp` converts all the txt files inside the `manp/data/` folder to raw string literal txt files with extra `CPP_MAP_KEY_VALUE_DELIM` and `CPP_MAP_MODULE_DELIM` (defined in `common.h`) delimiters for creating C++ maps.
+1.   The `text_to_raw_string.cpp` and `raw_string_to_text.cpp` modules are compiled before main. The `text_to_raw_string.cpp` converts all the `.txt` files inside the `manp/data/` folder to raw string literal txt files padded with extra `CPP_MAP_KEY_VALUE_DELIM` and `CPP_MAP_MODULE_DELIM` (defined in `common.h`) delimiters for creating C++ maps.
 
-2.   After this, the `combine_headers.sh` will iterate through the `manp/data/` folder and create `combined_txt_include.h` header file that includes all the `txt` raw string literal files.
+2.   After this, the `combine_headers.sh` will iterate through the `manp/data/` folder and create `combined_txt_include.h` that includes all the `txt` raw string literal files in one header file.
 
-3.   The `generate_modules_list.sh` will then iterate through the `manp/data/` folder again and create a `module_list.txt` raw string literal txt file containing list of all available modules that will be used for the SpellingCorrector and prediction function.
+3.   The `generate_modules_list.sh` will then iterate through the `manp/data/modules` folder again and create a `modules_list.txt` raw string literal txt file containing list of all available modules that will be used for the SpellingCorrector and prediction function.
 
-4.   The `main.cpp` function will finally be compiled and `manp` will be available for execution.
+3.   The `generate_functions_list.sh` will also iterate through the `manp/data/std_functions` folder again and create a `functions_list.txt` raw string literal txt file containing list of all available std lib functions that will be used for the SpellingCorrector and prediction function.
 
-5.   Once the `manp` is added to the `PATH` var one way or another, it can be used as `manp urllib`.
+4.   The `main.cpp` function will finally be compiled along with `SpellingCorrector.cpp` and `manp` will be available for execution.
+
+5.   Once the `manp` is added to the `PATH` var one way or another, it can be used as `manp abs`.
 
 ## Developer instructions
 
-To add documentation for other Python modules and functions, a txt file with the name of the module or function in question should be added to the `manp/data/` folder and the project should be recompiled.
+-   To add documentation for other Python modules, a txt file with the name of the module in question should be added to the `manp/data/modules` folder and the project should be recompiled.
 
-To change the `.txt` documentation files inside `manp/data/` back to normal text format, run `./raw_string_to_text data`.
+-   To add function documentations, txt files with the name of the function in question should be similarly added to `manp/data/std_functions` folder and the project be recompiled.
+
+-   To change the `.txt` documentation files inside `manp/data/` back to normal text format, run `./raw_string_to_text data`.
 
 ### Contributions
 
@@ -101,7 +129,7 @@ To change the `.txt` documentation files inside `manp/data/` back to normal text
 
 ### Acknowledgements
 
--   Python Software Foundation <https://www.python.org/psf/>
+-   All documentations imported from the Python Software Foundation Official Documentation <https://www.python.org/psf/>
 -   Peter Norvig's <a href='https://norvig.com/spell-correct.html'>*How to Write a Spelling Corrector*</a>
 -   Felipe Farinon's C++ implementation of Peter Norvig's Spell Correcter <felipe.farinon@gmail.com>
 
