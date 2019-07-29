@@ -8,69 +8,42 @@
 #include <typeinfo>
 #include "common.h"
 
-// This is a C++ implementation of Peter Norvig's SpellingCorrector <https://norvig.com/spell-correct.html>
-// from Felipe Farinon <felipe.farinon(@)gmail.com> under an MIT License
+// This is a modified C++ implementation of Felipe Farinon's <felipe.farinon(@)gmail.com> SpellingCorrector (MIT License)
+// originally built in python by Peter Norvig <https://norvig.com/spell-correct.html>
 #include "SpellingCorrector.h"
 
-/* function to parse the cmd line args
-   returns 1 if the program is supposed to be terminated after this function call */
-int parse_cmd_line_arg(std::string &cmd_line_arg, std::vector <std::string> &module_vector);
+/* function to verify the number of cmd line args
+    and check if -m module flag was used for three cmd line args
+    return -1 for failure and 0 for success */
+int validate_cmd_line_input(int argc, char const*argv[]);
 
-/*  function to map the python default module names to their respective documentations
+/* function to generate the query output
+   returns 1 if the program is supposed to be terminated after this function call
+   returns 0 if the query_output has to be processed through the less command */
+int generate_query_output(char const *argv[], std::string &query_output);
+
+/*  function to map the python default module names to their respective documentation
     The module names themselves are the key, the value is the start and end pos of the doc part
-    for the respective module in the python_doc_string
+    for the respective module in the python_modules_string
     The delimiter for key and values is CPP_MAP_KEY_VALUE_DELIM while
-    the delimiter for different modules is CPP_MAP_MODULE_DELIM
-    mappify also loads the module_vector with the names of the available modules
- */
-std::map<std::string, std::vector<int> > mappify(std::string const& python_doc_string,
-                                                 std::vector<std::string> &module_vector);
+    the delimiter for different modules is CPP_MAP_MODULE_DELIM */
+std::map<std::string, std::vector<int> > mappify(std::string const& python_modules_string);
 
 int main(int argc, char const *argv[]) {
-    /* load the modules list from the include folder
-    This raw string literal txt file is created by the generate_modules_list bash script */
-    std::string module_list =
-    #include "module_list.txt"
-    ;
-	SpellingCorrector corrector; // creating an instance of the spelling corrector model
-	corrector.load(module_list);
-
-	if (argc != 2) {
-		std::cerr << "\033[32;1mUsage:\033[0m manp [PYTHON_MODULE_OR_FUNC_NAME]" << '\n';
-		std::cerr << "\tFor Help: manp -h" << '\n';
+	// Check for correct number of arguments used i.e. Only 2 or 3 argc valid
+	if (validate_cmd_line_input(argc, argv) == -1) {
+		std::cerr << "\033[32;1mUsage:\033[0m manp [PYTHON_STD_FUNCTION_NAME] or manp -m [PYTHON_MODULE_NAME]" << '\n';
+		std::cout << "       For help: manp -h" << '\n';
 		return -1;
 	}
-
 
 	std::fstream temp_dump_file_ptr;
-	std::vector <std::string> module_vector;
-	std::string query_input, query_output;
+	std::string query_output;
 	std::string TEMP_DUMP_FILENAME = "query_output_temp";
 
-	/* Loading the entire txt documentation that has been pre-converted to
-	   raw string format to the python_doc_string string */
-	std::string python_doc_string =
-	#include "combined_txt_include.h"
-	;
-
-	/* load the python_doc_string into the cpp_map
-	    key = module/filename, value = start and end string pos of respective documentation */
-	std::map<std::string, std::vector<int> > cpp_map = mappify(python_doc_string, module_vector);
-
-	query_input = std::string(argv[1]);
-	if (parse_cmd_line_arg(query_input, module_vector) == 1) {
-		/* user query has been dealt with */
-		return 0;
-	}
-
-	if (cpp_map.find(query_input) == cpp_map.end()) { // the queried module does not exist in doc
-		std::cerr << "\033[31;1mERROR:\033[0m " << query_input << " not recognized as a python standard module or function\n";
-		/* if an unrecognized function/module was entered, attempt to make a guess */
-		std::string correct(corrector.correct(query_input));
-		if (correct != "") std::cout << "Did you mean: \033[32;1m" << correct << "\033[0m" << '\n';
-		return -1;
-	} else {                                          // user query exists in doc
-		query_output = python_doc_string.substr(cpp_map.find(query_input)->second.at(0), cpp_map.find(query_input)->second.at(1));
+	//TODO call generate_query_output
+	if (generate_query_output(argv, query_output) == 1) {
+		return 0; // END the program at this point as no further processing is required
 	}
 
 	/* stream the output of the query to a temp file to use the cmd less
@@ -89,17 +62,131 @@ int main(int argc, char const *argv[]) {
 	// remove the temp files
 	system(("rm "+TEMP_DUMP_FILENAME).c_str());
 
-
 	return 0;
 }
 
+/* function to generate the query output
+   returns 1 if the program is supposed to be terminated after this function call
+   returns 0 if the query_output has to be processed through the less command */
+int generate_query_output(char const *argv[], std::string &query_output) {
+	std::string query_input(argv[1]);
 
-/*  function to map the python default module names to their respective documentations
+	/* help arg activated */
+	if (query_input == "-h") {
+		std::cout << "\033[32;1mOptions:\033[0m" << '\n';
+		std::cout << "\t-h: Help" << '\n';
+		std::cout << "\t-m [PYTHON_MODULE]: Display Python std library module documentation" << '\n';
+		std::cout << "\t-lm: List all python standard library module documentations available" << "\n";
+        std::cout << "\t-lf: List all python standard library function documentations available" << "\n\n";
+		std::cout << "\033[32;1mUsage:\033[0m" << '\n';
+		std::cout << "\tmanp [PYTHON_STD_LIB_FUNCTION_NAME]" << '\n';
+		std::cout << "\tmanp -m [PYTHON_MODULE_NAME]" << '\n';
+		return 1;
+	}
+    /* listing all the available modules which have documentations available */
+    else if (query_input == "-lm") {
+        std::cout << "\033[32;1mAvailable standard modules with documentation:\033[0m\n";
+        std::string modules_list =
+        #include "modules_list.txt"
+        ;
+        std::cout << modules_list.substr(1, modules_list.size()-1); // exclude the leading new line char
+        return 1;
+    }
+	/* listing all available function documentations */
+	else if (query_input == "-lf") {
+		std::cout << "\033[32;1mAvailable standard functions with documentation:\033[0m\n";
+		std::string functions_list =
+		#include "functions_list.txt"
+		;
+		std::cout << functions_list.substr(1, functions_list.size()-1); // exclude the leading new line char
+		return 1;
+	}
+	/* Python standard module lookup i.e. manp -m hashlib */
+	else if (query_input == "-m") {
+		/* Loading the entire txt documentation that has been pre-converted to
+		   raw string format to the python_modules_string */
+		std::string python_modules_string =
+		#include "combined_modules_txt_include.h"
+		;
+
+		/* load the python_modules_string into the cpp_modules_map
+		    key = module/filename, value = start and end string pos of respective documentation */
+		std::map<std::string, std::vector<int> > cpp_modules_map = mappify(python_modules_string);
+
+		/* load the modules list from the include folder
+		   This raw string literal txt file is created by the generate_modules_list bash script */
+		std::string modules_list =
+		#include "modules_list.txt"
+		;
+		SpellingCorrector modules_corrector; // creating an instance of the spelling modules_corrector model
+		modules_corrector.load(modules_list);
+		std::string query_module_input(argv[2]);  // num of arg check already done by validate_cmd_line_input()
+
+		if (cpp_modules_map.find(query_module_input) == cpp_modules_map.end()) { // the queried module does not exist in doc
+			std::cerr << "\033[31;1mERROR:\033[0m " << query_module_input
+			          << " not recognized as a python standard module. ";
+			/* if an unrecognized function/module was entered, attempt to make a guess */
+			std::string correct(modules_corrector.correct(query_module_input));
+			if (correct != "") std::cout << "Did you mean: \033[32;1m" << correct << "\033[0m";
+			std::cout << "\nFor help: manp -h" << '\n';
+			return 1;
+		} else {                                          // user query exists in doc
+			query_output = python_modules_string.substr(
+				cpp_modules_map.find(query_module_input)->second.at(0),
+				cpp_modules_map.find(query_module_input)->second.at(1));
+		}
+		return 0; // further processing with less required
+	}
+	/* Python standard library function lookup i.e. manp setattr */
+	else {
+		/* Loading the entire txt documentation that has been pre-converted to
+		   raw string format to the python_functions_string */
+		std::string python_functions_string =
+		#include "combined_std_functions_txt_include.h"
+		;
+
+		/* load the python_functions_string into the cpp_functions_map
+		    key = module/filename, value = start and end string pos of respective documentation */
+		std::map<std::string, std::vector<int> > cpp_functions_map = mappify(python_functions_string);
+
+		/* load the functions list from the include folder
+		   This raw string literal txt file is created by the generate_functions_list bash script */
+		std::string functions_list =
+		#include "functions_list.txt"
+		;
+		SpellingCorrector functions_corrector; // creating an instance of the spelling functions_corrector model
+		functions_corrector.load(functions_list);
+		std::string query_module_input(argv[1]);  // num of arg check already done by validate_cmd_line_input()
+
+		if (cpp_functions_map.find(query_module_input) == cpp_functions_map.end()) { // the queried function does not exist in doc
+			std::cerr << "\033[31;1mERROR:\033[0m " << query_module_input
+			          << " not recognized as a python standard function. ";
+			/* if an unrecognized function/module was entered, attempt to make a guess */
+			std::string correct(functions_corrector.correct(query_module_input));
+			if (correct != "") std::cout << "Did you mean: \033[32;1m" << correct << "\033[0m";
+			std::cout << "\nFor help: manp -h" << '\n';
+			return 1;
+		} else {                                          // user query exists in doc
+			query_output = python_functions_string.substr(
+				cpp_functions_map.find(query_module_input)->second.at(0),
+				cpp_functions_map.find(query_module_input)->second.at(1));
+		}
+
+		std::size_t found = query_output.find_first_of('\n')+1; // Trim the "func_name" from func modules
+		query_output = query_output.substr(found);
+
+		return 0; // further processing with less required
+	}
+	std::cerr << "\033[31;1mERROR:\033[0m Control should never reach here\n";
+	return 0;
+}
+
+/*  function to map the python default module names to their respective documentation
     The module names themselves are the key, the value is the start and end pos of the doc part
-    for the respective module in the python_doc_string
+    for the respective module in the python_modules_string
     The delimiter for key and values is CPP_MAP_KEY_VALUE_DELIM while
     the delimiter for different modules is CPP_MAP_MODULE_DELIM */
-std::map<std::string, std::vector<int> > mappify(std::string const& python_doc_string, std::vector<std::string> &module_vector) {
+std::map<std::string, std::vector<int> > mappify(std::string const& python_doc_string) {
 	std::string CPP_MAP_MODULE_DELIM_NEWLINE(CPP_MAP_MODULE_DELIM);
 	std::string CPP_MAP_KEY_VALUE_DELIM_NEWLINE(CPP_MAP_KEY_VALUE_DELIM);
 
@@ -122,7 +209,6 @@ std::map<std::string, std::vector<int> > mappify(std::string const& python_doc_s
 
 		val_end = python_doc_string.find(CPP_MAP_MODULE_DELIM_NEWLINE, val_pos);
 
-		module_vector.push_back(python_doc_string.substr(key_pos, key_end - key_pos));
 		val_start_end.push_back(val_pos);
 		val_start_end.push_back(val_end-val_pos);
 
@@ -139,23 +225,13 @@ std::map<std::string, std::vector<int> > mappify(std::string const& python_doc_s
 	return cpp_module_doc_map;
 }
 
-/* function to parse the cmd line args
-   returns 1 if the program is supposed to be terminated after this function call */
-int parse_cmd_line_arg(std::string &cmd_line_arg, std::vector <std::string> &module_vector) {
-	if (cmd_line_arg == "-l") {
-		std::cout << "\033[32;1mAvailable modules/functions with documentation:\033[0m" << '\n';
-		for (size_t i = 0; i < module_vector.size(); i++) {
-			std::cout << "  " << module_vector.at(i) << '\n';
-		}
-		return 1;
-	}
-	else if (cmd_line_arg == "-h") {
-		std::cout << "\033[32;1mOptions:\033[0m" << '\n';
-		std::cout << "\t -h: Help" << '\n';
-		std::cout << "\t -l: list all python standard library documentations available" << "\n\n";
-		std::cout << "\033[32;1mUsage:\033[0m" << '\n';
-		std::cout << "\t manp [PYTHON_MODULE_OR_FUNC_NAME]" << '\n';
-		return 1;
+/* function to verify the number of cmd line args
+    and check if -m module flag was used for three cmd line args
+    return -1 for failure and 0 for success */
+int validate_cmd_line_input(int argc, char const*argv[]) {
+	if (argc != 3 && argc != 2) return -1;
+	if (argc == 3) {
+		if (std::string (argv[1]) != "-m" ) return -1;
 	}
 	return 0;
 }
