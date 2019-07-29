@@ -1,0 +1,9 @@
+R"==~~~~==(memoryview~~CPP==map==key==delim~~
+"memoryview"
+memoryview(obj)
+
+   Return a "memory view" object created from the given argument.  See
+   Memory Views for more information.
+
+~~CPP==new==module==delim~~
+)==~~~~=="
