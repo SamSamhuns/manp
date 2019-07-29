@@ -21,7 +21,7 @@ int recursively_find_txt_files(std::string &dirpath);
 
 int main(int argc, const char *argv[]) {
 	if (argc != 2) {
-		std::cerr << "\033[26;1mUsage:\033[0m ./raw_string_to_text <PATH_TO_DIR_OR_TXT_FILE>\n";
+		std::cerr << "\033[32;1mUsage:\033[0m ./raw_string_to_text <PATH_TO_DIR_OR_TXT_FILE>\n";
 		return -1;
 	}
 

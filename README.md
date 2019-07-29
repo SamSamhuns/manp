@@ -93,6 +93,8 @@ The program requires compilation and running of certain files and script before 
 
 To add documentation for other Python modules and functions, a txt file with the name of the module or function in question should be added to the `manp/data/` folder and the project should be recompiled.
 
+To change the `.txt` documentation files inside `manp/data/` back to normal text format, run `./raw_string_to_text data`.
+
 ### Contributions
 
 [![License](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat.svg)](https://github.com/SamSamhuns/manp/pulls)

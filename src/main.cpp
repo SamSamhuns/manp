@@ -36,7 +36,7 @@ int main(int argc, char const *argv[]) {
 	corrector.load(module_list);
 
 	if (argc != 2) {
-		std::cerr << "\033[26;1mUsage:\033[0m manp [PYTHON_MODULE_OR_FUNC_NAME]" << '\n';
+		std::cerr << "\033[32;1mUsage:\033[0m manp [PYTHON_MODULE_OR_FUNC_NAME]" << '\n';
 		std::cerr << "\tFor Help: manp -h" << '\n';
 		return -1;
 	}
@@ -67,7 +67,7 @@ int main(int argc, char const *argv[]) {
 		std::cerr << "\033[31;1mERROR:\033[0m " << query_input << " not recognized as a python standard module or function\n";
 		/* if an unrecognized function/module was entered, attempt to make a guess */
 		std::string correct(corrector.correct(query_input));
-		if (correct != "") std::cout << "Did you mean: " << correct << '\n';
+		if (correct != "") std::cout << "Did you mean: \033[32;1m" << correct << "\033[0m" << '\n';
 		return -1;
 	} else {                                          // user query exists in doc
 		query_output = python_doc_string.substr(cpp_map.find(query_input)->second.at(0), cpp_map.find(query_input)->second.at(1));
@@ -143,17 +143,17 @@ std::map<std::string, std::vector<int> > mappify(std::string const& python_doc_s
    returns 1 if the program is supposed to be terminated after this function call */
 int parse_cmd_line_arg(std::string &cmd_line_arg, std::vector <std::string> &module_vector) {
 	if (cmd_line_arg == "-l") {
-		std::cout << "\033[26;1mAvailable modules/functions with documentation:\033[0m" << '\n';
+		std::cout << "\033[32;1mAvailable modules/functions with documentation:\033[0m" << '\n';
 		for (size_t i = 0; i < module_vector.size(); i++) {
 			std::cout << "  " << module_vector.at(i) << '\n';
 		}
 		return 1;
 	}
 	else if (cmd_line_arg == "-h") {
-		std::cout << "\033[26;1mOptions:\033[0m" << '\n';
+		std::cout << "\033[32;1mOptions:\033[0m" << '\n';
 		std::cout << "\t -h: Help" << '\n';
 		std::cout << "\t -l: list all python standard library documentations available" << "\n\n";
-		std::cout << "\033[26;1mUsage:\033[0m" << '\n';
+		std::cout << "\033[32;1mUsage:\033[0m" << '\n';
 		std::cout << "\t manp [PYTHON_MODULE_OR_FUNC_NAME]" << '\n';
 		return 1;
 	}
