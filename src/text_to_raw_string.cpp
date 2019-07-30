@@ -7,6 +7,7 @@
 #include <csignal>
 #include <iostream>
 #include <dirent.h>
+#include <signal.h>
 #include <unistd.h>
 #include <sys/stat.h>
 #include <sys/types.h>

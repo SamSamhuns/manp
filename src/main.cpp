@@ -4,6 +4,7 @@
 #include <sstream>
 #include <fstream>
 #include <csignal>
+#include <signal.h>
 #include <iostream>
 #include <unistd.h>
 #include <typeinfo>
