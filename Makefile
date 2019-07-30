@@ -4,8 +4,9 @@ ODIR =obj# object file directory
 CPP =g++# compiler used
 CFLAGS =-std=c++11 -Wall -Wshadow -Werror -I$(IDIR)# compiler flags
 LDFLAGS =# -lm library flags
-TARGET = manp # file executable generated
-RAW_TXT_DIR =data # location of the txt files to convert to raw string literals
+TARGET =manp # file executable generated
+SOURCE_DATA_DIR =data # location of the files to convert to raw string literal txt files
+TARGET_FILE_EXTENSION =txt# extension of target files to document
 
 # Getting the list of all cpp and object files
 # except text_to_raw_string.cpp and raw_string_to_text
@@ -28,7 +29,7 @@ HEADERS = $(wildcard $(IDIR)/*.h)
 # $(patsubst pattern, substitution, text_to_insert)
 # DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-all : text_to_raw_string raw_string_to_text run_text_to_raw_string run_combine_headers_sh generate_modules_and_functions_list $(TARGET)
+all : text_to_raw_string raw_string_to_text run_text_to_raw_string run_combine_headers_sh generate_doc_artifacts_list $(TARGET)
 
 $(ODIR)/text_to_raw_string.o: $(SDIR)/text_to_raw_string.cpp $(HEADERS)
 	@mkdir -p $(@D)
@@ -47,17 +48,15 @@ raw_string_to_text: $(ODIR)/raw_string_to_text.o
 # Generate the raw string literals which are required for compiling $(TARGET)
 # The txt files must always be present in the data folder
 run_text_to_raw_string: text_to_raw_string
-	./text_to_raw_string $(RAW_TXT_DIR)
+	./text_to_raw_string $(TARGET_FILE_EXTENSION) $(SOURCE_DATA_DIR)
 
 run_combine_headers_sh: run_text_to_raw_string
 	chmod u+x combine_headers.sh
 	./combine_headers.sh
 
-generate_modules_and_functions_list: run_text_to_raw_string
-	chmod u+x generate_modules_list.sh
-	chmod u+x generate_functions_list.sh
-	./generate_modules_list.sh
-	./generate_functions_list.sh
+generate_doc_artifacts_list: run_text_to_raw_string
+	chmod u+x generate_doc_artifacts_list.sh
+	./generate_doc_artifacts_list.sh
 
 $(ODIR)/%.o: $(SDIR)/%.cpp $(HEADERS)
 	@mkdir -p $(@D)
