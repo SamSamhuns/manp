@@ -1,33 +1,19 @@
 #!/bin/bash
-MODULES_HEADER=combined_modules_txt_include.h
-FUNCTIONS_HEADER=combined_std_functions_txt_include.h
 
-#################################
-# For combined_modules_txt_include
-#################################
-echo "#ifndef COMBINED_MODULES_H" > $MODULES_HEADER
-echo "#define COMBINED_MODULES_H" >> $MODULES_HEADER
+SOURCE_DATA_DIRECTORY=data
+EXTENSION_TO_SEARCH_FOR='*.txt'
+COMBINED_HEADER_FILE=combined_txt_header.h
 
-# loop through the data folder to find all txt files
-for file in data/modules/*.txt
+echo "#ifndef COMBINED_HEADERS_TXT_H" > $COMBINED_HEADER_FILE
+echo "#define COMBINED_HEADERS_TXT_H" >> $COMBINED_HEADER_FILE
+# loop through the SOURCE_DATA_DIRECTORY finding all files with the EXTENSION_TO_SEARCH_FOR extn
+IFS=$'\n' # temporarily setting internal field separator to \n
+set -f
+for file in $(find $SOURCE_DATA_DIRECTORY -name $EXTENSION_TO_SEARCH_FOR)
 do
-    echo "#include \"../$file\"" >> $MODULES_HEADER
-
+    echo "#include \"../$file\"" >> $COMBINED_HEADER_FILE
 done
-echo "#endif" >> $MODULES_HEADER
-mv $MODULES_HEADER include           # moves the combined txt header file inside include folder
-
-#################################
-# For combined_std_functions_txt_include
-#################################
-echo "#ifndef COMBINED_STD_FUNCTIONS_H" > $FUNCTIONS_HEADER
-echo "#define COMBINED_STD_FUNCTIONS_H" >> $FUNCTIONS_HEADER
-
-# loop through the data folder to find all txt files
-for file in data/std_functions/*.txt
-do
-    echo "#include \"../$file\"" >> $FUNCTIONS_HEADER
-
-done
-echo "#endif" >> $FUNCTIONS_HEADER
-mv $FUNCTIONS_HEADER include           # moves the combined txt header file inside include folder
+unset IFS
+set +f
+echo "#endif" >> $COMBINED_HEADER_FILE
+mv $COMBINED_HEADER_FILE include
