@@ -14,7 +14,6 @@
 #include "SpellingCorrector.h"
 
 /* function to verify the number of cmd line args
-    and check if -m module flag was used for three cmd line args
     return -1 for failure and 0 for success */
 int validate_cmd_line_input(int argc, char const*argv[]);
 
@@ -42,7 +41,7 @@ int main(int argc, char const *argv[]) {
 
 	// Check for correct number of arguments used i.e. Only 2 or 3 argc valid
 	if (validate_cmd_line_input(argc, argv) == -1) {
-		std::cerr << "\033[32;1mUsage:\033[0m manp [PYTHON_STD_FUNCTION_NAME] or manp -m [PYTHON_MODULE_NAME]" << '\n';
+		std::cerr << "\033[32;1mUsage:\033[0m manp [ARTIFACT_MODULES_OR_FUNCTION_NAME]" << '\n';
 		std::cout << "       For help: manp -h" << '\n';
 		return -1;
 	}
@@ -68,7 +67,7 @@ int main(int argc, char const *argv[]) {
 	temp_dump_file_ptr.close();         // close the file ptr before passing the temp file to less
 
 	// print the contents of the temp output file
-	system(("less < "+TEMP_DUMP_FILENAME).c_str());
+	system(("less -r < "+TEMP_DUMP_FILENAME).c_str());
 	// remove the temp files
 	system(("rm "+TEMP_DUMP_FILENAME).c_str());
 
@@ -85,101 +84,53 @@ int generate_query_output(char const *argv[], std::string &query_output) {
 	if (query_input == "-h") {
 		std::cout << "\033[32;1mOptions:\033[0m" << '\n';
 		std::cout << "\t-h: Help" << '\n';
-		std::cout << "\t-m [PYTHON_MODULE]: Display Python std library module documentation" << '\n';
-		std::cout << "\t-lm: List all python standard library module documentations available" << "\n";
-        std::cout << "\t-lf: List all python standard library function documentations available" << "\n\n";
+		std::cout << "\t-l: List all software artifact documentations available" << "\n";
 		std::cout << "\033[32;1mUsage:\033[0m" << '\n';
-		std::cout << "\tmanp [PYTHON_STD_LIB_FUNCTION_NAME]" << '\n';
-		std::cout << "\tmanp -m [PYTHON_MODULE_NAME]" << '\n';
+		std::cout << "\tmanp [ARTIFACT_LIB_FUNCTION_NAME] i.e. manp zlib" << '\n';
 		return 1;
 	}
-    /* listing all the available modules which have documentations available */
-    else if (query_input == "-lm") {
-        std::cout << "\033[32;1mAvailable standard modules with documentation:\033[0m\n";
-        std::string modules_list =
-        #include "modules_list.txt"
+    /* listing all the available artifacts which have documentations available */
+    else if (query_input == "-l") {
+        std::cout << "\033[32;1mAvailable artifacts with documentation:\033[0m\n";
+        std::string artifacts_list =
+        #include "doc_artifacts_list.txt"
         ;
-        std::cout << modules_list.substr(1, modules_list.size()-1); // exclude the leading new line char
+        std::cout << artifacts_list.substr(1, artifacts_list.size()-1); // exclude the leading new line char
         return 1;
     }
-	/* listing all available function documentations */
-	else if (query_input == "-lf") {
-		std::cout << "\033[32;1mAvailable standard functions with documentation:\033[0m\n";
-		std::string functions_list =
-		#include "functions_list.txt"
-		;
-		std::cout << functions_list.substr(1, functions_list.size()-1); // exclude the leading new line char
-		return 1;
-	}
-	/* Python standard module lookup i.e. manp -m hashlib */
-	else if (query_input == "-m") {
-		/* Loading the entire txt documentation that has been pre-converted to
-		   raw string format to the python_modules_string */
-		std::string python_modules_string =
-		#include "combined_modules_txt_include.h"
-		;
-
-		/* load the python_modules_string into the cpp_modules_map
-		    key = module/filename, value = start and end string pos of respective documentation */
-		std::map<std::string, std::vector<int> > cpp_modules_map = mappify(python_modules_string);
-
-		/* load the modules list from the include folder
-		   This raw string literal txt file is created by the generate_modules_list bash script */
-		std::string modules_list =
-		#include "modules_list.txt"
-		;
-		SpellingCorrector modules_corrector; // creating an instance of the spelling modules_corrector model
-		modules_corrector.load(modules_list);
-		std::string query_module_input(argv[2]);  // num of arg check already done by validate_cmd_line_input()
-
-		if (cpp_modules_map.find(query_module_input) == cpp_modules_map.end()) { // the queried module does not exist in doc
-			std::cerr << "\033[31;1mERROR:\033[0m " << query_module_input
-			          << " not recognized as a python standard module. ";
-			/* if an unrecognized function/module was entered, attempt to make a guess */
-			std::string correct(modules_corrector.correct(query_module_input));
-			if (correct != "") std::cout << "Did you mean: \033[32;1m" << correct << "\033[0m";
-			std::cout << "\n       For help: manp -h" << '\n';
-			return 1;
-		} else {                                          // user query exists in doc
-			query_output = python_modules_string.substr(
-				cpp_modules_map.find(query_module_input)->second.at(0),
-				cpp_modules_map.find(query_module_input)->second.at(1));
-		}
-		return 0; // further processing with less required
-	}
 	/* Python standard library function lookup i.e. manp setattr */
 	else {
 		/* Loading the entire txt documentation that has been pre-converted to
-		   raw string format to the python_functions_string */
-		std::string python_functions_string =
-		#include "combined_std_functions_txt_include.h"
+		   raw string format to the combined_documentation_string */
+		std::string combined_documentation_string =
+		#include "combined_txt_header.h"
 		;
 
-		/* load the python_functions_string into the cpp_functions_map
+		/* load the combined_documentation_string into the cpp_modules_map
 		    key = module/filename, value = start and end string pos of respective documentation */
-		std::map<std::string, std::vector<int> > cpp_functions_map = mappify(python_functions_string);
+		std::map<std::string, std::vector<int> > cpp_modules_map = mappify(combined_documentation_string);
 
 		/* load the functions list from the include folder
-		   This raw string literal txt file is created by the generate_functions_list bash script */
-		std::string functions_list =
-		#include "functions_list.txt"
+		   This raw string literal txt file is created by the generate_doc_artifacts_list bash script */
+		std::string doc_artifacts_list =
+		#include "doc_artifacts_list.txt"
 		;
 		SpellingCorrector functions_corrector; // creating an instance of the spelling functions_corrector model
-		functions_corrector.load(functions_list);
+		functions_corrector.load(doc_artifacts_list);
 		std::string query_module_input(argv[1]);  // num of arg check already done by validate_cmd_line_input()
 
-		if (cpp_functions_map.find(query_module_input) == cpp_functions_map.end()) { // the queried function does not exist in doc
+		if (cpp_modules_map.find(query_module_input) == cpp_modules_map.end()) { // the queried function does not exist in doc
 			std::cerr << "\033[31;1mERROR:\033[0m " << query_module_input
-			          << " not recognized as a python standard function. ";
+			          << " is not documented in the artifacts list. ";
 			/* if an unrecognized function/module was entered, attempt to make a guess */
 			std::string correct(functions_corrector.correct(query_module_input));
 			if (correct != "") std::cout << "Did you mean: \033[32;1m" << correct << "\033[0m";
 			std::cout << "\n       For help: manp -h" << '\n';
 			return 1;
 		} else {                                          // user query exists in doc
-			query_output = python_functions_string.substr(
-				cpp_functions_map.find(query_module_input)->second.at(0),
-				cpp_functions_map.find(query_module_input)->second.at(1));
+			query_output = combined_documentation_string.substr(
+				cpp_modules_map.find(query_module_input)->second.at(0),
+				cpp_modules_map.find(query_module_input)->second.at(1));
 		}
 
 		std::size_t found = query_output.find_first_of('\n')+1; // Trim the "func_name" from func modules
@@ -236,13 +187,9 @@ std::map<std::string, std::vector<int> > mappify(std::string const& python_doc_s
 }
 
 /* function to verify the number of cmd line args
-    and check if -m module flag was used for three cmd line args
     return -1 for failure and 0 for success */
 int validate_cmd_line_input(int argc, char const*argv[]) {
-	if (argc != 3 && argc != 2) return -1;
-	if (argc == 3) {
-		if (std::string (argv[1]) != "-m" ) return -1;
-	}
+	if (argc != 2) return -1;
 	return 0;
 }
 
