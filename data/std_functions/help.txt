@@ -1,7 +1,6 @@
 R"==~~~~==(help~~CPP==map==key==delim~~
 "help"
 help([object])
-
    Invoke the built-in help system.  (This function is intended for
    interactive use.)  If no argument is given, the interactive help
    system starts on the interpreter console.  If the argument is a

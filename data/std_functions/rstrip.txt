@@ -1,0 +1,37 @@
+R"==~~~~==(rstrip~~CPP==map==key==delim~~
+"rstrip"
+str.rstrip([chars])
+   Return a copy of the string with trailing characters removed.  The
+   *chars* argument is a string specifying the set of characters to be
+   removed.  If omitted or "None", the *chars* argument defaults to
+   removing whitespace.  The *chars* argument is not a suffix; rather,
+   all combinations of its values are stripped:
+
+      >>> '   spacious   '.rstrip()
+      '   spacious'
+      >>> 'mississippi'.rstrip('ipz')
+      'mississ'
+
+bytes.rstrip([chars]), bytearray.rstrip([chars])
+   Return a copy of the sequence with specified trailing bytes
+   removed.  The *chars* argument is a binary sequence specifying the
+   set of byte values to be removed - the name refers to the fact this
+   method is usually used with ASCII characters.  If omitted or
+   "None", the *chars* argument defaults to removing ASCII whitespace.
+   The *chars* argument is not a suffix; rather, all combinations of
+   its values are stripped:
+
+      >>> b'   spacious   '.rstrip()
+      b'   spacious'
+      >>> b'mississippi'.rstrip(b'ipz')
+      b'mississ'
+
+   The binary sequence of byte values to remove may be any *bytes-like
+   object*.
+
+   Note: The bytearray version of this method does *not* operate in
+     place - it always produces a new object, even if no changes were
+     made.
+
+~~CPP==new==module==delim~~
+)==~~~~=="

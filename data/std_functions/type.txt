@@ -1,5 +1,5 @@
 R"==~~~~==(type~~CPP==map==key==delim~~
-"class type"
+"type"
 class type(object)
 
    With one argument, return the type of an *object*.  The return

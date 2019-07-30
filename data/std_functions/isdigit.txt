@@ -1,0 +1,25 @@
+R"==~~~~==(isdigit~~CPP==map==key==delim~~
+"isdigit"
+str.isdigit()
+   Return true if all characters in the string are digits and there is
+   at least one character, false otherwise.  Digits include decimal
+   characters and digits that need special handling, such as the
+   compatibility superscript digits. This covers digits which cannot
+   be used to form numbers in base 10, like the Kharosthi numbers.
+   Formally, a digit is a character that has the property value
+   Numeric_Type=Digit or Numeric_Type=Decimal.
+
+bytes.isdigit(), bytearray.isdigit()
+   Return true if all bytes in the sequence are ASCII decimal digits
+   and the sequence is not empty, false otherwise. ASCII decimal
+   digits are those byte values in the sequence "b'0123456789'".
+
+   For example:
+
+      >>> b'1234'.isdigit()
+      True
+      >>> b'1.23'.isdigit()
+      False
+
+~~CPP==new==module==delim~~
+)==~~~~=="

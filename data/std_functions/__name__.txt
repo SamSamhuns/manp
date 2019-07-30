@@ -1,0 +1,13 @@
+R"==~~~~==(__name__~~CPP==map==key==delim~~
+"__name__"
+definition.__name__
+
+   The name of the class, function, method, descriptor, or generator
+   instance.
+
+   The implementation adds a few special read-only attributes to several
+   object types, where they are relevant.  Some of these are not reported
+   by the "dir()" built-in function.
+
+~~CPP==new==module==delim~~
+)==~~~~=="

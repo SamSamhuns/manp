@@ -1,6 +1,7 @@
 R"==~~~~==(all~~CPP==map==key==delim~~
 "all"
 all(iterable)
+
    Return "True" if all elements of the *iterable* are true (or if the
    iterable is empty).  Equivalent to:
 

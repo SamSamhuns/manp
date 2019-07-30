@@ -1,5 +1,5 @@
 R"==~~~~==(slice~~CPP==map==key==delim~~
-"class slice"
+"slice"
 class slice(stop)
 
    Return a *slice* object representing the set of indices specified

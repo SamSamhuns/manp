@@ -1,6 +1,7 @@
 R"==~~~~==(float~~CPP==map==key==delim~~
-"class float"
+"float"
 class float([x])
+
    Return a floating point number constructed from a number or string
    *x*.
 

@@ -1,6 +1,7 @@
 R"==~~~~==(bool~~CPP==map==key==delim~~
-"class bool"
+"bool"
 class bool([x])
+
    Return a Boolean value, i.e. one of "True" or "False".  *x* is
    converted using the standard truth testing procedure.  If *x* is
    false or omitted, this returns "False"; otherwise it returns

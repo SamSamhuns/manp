@@ -1,5 +1,5 @@
 R"==~~~~==(object~~CPP==map==key==delim~~
-"class object"
+"object"
 class object
    Return a new featureless object.  "object" is a base for all
    classes. It has the methods that are common to all instances of

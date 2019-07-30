@@ -1,0 +1,19 @@
+R"==~~~~==(decode~~CPP==map==key==delim~~
+"decode"
+bytes.decode(encoding="utf-8", errors="strict"), bytearray.decode(encoding="utf-8", errors="strict")
+   Return a string decoded from the given bytes.  Default encoding is
+   "'utf-8'". *errors* may be given to set a different error handling
+   scheme.  The default for *errors* is "'strict'", meaning that
+   encoding errors raise a "UnicodeError".  Other possible values are
+   "'ignore'", "'replace'" and any other name registered via
+   "codecs.register_error()", see section Error Handlers. For a list
+   of possible encodings, see section Standard Encodings.
+
+   Note: Passing the *encoding* argument to "str" allows decoding
+     any *bytes-like object* directly, without needing to make a
+     temporary bytes or bytearray object.
+
+   Changed in version 3.1: Added support for keyword arguments.
+
+~~CPP==new==module==delim~~
+)==~~~~=="

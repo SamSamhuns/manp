@@ -1,0 +1,18 @@
+R"==~~~~==(isascii~~CPP==map==key==delim~~
+"isascii"
+str.isascii()
+   Return true if the string is empty or all characters in the string
+   are ASCII, false otherwise. ASCII characters have code points in
+   the range U+0000-U+007F.
+
+   New in version 3.7.
+
+bytes.isascii(), bytearray.isascii()
+
+   Return true if the sequence is empty or all bytes in the sequence
+   are ASCII, false otherwise. ASCII bytes are in the range 0-0x7F.
+
+   New in version 3.7.
+
+~~CPP==new==module==delim~~
+)==~~~~=="

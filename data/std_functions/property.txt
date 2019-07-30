@@ -1,5 +1,5 @@
 R"==~~~~==(property~~CPP==map==key==delim~~
-"class property"
+"property"
 class property(fget=None, fset=None, fdel=None, doc=None)
    Return a property attribute.
 
