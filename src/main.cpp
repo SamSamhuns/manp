@@ -3,6 +3,7 @@
 #include <vector>
 #include <sstream>
 #include <fstream>
+#include <csignal>
 #include <iostream>
 #include <unistd.h>
 #include <typeinfo>
@@ -29,7 +30,16 @@ int generate_query_output(char const *argv[], std::string &query_output);
     the delimiter for different modules is CPP_MAP_MODULE_DELIM */
 std::map<std::string, std::vector<int> > mappify(std::string const& python_modules_string);
 
+/* Signal Handler for SIGSEGV, segmentation faults */
+void sigsegv_handler(int sig_num);
+
+/* Signal Handler for SIGABRT, abort traps */
+void sigabrt_handler(int sig_num);
+
 int main(int argc, char const *argv[]) {
+	signal(SIGSEGV, sigsegv_handler);  // signal handler for segmentation faults
+	signal(SIGABRT, sigabrt_handler);  // signal ahndler for abort traps
+
 	// Check for correct number of arguments used i.e. Only 2 or 3 argc valid
 	if (validate_cmd_line_input(argc, argv) == -1) {
 		std::cerr << "\033[32;1mUsage:\033[0m manp [PYTHON_STD_FUNCTION_NAME] or manp -m [PYTHON_MODULE_NAME]" << '\n';
@@ -128,7 +138,7 @@ int generate_query_output(char const *argv[], std::string &query_output) {
 			/* if an unrecognized function/module was entered, attempt to make a guess */
 			std::string correct(modules_corrector.correct(query_module_input));
 			if (correct != "") std::cout << "Did you mean: \033[32;1m" << correct << "\033[0m";
-			std::cout << "\nFor help: manp -h" << '\n';
+			std::cout << "\n       For help: manp -h" << '\n';
 			return 1;
 		} else {                                          // user query exists in doc
 			query_output = python_modules_string.substr(
@@ -164,7 +174,7 @@ int generate_query_output(char const *argv[], std::string &query_output) {
 			/* if an unrecognized function/module was entered, attempt to make a guess */
 			std::string correct(functions_corrector.correct(query_module_input));
 			if (correct != "") std::cout << "Did you mean: \033[32;1m" << correct << "\033[0m";
-			std::cout << "\nFor help: manp -h" << '\n';
+			std::cout << "\n       For help: manp -h" << '\n';
 			return 1;
 		} else {                                          // user query exists in doc
 			query_output = python_functions_string.substr(
@@ -234,4 +244,26 @@ int validate_cmd_line_input(int argc, char const*argv[]) {
 		if (std::string (argv[1]) != "-m" ) return -1;
 	}
 	return 0;
+}
+
+/* Signal Handler for SIGSEGV, segmentation faults */
+void sigsegv_handler(int sig_num) {
+	/* Reset handler to catch SIGSEGV next time */
+	signal(SIGSEGV, sigsegv_handler);
+	std::cerr << "\033[31;1mERROR:\033[0m Invalid Input" << "\n";
+	std::cerr << "\033[32;1mUsage:\033[0m manp [PYTHON_STD_FUNCTION_NAME] or manp -m [PYTHON_MODULE_NAME]" << '\n';
+	std::cout << "       For help: manp -h" << '\n';
+	fflush(stdout);
+	exit(1);
+}
+
+/* Signal Handler for SIGABRT, abort traps */
+void sigabrt_handler(int sig_num) {
+	/* Reset handler to catch SIGABRT next time */
+	signal(SIGABRT, sigabrt_handler);
+	std::cerr << "\033[31;1mERROR:\033[0m Invalid Input" << "\n";
+	std::cerr << "\033[32;1mUsage:\033[0m manp [PYTHON_STD_FUNCTION_NAME] or manp -m [PYTHON_MODULE_NAME]" << '\n';
+	std::cout << "       For help: manp -h" << '\n';
+	fflush(stdout);
+	exit(1);
 }
