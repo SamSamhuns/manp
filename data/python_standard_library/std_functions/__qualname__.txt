@@ -1,0 +1,13 @@
+R"==~~~~==(__qualname__~~CPP==map==key==delim~~
+"__qualname__"
+\033[32;1mdefinition.__qualname__\033[0m   The *qualified name* of the class, function, method, descriptor, or
+   generator instance.
+
+   New in version 3.3.
+
+   The implementation adds a few special read-only attributes to several
+   object types, where they are relevant.  Some of these are not reported
+   by the "dir()" built-in function.
+
+~~CPP==new==module==delim~~
+)==~~~~=="

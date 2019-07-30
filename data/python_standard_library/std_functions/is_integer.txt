@@ -1,0 +1,13 @@
+R"==~~~~==(is_integer~~CPP==map==key==delim~~
+"is_integer"
+\033[32;1mfloat.is_integer()\033[0m
+   Return "True" if the float instance is finite with integral value,
+   and "False" otherwise:
+
+      >>> (-2.0).is_integer()
+      True
+      >>> (3.2).is_integer()
+      False
+
+~~CPP==new==module==delim~~
+)==~~~~=="

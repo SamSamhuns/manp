@@ -1,0 +1,22 @@
+R"==~~~~==(__iter__~~CPP==map==key==delim~~
+"__iter__"
+\033[32;1mcontainer.__iter__()\033[0m   Return an iterator object.  The object is required to support the
+   iterator protocol described below.  If a container supports
+   different types of iteration, additional methods can be provided to
+   specifically request iterators for those iteration types.  (An
+   example of an object supporting multiple forms of iteration would
+   be a tree structure which supports both breadth-first and depth-
+   first traversal.)  This method corresponds to the "tp_iter" slot of
+   the type structure for Python objects in the Python/C API.
+
+   The iterator objects themselves are required to support the following
+   two methods, which together form the *iterator protocol*:
+
+\033[32;1miterator.__iter__()\033[0m
+   Return the iterator object itself.  This is required to allow both
+   containers and iterators to be used with the "for" and "in"
+   statements. This method corresponds to the "tp_iter" slot of the
+   type structure for Python objects in the Python/C API.
+
+~~CPP==new==module==delim~~
+)==~~~~=="

@@ -1,0 +1,9 @@
+R"==~~~~==(next~~CPP==map==key==delim~~
+"next"
+\033[32;1mnext(iterator[, default])\033[0m
+   Retrieve the next item from the *iterator* by calling its
+   "__next__()" method.  If *default* is given, it is returned if the
+   iterator is exhausted, otherwise "StopIteration" is raised.
+
+~~CPP==new==module==delim~~
+)==~~~~=="
