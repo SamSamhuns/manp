@@ -12,27 +12,36 @@
 #include <sys/types.h>
 #include "common.h"
 
-/* function to convert raw string literal files to txt enclosed by the
-    START_DELIMs and END_DELIMs */
-int raw_string_to_text(std::string &filename);
+/* function to convert raw string literal files to original files of file_extension
+    enclosed by the START_DELIMs and END_DELIMs */
+int raw_string_text_to_file(std::string &file_extension, std::string &filename);
 
-/* function to recursively find txt files */
-int recursively_find_txt_files(std::string &dirpath);
+/* function to recursively find files with file_extension */
+int recursively_find_files_with_ext(std::string &file_extension, std::string &dirpath);
+
+/* Signal Handler for SIGSEGV, segmentation faults */
+void sigsegv_handler(int sig_num);
+
+/* Signal Handler for SIGABRT, abort traps */
+void sigabrt_handler(int sig_num);
 
 int main(int argc, const char *argv[]) {
-	if (argc != 2) {
-		std::cerr << "\033[32;1mUsage:\033[0m ./raw_string_to_text <PATH_TO_DIR_OR_TXT_FILE>\n";
+	if (argc != 3) {
+		std::cerr <<
+		    "\033[32;1mUsage:\033[0m ./raw_string_to_text [TARGET_FILE_EXTENSION] [PATH_TO_DIR_OR_FILE]\n";
 		return -1;
 	}
 
-	std::string dirpath(argv[1]);
-	recursively_find_txt_files(dirpath);
+	std::string file_extension(argv[1]);
+	std::string dirpath(argv[2]);
+	if (file_extension.front() != '.') {file_extension='.'+file_extension;}
+	recursively_find_files_with_ext(file_extension, dirpath);
 
 	return 0;
 }
 
-/* function to recursively find txt files */
-int recursively_find_txt_files(std::string &dirpath) {
+/* function to recursively find files with file_extension */
+int recursively_find_files_with_ext(std::string &file_extension, std::string &dirpath) {
 	struct stat path_stat;
 
 	/* Check if the dirpath is a file or folder */
@@ -62,10 +71,10 @@ int recursively_find_txt_files(std::string &dirpath) {
 
 						switch (dirReadPointer->d_type) {
 						case DT_REG:     // if dirReadPointer points to a regular file
-							raw_string_to_text(pathToFile);
+							raw_string_text_to_file(file_extension, pathToFile);
 							break;
 						case DT_DIR:     // if dirReadPointer points to a folder
-							recursively_find_txt_files(pathToFile);
+							recursively_find_files_with_ext(file_extension, pathToFile);
 							break;
 						default:         // if dirReadPointer is neither file/folder
 							if (DEBUG) std::cerr << "\033[31;1mERROR:\033[0m " << pathToFile << \
@@ -81,7 +90,7 @@ int recursively_find_txt_files(std::string &dirpath) {
 		// dirpath is a regular file
 		else if (S_ISREG(path_stat.st_mode)) {
 			if (DEBUG) std::cout << dirpath << " is a file\n";
-			raw_string_to_text(dirpath);
+			raw_string_text_to_file(file_extension, dirpath);
 		}
 		else {
 			if (DEBUG) std::cerr << "\033[31;1mERROR:\033[0m " << dirpath << " is not a regular file or folder\n";
@@ -96,9 +105,9 @@ int recursively_find_txt_files(std::string &dirpath) {
 	return 0;
 }
 
-/* function to convert raw string literal files to txt enclosed by the
-    START_DELIMs and END_DELIMs */
-int raw_string_to_text(std::string &filename) {
+/* function to convert raw string literal files to original files of file_extension
+    enclosed by the START_DELIMs and END_DELIMs */
+int raw_string_text_to_file(std::string &file_extension, std::string &filename) {
 	std::fstream in_ptr, out_ptr;
 	std::vector <std::string> line_string_vector;
 	std::string inString, module_name;
@@ -117,7 +126,7 @@ int raw_string_to_text(std::string &filename) {
 	}
 
 	/* Get the filename to use the C++ map key data struct
-		the filname will be the unique key for the c++ map */
+	    the filname will be the unique key for the c++ map */
 	std::size_t slash_found = filename.find_last_of("/");
 	// if a slash '/' was not found in the filename
 	if (slash_found == std::string::npos) {
@@ -148,7 +157,7 @@ int raw_string_to_text(std::string &filename) {
 	}
 
 	if ((line_string_vector[line_count-2] != std::string(CPP_MAP_MODULE_DELIM)) &&
-	(line_string_vector[line_count-1] != std::string(END_DELIM))) {
+	    (line_string_vector[line_count-1] != std::string(END_DELIM))) {
 		if (DEBUG) std::cerr << filename << " not in raw string literal text format.\n";
 		return -2;
 	}
@@ -169,4 +178,22 @@ int raw_string_to_text(std::string &filename) {
 	out_ptr.close();
 	if (DEBUG) std::cerr << filename << " successfully converted to normal text format.\n";
 	return 0;
+}
+
+/* Signal Handler for SIGSEGV, segmentation faults */
+void sigsegv_handler(int sig_num) {
+	/* Reset handler to catch SIGSEGV next time */
+	signal(SIGSEGV, sigsegv_handler);
+	std::cerr << "\033[31;1mERROR:\033[0m segmentation fault" << "\n";
+	fflush(stdout);
+	exit(1);
+}
+
+/* Signal Handler for SIGABRT, abort traps */
+void sigabrt_handler(int sig_num) {
+	/* Reset handler to catch SIGABRT next time */
+	signal(SIGABRT, sigabrt_handler);
+	std::cerr << "\033[31;1mERROR:\033[0m abort trap" << "\n";
+	fflush(stdout);
+	exit(1);
 }
