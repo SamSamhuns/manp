@@ -1,5 +1,7 @@
 # manp
 
+Command-line utility for generating a `man-page` equivalent of your project.
+
 Submission for tiancai-cup from @SamSamhuns
 
 [![Build Status](https://travis-ci.com/SamSamhuns/manp.svg?token=Z5sqtVdygQce8gKWkdrq&branch=master)](https://travis-ci.com/SamSamhuns/manp)
@@ -7,23 +9,38 @@ Submission for tiancai-cup from @SamSamhuns
 
 <img src='img/manp_demo_high.gif'>
 
-Tired of Googling common Python modules and function documentations. `manp` is a command-line utility for quickly loading manual pages for all Python Standard Library functions. Similar to how `man printf` works for C/C++ functions. Documentation for other PyPI packages will also be added as an extension.
+<br>Tired of looking throughout your build directory for the functions you wrote before and don't remember their parameters or even tired of Googling common Python modules and function documentations?
+
+`manp` is a command-line utility that lets your create a `man pages` equivalent of your project. This is similar to how `man printf` works for C/C++ functions. But, now you can `manp [YOUR_FUNCTIONS]` from your source code instead.
 
 If incorrect modules are entered, `manp` also has a feature for auto-suggesting most similar named module.
 
 ## Installation
 
+*Running make without setting any SOURCE_DIR or TARGET_FILE_EXTN creates a default `manp` with documentation for the Python standard library modules and functions.*
+
+**Requirements:**
+-   Python 3.5+
+-   g++ compiler
+-   bash shell
+
 **For OSX and Linux Only**
 
 1.  Clone the repository.
-2.  Use the following command to compile the `manp` executable and set execute permissions.
+2.  Set the `SOURCE_DIR` (The absolute path to your build directory) and `TARGET_FILE_EXTN`(File extensions to add to `manp`, separated by a single space inside double quotes) inside the `makefile_configuration.mk` file or the `make` command can be run with:
+
+```bash
+$ make SOURCE_DIR=/usr/project/src ARGET_FILE_EXTN="txt py"
+```
+
+3.  Use the following command to compile the `manp` executable and set execute permissions. (The git builds the Python documentation `manp`)
 
 ```bash
 $ make all
 $ chmod a+x manp
 ```
 
-3.  Add the `manp` executable to `PATH` var for faster execution so that `manp` can be called using a `bash` shell from any directory and speeds documentation lookup.
+4.  Add the `manp` executable to `PATH` var for faster execution so that `manp` can be called using a `bash` shell from any directory and speeds documentation lookup.
 
     -   **Recommended:**
 
@@ -46,6 +63,17 @@ $ chmod a+x manp
         \* Every time, there is a change to the source code, the `manp` binary will have to be recopied to `usr/local/bin`.
 
 **Note:** If there are any permission issues, use `sudo`. The `manp` executable can be directly added to the `PATH` var if `sudo` access is not present.
+
+### Utility functions
+
+**Only for Python project as of now**
+
+The `python generate_txt_from_python_progs.py` function can be used to generate txt files containing information on individual functions and classes, the source folder is denoted by `[SOURCE_FILE_DIR]` while the target folder is denoted by `[TARGET_DIRECTORY]`.
+
+```bash
+$ python generate_funcs_from_modules [SOURCE_FILENAME] [TARGET_DIRECTORY]
+$ python generate_txt_from_python_progs.py [SOURCE_FILE_DIR] [TARGET_DIRECTORY]
+```
 
 ## Uninstallation
 
@@ -103,13 +131,9 @@ A detailed explanation of how the program functions:
 
 The program requires compilation and running of certain files and script before others which is handled by the `Makefile`.
 
-1.   The `text_to_raw_string.cpp` and `raw_string_to_text.cpp` modules are compiled before main. The `text_to_raw_string.cpp` converts all the `.txt` files inside the `manp/data/` folder to raw string literal txt files padded with extra `CPP_MAP_KEY_VALUE_DELIM` and `CPP_MAP_MODULE_DELIM` (defined in `common.h`) delimiters for creating C++ maps.
+1.   The `text_to_raw_string.cpp` and `raw_string_to_text.cpp` modules are compiled before main. The `text_to_raw_string.cpp` converts all the files inside the `SOURCE_DIR` folder to `manp/target_data/` folder as raw string literal txt files padded with extra `CPP_MAP_KEY_VALUE_DELIM` and `CPP_MAP_MODULE_DELIM` (defined in `common.h`) delimiters for creating C++ maps.
 
-2.   After this, the `combine_headers.sh` will iterate through the `manp/data/` folder and create `combined_txt_include.h` that includes all the `txt` raw string literal files in one header file.
-
-3.   The `generate_modules_list.sh` will then iterate through the `manp/data/modules` folder again and create a `modules_list.txt` raw string literal txt file containing list of all available modules that will be used for the SpellingCorrector and prediction function.
-
-3.   The `generate_functions_list.sh` will also iterate through the `manp/data/std_functions` folder again and create a `functions_list.txt` raw string literal txt file containing list of all available std lib functions that will be used for the SpellingCorrector and prediction function.
+2.   After this, the `generate_doc_artifacts_list.sh` will iterate through the `manp/target_data/` folder and create `combined_txt_include.h` that includes all the `txt` raw string literal files in one header file and `doc_artifacts_list` header include file containing just the names of all the modules from the `target_data` folder.
 
 4.   The `main.cpp` function will finally be compiled along with `SpellingCorrector.cpp` and `manp` will be available for execution.
 
@@ -117,11 +141,9 @@ The program requires compilation and running of certain files and script before 
 
 ## Developer instructions
 
--   To add documentation for other Python modules, a txt file with the name of the module in question should be added to the `manp/data/modules` folder and the project should be recompiled.
+-   To add documentations manually, txt files with the name of the module in question should be added to the `SOURCE_DIR` folder and the project should be recompiled.
 
--   To add function documentations, txt files with the name of the function in question should be similarly added to `manp/data/std_functions` folder and the project be recompiled.
-
--   To change the `.txt` documentation files inside `manp/data/` back to normal text format, run `./raw_string_to_text data`.
+-   To change documentation or source code files back to normal text format, run `./raw_string_to_text data`.
 
 ### Contributions
 
