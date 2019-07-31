@@ -14,8 +14,6 @@ TARGET_DIR =target_data # location of the files coverted to raw string literal f
 # User defined variables loaded from makefile_configuration.mk
 # SOURCE_DIR =        # location of the files to convert to raw string literal format
 # TARGET_FILE_EXTN =  # extension of target files to document
-$(info SOURCE_DIR is $(SOURCE_DIR))
-$(info TARGET_FILE_EXTN is $(TARGET_FILE_EXTN))
 
 
 # Getting the list of all cpp and object files
