@@ -5,6 +5,8 @@ CPP =g++# compiler used
 CFLAGS =-std=c++11 -Wall -Wshadow -Werror -I$(IDIR)# compiler flags
 LDFLAGS =# -lm library flags
 TARGET =manp # file executable generated
+
+# User defined variables
 SOURCE_DATA_DIR =data # location of the files to convert to raw string literal txt files
 TARGET_FILE_EXTENSION =txt# extension of target files to document
 
@@ -52,11 +54,11 @@ run_text_to_raw_string: text_to_raw_string
 
 run_combine_headers_sh: run_text_to_raw_string
 	chmod u+x combine_headers.sh
-	./combine_headers.sh
+	./combine_headers.sh $(SOURCE_DATA_DIR)
 
 generate_doc_artifacts_list: run_text_to_raw_string
 	chmod u+x generate_doc_artifacts_list.sh
-	./generate_doc_artifacts_list.sh
+	./generate_doc_artifacts_list.sh $(SOURCE_DATA_DIR)
 
 $(ODIR)/%.o: $(SDIR)/%.cpp $(HEADERS)
 	@mkdir -p $(@D)
