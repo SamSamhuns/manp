@@ -1,3 +1,4 @@
+"modules/email.mime.txt"
 "email.mime": Creating email and MIME objects from scratch
 **********************************************************
 
@@ -214,3 +215,4 @@ class email.mime.text.MIMEText(_text, _subtype='plain', _charset=None, *, policy
    instances.
 
    Changed in version 3.6: Added *policy* keyword-only parameter.
+"modules/email.mime.txt"

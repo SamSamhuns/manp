@@ -1,4 +1,5 @@
 R"==~~~~==(token~~CPP==map==key==delim~~
+"modules/token.txt"
 "token" --- Constants used with Python parse trees
 **************************************************
 
@@ -121,5 +122,6 @@ Changed in version 3.7: Added "COMMENT", "NL" and "ENCODING" tokens.
 
 Changed in version 3.7: Removed "AWAIT" and "ASYNC" tokens. "async"
 and "await" are now tokenized as "NAME" tokens.
+"modules/token.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

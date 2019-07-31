@@ -1,3 +1,4 @@
+"modules/mailbox.txt"
 "mailbox" --- Manipulate mailboxes in various formats
 *****************************************************
 
@@ -1481,3 +1482,4 @@ mailbox:
 
    for box in boxes.itervalues():
        box.close()
+"modules/mailbox.txt"

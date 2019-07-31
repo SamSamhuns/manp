@@ -1,3 +1,4 @@
+"modules/doctest.txt"
 "doctest" --- Test interactive Python examples
 **********************************************
 
@@ -1811,3 +1812,4 @@ Here is a minimal example of such a test runner:
 [1] Examples containing both expected output and an exception are
     not supported. Trying to guess where one ends and the other begins
     is too error-prone, and that also makes for a confusing test.
+"modules/doctest.txt"

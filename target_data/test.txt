@@ -1,4 +1,5 @@
 R"==~~~~==(test~~CPP==map==key==delim~~
+"modules/test.txt"
 "test" --- Regression tests package for Python
 **********************************************
 
@@ -1268,5 +1269,6 @@ test.support.script_helper.make_zip_pkg(zip_dir, zip_basename, pkg_name, script_
    "True", both source files will be compiled and added to the zip
    package.  Return a tuple of the full zip path and the archive name
    for the zip file.
+"modules/test.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

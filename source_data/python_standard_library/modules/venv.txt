@@ -1,3 +1,4 @@
+"modules/venv.txt"
 "venv" --- Creation of virtual environments
 *******************************************
 
@@ -577,3 +578,4 @@ environment:
        sys.exit(rc)
 
 This script is also available for download online.
+"modules/venv.txt"

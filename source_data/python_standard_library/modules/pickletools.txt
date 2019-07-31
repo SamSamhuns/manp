@@ -1,3 +1,4 @@
+"modules/pickletools.txt"
 "pickletools" --- Tools for pickle developers
 *********************************************
 
@@ -100,3 +101,4 @@ pickletools.optimize(picklestring)
    "PUT" opcodes. The optimized pickle is shorter, takes less
    transmission time, requires less storage space, and unpickles more
    efficiently.
+"modules/pickletools.txt"

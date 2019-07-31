@@ -1,4 +1,5 @@
 R"==~~~~==(bdb~~CPP==map==key==delim~~
+"modules/bdb.txt"
 "bdb" --- Debugger framework
 ****************************
 
@@ -384,5 +385,6 @@ bdb.effective(file, line, frame)
 bdb.set_trace()
 
    Start debugging with a "Bdb" instance from caller's frame.
+"modules/bdb.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

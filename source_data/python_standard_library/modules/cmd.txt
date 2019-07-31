@@ -1,3 +1,4 @@
+"modules/cmd.txt"
 "cmd" --- Support for line-oriented command interpreters
 ********************************************************
 
@@ -358,3 +359,4 @@ and playback facility:
 
    (turtle) bye
    Thank you for using Turtle
+"modules/cmd.txt"

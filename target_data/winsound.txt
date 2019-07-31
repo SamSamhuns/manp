@@ -1,4 +1,5 @@
 R"==~~~~==(winsound~~CPP==map==key==delim~~
+"modules/winsound.txt"
 "winsound" --- Sound-playing interface for Windows
 **************************************************
 
@@ -136,5 +137,6 @@ winsound.MB_ICONQUESTION
 winsound.MB_OK
 
    Play the "SystemDefault" sound.
+"modules/winsound.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

@@ -1,4 +1,5 @@
 R"==~~~~==(gettext~~CPP==map==key==delim~~
+"modules/gettext.txt"
 "gettext" --- Multilingual internationalization services
 ********************************************************
 
@@ -642,5 +643,6 @@ this module:
     absolute path at the start of your application.
 
 [2] See the footnote for "bindtextdomain()" above.
+"modules/gettext.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

@@ -1,3 +1,4 @@
+"modules/ipc.txt"
 Networking and Interprocess Communication
 *****************************************
 
@@ -27,3 +28,4 @@ The list of modules described in this chapter is:
 * "signal" --- Set handlers for asynchronous events
 
 * "mmap" --- Memory-mapped file support
+"modules/ipc.txt"

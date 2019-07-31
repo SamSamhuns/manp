@@ -1,4 +1,5 @@
 R"==~~~~==(asyncio-api-index~~CPP==map==key==delim~~
+"modules/asyncio-api-index.txt"
 High-level API Index
 ********************
 
@@ -160,5 +161,6 @@ Exceptions
 * Handling CancelledError to run code on cancellation request.
 
 * See also the full list of asyncio-specific exceptions.
+"modules/asyncio-api-index.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

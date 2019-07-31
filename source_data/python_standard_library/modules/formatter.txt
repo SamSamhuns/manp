@@ -1,3 +1,4 @@
+"modules/formatter.txt"
 "formatter" --- Generic output formatting
 *****************************************
 
@@ -321,3 +322,4 @@ class formatter.DumbWriter(file=None, maxcol=72)
    output is simply word-wrapped to the number of columns specified by
    *maxcol*.  This class is suitable for reflowing a sequence of
    paragraphs.
+"modules/formatter.txt"

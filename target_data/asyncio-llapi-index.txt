@@ -1,4 +1,5 @@
 R"==~~~~==(asyncio-llapi-index~~CPP==map==key==delim~~
+"modules/asyncio-llapi-index.txt"
 Low-level API Index
 *******************
 
@@ -366,5 +367,6 @@ for more details.
 +----------------------------------------------------+----------------------------------------------------+
 | "AbstractEventLoopPolicy"                          | Base class for policy objects.                     |
 +----------------------------------------------------+----------------------------------------------------+
+"modules/asyncio-llapi-index.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

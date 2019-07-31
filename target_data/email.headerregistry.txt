@@ -1,4 +1,5 @@
 R"==~~~~==(email.headerregistry~~CPP==map==key==delim~~
+"modules/email.headerregistry.txt"
 "email.headerregistry": Custom Header Objects
 *********************************************
 
@@ -454,5 +455,6 @@ class email.headerregistry.Group(display_name=None, addresses=None)
 -[ Footnotes ]-
 
 [1] Originally added in 3.3 as a *provisional module*
+"modules/email.headerregistry.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

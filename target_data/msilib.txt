@@ -1,4 +1,5 @@
 R"==~~~~==(msilib~~CPP==map==key==delim~~
+"modules/msilib.txt"
 "msilib" --- Read and write Microsoft Installer files
 *****************************************************
 
@@ -461,5 +462,6 @@ msilib.text
 
    This module contains definitions for the UIText and ActionText
    tables, for the standard installer actions.
+"modules/msilib.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

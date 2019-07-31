@@ -1,4 +1,5 @@
 R"==~~~~==(imaplib~~CPP==map==key==delim~~
+"modules/imaplib.txt"
 "imaplib" --- IMAP4 protocol client
 ***********************************
 
@@ -537,5 +538,6 @@ mailbox and retrieves and prints all messages:
        print('Message %s\n%s\n' % (num, data[0][1]))
    M.close()
    M.logout()
+"modules/imaplib.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

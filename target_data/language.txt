@@ -1,4 +1,5 @@
 R"==~~~~==(language~~CPP==map==key==delim~~
+"modules/language.txt"
 Python Language Services
 ************************
 
@@ -83,5 +84,6 @@ These modules include:
     * Command line options
 
   * Programmatic Interface
+"modules/language.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

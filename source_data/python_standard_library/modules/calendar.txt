@@ -1,3 +1,4 @@
+"modules/calendar.txt"
 "calendar" --- General calendar-related functions
 *************************************************
 
@@ -382,3 +383,4 @@ See also:
 
   Module "time"
      Low-level time related functions.
+"modules/calendar.txt"

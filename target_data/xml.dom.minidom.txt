@@ -1,4 +1,5 @@
 R"==~~~~==(xml.dom.minidom~~CPP==map==key==delim~~
+"modules/xml.dom.minidom.txt"
 "xml.dom.minidom" --- Minimal DOM implementation
 ************************************************
 
@@ -299,5 +300,6 @@ general utility to most DOM users.
     https://www.w3.org/TR/2006 /REC-xml11-20060816/#NT-EncodingDecl
     and https://www.iana.org/assignments/character-sets/character-
     sets.xhtml.
+"modules/xml.dom.minidom.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

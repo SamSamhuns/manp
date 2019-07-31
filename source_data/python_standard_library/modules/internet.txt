@@ -1,3 +1,4 @@
+"modules/internet.txt"
 Internet Protocols and Support
 ******************************
 
@@ -302,3 +303,4 @@ platforms.  Here is an overview:
   * Other Module Level Functions
 
   * Custom Exceptions
+"modules/internet.txt"

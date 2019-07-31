@@ -1,4 +1,5 @@
 R"==~~~~==(marshal~~CPP==map==key==delim~~
+"modules/marshal.txt"
 "marshal" --- Internal Python object serialization
 **************************************************
 
@@ -101,5 +102,6 @@ marshal.version
     form. Strictly speaking, "to marshal" means to convert some data
     from internal to external form (in an RPC buffer for instance) and
     "unmarshalling" for the reverse process.
+"modules/marshal.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

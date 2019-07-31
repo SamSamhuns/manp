@@ -1,3 +1,4 @@
+"modules/xml.sax.utils.txt"
 "xml.sax.saxutils" --- SAX Utilities
 ************************************
 
@@ -78,3 +79,4 @@ xml.sax.saxutils.prepare_input_source(source, base='')
    an "InputSource" object; parsers will use this function to
    implement the polymorphic *source* argument to their "parse()"
    method.
+"modules/xml.sax.utils.txt"

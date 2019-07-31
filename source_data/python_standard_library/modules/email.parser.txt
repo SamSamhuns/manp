@@ -1,3 +1,4 @@
+"modules/email.parser.txt"
 "email.parser": Parsing email messages
 **************************************
 
@@ -298,3 +299,4 @@ Here are some notes on the parsing semantics:
   parsed with the "FeedParser", they will have an instance of the
   "MultipartInvariantViolationDefect" class in their *defects*
   attribute list.  See "email.errors" for details.
+"modules/email.parser.txt"

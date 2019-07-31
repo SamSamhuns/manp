@@ -1,3 +1,4 @@
+"modules/i18n.txt"
 Internationalization
 ********************
 
@@ -41,3 +42,4 @@ The list of modules described in this chapter is:
   * For extension writers and programs that embed Python
 
   * Access to message catalogs
+"modules/i18n.txt"

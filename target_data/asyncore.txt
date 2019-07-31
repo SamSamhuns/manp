@@ -1,4 +1,5 @@
 R"==~~~~==(asyncore~~CPP==map==key==delim~~
+"modules/asyncore.txt"
 "asyncore" --- Asynchronous socket handler
 ******************************************
 
@@ -334,5 +335,6 @@ connections and dispatches the incoming connections to a handler:
 
    server = EchoServer('localhost', 8080)
    asyncore.loop()
+"modules/asyncore.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

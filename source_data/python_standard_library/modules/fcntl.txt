@@ -1,3 +1,4 @@
+"modules/fcntl.txt"
 "fcntl" --- The "fcntl" and "ioctl" system calls
 ************************************************
 
@@ -156,3 +157,4 @@ See also:
      If the locking flags "O_SHLOCK" and "O_EXLOCK" are present in the
      "os" module (on BSD only), the "os.open()" function provides an
      alternative to the "lockf()" and "flock()" functions.
+"modules/fcntl.txt"

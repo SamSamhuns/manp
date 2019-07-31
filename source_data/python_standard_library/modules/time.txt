@@ -1,3 +1,4 @@
+"modules/time.txt"
 "time" --- Time access and conversions
 **************************************
 
@@ -806,3 +807,4 @@ See also:
     2000.  After that, **RFC 822** became obsolete and the 4-digit
     year has been first recommended by **RFC 1123** and then mandated
     by **RFC 2822**.
+"modules/time.txt"

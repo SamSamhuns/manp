@@ -1,3 +1,4 @@
+"modules/development.txt"
 Development Tools
 *****************
 
@@ -245,3 +246,4 @@ The list of modules described in this chapter is:
 
 See also the Python development mode: the "-X" "dev" option and
 "PYTHONDEVMODE" environment variable.
+"modules/development.txt"

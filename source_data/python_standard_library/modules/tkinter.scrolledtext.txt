@@ -1,3 +1,4 @@
+"modules/tkinter.scrolledtext.txt"
 "tkinter.scrolledtext" --- Scrolled Text Widget
 ***********************************************
 
@@ -26,3 +27,4 @@ ScrolledText.frame
 ScrolledText.vbar
 
    The scroll bar widget.
+"modules/tkinter.scrolledtext.txt"

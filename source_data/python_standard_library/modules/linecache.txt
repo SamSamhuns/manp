@@ -1,3 +1,4 @@
+"modules/linecache.txt"
 "linecache" --- Random access to text lines
 *******************************************
 
@@ -56,3 +57,4 @@ Example:
    >>> import linecache
    >>> linecache.getline(linecache.__file__, 8)
    'import sys\n'
+"modules/linecache.txt"

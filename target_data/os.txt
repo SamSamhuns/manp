@@ -1,4 +1,5 @@
 R"==~~~~==(os~~CPP==map==key==delim~~
+"modules/os.txt"
 "os" --- Miscellaneous operating system interfaces
 **************************************************
 
@@ -3882,5 +3883,6 @@ os.GRND_RANDOM
    "/dev/random" pool instead of the "/dev/urandom" pool.
 
    New in version 3.6.
+"modules/os.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

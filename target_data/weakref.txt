@@ -1,4 +1,5 @@
 R"==~~~~==(weakref~~CPP==map==key==delim~~
+"modules/weakref.txt"
 "weakref" --- Weak references
 *****************************
 
@@ -547,5 +548,6 @@ Note: If you create a finalizer object in a daemonic thread just as
   does not get called at exit.  However, in a daemonic thread
   "atexit.register()", "try: ... finally: ..." and "with: ..." do not
   guarantee that cleanup occurs either.
+"modules/weakref.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

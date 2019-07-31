@@ -1,4 +1,5 @@
 R"==~~~~==(dis~~CPP==map==key==delim~~
+"modules/dis.txt"
 "dis" --- Disassembler for Python bytecode
 ******************************************
 
@@ -1144,5 +1145,6 @@ dis.haslocal
 dis.hascompare
 
    Sequence of bytecodes of Boolean operations.
+"modules/dis.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

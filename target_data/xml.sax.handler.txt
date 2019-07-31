@@ -1,4 +1,5 @@
 R"==~~~~==(xml.sax.handler~~CPP==map==key==delim~~
+"modules/xml.sax.handler.txt"
 "xml.sax.handler" --- Base classes for SAX handlers
 ***************************************************
 
@@ -371,5 +372,6 @@ ErrorHandler.warning(exception)
    returns, and document information will continue to be passed to the
    application. Raising an exception in this method will cause parsing
    to end.
+"modules/xml.sax.handler.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

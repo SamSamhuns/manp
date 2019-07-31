@@ -1,3 +1,4 @@
+"modules/fileformats.txt"
 File Formats
 ************
 
@@ -55,3 +56,4 @@ formats that aren't markup languages and are not related to e-mail.
 * "plistlib" --- Generate and parse Mac OS X ".plist" files
 
   * Examples
+"modules/fileformats.txt"

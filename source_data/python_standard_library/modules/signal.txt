@@ -1,3 +1,4 @@
+"modules/signal.txt"
 "signal" --- Set handlers for asynchronous events
 *************************************************
 
@@ -501,3 +502,4 @@ Do not set "SIGPIPE"'s disposition to "SIG_DFL" in order to avoid
 "BrokenPipeError".  Doing that would cause your program to exit
 unexpectedly also whenever any socket connection is interrupted while
 your program is still writing to it.
+"modules/signal.txt"

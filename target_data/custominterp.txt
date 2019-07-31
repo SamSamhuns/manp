@@ -1,4 +1,5 @@
 R"==~~~~==(custominterp~~CPP==map==key==delim~~
+"modules/custominterp.txt"
 Custom Python Interpreters
 **************************
 
@@ -18,5 +19,6 @@ The full list of modules described in this chapter is:
   * Interactive Console Objects
 
 * "codeop" --- Compile Python code
+"modules/custominterp.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

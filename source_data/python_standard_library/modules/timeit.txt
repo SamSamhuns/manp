@@ -1,3 +1,4 @@
+"modules/timeit.txt"
 "timeit" --- Measure execution time of small code snippets
 **********************************************************
 
@@ -343,3 +344,4 @@ imports:
 
    import timeit
    print(timeit.timeit('[func(42) for func in (f,g,h)]', globals=globals()))
+"modules/timeit.txt"

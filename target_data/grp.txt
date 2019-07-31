@@ -1,4 +1,5 @@
 R"==~~~~==(grp~~CPP==map==key==delim~~
+"modules/grp.txt"
 "grp" --- The group database
 ****************************
 
@@ -60,5 +61,6 @@ See also:
 
   Module "spwd"
      An interface to the shadow password database, similar to this.
+"modules/grp.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

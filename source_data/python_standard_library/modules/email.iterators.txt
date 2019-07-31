@@ -1,3 +1,4 @@
+"modules/email.iterators.txt"
 "email.iterators": Iterators
 ****************************
 
@@ -64,3 +65,4 @@ email.iterators._structure(msg, fp=None, level=0, include_default=False)
    must be suitable for Python's "print()" function.  *level* is used
    internally. *include_default*, if true, prints the default type as
    well.
+"modules/email.iterators.txt"

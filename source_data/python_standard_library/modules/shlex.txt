@@ -1,3 +1,4 @@
+"modules/shlex.txt"
 "shlex" --- Simple lexical analysis
 ***********************************
 
@@ -388,3 +389,4 @@ Note: When "punctuation_chars" is specified, the "wordchars"
 
 For best effect, "punctuation_chars" should be set in conjunction with
 "posix=True". (Note that "posix=False" is the default for "shlex".)
+"modules/shlex.txt"

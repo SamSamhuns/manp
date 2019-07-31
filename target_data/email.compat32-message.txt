@@ -1,4 +1,5 @@
 R"==~~~~==(email.compat32-message~~CPP==map==key==delim~~
+"modules/email.compat32-message.txt"
 "email.message.Message": Representing an email message using the "compat32" API
 *******************************************************************************
 
@@ -696,5 +697,6 @@ class email.message.Message(policy=compat32)
       The *defects* attribute contains a list of all the problems
       found when parsing this message.  See "email.errors" for a
       detailed description of the possible parsing defects.
+"modules/email.compat32-message.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

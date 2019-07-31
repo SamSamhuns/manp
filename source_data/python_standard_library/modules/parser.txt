@@ -1,3 +1,4 @@
+"modules/parser.txt"
 "parser" --- Access Python parse trees
 **************************************
 
@@ -326,3 +327,4 @@ code into readily available functions:
    def load_expression(source_string):
        st = parser.expr(source_string)
        return st, st.compile()
+"modules/parser.txt"

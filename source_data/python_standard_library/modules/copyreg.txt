@@ -1,3 +1,4 @@
+"modules/copyreg.txt"
 "copyreg" --- Register "pickle" support functions
 *************************************************
 
@@ -57,3 +58,4 @@ and how it will be used:
 pickling a C instance...
 >>> p = pickle.dumps(c)  # doctest: +SKIP
 pickling a C instance...
+"modules/copyreg.txt"

@@ -1,3 +1,4 @@
+"modules/exceptions.txt"
 Built-in Exceptions
 *******************
 
@@ -744,3 +745,4 @@ The class hierarchy for built-in exceptions is:
               +-- UnicodeWarning
               +-- BytesWarning
               +-- ResourceWarning
+"modules/exceptions.txt"

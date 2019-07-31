@@ -1,3 +1,4 @@
+"modules/nntplib.txt"
 "nntplib" --- NNTP protocol client
 **********************************
 
@@ -524,3 +525,4 @@ nntplib.decode_header(header_str)
       'Débuter en Python'
       >>> decode_header("Re: =?UTF-8?B?cHJvYmzDqG1lIGRlIG1hdHJpY2U=?=")
       'Re: problème de matrice'
+"modules/nntplib.txt"

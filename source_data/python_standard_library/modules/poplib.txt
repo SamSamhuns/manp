@@ -1,3 +1,4 @@
+"modules/poplib.txt"
 "poplib" --- POP3 protocol client
 *********************************
 
@@ -226,3 +227,4 @@ mailbox and retrieves and prints all messages:
 
 At the end of the module, there is a test section that contains a more
 extensive example of usage.
+"modules/poplib.txt"

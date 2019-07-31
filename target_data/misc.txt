@@ -1,4 +1,5 @@
 R"==~~~~==(misc~~CPP==map==key==delim~~
+"modules/misc.txt"
 Miscellaneous Services
 **********************
 
@@ -14,5 +15,6 @@ that are available in all Python versions.  Here's an overview:
   * The Writer Interface
 
   * Writer Implementations
+"modules/misc.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

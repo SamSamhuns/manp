@@ -1,3 +1,4 @@
+"modules/inspect.txt"
 "inspect" --- Inspect live objects
 **********************************
 
@@ -1280,3 +1281,4 @@ by appended a colon and the qualified name of the target object.
 
    Print information about the specified object rather than the source
    code
+"modules/inspect.txt"

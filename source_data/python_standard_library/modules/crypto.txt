@@ -1,3 +1,4 @@
+"modules/crypto.txt"
 Cryptographic Services
 **********************
 
@@ -49,3 +50,4 @@ available. Here's an overview:
   * Other functions
 
   * Recipes and best practices
+"modules/crypto.txt"

@@ -1,3 +1,4 @@
+"modules/heapq.txt"
 "heapq" --- Heap queue algorithm
 ********************************
 
@@ -322,3 +323,4 @@ around. :-)
     rewinding time. Believe me, real good tape sorts were quite
     spectacular to watch! From all times, sorting has always been a
     Great Art! :-)
+"modules/heapq.txt"

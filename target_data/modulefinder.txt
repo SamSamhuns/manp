@@ -1,4 +1,5 @@
 R"==~~~~==(modulefinder~~CPP==map==key==delim~~
+"modules/modulefinder.txt"
 "modulefinder" --- Find modules used by a script
 ************************************************
 
@@ -102,5 +103,6 @@ Sample output (may vary depending on the architecture):
    Modules not imported:
    guido.python.ham
    baconhameggs
+"modules/modulefinder.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

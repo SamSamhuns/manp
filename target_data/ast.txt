@@ -1,4 +1,5 @@
 R"==~~~~==(ast~~CPP==map==key==delim~~
+"modules/ast.txt"
 "ast" --- Abstract Syntax Trees
 *******************************
 
@@ -386,5 +387,6 @@ ast.dump(node, annotate_fields=True, include_attributes=False)
 
 See also: Green Tree Snakes, an external documentation resource, has
   good details on working with Python ASTs.
+"modules/ast.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

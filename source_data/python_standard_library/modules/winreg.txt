@@ -1,3 +1,4 @@
+"modules/winreg.txt"
 "winreg" --- Windows registry access
 ************************************
 
@@ -703,3 +704,4 @@ PyHKEY.__exit__(*exc_info)
 
    will automatically close *key* when control leaves the "with"
    block.
+"modules/winreg.txt"

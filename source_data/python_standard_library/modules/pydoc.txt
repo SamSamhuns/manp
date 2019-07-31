@@ -1,3 +1,4 @@
+"modules/pydoc.txt"
 "pydoc" --- Documentation generator and online help system
 **********************************************************
 
@@ -94,3 +95,4 @@ than "inspect.getfullargspec()" to extract signature information from
 callables.
 
 Changed in version 3.7: Added the "-n" option.
+"modules/pydoc.txt"

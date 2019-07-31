@@ -1,4 +1,5 @@
 R"==~~~~==(dummy_threading~~CPP==map==key==delim~~
+"modules/dummy_threading.txt"
 "dummy_threading" --- Drop-in replacement for the "threading" module
 ********************************************************************
 
@@ -16,5 +17,6 @@ on a platform.
 Be careful to not use this module where deadlock might occur from a
 thread being created that blocks waiting for another thread to be
 created.  This often occurs with blocking I/O.
+"modules/dummy_threading.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

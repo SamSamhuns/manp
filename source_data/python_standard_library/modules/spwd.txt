@@ -1,3 +1,4 @@
+"modules/spwd.txt"
 "spwd" --- The shadow password database
 ***************************************
 
@@ -64,3 +65,4 @@ See also:
 
   Module "pwd"
      An interface to the normal password database, similar to this.
+"modules/spwd.txt"

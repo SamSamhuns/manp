@@ -1,4 +1,5 @@
 R"==~~~~==(python~~CPP==map==key==delim~~
+"modules/python.txt"
 Python Runtime Services
 ***********************
 
@@ -132,5 +133,6 @@ environment.  Here's an overview:
   * Readline configuration
 
   * Module contents
+"modules/python.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

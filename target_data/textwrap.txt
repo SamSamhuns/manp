@@ -1,4 +1,5 @@
 R"==~~~~==(textwrap~~CPP==map==key==delim~~
+"modules/textwrap.txt"
 "textwrap" --- Text wrapping and filling
 ****************************************
 
@@ -275,5 +276,6 @@ class textwrap.TextWrapper(**kwargs)
 
       Wraps the single paragraph in *text*, and returns a single
       string containing the wrapped paragraph.
+"modules/textwrap.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

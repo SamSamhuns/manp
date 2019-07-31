@@ -1,4 +1,5 @@
 R"==~~~~==(webbrowser~~CPP==map==key==delim~~
+"modules/webbrowser.txt"
 "webbrowser" --- Convenient Web-browser controller
 **************************************************
 
@@ -201,5 +202,6 @@ controller.open_new_tab(url)
 
 [1] Executables named here without a full path will be searched in
     the directories given in the "PATH" environment variable.
+"modules/webbrowser.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

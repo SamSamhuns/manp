@@ -1,3 +1,4 @@
+"modules/python.txt"
 Python Runtime Services
 ***********************
 
@@ -131,3 +132,4 @@ environment.  Here's an overview:
   * Readline configuration
 
   * Module contents
+"modules/python.txt"

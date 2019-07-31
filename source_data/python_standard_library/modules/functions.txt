@@ -1,3 +1,4 @@
+"modules/functions.txt"
 Built-in Functions
 ******************
 
@@ -1654,3 +1655,4 @@ __import__(name, globals=None, locals=None, fromlist=(), level=0)
     convention. If you are reading the code from a file, make sure to
     use newline conversion mode to convert Windows or Mac-style
     newlines.
+"modules/functions.txt"

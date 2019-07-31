@@ -1,3 +1,4 @@
+"modules/resource.txt"
 "resource" --- Resource usage information
 *****************************************
 
@@ -332,3 +333,4 @@ resource.RUSAGE_THREAD
    thread.  May not be available on all systems.
 
    New in version 3.2.
+"modules/resource.txt"

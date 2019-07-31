@@ -1,4 +1,5 @@
 R"==~~~~==(curses.ascii~~CPP==map==key==delim~~
+"modules/curses.ascii.txt"
 "curses.ascii" --- Utilities for ASCII characters
 *************************************************
 
@@ -202,5 +203,6 @@ curses.ascii.controlnames
    A 33-element string array that contains the ASCII mnemonics for the
    thirty-two ASCII control characters from 0 (NUL) to 0x1f (US), in
    order, plus the mnemonic "SP" for the space character.
+"modules/curses.ascii.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

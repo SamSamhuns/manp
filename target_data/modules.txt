@@ -1,4 +1,5 @@
 R"==~~~~==(modules~~CPP==map==key==delim~~
+"modules/modules.txt"
 Importing Modules
 *****************
 
@@ -46,5 +47,6 @@ The full list of modules described in this chapter is:
     * Setting up an importer
 
     * Approximating "importlib.import_module()"
+"modules/modules.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

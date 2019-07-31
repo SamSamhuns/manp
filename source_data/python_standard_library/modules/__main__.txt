@@ -1,3 +1,4 @@
+"modules/__main__.txt"
 "__main__" --- Top-level script environment
 *******************************************
 
@@ -19,3 +20,4 @@ with "python -m" but not when it is imported:
 For a package, the same effect can be achieved by including a
 "__main__.py" module, the contents of which will be executed when the
 module is run with "-m".
+"modules/__main__.txt"

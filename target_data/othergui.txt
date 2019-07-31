@@ -1,4 +1,5 @@
 R"==~~~~==(othergui~~CPP==map==key==delim~~
+"modules/othergui.txt"
 Other Graphical User Interface Packages
 ***************************************
 
@@ -50,5 +51,6 @@ for Python, both cross-platform, and platform-specific. See the GUI
 Programming page in the Python Wiki for a much more complete list, and
 also for links to documents where the different GUI toolkits are
 compared.
+"modules/othergui.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

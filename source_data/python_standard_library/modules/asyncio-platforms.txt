@@ -1,3 +1,4 @@
+"modules/asyncio-platforms.txt"
 Platform Support
 ****************
 
@@ -88,3 +89,4 @@ on these older versions of macOS.  Example:
    selector = selectors.SelectSelector()
    loop = asyncio.SelectorEventLoop(selector)
    asyncio.set_event_loop(loop)
+"modules/asyncio-platforms.txt"

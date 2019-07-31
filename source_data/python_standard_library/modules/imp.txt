@@ -1,3 +1,4 @@
+"modules/imp.txt"
 "imp" --- Access the import internals
 *************************************
 
@@ -383,3 +384,4 @@ has been extended and "load_module()" has been added in 1.4.)
            # Since we may exit via an exception, close fp explicitly.
            if fp:
                fp.close()
+"modules/imp.txt"

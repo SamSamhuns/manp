@@ -1,4 +1,5 @@
 R"==~~~~==(colorsys~~CPP==map==key==delim~~
+"modules/colorsys.txt"
 "colorsys" --- Conversions between color systems
 ************************************************
 
@@ -52,5 +53,6 @@ Example:
    (0.5, 0.5, 0.4)
    >>> colorsys.hsv_to_rgb(0.5, 0.5, 0.4)
    (0.2, 0.4, 0.4)
+"modules/colorsys.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

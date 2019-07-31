@@ -1,4 +1,5 @@
 R"==~~~~==(ctypes~~CPP==map==key==delim~~
+"modules/ctypes.txt"
 "ctypes" --- A foreign function library for Python
 **************************************************
 
@@ -2367,5 +2368,6 @@ class ctypes._Pointer
       Returns the object to which to pointer points.  Assigning to
       this attribute changes the pointer to point to the assigned
       object.
+"modules/ctypes.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

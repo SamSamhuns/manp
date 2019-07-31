@@ -1,4 +1,5 @@
 R"==~~~~==(csv~~CPP==map==key==delim~~
+"modules/csv.txt"
 "csv" --- CSV File Reading and Writing
 **************************************
 
@@ -514,5 +515,6 @@ easily be done:
     that use "\r\n" linendings on write an extra "\r" will be added.
     It should always be safe to specify "newline=''", since the csv
     module does its own (*universal*) newline handling.
+"modules/csv.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

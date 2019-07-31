@@ -1,3 +1,4 @@
+"modules/wave.txt"
 "wave" --- Read and write WAV files
 ***********************************
 
@@ -205,3 +206,4 @@ Wave_write.writeframes(data)
 Note that it is invalid to set any parameters after calling
 "writeframes()" or "writeframesraw()", and any attempt to do so will
 raise "wave.Error".
+"modules/wave.txt"

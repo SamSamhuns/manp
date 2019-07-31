@@ -1,4 +1,5 @@
 R"==~~~~==(lzma~~CPP==map==key==delim~~
+"modules/lzma.txt"
 "lzma" --- Compression using the LZMA algorithm
 ***********************************************
 
@@ -451,5 +452,6 @@ Creating a compressed file using a custom filter chain:
    ]
    with lzma.open("file.xz", "w", filters=my_filters) as f:
        f.write(b"blah blah blah")
+"modules/lzma.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

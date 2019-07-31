@@ -1,3 +1,4 @@
+"modules/distribution.txt"
 Software Packaging and Distribution
 ***********************************
 
@@ -41,3 +42,4 @@ server, or without any index server at all.
     * Caveats
 
   * The Python Zip Application Archive Format
+"modules/distribution.txt"

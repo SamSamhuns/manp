@@ -1,4 +1,5 @@
 R"==~~~~==(calendar~~CPP==map==key==delim~~
+"modules/calendar.txt"
 "calendar" --- General calendar-related functions
 *************************************************
 
@@ -383,5 +384,6 @@ See also:
 
   Module "time"
      Low-level time related functions.
+"modules/calendar.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

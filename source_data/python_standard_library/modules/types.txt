@@ -1,3 +1,4 @@
+"modules/types.txt"
 "types" --- Dynamic type creation and names for built-in types
 **************************************************************
 
@@ -354,3 +355,4 @@ types.coroutine(gen_func)
    objects will be returned as is.
 
    New in version 3.5.
+"modules/types.txt"

@@ -1,3 +1,4 @@
+"modules/tokenize.txt"
 "tokenize" --- Tokenizer for Python source
 ******************************************
 
@@ -248,3 +249,4 @@ The exact token type names can be displayed using the "-e" option:
    4,10-4,11:          RPAR           ')'
    4,11-4,12:          NEWLINE        '\n'
    5,0-5,0:            ENDMARKER      ''
+"modules/tokenize.txt"

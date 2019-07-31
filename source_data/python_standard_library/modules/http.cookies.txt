@@ -1,3 +1,4 @@
+"modules/http.cookies.txt"
 "http.cookies" --- HTTP state management
 ****************************************
 
@@ -256,3 +257,4 @@ module.
    >>> print(C)
    Set-Cookie: number=7
    Set-Cookie: string=seven
+"modules/http.cookies.txt"

@@ -1,4 +1,5 @@
 R"==~~~~==(asyncio-policy~~CPP==map==key==delim~~
+"modules/asyncio-policy.txt"
 Policies
 ********
 
@@ -208,5 +209,6 @@ behavior is wanted, e.g.:
            return loop
 
    asyncio.set_event_loop_policy(MyEventLoopPolicy())
+"modules/asyncio-policy.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

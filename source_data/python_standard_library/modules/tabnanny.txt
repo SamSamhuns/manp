@@ -1,3 +1,4 @@
+"modules/tabnanny.txt"
 "tabnanny" --- Detection of ambiguous indentation
 *************************************************
 
@@ -46,3 +47,4 @@ See also:
 
   Module "tokenize"
      Lexical scanner for Python source code.
+"modules/tabnanny.txt"

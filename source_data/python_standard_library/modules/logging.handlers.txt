@@ -1,3 +1,4 @@
+"modules/logging.handlers.txt"
 "logging.handlers" --- Logging handlers
 ***************************************
 
@@ -1059,3 +1060,4 @@ See also:
 
   Module "logging.config"
      Configuration API for the logging module.
+"modules/logging.handlers.txt"

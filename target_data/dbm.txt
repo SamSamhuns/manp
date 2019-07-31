@@ -1,4 +1,5 @@
 R"==~~~~==(dbm~~CPP==map==key==delim~~
+"modules/dbm.txt"
 "dbm" --- Interfaces to Unix "databases"
 ****************************************
 
@@ -352,5 +353,6 @@ dbm.dumb.open(filename[, flag[, mode]])
    dumbdbm.close()
 
       Close the "dumbdbm" database.
+"modules/dbm.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

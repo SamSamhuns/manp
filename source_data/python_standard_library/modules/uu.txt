@@ -1,3 +1,4 @@
+"modules/uu.txt"
 "uu" --- Encode and decode uuencode files
 *****************************************
 
@@ -55,3 +56,4 @@ See also:
   Module "binascii"
      Support module containing ASCII-to-binary and binary-to-ASCII
      conversions.
+"modules/uu.txt"

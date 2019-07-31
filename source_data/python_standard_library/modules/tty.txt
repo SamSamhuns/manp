@@ -1,3 +1,4 @@
+"modules/tty.txt"
 "tty" --- Terminal control functions
 ************************************
 
@@ -28,3 +29,4 @@ See also:
 
   Module "termios"
      Low-level terminal control interface.
+"modules/tty.txt"

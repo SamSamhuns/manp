@@ -1,3 +1,4 @@
+"modules/filecmp.txt"
 "filecmp" --- File and Directory Comparisons
 ********************************************
 
@@ -176,3 +177,4 @@ files:
    ...
    >>> dcmp = dircmp('dir1', 'dir2') 
    >>> print_diff_files(dcmp) 
+"modules/filecmp.txt"

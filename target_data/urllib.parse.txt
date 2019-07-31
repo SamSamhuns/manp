@@ -1,4 +1,5 @@
 R"==~~~~==(urllib.parse~~CPP==map==key==delim~~
+"modules/urllib.parse.txt"
 "urllib.parse" --- Parse URLs into components
 *********************************************
 
@@ -623,5 +624,6 @@ See also:
 
   **RFC 1738** - Uniform Resource Locators (URL)
      This specifies the formal syntax and semantics of absolute URLs.
+"modules/urllib.parse.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

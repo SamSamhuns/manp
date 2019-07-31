@@ -1,3 +1,4 @@
+"modules/mimetypes.txt"
 "mimetypes" --- Map filenames to MIME types
 *******************************************
 
@@ -241,3 +242,4 @@ class mimetypes.MimeTypes(filenames=(), strict=True)
       standard types, else to the list of non-standard types.
 
       New in version 3.2.
+"modules/mimetypes.txt"

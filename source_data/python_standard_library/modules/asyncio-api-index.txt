@@ -1,3 +1,4 @@
+"modules/asyncio-api-index.txt"
 High-level API Index
 ********************
 
@@ -159,3 +160,4 @@ Exceptions
 * Handling CancelledError to run code on cancellation request.
 
 * See also the full list of asyncio-specific exceptions.
+"modules/asyncio-api-index.txt"

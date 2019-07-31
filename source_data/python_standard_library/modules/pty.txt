@@ -1,3 +1,4 @@
+"modules/pty.txt"
 "pty" --- Pseudo-terminal utilities
 ***********************************
 
@@ -103,3 +104,4 @@ in a "typescript".
 
        script.write(('Script done on %s\n' % time.asctime()).encode())
        print('Script done, file is', filename)
+"modules/pty.txt"

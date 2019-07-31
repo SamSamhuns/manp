@@ -1,4 +1,5 @@
 R"==~~~~==(xml.sax.reader~~CPP==map==key==delim~~
+"modules/xml.sax.reader.txt"
 "xml.sax.xmlreader" --- Interface for XML parsers
 *************************************************
 
@@ -335,5 +336,6 @@ AttributesNS.getQNameByName(name)
 AttributesNS.getQNames()
 
    Return the qualified names of all attributes.
+"modules/xml.sax.reader.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

@@ -1,3 +1,4 @@
+"modules/dbm.txt"
 "dbm" --- Interfaces to Unix "databases"
 ****************************************
 
@@ -351,3 +352,4 @@ dbm.dumb.open(filename[, flag[, mode]])
    dumbdbm.close()
 
       Close the "dumbdbm" database.
+"modules/dbm.txt"

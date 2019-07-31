@@ -1,4 +1,5 @@
 R"==~~~~==(pyexpat~~CPP==map==key==delim~~
+"modules/pyexpat.txt"
 "xml.parsers.expat" --- Fast XML parsing using Expat
 ****************************************************
 
@@ -757,5 +758,6 @@ xml.parsers.expat.errors.XML_ERROR_SUSPEND_PE
     xml11-20060816/#NT- EncodingDecl and
     https://www.iana.org/assignments/character-sets /character-
     sets.xhtml.
+"modules/pyexpat.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

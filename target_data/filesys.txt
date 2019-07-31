@@ -1,4 +1,5 @@
 R"==~~~~==(filesys~~CPP==map==key==delim~~
+"modules/filesys.txt"
 File and Directory Access
 *************************
 
@@ -79,5 +80,6 @@ See also:
   Built-in function "open()"
      The standard way to open files for reading and writing with
      Python.
+"modules/filesys.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

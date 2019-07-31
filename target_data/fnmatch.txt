@@ -1,4 +1,5 @@
 R"==~~~~==(fnmatch~~CPP==map==key==delim~~
+"modules/fnmatch.txt"
 "fnmatch" --- Unix filename pattern matching
 ********************************************
 
@@ -82,5 +83,6 @@ See also:
 
   Module "glob"
      Unix shell-style path expansion.
+"modules/fnmatch.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

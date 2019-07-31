@@ -1,4 +1,5 @@
 R"==~~~~==(gc~~CPP==map==key==delim~~
+"modules/gc.txt"
 "gc" --- Garbage Collector interface
 ************************************
 
@@ -275,5 +276,6 @@ gc.DEBUG_LEAK
    The debugging flags necessary for the collector to print
    information about a leaking program (equal to "DEBUG_COLLECTABLE |
    DEBUG_UNCOLLECTABLE | DEBUG_SAVEALL").
+"modules/gc.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

@@ -1,3 +1,4 @@
+"modules/contextlib.txt"
 "contextlib" --- Utilities for "with"-statement contexts
 ********************************************************
 
@@ -868,3 +869,4 @@ instance avoids that problem:
    Callback: from inner context
    Leaving outer context
    Callback: from outer context
+"modules/contextlib.txt"

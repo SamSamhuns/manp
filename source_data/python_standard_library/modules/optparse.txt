@@ -1,3 +1,4 @@
+"modules/optparse.txt"
 "optparse" --- Parser for command line options
 **********************************************
 
@@ -1986,3 +1987,4 @@ Features of note:
   for the option destinations in question; they can just leave the
   default as "None" and "ensure_value()" will take care of getting it
   right when it's needed.
+"modules/optparse.txt"

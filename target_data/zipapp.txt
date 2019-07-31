@@ -1,4 +1,5 @@
 R"==~~~~==(zipapp~~CPP==map==key==delim~~
+"modules/zipapp.txt"
 "zipapp" --- Manage executable Python zip archives
 **************************************************
 
@@ -442,5 +443,6 @@ There is no requirement that the tools in this module are used to
 create application archives - the module is a convenience, but
 archives in the above format created by any means are acceptable to
 Python.
+"modules/zipapp.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

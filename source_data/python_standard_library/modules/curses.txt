@@ -1,3 +1,4 @@
+"modules/curses.txt"
 "curses" --- Terminal handling for character-cell displays
 **********************************************************
 
@@ -1709,3 +1710,4 @@ class curses.textpad.Textbox(win)
       on a trailing blank goes to the end of that line instead, and
       trailing blanks are stripped when the window contents are
       gathered.
+"modules/curses.txt"

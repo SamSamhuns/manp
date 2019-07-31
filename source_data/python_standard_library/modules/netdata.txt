@@ -1,3 +1,4 @@
+"modules/netdata.txt"
 Internet Data Handling
 **********************
 
@@ -116,3 +117,4 @@ commonly used on the Internet.
 * "quopri" --- Encode and decode MIME quoted-printable data
 
 * "uu" --- Encode and decode uuencode files
+"modules/netdata.txt"

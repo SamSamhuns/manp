@@ -1,4 +1,5 @@
 R"==~~~~==(ossaudiodev~~CPP==map==key==delim~~
+"modules/ossaudiodev.txt"
 "ossaudiodev" --- Access to OSS-compatible audio devices
 ********************************************************
 
@@ -386,5 +387,6 @@ oss_mixer_device.set_recsrc(bitmask)
    To set the current recording source to the microphone input:
 
       mixer.setrecsrc (1 << ossaudiodev.SOUND_MIXER_MIC)
+"modules/ossaudiodev.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

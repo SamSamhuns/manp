@@ -1,6 +1,8 @@
+"modules/concurrent.txt"
 The "concurrent" package
 ************************
 
 Currently, there is only one module in this package:
 
 * "concurrent.futures" -- Launching parallel tasks
+"modules/concurrent.txt"

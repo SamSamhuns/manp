@@ -1,3 +1,4 @@
+"modules/subprocess.txt"
 "subprocess" --- Subprocess management
 **************************************
 
@@ -1314,3 +1315,4 @@ See also:
 
   "shlex"
      Module which provides function to parse and escape command lines.
+"modules/subprocess.txt"

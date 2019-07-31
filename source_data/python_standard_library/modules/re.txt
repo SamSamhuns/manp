@@ -1,3 +1,4 @@
+"modules/re.txt"
 "re" --- Regular expression operations
 **************************************
 
@@ -1524,3 +1525,4 @@ The tokenizer produces the following output:
          ed., O'Reilly Media, 2009. The third edition of the book no
          longer covers Python at all, but the first edition covered
          writing good regular expression patterns in great detail.
+"modules/re.txt"

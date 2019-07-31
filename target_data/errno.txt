@@ -1,4 +1,5 @@
 R"==~~~~==(errno~~CPP==map==key==delim~~
+"modules/errno.txt"
 "errno" --- Standard errno system symbols
 *****************************************
 
@@ -513,5 +514,6 @@ errno.EREMOTEIO
 errno.EDQUOT
 
    Quota exceeded
+"modules/errno.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

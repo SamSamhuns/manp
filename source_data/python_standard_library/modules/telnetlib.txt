@@ -1,3 +1,4 @@
+"modules/telnetlib.txt"
 "telnetlib" --- Telnet client
 *****************************
 
@@ -221,3 +222,4 @@ A simple example illustrating typical use:
    tn.write(b"exit\n")
 
    print(tn.read_all().decode('ascii'))
+"modules/telnetlib.txt"

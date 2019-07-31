@@ -1,3 +1,4 @@
+"modules/dataclasses.txt"
 "dataclasses" --- Data Classes
 ******************************
 
@@ -590,3 +591,4 @@ exception dataclasses.FrozenInstanceError
    Raised when an implicitly defined "__setattr__()" or
    "__delattr__()" is called on a dataclass which was defined with
    "frozen=True".
+"modules/dataclasses.txt"

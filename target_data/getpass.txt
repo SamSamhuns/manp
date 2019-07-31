@@ -1,4 +1,5 @@
 R"==~~~~==(getpass~~CPP==map==key==delim~~
+"modules/getpass.txt"
 "getpass" --- Portable password input
 *************************************
 
@@ -40,5 +41,6 @@ getpass.getuser()
    support the "pwd" module, otherwise, an exception is raised.
 
    In general, this function should be preferred over "os.getlogin()".
+"modules/getpass.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

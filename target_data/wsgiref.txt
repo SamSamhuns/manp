@@ -1,4 +1,5 @@
 R"==~~~~==(wsgiref~~CPP==map==key==delim~~
+"modules/wsgiref.txt"
 "wsgiref" --- WSGI Utilities and Reference Implementation
 *********************************************************
 
@@ -745,5 +746,6 @@ This is a working "Hello World" WSGI application:
 
        # Serve until process is killed
        httpd.serve_forever()
+"modules/wsgiref.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

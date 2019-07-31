@@ -1,3 +1,4 @@
+"modules/glob.txt"
 "glob" --- Unix style pathname pattern expansion
 ************************************************
 
@@ -85,3 +86,4 @@ See also:
 
   Module "fnmatch"
      Shell-style filename (not path) expansion
+"modules/glob.txt"

@@ -1,4 +1,5 @@
 R"==~~~~==(numeric~~CPP==map==key==delim~~
+"modules/numeric.txt"
 Numeric and Mathematical Modules
 ********************************
 
@@ -106,5 +107,6 @@ The following modules are documented in this chapter:
   * Function details
 
   * Exceptions
+"modules/numeric.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

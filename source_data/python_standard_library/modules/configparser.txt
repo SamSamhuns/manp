@@ -1,3 +1,4 @@
+"modules/configparser.txt"
 "configparser" --- Configuration file parser
 ********************************************
 
@@ -1220,3 +1221,4 @@ exception configparser.ParsingError
 [1] Config parsers allow for heavy customization.  If you are
     interested in changing the behaviour outlined by the footnote
     reference, consult the Customizing Parser Behaviour section.
+"modules/configparser.txt"

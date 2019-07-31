@@ -1,4 +1,5 @@
 R"==~~~~==(ensurepip~~CPP==map==key==delim~~
+"modules/ensurepip.txt"
 "ensurepip" --- Bootstrapping the "pip" installer
 *************************************************
 
@@ -126,5 +127,6 @@ ensurepip.bootstrap(root=None, upgrade=False, user=False, altinstall=False, defa
      required by "pip", but other software should not assume those
      dependencies will always be present by default (as the
      dependencies may be removed in a future version of "pip").
+"modules/ensurepip.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

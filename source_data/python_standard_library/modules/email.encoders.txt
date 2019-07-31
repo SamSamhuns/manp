@@ -1,3 +1,4 @@
+"modules/email.encoders.txt"
 "email.encoders": Encoders
 **************************
 
@@ -66,3 +67,4 @@ email.encoders.encode_noop(msg)
 
 [1] Note that encoding with "encode_quopri()" also encodes all
     tabs and space characters in the data.
+"modules/email.encoders.txt"

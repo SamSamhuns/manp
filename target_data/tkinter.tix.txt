@@ -1,4 +1,5 @@
 R"==~~~~==(tkinter.tix~~CPP==map==key==delim~~
+"modules/tkinter.tix.txt"
 "tkinter.tix" --- Extension widgets for Tk
 ******************************************
 
@@ -395,5 +396,6 @@ tixCommand.tix_resetoptions(newScheme, newFontSet[, newScmPrio])
    been has imported and inited, it is not possible to reset the color
    schemes and font sets using the "tix_config()" method. Instead, the
    "tix_resetoptions()" method must be used.
+"modules/tkinter.tix.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

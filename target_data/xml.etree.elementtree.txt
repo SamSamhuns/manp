@@ -1,4 +1,5 @@
 R"==~~~~==(xml.etree.elementtree~~CPP==map==key==delim~~
+"modules/xml.etree.elementtree.txt"
 "xml.etree.ElementTree" --- The ElementTree XML API
 ***************************************************
 
@@ -1131,5 +1132,6 @@ class xml.etree.ElementTree.ParseError
     xml11-20060816/#NT- EncodingDecl and
     https://www.iana.org/assignments/character-sets /character-
     sets.xhtml.
+"modules/xml.etree.elementtree.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

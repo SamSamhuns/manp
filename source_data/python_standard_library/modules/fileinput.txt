@@ -1,3 +1,4 @@
+"modules/fileinput.txt"
 "fileinput" --- Iterate over lines from multiple input streams
 **************************************************************
 
@@ -193,3 +194,4 @@ fileinput.hook_encoded(encoding, errors=None)
    "surrogateescape"))"
 
    Changed in version 3.6: Added the optional *errors* parameter.
+"modules/fileinput.txt"

@@ -1,4 +1,5 @@
 R"==~~~~==(faulthandler~~CPP==map==key==delim~~
+"modules/faulthandler.txt"
 "faulthandler" --- Dump the Python traceback
 ********************************************
 
@@ -168,5 +169,6 @@ fault handler:
      File "/home/python/cpython/Lib/ctypes/__init__.py", line 486 in string_at
      File "<stdin>", line 1 in <module>
    Segmentation fault
+"modules/faulthandler.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

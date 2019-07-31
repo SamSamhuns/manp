@@ -1,3 +1,4 @@
+"modules/email.generator.txt"
 "email.generator": Generating MIME documents
 ********************************************
 
@@ -252,3 +253,4 @@ class email.generator.DecodedGenerator(outfp, mangle_from_=None, maxheaderlen=No
     occasionally information about the exact original text is lost
     during parsing error recovery.  It is a goal to fix these latter
     edge cases when possible.
+"modules/email.generator.txt"

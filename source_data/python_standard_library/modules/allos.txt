@@ -1,3 +1,4 @@
+"modules/allos.txt"
 Generic Operating System Services
 *********************************
 
@@ -361,3 +362,4 @@ as well.  Here's an overview:
     * Structured data types
 
     * Arrays and pointers
+"modules/allos.txt"

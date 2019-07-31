@@ -1,3 +1,4 @@
+"modules/unittest.mock-examples.txt"
 "unittest.mock" --- getting started
 ***********************************
 
@@ -1271,3 +1272,4 @@ message.
 As of version 1.5, the Python testing library PyHamcrest provides
 similar functionality, that may be useful here, in the form of its
 equality matcher (hamcrest.library.integration.match_equality).
+"modules/unittest.mock-examples.txt"

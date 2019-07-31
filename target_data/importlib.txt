@@ -1,4 +1,5 @@
 R"==~~~~==(importlib~~CPP==map==key==delim~~
+"modules/importlib.txt"
 "importlib" --- The implementation of "import"
 **********************************************
 
@@ -1688,5 +1689,6 @@ parts of the code).
        if path is not None:
            setattr(parent_module, child_name, module)
        return module
+"modules/importlib.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

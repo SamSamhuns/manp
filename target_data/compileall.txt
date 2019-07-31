@@ -1,4 +1,5 @@
 R"==~~~~==(compileall~~CPP==map==key==delim~~
+"modules/compileall.txt"
 "compileall" --- Byte-compile Python libraries
 **********************************************
 
@@ -262,5 +263,6 @@ See also:
 
   Module "py_compile"
      Byte-compile a single source file.
+"modules/compileall.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

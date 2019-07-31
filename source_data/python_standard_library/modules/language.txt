@@ -1,3 +1,4 @@
+"modules/language.txt"
 Python Language Services
 ************************
 
@@ -82,3 +83,4 @@ These modules include:
     * Command line options
 
   * Programmatic Interface
+"modules/language.txt"

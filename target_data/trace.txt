@@ -1,4 +1,5 @@
 R"==~~~~==(trace~~CPP==map==key==delim~~
+"modules/trace.txt"
 "trace" --- Trace or track Python statement execution
 *****************************************************
 
@@ -203,5 +204,6 @@ A simple example demonstrating the use of the programmatic interface:
    # make a report, placing output in the current directory
    r = tracer.results()
    r.write_results(show_missing=True, coverdir=".")
+"modules/trace.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

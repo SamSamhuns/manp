@@ -1,4 +1,5 @@
 R"==~~~~==(tk~~CPP==map==key==delim~~
+"modules/tk.txt"
 Graphical User Interfaces with Tk
 *********************************
 
@@ -237,5 +238,6 @@ Graphical User Interface Packages section.
     * Extensions
 
 * Other Graphical User Interface Packages
+"modules/tk.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

@@ -1,4 +1,5 @@
 R"==~~~~==(json~~CPP==map==key==delim~~
+"modules/json.txt"
 "json" --- JSON encoder and decoder
 ***********************************
 
@@ -692,5 +693,6 @@ outfile
     U+2028 (LINE SEPARATOR) and U+2029 (PARAGRAPH SEPARATOR)
     characters in strings, whereas JavaScript (as of ECMAScript
     Edition 5.1) does not.
+"modules/json.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

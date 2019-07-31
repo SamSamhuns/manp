@@ -1,4 +1,5 @@
 R"==~~~~==(typing~~CPP==map==key==delim~~
+"modules/typing.txt"
 "typing" --- Support for type hints
 ***********************************
 
@@ -1149,5 +1150,6 @@ typing.TYPE_CHECKING
    to be enclosed in quotes.
 
    New in version 3.5.2.
+"modules/typing.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

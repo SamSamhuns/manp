@@ -1,3 +1,4 @@
+"modules/tempfile.txt"
 "tempfile" --- Generate temporary files and directories
 *******************************************************
 
@@ -313,3 +314,4 @@ tempfile.mktemp(suffix='', prefix='tmp', dir=None)
         >>> os.unlink(f.name)
         >>> os.path.exists(f.name)
         False
+"modules/tempfile.txt"

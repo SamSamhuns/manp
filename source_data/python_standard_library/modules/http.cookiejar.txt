@@ -1,3 +1,4 @@
+"modules/http.cookiejar.txt"
 "http.cookiejar" --- Cookie handling for HTTP clients
 *****************************************************
 
@@ -697,3 +698,4 @@ cookies or having them returned:
    cj = CookieJar(policy)
    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
    r = opener.open("http://example.com/")
+"modules/http.cookiejar.txt"

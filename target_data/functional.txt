@@ -1,4 +1,5 @@
 R"==~~~~==(functional~~CPP==map==key==delim~~
+"modules/functional.txt"
 Functional Programming Modules
 ******************************
 
@@ -24,5 +25,6 @@ The following modules are documented in this chapter:
   * Mapping Operators to Functions
 
   * In-place Operators
+"modules/functional.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

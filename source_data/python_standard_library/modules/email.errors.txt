@@ -1,3 +1,4 @@
+"modules/email.errors.txt"
 "email.errors": Exception and Defect classes
 ********************************************
 
@@ -107,3 +108,4 @@ All defect classes are subclassed from "email.errors.MessageDefect".
   encoded bytes, the number of non-padding base64 characters was
   invalid (1 more than a multiple of 4).  The encoded block was kept
   as-is.
+"modules/email.errors.txt"

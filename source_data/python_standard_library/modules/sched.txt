@@ -1,3 +1,4 @@
+"modules/sched.txt"
 "sched" --- Event scheduler
 ***************************
 
@@ -122,3 +123,4 @@ scheduler.queue
    order they will be run.  Each event is shown as a *named tuple*
    with the following fields:  time, priority, action, argument,
    kwargs.
+"modules/sched.txt"

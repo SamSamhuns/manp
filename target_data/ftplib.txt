@@ -1,4 +1,5 @@
 R"==~~~~==(ftplib~~CPP==map==key==delim~~
+"modules/ftplib.txt"
 "ftplib" --- FTP protocol client
 ********************************
 
@@ -408,5 +409,6 @@ FTP_TLS.prot_p()
 FTP_TLS.prot_c()
 
    Set up clear text data connection.
+"modules/ftplib.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

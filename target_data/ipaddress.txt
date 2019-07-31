@@ -1,4 +1,5 @@
 R"==~~~~==(ipaddress~~CPP==map==key==delim~~
+"modules/ipaddress.txt"
 "ipaddress" --- IPv4/IPv6 manipulation library
 **********************************************
 
@@ -967,5 +968,6 @@ exception ipaddress.AddressValueError(ValueError)
 exception ipaddress.NetmaskValueError(ValueError)
 
    Any value error related to the net mask.
+"modules/ipaddress.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

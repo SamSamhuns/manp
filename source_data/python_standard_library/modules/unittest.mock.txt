@@ -1,3 +1,4 @@
+"modules/unittest.mock.txt"
 "unittest.mock" --- mock object library
 ***************************************
 
@@ -2441,3 +2442,4 @@ unittest.mock.seal(mock)
    >>> mock.not_submock.attribute2  # This won't raise.
 
    New in version 3.7.
+"modules/unittest.mock.txt"

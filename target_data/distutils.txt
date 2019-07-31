@@ -1,4 +1,5 @@
 R"==~~~~==(distutils~~CPP==map==key==delim~~
+"modules/distutils.txt"
 "distutils" --- Building and installing Python modules
 ******************************************************
 
@@ -42,5 +43,6 @@ reference remain available:
 * Installing Python Modules (Legacy version)
 
 * Distributing Python Modules (Legacy version)
+"modules/distutils.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

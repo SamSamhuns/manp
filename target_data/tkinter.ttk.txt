@@ -1,4 +1,5 @@
 R"==~~~~==(tkinter.ttk~~CPP==map==key==delim~~
+"modules/tkinter.ttk.txt"
 "tkinter.ttk" --- Tk themed widgets
 ***********************************
 
@@ -1473,5 +1474,6 @@ options/values are:
         Specifies a list of elements to place inside the element. Each
         element is a tuple (or other sequence type) where the first
         item is the layout name, and the other is a Layout.
+"modules/tkinter.ttk.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

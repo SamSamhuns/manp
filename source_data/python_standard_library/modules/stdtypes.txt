@@ -1,3 +1,4 @@
+"modules/stdtypes.txt"
 Built-in Types
 **************
 
@@ -4258,3 +4259,4 @@ class.__subclasses__()
 
 [5] To format only a tuple you should therefore provide a
     singleton tuple whose only element is the tuple to be formatted.
+"modules/stdtypes.txt"

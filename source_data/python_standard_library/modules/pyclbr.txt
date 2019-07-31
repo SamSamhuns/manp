@@ -1,3 +1,4 @@
+"modules/pyclbr.txt"
 "pyclbr" --- Python class browser support
 *****************************************
 
@@ -128,3 +129,4 @@ Class.methods
    A dictionary mapping method names to line numbers.  This can be
    derived from the newer children dictionary, but remains for back-
    compatibility.
+"modules/pyclbr.txt"

@@ -1,3 +1,4 @@
+"modules/urllib.robotparser.txt"
 "urllib.robotparser" ---  Parser for robots.txt
 ***********************************************
 
@@ -83,3 +84,4 @@ class:
    False
    >>> rp.can_fetch("*", "http://www.musi-cal.com/")
    True
+"modules/urllib.robotparser.txt"

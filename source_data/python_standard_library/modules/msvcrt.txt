@@ -1,3 +1,4 @@
+"modules/msvcrt.txt"
 "msvcrt" --- Useful routines from the MS VC++ runtime
 *****************************************************
 
@@ -126,3 +127,4 @@ msvcrt.heapmin()
 
    Force the "malloc()" heap to clean itself up and return unused
    blocks to the operating system.  On failure, this raises "OSError".
+"modules/msvcrt.txt"

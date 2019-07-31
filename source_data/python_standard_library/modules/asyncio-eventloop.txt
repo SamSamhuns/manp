@@ -1,3 +1,4 @@
+"modules/asyncio-eventloop.txt"
 Event Loop
 **********
 
@@ -1517,3 +1518,4 @@ Register handlers for signals "SIGINT" and "SIGTERM" using the
    print(f"pid {os.getpid()}: send SIGINT or SIGTERM to exit.")
 
    asyncio.run(main())
+"modules/asyncio-eventloop.txt"

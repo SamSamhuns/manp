@@ -1,4 +1,5 @@
 R"==~~~~==(shelve~~CPP==map==key==delim~~
+"modules/shelve.txt"
 "shelve" --- Python object persistence
 **************************************
 
@@ -183,5 +184,6 @@ See also:
 
   Module "pickle"
      Object serialization used by "shelve".
+"modules/shelve.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

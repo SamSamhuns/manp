@@ -1,3 +1,4 @@
+"modules/nis.txt"
 "nis" --- Interface to Sun's NIS (Yellow Pages)
 ***********************************************
 
@@ -52,3 +53,4 @@ The "nis" module defines the following exception:
 exception nis.error
 
    An error raised when a NIS function returns an error code.
+"modules/nis.txt"

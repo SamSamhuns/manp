@@ -1,4 +1,5 @@
 R"==~~~~==(macpath~~CPP==map==key==delim~~
+"modules/macpath.txt"
 "macpath" --- Mac OS 9 path manipulation functions
 **************************************************
 
@@ -16,5 +17,6 @@ The following functions are available in this module: "normcase()",
 "normpath()", "isabs()", "join()", "split()", "isdir()", "isfile()",
 "walk()", "exists()". For other functions available in "os.path" dummy
 counterparts are available.
+"modules/macpath.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

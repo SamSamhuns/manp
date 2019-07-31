@@ -1,4 +1,5 @@
 R"==~~~~==(keyword~~CPP==map==key==delim~~
+"modules/keyword.txt"
 "keyword" --- Testing for Python keywords
 *****************************************
 
@@ -19,5 +20,6 @@ keyword.kwlist
    If any keywords are defined to only be active when particular
    "__future__" statements are in effect, these will be included as
    well.
+"modules/keyword.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

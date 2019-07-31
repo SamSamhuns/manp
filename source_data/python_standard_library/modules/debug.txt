@@ -1,3 +1,4 @@
+"modules/debug.txt"
 Debugging and Profiling
 ***********************
 
@@ -98,3 +99,4 @@ programs.
     * Trace
 
     * Traceback
+"modules/debug.txt"

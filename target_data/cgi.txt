@@ -1,4 +1,5 @@
 R"==~~~~==(cgi~~CPP==map==key==delim~~
+"modules/cgi.txt"
 "cgi" --- Common Gateway Interface support
 ******************************************
 
@@ -526,5 +527,6 @@ Common problems and solutions
     state what order the field values should be supplied in, but
     knowing whether a request was received from a conforming browser,
     or even from a browser at all, is tedious and error-prone.
+"modules/cgi.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

@@ -1,4 +1,5 @@
 R"==~~~~==(asyncio-queue~~CPP==map==key==delim~~
+"modules/asyncio-queue.txt"
 Queues
 ******
 
@@ -191,5 +192,6 @@ tasks:
 
 
    asyncio.run(main())
+"modules/asyncio-queue.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

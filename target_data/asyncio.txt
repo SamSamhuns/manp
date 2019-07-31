@@ -1,4 +1,5 @@
 R"==~~~~==(asyncio~~CPP==map==key==delim~~
+"modules/asyncio.txt"
 "asyncio" --- Asynchronous I/O
 ******************************
 
@@ -86,5 +87,6 @@ Guides and Tutorials
 * Low-level API Index
 
 * Developing with asyncio
+"modules/asyncio.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

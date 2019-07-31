@@ -1,4 +1,5 @@
 R"==~~~~==(debug~~CPP==map==key==delim~~
+"modules/debug.txt"
 Debugging and Profiling
 ***********************
 
@@ -99,5 +100,6 @@ programs.
     * Trace
 
     * Traceback
+"modules/debug.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

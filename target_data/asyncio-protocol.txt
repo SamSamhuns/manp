@@ -1,4 +1,5 @@
 R"==~~~~==(asyncio-protocol~~CPP==map==key==delim~~
+"modules/asyncio-protocol.txt"
 Transports and Protocols
 ************************
 
@@ -978,5 +979,6 @@ The subprocess is created by th "loop.subprocess_exec()" method:
    print(f"Current date: {date}")
 
 See also the same example written using high-level APIs.
+"modules/asyncio-protocol.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

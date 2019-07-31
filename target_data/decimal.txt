@@ -1,4 +1,5 @@
 R"==~~~~==(decimal~~CPP==map==key==delim~~
+"modules/decimal.txt"
 "decimal" --- Decimal fixed point and floating point arithmetic
 ***************************************************************
 
@@ -2041,5 +2042,6 @@ for unrounded calculations.
 >>> c.Emin = MIN_EMIN
 
 New in version 3.3.
+"modules/decimal.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

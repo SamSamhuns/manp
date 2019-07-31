@@ -1,4 +1,5 @@
 R"==~~~~==(site~~CPP==map==key==delim~~
+"modules/site.txt"
 "site" --- Site-specific configuration hook
 *******************************************
 
@@ -224,5 +225,6 @@ disabled by the user, "2" if it is disabled for security reasons or by
 an administrator, and a value greater than 2 if there is an error.
 
 See also: **PEP 370** -- Per user site-packages directory
+"modules/site.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

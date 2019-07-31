@@ -1,3 +1,4 @@
+"modules/index.txt"
 The Python Standard Library
 ***************************
 
@@ -647,3 +648,4 @@ from the Python Package Index.
 * Undocumented Modules
 
   * Platform specific modules
+"modules/index.txt"

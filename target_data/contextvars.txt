@@ -1,4 +1,5 @@
 R"==~~~~==(contextvars~~CPP==map==key==delim~~
+"modules/contextvars.txt"
 "contextvars" --- Context Variables
 ***********************************
 
@@ -270,5 +271,6 @@ of a remote client available in the Task that handles that client:
 
    # To test it you can use telnet:
    #     telnet 127.0.0.1 8081
+"modules/contextvars.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

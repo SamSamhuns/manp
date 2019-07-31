@@ -1,4 +1,5 @@
 R"==~~~~==(shutil~~CPP==map==key==delim~~
+"modules/shutil.txt"
 "shutil" --- High-level file operations
 ***************************************
 
@@ -620,5 +621,6 @@ shutil.get_terminal_size(fallback=(columns, lines))
    Environment Variables.
 
    New in version 3.3.
+"modules/shutil.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

@@ -1,4 +1,5 @@
 R"==~~~~==(readline~~CPP==map==key==delim~~
+"modules/readline.txt"
 "readline" --- GNU readline interface
 *************************************
 
@@ -328,5 +329,6 @@ support history save/restore.
        def save_history(self, histfile):
            readline.set_history_length(1000)
            readline.write_history_file(histfile)
+"modules/readline.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

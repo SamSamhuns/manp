@@ -1,4 +1,5 @@
 R"==~~~~==(email.examples~~CPP==map==key==delim~~
+"modules/email.examples.txt"
 "email": Examples
 *****************
 
@@ -386,5 +387,6 @@ Up to the prompt, the output from the above is:
 
 [1] Thanks to Matthew Dixon Cowles for the original inspiration
     and examples.
+"modules/email.examples.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

@@ -1,3 +1,4 @@
+"modules/xml.dom.pulldom.txt"
 "xml.dom.pulldom" --- Support for building partial DOM trees
 ************************************************************
 
@@ -136,3 +137,4 @@ class xml.dom.pulldom.DOMEventStream(stream, parser, bufsize)
                  print(node.toxml())
 
    reset()
+"modules/xml.dom.pulldom.txt"

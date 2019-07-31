@@ -1,3 +1,4 @@
+"modules/cgitb.txt"
 "cgitb" --- Traceback manager for CGI scripts
 *********************************************
 
@@ -70,3 +71,4 @@ cgitb.handler(info=None)
    object, exactly like the tuple returned by "sys.exc_info()".  If
    the *info* argument is not supplied, the current exception is
    obtained from "sys.exc_info()".
+"modules/cgitb.txt"

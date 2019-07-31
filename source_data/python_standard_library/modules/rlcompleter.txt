@@ -1,3 +1,4 @@
+"modules/rlcompleter.txt"
 "rlcompleter" --- Completion function for GNU readline
 ******************************************************
 
@@ -53,3 +54,4 @@ Completer.complete(text, state)
    find matches for the rest via the "dir()" function.  Any exception
    raised during the evaluation of the expression is caught, silenced
    and "None" is returned.
+"modules/rlcompleter.txt"

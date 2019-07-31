@@ -1,3 +1,4 @@
+"modules/logging.config.txt"
 "logging.config" --- Logging configuration
 ******************************************
 
@@ -774,3 +775,4 @@ See also:
 
   Module "logging.handlers"
      Useful handlers included with the logging module.
+"modules/logging.config.txt"

@@ -1,4 +1,5 @@
 R"==~~~~==(html.parser~~CPP==map==key==delim~~
+"modules/html.parser.txt"
 "html.parser" --- Simple HTML and XHTML parser
 **********************************************
 
@@ -326,5 +327,6 @@ Parsing invalid HTML (e.g. unquoted attributes) also works:
    Data     : tag soup
    End tag  : p
    End tag  : a
+"modules/html.parser.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

@@ -1,4 +1,5 @@
 R"==~~~~==(asyncio-stream~~CPP==map==key==delim~~
+"modules/asyncio-stream.txt"
 Streams
 *******
 
@@ -415,5 +416,6 @@ See also: The register an open socket to wait for data using a
 
   The watch a file descriptor for read events example uses the low-
   level "loop.add_reader()" method to watch a file descriptor.
+"modules/asyncio-stream.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

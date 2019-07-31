@@ -1,3 +1,4 @@
+"modules/hmac.txt"
 "hmac" --- Keyed-Hashing for Message Authentication
 ***************************************************
 
@@ -117,3 +118,4 @@ See also:
 
   Module "hashlib"
      The Python module providing secure hash functions.
+"modules/hmac.txt"

@@ -1,4 +1,5 @@
 R"==~~~~==(datatypes~~CPP==map==key==delim~~
+"modules/datatypes.txt"
 Data Types
 **********
 
@@ -190,5 +191,6 @@ The following modules are documented in this chapter:
       * "Enum" classes with methods
 
       * Combining members of "Flag"
+"modules/datatypes.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

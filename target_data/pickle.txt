@@ -1,4 +1,5 @@
 R"==~~~~==(pickle~~CPP==map==key==delim~~
+"modules/pickle.txt"
 "pickle" --- Python object serialization
 ****************************************
 
@@ -973,5 +974,6 @@ See also:
     the persistent IDs, in protocol 0, are delimited by the newline
     character.  Therefore if any kind of newline characters occurs in
     persistent IDs, the resulting pickle will become unreadable.
+"modules/pickle.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

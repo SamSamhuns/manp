@@ -1,4 +1,5 @@
 R"==~~~~==(plistlib~~CPP==map==key==delim~~
+"modules/plistlib.txt"
 "plistlib" --- Generate and parse Mac OS X ".plist" files
 *********************************************************
 
@@ -207,5 +208,6 @@ Parsing a plist:
    with open(fileName, 'rb') as fp:
        pl = load(fp)
    print(pl["aKey"])
+"modules/plistlib.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

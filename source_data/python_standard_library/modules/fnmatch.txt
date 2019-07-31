@@ -1,3 +1,4 @@
+"modules/fnmatch.txt"
 "fnmatch" --- Unix filename pattern matching
 ********************************************
 
@@ -81,3 +82,4 @@ See also:
 
   Module "glob"
      Unix shell-style path expansion.
+"modules/fnmatch.txt"

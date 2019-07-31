@@ -1,3 +1,4 @@
+"modules/html.txt"
 "html" --- HyperText Markup Language support
 ********************************************
 
@@ -35,3 +36,4 @@ Submodules in the "html" package are:
 * "html.parser" -- HTML/XHTML parser with lenient parsing mode
 
 * "html.entities" -- HTML entity definitions
+"modules/html.txt"

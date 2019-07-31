@@ -1,3 +1,4 @@
+"modules/mmap.txt"
 "mmap" --- Memory-mapped file support
 *************************************
 
@@ -271,3 +272,4 @@ class mmap.mmap(fileno, length, flags=MAP_SHARED, prot=PROT_WRITE|PROT_READ, acc
       the file pointer; the file position is advanced by "1". If the
       mmap was created with "ACCESS_READ", then writing to it will
       raise a "TypeError" exception.
+"modules/mmap.txt"

@@ -1,4 +1,5 @@
 R"==~~~~==(quopri~~CPP==map==key==delim~~
+"modules/quopri.txt"
 "quopri" --- Encode and decode MIME quoted-printable data
 *********************************************************
 
@@ -52,5 +53,6 @@ See also:
 
   Module "base64"
      Encode and decode MIME base64 data
+"modules/quopri.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

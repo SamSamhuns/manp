@@ -1,3 +1,4 @@
+"modules/pathlib.txt"
 "pathlib" --- Object-oriented filesystem paths
 **********************************************
 
@@ -1076,3 +1077,4 @@ Note: Although "os.path.relpath()" and "PurePath.relative_to()" have
 +--------------------------------------+--------------------------------+
 | "os.path.splitext()"                 | "PurePath.suffix"              |
 +--------------------------------------+--------------------------------+
+"modules/pathlib.txt"

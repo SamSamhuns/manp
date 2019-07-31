@@ -1,4 +1,5 @@
 R"==~~~~==(xmlrpc.server~~CPP==map==key==delim~~
+"modules/xmlrpc.server.txt"
 "xmlrpc.server" --- Basic XML-RPC servers
 *****************************************
 
@@ -417,5 +418,6 @@ DocCGIXMLRPCRequestHandler.set_server_documentation(server_documentation)
    Set the description used in the generated HTML documentation. This
    description will appear as a paragraph, below the server name, in
    the documentation.
+"modules/xmlrpc.server.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

@@ -1,4 +1,5 @@
 R"==~~~~==(email~~CPP==map==key==delim~~
+"modules/email.txt"
 "email" --- An email and MIME handling package
 **********************************************
 
@@ -157,5 +158,6 @@ See also:
 
   Module "smtpd"
      SMTP server framework (primarily useful for testing)
+"modules/email.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

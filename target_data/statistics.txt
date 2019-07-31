@@ -1,4 +1,5 @@
 R"==~~~~==(statistics~~CPP==map==key==delim~~
+"modules/statistics.txt"
 "statistics" --- Mathematical statistics functions
 **************************************************
 
@@ -397,5 +398,6 @@ A single exception is defined:
 exception statistics.StatisticsError
 
    Subclass of "ValueError" for statistics-related exceptions.
+"modules/statistics.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

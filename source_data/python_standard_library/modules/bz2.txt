@@ -1,3 +1,4 @@
+"modules/bz2.txt"
 "bz2" --- Support for **bzip2** compression
 *******************************************
 
@@ -307,3 +308,4 @@ Writing and reading a bzip2-compressed file in binary mode:
 
 >>> content == data  # Check equality to original object after round-trip
 True
+"modules/bz2.txt"

@@ -1,3 +1,4 @@
+"modules/binhex.txt"
 "binhex" --- Encode and decode binhex4 files
 ********************************************
 
@@ -50,3 +51,4 @@ decoder, see the source for details.
 If you code or decode textfiles on non-Macintosh platforms they will
 still use the old Macintosh newline convention (carriage-return as end
 of line).
+"modules/binhex.txt"

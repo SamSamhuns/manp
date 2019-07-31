@@ -1,4 +1,5 @@
 R"==~~~~==(undoc~~CPP==map==key==delim~~
+"modules/undoc.txt"
 Undocumented Modules
 ********************
 
@@ -23,5 +24,6 @@ these.
 
 "posixpath"
    --- Implementation of "os.path" on POSIX.
+"modules/undoc.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

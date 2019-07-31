@@ -1,4 +1,5 @@
 R"==~~~~==(xml~~CPP==map==key==delim~~
+"modules/xml.txt"
 XML Processing Modules
 **********************
 
@@ -127,5 +128,6 @@ The "defusedexpat" module still allows a sane and configurable amount
 of entity expansions. The modifications may be included in some future
 release of Python, but will not be included in any bugfix releases of
 Python because they break backward compatibility.
+"modules/xml.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

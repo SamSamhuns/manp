@@ -1,4 +1,5 @@
 R"==~~~~==(zipfile~~CPP==map==key==delim~~
+"modules/zipfile.txt"
 "zipfile" --- Work with ZIP archives
 ************************************
 
@@ -639,5 +640,6 @@ Command-line options
 --test <zipfile>
 
    Test whether the zipfile is valid or not.
+"modules/zipfile.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

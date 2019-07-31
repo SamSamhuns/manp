@@ -1,3 +1,4 @@
+"modules/xmlrpc.txt"
 "xmlrpc" --- XMLRPC server and client modules
 *********************************************
 
@@ -12,3 +13,4 @@ implementing XML-RPC.  The modules are:
 * "xmlrpc.client"
 
 * "xmlrpc.server"
+"modules/xmlrpc.txt"

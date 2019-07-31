@@ -1,4 +1,5 @@
 R"==~~~~==(email.policy~~CPP==map==key==delim~~
+"modules/email.policy.txt"
 "email.policy": Policy Objects
 ******************************
 
@@ -585,5 +586,6 @@ email.policy.compat32
 -[ Footnotes ]-
 
 [1] Originally added in 3.3 as a *provisional feature*.
+"modules/email.policy.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

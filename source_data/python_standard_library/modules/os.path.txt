@@ -1,3 +1,4 @@
+"modules/os.path.txt"
 "os.path" --- Common pathname manipulations
 *******************************************
 
@@ -390,3 +391,4 @@ os.path.supports_unicode_filenames
 
    "True" if arbitrary Unicode strings can be used as file names
    (within limitations imposed by the file system).
+"modules/os.path.txt"

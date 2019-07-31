@@ -1,3 +1,4 @@
+"modules/turtle.txt"
 "turtle" --- Turtle graphics
 ****************************
 
@@ -2308,3 +2309,4 @@ Changes since Python 3.0
 
 * Two example scripts "tdemo_nim.py" and "tdemo_round_dance.py" have
   been added to the "Lib/turtledemo" directory.
+"modules/turtle.txt"

@@ -1,3 +1,4 @@
+"modules/operator.txt"
 "operator" --- Standard operators as functions
 **********************************************
 
@@ -506,3 +507,4 @@ operator.ixor(a, b)
 operator.__ixor__(a, b)
 
    "a = ixor(a, b)" is equivalent to "a ^= b".
+"modules/operator.txt"

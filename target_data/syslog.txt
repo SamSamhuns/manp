@@ -1,4 +1,5 @@
 R"==~~~~==(syslog~~CPP==map==key==delim~~
+"modules/syslog.txt"
 "syslog" --- Unix syslog library routines
 *****************************************
 
@@ -104,5 +105,6 @@ destination facility used for mail logging:
 
    syslog.openlog(logoption=syslog.LOG_PID, facility=syslog.LOG_MAIL)
    syslog.syslog('E-mail processing initiated...')
+"modules/syslog.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

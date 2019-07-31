@@ -1,4 +1,5 @@
 R"==~~~~==(termios~~CPP==map==key==delim~~
+"modules/termios.txt"
 "termios" --- POSIX style tty control
 *************************************
 
@@ -93,5 +94,6 @@ exactly no matter what happens:
        finally:
            termios.tcsetattr(fd, termios.TCSADRAIN, old)
        return passwd
+"modules/termios.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

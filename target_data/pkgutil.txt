@@ -1,4 +1,5 @@
 R"==~~~~==(pkgutil~~CPP==map==key==delim~~
+"modules/pkgutil.txt"
 "pkgutil" --- Package extension utility
 ***************************************
 
@@ -218,5 +219,6 @@ pkgutil.get_data(package, resource)
    which does not support "get_data", then "None" is returned.  In
    particular, the *loader* for *namespace packages* does not support
    "get_data".
+"modules/pkgutil.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

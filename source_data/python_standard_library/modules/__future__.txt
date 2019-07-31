@@ -1,3 +1,4 @@
+"modules/__future__.txt"
 "__future__" --- Future statement definitions
 *********************************************
 
@@ -90,3 +91,4 @@ See also:
 
   Future statements
      How the compiler treats future imports.
+"modules/__future__.txt"

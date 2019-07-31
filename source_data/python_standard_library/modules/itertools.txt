@@ -1,3 +1,4 @@
+"modules/itertools.txt"
 "itertools" --- Functions creating iterators for efficient looping
 ******************************************************************
 
@@ -912,3 +913,4 @@ the *dotproduct* recipe can be written as:
 
    def dotproduct(vec1, vec2, sum=sum, map=map, mul=operator.mul):
        return sum(map(mul, vec1, vec2))
+"modules/itertools.txt"

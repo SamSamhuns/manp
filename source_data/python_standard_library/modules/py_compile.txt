@@ -1,3 +1,4 @@
+"modules/py_compile.txt"
 "py_compile" --- Compile Python source files
 ********************************************
 
@@ -125,3 +126,4 @@ See also:
 
   Module "compileall"
      Utilities to compile all Python source files in a directory tree.
+"modules/py_compile.txt"

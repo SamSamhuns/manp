@@ -1,4 +1,5 @@
 R"==~~~~==(windows~~CPP==map==key==delim~~
+"modules/windows.txt"
 MS Windows Specific Services
 ****************************
 
@@ -52,5 +53,6 @@ platforms.
   * Registry Handle Objects
 
 * "winsound" --- Sound-playing interface for Windows
+"modules/windows.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

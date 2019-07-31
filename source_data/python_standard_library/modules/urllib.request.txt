@@ -1,3 +1,4 @@
+"modules/urllib.request.txt"
 "urllib.request" --- Extensible library for opening URLs
 ********************************************************
 
@@ -1452,3 +1453,4 @@ define a minimal file like interface, including "read()" and
 which defines an "info()" method and that returns headers and a
 "geturl()" method that returns the url. Functions defined by this
 module are used internally by the "urllib.request" module.
+"modules/urllib.request.txt"

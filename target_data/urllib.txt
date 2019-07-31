@@ -1,4 +1,5 @@
 R"==~~~~==(urllib~~CPP==map==key==delim~~
+"modules/urllib.txt"
 "urllib" --- URL handling modules
 *********************************
 
@@ -17,5 +18,6 @@ URLs:
 * "urllib.parse" for parsing URLs
 
 * "urllib.robotparser" for parsing "robots.txt" files
+"modules/urllib.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

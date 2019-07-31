@@ -1,3 +1,4 @@
+"modules/http.server.txt"
 "http.server" --- HTTP servers
 ******************************
 
@@ -468,3 +469,4 @@ class http.server.CGIHTTPRequestHandler(request, client_address, server)
 the "--cgi" option:
 
    python -m http.server --cgi 8000
+"modules/http.server.txt"

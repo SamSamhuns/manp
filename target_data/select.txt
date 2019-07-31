@@ -1,4 +1,5 @@
 R"==~~~~==(select~~CPP==map==key==delim~~
+"modules/select.txt"
 "select" --- Waiting for I/O completion
 ***************************************
 
@@ -596,5 +597,6 @@ kevent.data
 kevent.udata
 
    User defined value.
+"modules/select.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

@@ -1,3 +1,4 @@
+"modules/asyncio-sync.txt"
 Synchronization Primitives
 **************************
 
@@ -315,3 +316,4 @@ class asyncio.BoundedSemaphore(value=1, *, loop=None)
 Deprecated since version 3.7: Acquiring a lock using "await lock" or
 "yield from lock" and/or "with" statement ("with await lock", "with
 (yield from lock)") is deprecated.  Use "async with lock" instead.
+"modules/asyncio-sync.txt"

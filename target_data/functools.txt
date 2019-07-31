@@ -1,4 +1,5 @@
 R"==~~~~==(functools~~CPP==map==key==delim~~
+"modules/functools.txt"
 "functools" --- Higher-order functions and operations on callable objects
 *************************************************************************
 
@@ -487,5 +488,6 @@ important differences.  For instance, the "__name__" and "__doc__"
 attributes are not created automatically.  Also, "partial" objects
 defined in classes behave like static methods and do not transform
 into bound methods during instance attribute look-up.
+"modules/functools.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

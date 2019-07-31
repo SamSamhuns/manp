@@ -1,3 +1,4 @@
+"modules/superseded.txt"
 Superseded Modules
 ******************
 
@@ -89,3 +90,4 @@ backwards compatibility. They have been superseded by other modules.
 * "imp" --- Access the *import* internals
 
   * Examples
+"modules/superseded.txt"

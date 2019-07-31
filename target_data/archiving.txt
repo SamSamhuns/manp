@@ -1,4 +1,5 @@
 R"==~~~~==(archiving~~CPP==map==key==delim~~
+"modules/archiving.txt"
 Data Compression and Archiving
 ******************************
 
@@ -62,5 +63,6 @@ the "shutil" module.
   * Supported tar formats
 
   * Unicode issues
+"modules/archiving.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

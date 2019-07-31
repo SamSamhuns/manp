@@ -1,4 +1,5 @@
 R"==~~~~==(crypt~~CPP==map==key==delim~~
+"modules/crypt.txt"
 "crypt" --- Function to check Unix passwords
 ********************************************
 
@@ -155,5 +156,6 @@ and check it against the original:
    hashed = crypt.crypt(plaintext)
    if not compare_hash(hashed, crypt.crypt(plaintext, hashed)):
        raise ValueError("hashed version doesn't validate against original")
+"modules/crypt.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

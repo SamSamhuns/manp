@@ -1,3 +1,4 @@
+"modules/base64.txt"
 "base64" --- Base16, Base32, Base64, Base85 Data Encodings
 **********************************************************
 
@@ -265,3 +266,4 @@ See also:
   Message Bodies
      Section 5.2, "Base64 Content-Transfer-Encoding," provides the
      definition of the base64 encoding.
+"modules/base64.txt"

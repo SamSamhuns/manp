@@ -1,4 +1,5 @@
 R"==~~~~==(asynchat~~CPP==map==key==delim~~
+"modules/asynchat.txt"
 "asynchat" --- Asynchronous socket command/response handler
 ***********************************************************
 
@@ -188,5 +189,6 @@ ensure that any extraneous data sent by the web client are ignored.
                self.handling = True
                self.ibuffer = []
                self.handle_request()
+"modules/asynchat.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

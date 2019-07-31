@@ -1,4 +1,5 @@
 R"==~~~~==(subprocess~~CPP==map==key==delim~~
+"modules/subprocess.txt"
 "subprocess" --- Subprocess management
 **************************************
 
@@ -1315,5 +1316,6 @@ See also:
 
   "shlex"
      Module which provides function to parse and escape command lines.
+"modules/subprocess.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

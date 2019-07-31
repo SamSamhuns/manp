@@ -1,4 +1,5 @@
 R"==~~~~==(urllib.error~~CPP==map==key==delim~~
+"modules/urllib.error.txt"
 "urllib.error" --- Exception classes raised by urllib.request
 *************************************************************
 
@@ -55,5 +56,6 @@ exception urllib.error.ContentTooShortError(msg, content)
    that the amount of the downloaded data is less than the expected
    amount (given by the *Content-Length* header).  The "content"
    attribute stores the downloaded (and supposedly truncated) data.
+"modules/urllib.error.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

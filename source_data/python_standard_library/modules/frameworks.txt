@@ -1,3 +1,4 @@
+"modules/frameworks.txt"
 Program Frameworks
 ******************
 
@@ -91,3 +92,4 @@ The full list of modules described in this chapter is:
   * Parsing Rules
 
   * Improved Compatibility with Shells
+"modules/frameworks.txt"

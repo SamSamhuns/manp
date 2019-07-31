@@ -1,3 +1,4 @@
+"modules/fractions.txt"
 "fractions" --- Rational numbers
 ********************************
 
@@ -162,3 +163,4 @@ See also:
 
   Module "numbers"
      The abstract base classes making up the numeric tower.
+"modules/fractions.txt"

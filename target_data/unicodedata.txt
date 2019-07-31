@@ -1,4 +1,5 @@
 R"==~~~~==(unicodedata~~CPP==map==key==delim~~
+"modules/unicodedata.txt"
 "unicodedata" --- Unicode Database
 **********************************
 
@@ -150,5 +151,6 @@ ValueError: not a decimal
 [1] http://www.unicode.org/Public/11.0.0/ucd/NameAliases.txt
 
 [2] http://www.unicode.org/Public/11.0.0/ucd/NamedSequences.txt
+"modules/unicodedata.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

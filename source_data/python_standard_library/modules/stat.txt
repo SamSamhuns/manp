@@ -1,3 +1,4 @@
+"modules/stat.txt"
 "stat" --- Interpreting "stat()" results
 ****************************************
 
@@ -405,3 +406,4 @@ stat.FILE_ATTRIBUTE_TEMPORARY
 stat.FILE_ATTRIBUTE_VIRTUAL
 
    New in version 3.5.
+"modules/stat.txt"

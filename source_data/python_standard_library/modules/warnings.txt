@@ -1,3 +1,4 @@
+"modules/warnings.txt"
 "warnings" --- Warning control
 ******************************
 
@@ -485,3 +486,4 @@ class warnings.catch_warnings(*, record=False, module=None)
      internal list of filter specifications.  This means the context
      manager is modifying global state and therefore is not thread-
      safe.
+"modules/warnings.txt"

@@ -1,4 +1,5 @@
 R"==~~~~==(html.entities~~CPP==map==key==delim~~
+"modules/html.entities.txt"
 "html.entities" --- Definitions of HTML general entities
 ********************************************************
 
@@ -38,5 +39,6 @@ html.entities.codepoint2name
 
 [1] See https://www.w3.org/TR/html5/syntax.html#named-character-
     references
+"modules/html.entities.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

@@ -1,4 +1,5 @@
 R"==~~~~==(atexit~~CPP==map==key==delim~~
+"modules/atexit.txt"
 "atexit" --- Exit handlers
 **************************
 
@@ -102,5 +103,6 @@ Usage as a *decorator*:
        print("You are now leaving the Python sector.")
 
 This only works with functions that can be called without arguments.
+"modules/atexit.txt"
 ~~CPP==new==module==delim~~
 )==~~~~=="

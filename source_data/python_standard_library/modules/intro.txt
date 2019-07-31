@@ -1,3 +1,4 @@
+"modules/intro.txt"
 Introduction
 ************
 
@@ -59,3 +60,4 @@ Notes on availability
 
 * If not separately noted, all functions that claim "Availability:
   Unix" are supported on Mac OS X, which builds on a Unix core.
+"modules/intro.txt"

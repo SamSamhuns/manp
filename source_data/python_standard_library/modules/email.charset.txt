@@ -1,3 +1,4 @@
+"modules/email.charset.txt"
 "email.charset": Representing character sets
 ********************************************
 
@@ -201,3 +202,4 @@ email.charset.add_codec(charset, codecname)
    *charset* is the canonical name of a character set. *codecname* is
    the name of a Python codec, as appropriate for the second argument
    to the "str"'s "encode()" method.
+"modules/email.charset.txt"

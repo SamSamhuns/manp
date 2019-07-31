@@ -1,3 +1,4 @@
+"modules/mm.txt"
 Multimedia Services
 *******************
 
@@ -35,3 +36,4 @@ overview:
   * Audio Device Objects
 
   * Mixer Device Objects
+"modules/mm.txt"
