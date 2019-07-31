@@ -157,7 +157,7 @@ int file_to_raw_string_text(std::string &file_extension, std::string &file_path,
 
 	if (target_path.back() != '/') {target_path += '/';}
 	std::string write_target_path = target_path + module_name;
-	/* remove .txt extension from file_path and add the delimiter for C++ map */
+	/* remove file extension from file_path and add the delimiter for C++ map */
 	module_name = module_name.substr(0, module_name.size()-file_extension.size());
 	module_name = std::string(START_DELIM) + module_name + std::string(CPP_MAP_KEY_VALUE_DELIM);
 
