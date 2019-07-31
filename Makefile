@@ -1,3 +1,6 @@
+include makefile_configuration.mk
+# make can also be invoked as make TARGET_FILE_EXTN="py txt" SOURCE_DIR=custom dir
+
 IDIR =include# directory for header files
 SDIR =src# source directory
 ODIR =obj# object file directory
@@ -5,11 +8,15 @@ CPP =g++# compiler used
 CFLAGS =-std=c++11 -Wall -Wshadow -Werror -I$(IDIR)# compiler flags
 LDFLAGS =# -lm library flags
 TARGET =manp # file executable generated
+# The TARGET_DIR where the files converted to raw string are created is set to target_data
+TARGET_DIR =target_data # location of the files coverted to raw string literal format
 
-# User defined variables
-SOURCE_DATA_DIR =source_data# location of the files to convert to raw string literal format
-TARGET_DATA_DIR =target_data# location of the files coverted to raw string literal format
-TARGET_FILE_EXTENSION =txt# extension of target files to document
+# User defined variables loaded from makefile_configuration.mk
+# SOURCE_DIR =        # location of the files to convert to raw string literal format
+# TARGET_FILE_EXTN =  # extension of target files to document
+$(info SOURCE_DIR is $(SOURCE_DIR))
+$(info TARGET_FILE_EXTN is $(TARGET_FILE_EXTN))
+
 
 # Getting the list of all cpp and object files
 # except text_to_raw_string.cpp and raw_string_to_text
@@ -51,12 +58,12 @@ raw_string_to_text: $(ODIR)/raw_string_to_text.o
 # Generate the raw string literals which are required for compiling $(TARGET)
 # The txt files must always be present in the data folder
 run_text_to_raw_string: text_to_raw_string
-	./text_to_raw_string $(TARGET_FILE_EXTENSION) $(SOURCE_DATA_DIR) $(TARGET_DATA_DIR)
+	./text_to_raw_string $(TARGET_FILE_EXTN) $(SOURCE_DIR) $(TARGET_DIR)
 
 # Generate the combined_txt_header and doc_artifacts_list file for header includes
 generate_combined_artifacts_headers: run_text_to_raw_string
 	chmod u+x generate_combined_artifacts_headers.sh
-	./generate_combined_artifacts_headers.sh $(TARGET_DATA_DIR) $(TARGET_FILE_EXTENSION)
+	./generate_combined_artifacts_headers.sh $(TARGET_DIR) $(TARGET_FILE_EXTN)
 
 $(ODIR)/%.o: $(SDIR)/%.cpp $(HEADERS)
 	@mkdir -p $(@D)
