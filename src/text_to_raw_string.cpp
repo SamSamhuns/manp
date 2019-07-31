@@ -162,11 +162,11 @@ int file_to_raw_string_text(std::string &file_extension, std::string &file_path,
 	std::string write_target_path = target_path + module_name;
 	/* remove file extension from file_path and add the delimiter for C++ map */
 	module_name = module_name.substr(0, module_name.size()-file_extension.size());
-	module_name = std::string(START_DELIM) + module_name + std::string(CPP_MAP_KEY_VALUE_DELIM);
+	std::string module_name_delimited = std::string(START_DELIM) + module_name + std::string(CPP_MAP_KEY_VALUE_DELIM);
 
 	/* Checking if file is already in desired raw string literal format */
 	std::getline(in_ptr, inString);
-	if (inString == module_name) {
+	if (inString == module_name_delimited) {
 		if (DEBUG) std::cout << file_path << " already in raw literal string format.\n";
 
 		/* The source file will be written to write_target_path without any modifications */
@@ -189,7 +189,8 @@ int file_to_raw_string_text(std::string &file_extension, std::string &file_path,
 		return 0;
 	}
 
-	line_string_vector.push_back(module_name);     // first elem of line_string_vector
+	line_string_vector.push_back(module_name_delimited);     // first elem of line_string_vector
+    line_string_vector.push_back("\""+module_name+"\"");     // Add module_name with quotes to file start
 	line_string_vector.push_back(inString);
 
 	/* Read contents of file_path line by line and store in line_string_vector */
