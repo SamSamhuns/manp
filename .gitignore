@@ -160,8 +160,12 @@ dmypy.json
 *.DS_Store
 
 # Built executable files
-### main doc generator
+
+# main doc generator
 manp
-### txt to raw txt string literal converter
+# txt to raw txt string literal converter
 text_to_raw_string
 raw_string_to_text
+
+# local test data
+util/local_test_data
