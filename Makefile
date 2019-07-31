@@ -7,7 +7,8 @@ LDFLAGS =# -lm library flags
 TARGET =manp # file executable generated
 
 # User defined variables
-SOURCE_DATA_DIR =data # location of the files to convert to raw string literal txt files
+SOURCE_DATA_DIR =source_data# location of the files to convert to raw string literal format
+TARGET_DATA_DIR =target_data# location of the files coverted to raw string literal format
 TARGET_FILE_EXTENSION =txt# extension of target files to document
 
 # Getting the list of all cpp and object files
@@ -50,15 +51,15 @@ raw_string_to_text: $(ODIR)/raw_string_to_text.o
 # Generate the raw string literals which are required for compiling $(TARGET)
 # The txt files must always be present in the data folder
 run_text_to_raw_string: text_to_raw_string
-	./text_to_raw_string $(TARGET_FILE_EXTENSION) $(SOURCE_DATA_DIR)
+	./text_to_raw_string $(TARGET_FILE_EXTENSION) $(SOURCE_DATA_DIR) $(TARGET_DATA_DIR)
 
 run_combine_headers_sh: run_text_to_raw_string
 	chmod u+x combine_headers.sh
-	./combine_headers.sh $(SOURCE_DATA_DIR)
+	./combine_headers.sh $(TARGET_DATA_DIR)
 
 generate_doc_artifacts_list: run_text_to_raw_string
 	chmod u+x generate_doc_artifacts_list.sh
-	./generate_doc_artifacts_list.sh $(SOURCE_DATA_DIR)
+	./generate_doc_artifacts_list.sh $(TARGET_DATA_DIR)
 
 $(ODIR)/%.o: $(SDIR)/%.cpp $(HEADERS)
 	@mkdir -p $(@D)
