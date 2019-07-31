@@ -8,7 +8,7 @@ if [ $# -eq 0 ]
     exit 1
 fi
 
-SOURCE_DATA_DIRECTORY=$1 # first cmd line argument is the source data directory
+DATA_DIR_TO_CHK=$1 # first cmd line argument is the source data directory
 EXTENSION_TO_SEARCH_FOR='*.txt'
 FILE_LIST=doc_artifacts_list.txt
 
@@ -16,7 +16,7 @@ echo "R\"=~=~=(" > $FILE_LIST
 IFS=$'\n' # temporarily setting internal field separator to \n
 set -f
 # loop through the data folder to find all txt files
-for file in $(find $SOURCE_DATA_DIRECTORY -name $EXTENSION_TO_SEARCH_FOR)
+for file in $(find $DATA_DIR_TO_CHK -name $EXTENSION_TO_SEARCH_FOR)
 do
     echo "$(basename ${file%.*} )" >> $FILE_LIST
 done
