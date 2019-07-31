@@ -35,19 +35,22 @@ int main(int argc, const char *argv[]) {
 	signal(SIGSEGV, sigsegv_handler);  // signal handler for segmentation faults
 	signal(SIGABRT, sigabrt_handler);  // signal ahndler for abort traps
 
-	if (argc != 4) {
+	if (argc < 4) {
 		std::cerr << "\033[32;1mUsage:\033[0m";
-		std::cerr << "./file_to_raw_string_text [.TARGET_FILE_EXTENSION] [SOURCE_PATH] [TARGET_PATH]\n";
+		std::cerr << "./file_to_raw_string_text [FILE_EXTENSIONS_SEP_BY_SPACE...] [SOURCE_PATH] [TARGET_PATH]\n";
 		return -1;
 	}
 
-	std::string file_extension(argv[1]);
-	std::string source_path(argv[2]);
-	std::string target_path(argv[3]);
-
+	std::string source_path(argv[argc-2]); // second last arg = source_path
+	std::string target_path(argv[argc-1]); // final arg = target_path
 	system(("mkdir -p "+target_path).c_str());
-	if (file_extension.front() != '.') {file_extension='.'+file_extension;}
-	recursively_find_files_with_ext(file_extension, source_path, target_path);
+
+	// loop through all the file extensions mentioned (starting from 1st not the oth argument)
+	for (size_t i = 1; i < argc-2; i++) {
+		std::string file_extension(argv[i]);
+		if (file_extension.front() != '.') {file_extension='.'+file_extension;}
+		recursively_find_files_with_ext(file_extension, source_path, target_path);
+	}
 
 	return 0;
 }
@@ -206,7 +209,7 @@ int file_to_raw_string_text(std::string &file_extension, std::string &file_path,
 	}
 
 	if (DEBUG) std::cout << file_path << " successfully written to "
-						 << write_target_path << " in a raw string literal format\n";
+		                 << write_target_path << " in a raw string literal format\n";
 	return 0;
 }
 
