@@ -1,0 +1,23 @@
+R"==~~~~==(isupper~~CPP==map==key==delim~~
+"isupper"
+\033[32;1mstr.isupper()\033[0m
+   Return true if all cased characters [4] in the string are uppercase
+   and there is at least one cased character, false otherwise.
+
+\033[32;1mbytes.isupper(), bytearray.isupper()\033[0m   Return true if there is at least one uppercase alphabetic ASCII
+   character in the sequence and no lowercase ASCII characters, false
+   otherwise.
+
+   For example:
+
+      >>> b'HELLO WORLD'.isupper()
+      True
+      >>> b'Hello world'.isupper()
+      False
+
+   Lowercase ASCII characters are those byte values in the sequence
+   "b'abcdefghijklmnopqrstuvwxyz'". Uppercase ASCII characters are
+   those byte values in the sequence "b'ABCDEFGHIJKLMNOPQRSTUVWXYZ'".
+
+~~CPP==new==module==delim~~
+)==~~~~=="

@@ -1,0 +1,41 @@
+R"==~~~~==(eval~~CPP==map==key==delim~~
+"eval"
+\033[32;1meval(expression, globals=None, locals=None)\033[0m   The arguments are a string and optional globals and locals.  If
+   provided, *globals* must be a dictionary.  If provided, *locals*
+   can be any mapping object.
+
+   The *expression* argument is parsed and evaluated as a Python
+   expression (technically speaking, a condition list) using the
+   *globals* and *locals* dictionaries as global and local namespace.
+   If the *globals* dictionary is present and does not contain a value
+   for the key "__builtins__", a reference to the dictionary of the
+   built-in module "builtins" is inserted under that key before
+   *expression* is parsed. This means that *expression* normally has
+   full access to the standard "builtins" module and restricted
+   environments are propagated.  If the *locals* dictionary is omitted
+   it defaults to the *globals* dictionary.  If both dictionaries are
+   omitted, the expression is executed in the environment where
+   "eval()" is called.  The return value is the result of the
+   evaluated expression. Syntax errors are reported as exceptions.
+   Example:
+
+   >>> x = 1
+   >>> eval('x+1')
+   2
+
+   This function can also be used to execute arbitrary code objects
+   (such as those created by "compile()").  In this case pass a code
+   object instead of a string.  If the code object has been compiled
+   with "'exec'" as the *mode* argument, "eval()"'s return value will
+   be "None".
+
+   Hints: dynamic execution of statements is supported by the "exec()"
+   function.  The "globals()" and "locals()" functions returns the
+   current global and local dictionary, respectively, which may be
+   useful to pass around for use by "eval()" or "exec()".
+
+   See "ast.literal_eval()" for a function that can safely evaluate
+   strings with expressions containing only literals.
+
+~~CPP==new==module==delim~~
+)==~~~~=="

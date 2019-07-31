@@ -1,0 +1,9 @@
+R"==~~~~==(hasattr~~CPP==map==key==delim~~
+"hasattr"
+\033[32;1mhasattr(object, name)\033[0m   The arguments are an object and a string.  The result is "True" if
+   the string is the name of one of the object's attributes, "False"
+   if not. (This is implemented by calling "getattr(object, name)" and
+   seeing whether it raises an "AttributeError" or not.)
+
+~~CPP==new==module==delim~~
+)==~~~~=="

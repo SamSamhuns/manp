@@ -1,0 +1,16 @@
+R"==~~~~==(join~~CPP==map==key==delim~~
+"join"
+\033[32;1mstr.join(iterable)\033[0m   Return a string which is the concatenation of the strings in
+   *iterable*. A "TypeError" will be raised if there are any non-
+   string values in *iterable*, including "bytes" objects.  The
+   separator between elements is the string providing this method.
+
+\033[32;1mbytes.join(iterable), bytearray.join(iterable)\033[0m   Return a bytes or bytearray object which is the concatenation of
+   the binary data sequences in *iterable*.  A "TypeError" will be
+   raised if there are any values in *iterable* that are not *bytes-
+   like objects*, including "str" objects.  The separator between
+   elements is the contents of the bytes or bytearray object providing
+   this method.
+
+~~CPP==new==module==delim~~
+)==~~~~=="
