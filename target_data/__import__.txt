@@ -1,6 +1,7 @@
 R"==~~~~==(__import__~~CPP==map==key==delim~~
 "__import__"
-\033[32;1m__import__(name, globals=None, locals=None, fromlist=(), level=0)\033[0m
+__import__(name, globals=None, locals=None, fromlist=(), level=0)
+
    Note: This is an advanced function that is not needed in everyday
      Python programming, unlike "importlib.import_module()".
 

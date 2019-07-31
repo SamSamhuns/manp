@@ -1,6 +1,6 @@
-R"==~~~~==(printf~~CPP==map==key==delim~~
 "printf"
-\033[32;1mprintf(style String Formatting)\033[0m    Note: The formatting operations described here exhibit a variety of
+printf(style String Formatting)
+    Note: The formatting operations described here exhibit a variety of
       quirks that lead to a number of common errors (such as failing to
       display tuples and dictionaries correctly).  Using the newer
       formatted string literals, the "str.format()" interface, or template
@@ -160,7 +160,8 @@ R"==~~~~==(printf~~CPP==map==key==delim~~
     value is over 1e50 are no longer replaced by "%g" conversions.
 
 
-\033[32;1mprintf(style Bytes Formatting)\033[0m
+printf(style Bytes Formatting)
+
     Note: The formatting operations described here exhibit a variety of
       quirks that lead to a number of common errors (such as failing to
       display tuples and dictionaries correctly).  If the value being
@@ -331,5 +332,3 @@ R"==~~~~==(printf~~CPP==map==key==delim~~
     New in version 3.5.
 
 
-~~CPP==new==module==delim~~
-)==~~~~=="

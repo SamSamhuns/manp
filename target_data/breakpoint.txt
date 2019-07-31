@@ -1,6 +1,7 @@
 R"==~~~~==(breakpoint~~CPP==map==key==delim~~
 "breakpoint"
-\033[32;1mbreakpoint(*args, **kws)\033[0m   This function drops you into the debugger at the call site.
+breakpoint(*args, **kws)
+   This function drops you into the debugger at the call site.
    Specifically, it calls "sys.breakpointhook()", passing "args" and
    "kws" straight through.  By default, "sys.breakpointhook()" calls
    "pdb.set_trace()" expecting no arguments.  In this case, it is

@@ -1,6 +1,7 @@
 R"==~~~~==(int~~CPP==map==key==delim~~
 "int"
-\033[32;1mclass int([x])\033[0m
+class int([x])
+
    Return an integer object constructed from a number or string *x*,
    or return "0" if no arguments are given.  If *x* defines
    "__int__()", "int(x)" returns "x.__int__()".  If *x* defines

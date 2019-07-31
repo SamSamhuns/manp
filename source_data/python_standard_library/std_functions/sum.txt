@@ -1,6 +1,6 @@
-R"==~~~~==(sum~~CPP==map==key==delim~~
 "sum"
-\033[32;1msum(iterable[, start])\033[0m
+sum(iterable[, start])
+
    Sums *start* and the items of an *iterable* from left to right and
    returns the total.  *start* defaults to "0". The *iterable*'s items
    are normally numbers, and the start value is not allowed to be a
@@ -12,5 +12,3 @@ R"==~~~~==(sum~~CPP==map==key==delim~~
    extended precision, see "math.fsum()".  To concatenate a series of
    iterables, consider using "itertools.chain()".
 
-~~CPP==new==module==delim~~
-)==~~~~=="

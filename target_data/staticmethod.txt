@@ -1,6 +1,7 @@
 R"==~~~~==(staticmethod~~CPP==map==key==delim~~
 "staticmethod"
-\033[32;1m@staticmethod\033[0m   Transform a method into a static method.
+@staticmethod
+   Transform a method into a static method.
 
    A static method does not receive an implicit first argument. To
    declare a static method, use this idiom:

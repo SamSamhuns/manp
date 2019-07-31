@@ -1,6 +1,6 @@
-R"==~~~~==(bytearray~~CPP==map==key==delim~~
 "bytearray"
-\033[32;1mclass bytearray([source[, encoding[, errors]]])\033[0m   "bytearray" objects are a mutable counterpart to "bytes" objects.
+class bytearray([source[, encoding[, errors]]])
+   "bytearray" objects are a mutable counterpart to "bytes" objects.
 
    There is no dedicated literal syntax for bytearray objects, instead
    they are always created by calling the constructor:
@@ -64,7 +64,8 @@ R"==~~~~==(bytearray~~CPP==map==key==delim~~
    into a list of integers using "list(b)".
 
 
-\033[32;1mclass bytearray([source[, encoding[, errors]]])\033[0m
+class bytearray([source[, encoding[, errors]]])
+
    Return a new array of bytes.  The "bytearray" class is a mutable
    sequence of integers in the range 0 <= x < 256.  It has most of the
    usual methods of mutable sequences, described in Mutable Sequence
@@ -94,5 +95,3 @@ R"==~~~~==(bytearray~~CPP==map==key==delim~~
    See also Binary Sequence Types --- bytes, bytearray, memoryview and
    Bytearray Objects.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

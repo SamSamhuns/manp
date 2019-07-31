@@ -1,6 +1,7 @@
 R"==~~~~==(list~~CPP==map==key==delim~~
 "list"
-\033[32;1mclass list([iterable])\033[0m
+class list([iterable])
+
    Lists are mutable sequences, typically used to store collections of
    homogeneous items (where the precise degree of similarity will vary by
    application).
@@ -72,7 +73,8 @@ R"==~~~~==(list~~CPP==map==key==delim~~
       that the list has been mutated during a sort.
 
 
-\033[32;1mclass list([iterable])\033[0m
+class list([iterable])
+
    Rather than being a function, "list" is actually a mutable sequence
    type, as documented in Lists and Sequence Types --- list, tuple,
    range.

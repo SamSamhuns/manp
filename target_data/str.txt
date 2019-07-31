@@ -1,6 +1,7 @@
 R"==~~~~==(str~~CPP==map==key==delim~~
 "str"
-\033[32;1mclass str(object=''), class str(object=b'', encoding='utf-8', errors='strict')\033[0m   Return a string version of *object*.  If *object* is not provided,
+class str(object=''), class str(object=b'', encoding='utf-8', errors='strict')
+   Return a string version of *object*.  If *object* is not provided,
    returns the empty string.  Otherwise, the behavior of "str()"
    depends on whether *encoding* or *errors* is given, as follows.
 
@@ -34,7 +35,9 @@ R"==~~~~==(str~~CPP==map==key==delim~~
    Processing Services section.
 
 
-\033[32;1mclass str(object='')\033[0m\033[32;1mclass str(object=b'', encoding='utf-8', errors='strict')\033[0m   Return a "str" version of *object*.  See "str()" for details.
+class str(object='')
+class str(object=b'', encoding='utf-8', errors='strict')
+   Return a "str" version of *object*.  See "str()" for details.
 
    "str" is the built-in string *class*.  For general information
    about strings, see Text Sequence Type --- str.

@@ -1,6 +1,7 @@
 R"==~~~~==(setattr~~CPP==map==key==delim~~
 "setattr"
-\033[32;1msetattr(object, name, value)\033[0m
+setattr(object, name, value)
+
    This is the counterpart of "getattr()".  The arguments are an
    object, a string and an arbitrary value.  The string may name an
    existing attribute or a new attribute.  The function assigns the

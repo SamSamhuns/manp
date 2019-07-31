@@ -1,6 +1,6 @@
-R"==~~~~==(set~~CPP==map==key==delim~~
 "set"
-\033[32;1mclass set([iterable]), class frozenset([iterable])\033[0m
+class set([iterable]), class frozenset([iterable])
+
    Return a new set or frozenset object whose elements are taken from
    *iterable*.  The elements of a set must be *hashable*.  To
    represent sets of sets, the inner sets must be "frozenset" objects.
@@ -164,12 +164,11 @@ R"==~~~~==(set~~CPP==map==key==delim~~
    equivalent frozenset, a temporary one is created from *elem*.
 
 
-\033[32;1mclass set([iterable])\033[0m   Return a new "set" object, optionally with elements taken from
+class set([iterable])
+   Return a new "set" object, optionally with elements taken from
    *iterable*.  "set" is a built-in class.  See "set" and Set Types
    --- set, frozenset for documentation about this class.
 
    For other containers see the built-in "frozenset", "list", "tuple",
    and "dict" classes, as well as the "collections" module.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

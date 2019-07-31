@@ -1,6 +1,7 @@
 R"==~~~~==(memoryview~~CPP==map==key==delim~~
 "memoryview"
-\033[32;1mclass memoryview(obj)\033[0m   "memoryview" objects allow Python code to access the internal data of
+class memoryview(obj)
+   "memoryview" objects allow Python code to access the internal data of
    an object that supports the buffer protocol without copying.
 
    Create a "memoryview" that references *obj*.  *obj* must support
@@ -441,7 +442,8 @@ R"==~~~~==(memoryview~~CPP==map==key==delim~~
 
 
 
-\033[32;1mmemoryview(obj)\033[0m
+memoryview(obj)
+
    Return a "memory view" object created from the given argument.  See
    Memory Views for more information.
 

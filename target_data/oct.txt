@@ -1,6 +1,7 @@
 R"==~~~~==(oct~~CPP==map==key==delim~~
 "oct"
-\033[32;1moct(x)\033[0m
+oct(x)
+
    Convert an integer number to an octal string prefixed with "0o".
    The result is a valid Python expression. If *x* is not a Python
    "int" object, it has to define an "__index__()" method that returns

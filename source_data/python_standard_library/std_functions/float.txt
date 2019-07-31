@@ -1,6 +1,6 @@
-R"==~~~~==(float~~CPP==map==key==delim~~
 "float"
-\033[32;1mclass float([x])\033[0m
+class float([x])
+
    Return a floating point number constructed from a number or string
    *x*.
 
@@ -56,5 +56,3 @@ R"==~~~~==(float~~CPP==map==key==delim~~
 
    Changed in version 3.7: *x* is now a positional-only parameter.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

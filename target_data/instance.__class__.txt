@@ -1,0 +1,12 @@
+R"==~~~~==(instance.__class__~~CPP==map==key==delim~~
+"instance.__class__"
+instance.__class__
+
+   The class to which a class instance belongs.
+
+   The implementation adds a few special read-only attributes to several
+   object types, where they are relevant.  Some of these are not reported
+   by the "dir()" built-in function.
+
+~~CPP==new==module==delim~~
+)==~~~~=="

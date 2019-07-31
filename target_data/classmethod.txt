@@ -1,6 +1,7 @@
 R"==~~~~==(classmethod~~CPP==map==key==delim~~
 "classmethod"
-\033[32;1m@classmethod\033[0m
+@classmethod
+
    Transform a method into a class method.
 
    A class method receives the class as implicit first argument, just

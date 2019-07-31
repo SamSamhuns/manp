@@ -1,6 +1,7 @@
 R"==~~~~==(type~~CPP==map==key==delim~~
 "type"
-\033[32;1mclass type(object)\033[0m
+class type(object)
+
    With one argument, return the type of an *object*.  The return
    value is a type object and generally the same object as returned by
    "object.__class__".

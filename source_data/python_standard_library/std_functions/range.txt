@@ -1,6 +1,6 @@
-R"==~~~~==(range~~CPP==map==key==delim~~
 "range"
-\033[32;1mclass range(stop), class range(start, stop[, step])\033[0m
+class range(stop), class range(start, stop[, step])
+
     The "range" type represents an immutable sequence of numbers and is
     commonly used for looping a specific number of times in "for" loops.
 
@@ -113,9 +113,9 @@ R"==~~~~==(range~~CPP==map==key==delim~~
         range suitable for floating point applications.
 
 
-\033[32;1mrange(stop)\033[0m\033[32;1mrange(start, stop[, step])\033[0m   Rather than being a function, "range" is actually an immutable
+range(stop)
+range(start, stop[, step])
+   Rather than being a function, "range" is actually an immutable
    sequence type, as documented in Ranges and Sequence Types --- list,
    tuple, range.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

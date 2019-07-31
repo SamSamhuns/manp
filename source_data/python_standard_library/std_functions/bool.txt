@@ -1,6 +1,6 @@
-R"==~~~~==(bool~~CPP==map==key==delim~~
 "bool"
-\033[32;1mclass bool([x])\033[0m
+class bool([x])
+
    Return a Boolean value, i.e. one of "True" or "False".  *x* is
    converted using the standard truth testing procedure.  If *x* is
    false or omitted, this returns "False"; otherwise it returns
@@ -10,5 +10,3 @@ R"==~~~~==(bool~~CPP==map==key==delim~~
 
    Changed in version 3.7: *x* is now a positional-only parameter.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

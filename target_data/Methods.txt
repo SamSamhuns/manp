@@ -1,6 +1,7 @@
 R"==~~~~==(Methods~~CPP==map==key==delim~~
 "Methods"
-\033[32;1mMethods\033[0m
+Methods
+
     Methods are functions that are called using the attribute notation.
     There are two flavors: built-in methods (such as "append()" on lists)
     and class instance methods.  Built-in methods are described with the

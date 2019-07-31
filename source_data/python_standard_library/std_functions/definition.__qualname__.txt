@@ -1,0 +1,11 @@
+"definition.__qualname__"
+definition.__qualname__
+   The *qualified name* of the class, function, method, descriptor, or
+   generator instance.
+
+   New in version 3.3.
+
+   The implementation adds a few special read-only attributes to several
+   object types, where they are relevant.  Some of these are not reported
+   by the "dir()" built-in function.
+

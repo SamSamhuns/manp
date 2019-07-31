@@ -1,10 +1,8 @@
-R"==~~~~==(issubclass~~CPP==map==key==delim~~
 "issubclass"
-\033[32;1missubclass(class, classinfo)\033[0m   Return true if *class* is a subclass (direct, indirect or
+issubclass(class, classinfo)
+   Return true if *class* is a subclass (direct, indirect or
    *virtual*) of *classinfo*.  A class is considered a subclass of
    itself. *classinfo* may be a tuple of class objects, in which case
    every entry in *classinfo* will be checked. In any other case, a
    "TypeError" exception is raised.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

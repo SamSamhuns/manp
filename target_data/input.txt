@@ -1,6 +1,7 @@
 R"==~~~~==(input~~CPP==map==key==delim~~
 "input"
-\033[32;1minput([prompt])\033[0m
+input([prompt])
+
    If the *prompt* argument is present, it is written to standard
    output without a trailing newline.  The function then reads a line
    from input, converts it to a string (stripping a trailing newline),

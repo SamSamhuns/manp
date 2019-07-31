@@ -1,6 +1,7 @@
 R"==~~~~==(any~~CPP==map==key==delim~~
 "any"
-\033[32;1many(iterable)\033[0m   Return "True" if any element of the *iterable* is true.  If the
+any(iterable)
+   Return "True" if any element of the *iterable* is true.  If the
    iterable is empty, return "False".  Equivalent to:
 
       def any(iterable):

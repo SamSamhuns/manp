@@ -1,6 +1,6 @@
-R"==~~~~==(filter~~CPP==map==key==delim~~
 "filter"
-\033[32;1mfilter(function, iterable)\033[0m   Construct an iterator from those elements of *iterable* for which
+filter(function, iterable)
+   Construct an iterator from those elements of *iterable* for which
    *function* returns true.  *iterable* may be either a sequence, a
    container which supports iteration, or an iterator.  If *function*
    is "None", the identity function is assumed, that is, all elements
@@ -14,5 +14,3 @@ R"==~~~~==(filter~~CPP==map==key==delim~~
    See "itertools.filterfalse()" for the complementary function that
    returns elements of *iterable* for which *function* returns false.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

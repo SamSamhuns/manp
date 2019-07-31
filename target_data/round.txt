@@ -1,6 +1,7 @@
 R"==~~~~==(round~~CPP==map==key==delim~~
 "round"
-\033[32;1mround(number[, ndigits])\033[0m
+round(number[, ndigits])
+
    Return *number* rounded to *ndigits* precision after the decimal
    point.  If *ndigits* is omitted or is "None", it returns the
    nearest integer to its input.

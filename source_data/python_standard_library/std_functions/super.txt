@@ -1,6 +1,6 @@
-R"==~~~~==(super~~CPP==map==key==delim~~
 "super"
-\033[32;1msuper([type[, object-or-type]])\033[0m   Return a proxy object that delegates method calls to a parent or
+super([type[, object-or-type]])
+   Return a proxy object that delegates method calls to a parent or
    sibling class of *type*.  This is useful for accessing inherited
    methods that have been overridden in a class. The search order is
    same as that used by "getattr()" except that the *type* itself is
@@ -60,5 +60,3 @@ R"==~~~~==(super~~CPP==map==key==delim~~
    For practical suggestions on how to design cooperative classes
    using "super()", see guide to using super().
 
-~~CPP==new==module==delim~~
-)==~~~~=="

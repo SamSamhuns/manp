@@ -1,6 +1,6 @@
-R"==~~~~==(exec~~CPP==map==key==delim~~
 "exec"
-\033[32;1mexec(object[, globals[, locals]])\033[0m
+exec(object[, globals[, locals]])
+
    This function supports dynamic execution of Python code. *object*
    must be either a string or a code object.  If it is a string, the
    string is parsed as a suite of Python statements which is then
@@ -40,5 +40,3 @@ R"==~~~~==(exec~~CPP==map==key==delim~~
      dictionary if you need to see effects of the code on *locals*
      after function "exec()" returns.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

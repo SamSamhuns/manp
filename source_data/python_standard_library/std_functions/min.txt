@@ -1,6 +1,6 @@
-R"==~~~~==(min~~CPP==map==key==delim~~
 "min"
-\033[32;1mmin(iterable, *[, key, default])\033[0m
+min(iterable, *[, key, default])
+
    Return the smallest item in an iterable or the smallest of two or
    more arguments.
 
@@ -22,5 +22,3 @@ R"==~~~~==(min~~CPP==map==key==delim~~
 
    New in version 3.4: The *default* keyword-only argument.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

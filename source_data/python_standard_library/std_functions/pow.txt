@@ -1,6 +1,6 @@
-R"==~~~~==(pow~~CPP==map==key==delim~~
 "pow"
-\033[32;1mpow(x, y[, z])\033[0m   Return *x* to the power *y*; if *z* is present, return *x* to the
+pow(x, y[, z])
+   Return *x* to the power *y*; if *z* is present, return *x* to the
    power *y*, modulo *z* (computed more efficiently than "pow(x, y) %
    z"). The two-argument form "pow(x, y)" is equivalent to using the
    power operator: "x**y".
@@ -15,5 +15,3 @@ R"==~~~~==(pow~~CPP==map==key==delim~~
    omitted.  If *z* is present, *x* and *y* must be of integer types,
    and *y* must be non-negative.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

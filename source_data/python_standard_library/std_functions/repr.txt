@@ -1,6 +1,6 @@
-R"==~~~~==(repr~~CPP==map==key==delim~~
 "repr"
-\033[32;1mrepr(object)\033[0m
+repr(object)
+
    Return a string containing a printable representation of an object.
    For many types, this function makes an attempt to return a string
    that would yield an object with the same value when passed to
@@ -10,5 +10,3 @@ R"==~~~~==(repr~~CPP==map==key==delim~~
    address of the object.  A class can control what this function
    returns for its instances by defining a "__repr__()" method.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

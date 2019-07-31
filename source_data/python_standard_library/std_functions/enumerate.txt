@@ -1,6 +1,6 @@
-R"==~~~~==(enumerate~~CPP==map==key==delim~~
 "enumerate"
-\033[32;1menumerate(iterable, start=0)\033[0m
+enumerate(iterable, start=0)
+
    Return an enumerate object. *iterable* must be a sequence, an
    *iterator*, or some other object which supports iteration. The
    "__next__()" method of the iterator returned by "enumerate()"
@@ -21,5 +21,3 @@ R"==~~~~==(enumerate~~CPP==map==key==delim~~
               yield n, elem
               n += 1
 
-~~CPP==new==module==delim~~
-)==~~~~=="

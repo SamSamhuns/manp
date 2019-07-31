@@ -1,6 +1,6 @@
-R"==~~~~==(eval~~CPP==map==key==delim~~
 "eval"
-\033[32;1meval(expression, globals=None, locals=None)\033[0m   The arguments are a string and optional globals and locals.  If
+eval(expression, globals=None, locals=None)
+   The arguments are a string and optional globals and locals.  If
    provided, *globals* must be a dictionary.  If provided, *locals*
    can be any mapping object.
 
@@ -37,5 +37,3 @@ R"==~~~~==(eval~~CPP==map==key==delim~~
    See "ast.literal_eval()" for a function that can safely evaluate
    strings with expressions containing only literals.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

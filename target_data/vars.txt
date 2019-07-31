@@ -1,6 +1,7 @@
 R"==~~~~==(vars~~CPP==map==key==delim~~
 "vars"
-\033[32;1mvars([object])\033[0m
+vars([object])
+
    Return the "__dict__" attribute for a module, class, instance, or
    any other object with a "__dict__" attribute.
 

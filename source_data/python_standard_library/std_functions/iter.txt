@@ -1,6 +1,6 @@
-R"==~~~~==(iter~~CPP==map==key==delim~~
 "iter"
-\033[32;1miter(object[, sentinel])\033[0m
+iter(object[, sentinel])
+
    Return an *iterator* object.  The first argument is interpreted
    very differently depending on the presence of the second argument.
    Without a second argument, *object* must be a collection object
@@ -25,5 +25,3 @@ R"==~~~~==(iter~~CPP==map==key==delim~~
           for block in iter(partial(f.read, 64), b''):
               process_block(block)
 
-~~CPP==new==module==delim~~
-)==~~~~=="

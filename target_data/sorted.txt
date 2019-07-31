@@ -1,6 +1,7 @@
 R"==~~~~==(sorted~~CPP==map==key==delim~~
 "sorted"
-\033[32;1msorted(iterable, *, key=None, reverse=False)\033[0m
+sorted(iterable, *, key=None, reverse=False)
+
    Return a new sorted list from the items in *iterable*.
 
    Has two optional arguments which must be specified as keyword

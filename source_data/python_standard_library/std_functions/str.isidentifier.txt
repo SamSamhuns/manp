@@ -1,0 +1,9 @@
+"str.isidentifier"
+str.isidentifier()
+
+   Return true if the string is a valid identifier according to the
+   language definition, section Identifiers and keywords.
+
+   Use "keyword.iskeyword()" to test for reserved identifiers such as
+   "def" and "class".
+

@@ -1,9 +1,7 @@
-R"==~~~~==(reversed~~CPP==map==key==delim~~
 "reversed"
-\033[32;1mreversed(seq)\033[0m   Return a reverse *iterator*.  *seq* must be an object which has a
+reversed(seq)
+   Return a reverse *iterator*.  *seq* must be an object which has a
    "__reversed__()" method or supports the sequence protocol (the
    "__len__()" method and the "__getitem__()" method with integer
    arguments starting at "0").
 
-~~CPP==new==module==delim~~
-)==~~~~=="

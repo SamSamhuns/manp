@@ -1,0 +1,17 @@
+"iterator.__next__"
+iterator.__next__()
+    Return the next item from the container.  If there are no further
+    items, raise the "StopIteration" exception.  This method
+    corresponds to the "tp_iternext" slot of the type structure for
+    Python objects in the Python/C API.
+
+    Python defines several iterator objects to support iteration over
+    general and specific sequence types, dictionaries, and other more
+    specialized forms.  The specific types are not important beyond their
+    implementation of the iterator protocol.
+
+    Once an iterator's "__next__()" method raises "StopIteration", it must
+    continue to do so on subsequent calls. Implementations that do not
+    obey this property are deemed broken.
+
+

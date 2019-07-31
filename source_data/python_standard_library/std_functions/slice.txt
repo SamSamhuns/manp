@@ -1,6 +1,6 @@
-R"==~~~~==(slice~~CPP==map==key==delim~~
 "slice"
-\033[32;1mclass slice(stop)\033[0m
+class slice(stop)
+
    Return a *slice* object representing the set of indices specified
    by "range(start, stop, step)".  The *start* and *step* arguments
    default to "None".  Slice objects have read-only data attributes
@@ -12,5 +12,3 @@ R"==~~~~==(slice~~CPP==map==key==delim~~
    "a[start:stop, i]".  See "itertools.islice()" for an alternate
    version that returns an iterator.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

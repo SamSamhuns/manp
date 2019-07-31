@@ -1,0 +1,8 @@
+R"==~~~~==(str.rindex~~CPP==map==key==delim~~
+"str.rindex"
+str.rindex(sub[, start[, end]])
+   Like "rfind()" but raises "ValueError" when the substring *sub* is
+   not found.
+
+~~CPP==new==module==delim~~
+)==~~~~=="

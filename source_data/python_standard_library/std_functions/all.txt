@@ -1,6 +1,6 @@
-R"==~~~~==(all~~CPP==map==key==delim~~
 "all"
-\033[32;1mall(iterable)\033[0m
+all(iterable)
+
    Return "True" if all elements of the *iterable* are true (or if the
    iterable is empty).  Equivalent to:
 
@@ -10,5 +10,3 @@ R"==~~~~==(all~~CPP==map==key==delim~~
                   return False
           return True
 
-~~CPP==new==module==delim~~
-)==~~~~=="

@@ -1,6 +1,7 @@
 R"==~~~~==(globals~~CPP==map==key==delim~~
 "globals"
-\033[32;1mglobals()\033[0m
+globals()
+
    Return a dictionary representing the current global symbol table.
    This is always the dictionary of the current module (inside a
    function or method, this is the module where it is defined, not the

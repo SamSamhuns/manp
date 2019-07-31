@@ -1,6 +1,7 @@
 R"==~~~~==(open~~CPP==map==key==delim~~
 "open"
-\033[32;1mopen(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)\033[0m   Open *file* and return a corresponding *file object*.  If the file
+open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)
+   Open *file* and return a corresponding *file object*.  If the file
    cannot be opened, an "OSError" is raised.
 
    *file* is a *path-like object* giving the pathname (absolute or

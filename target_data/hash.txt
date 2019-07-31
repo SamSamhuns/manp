@@ -1,6 +1,7 @@
 R"==~~~~==(hash~~CPP==map==key==delim~~
 "hash"
-\033[32;1mhash(object)\033[0m
+hash(object)
+
    Return the hash value of the object (if it has one).  Hash values
    are integers.  They are used to quickly compare dictionary keys
    during a dictionary lookup.  Numeric values that compare equal have

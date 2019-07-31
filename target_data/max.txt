@@ -1,6 +1,7 @@
 R"==~~~~==(max~~CPP==map==key==delim~~
 "max"
-\033[32;1mmax(iterable, *[, key, default])\033[0m
+max(iterable, *[, key, default])
+
    Return the largest item in an iterable or the largest of two or
    more arguments.
 

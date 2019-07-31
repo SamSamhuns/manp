@@ -1,6 +1,6 @@
-R"==~~~~==(tuple~~CPP==map==key==delim~~
 "tuple"
-\033[32;1mclass tuple([iterable])\033[0m   Tuples are immutable sequences, typically used to store collections of
+class tuple([iterable])
+   Tuples are immutable sequences, typically used to store collections of
    heterogeneous data (such as the 2-tuples produced by the "enumerate()"
    built-in). Tuples are also used for cases where an immutable sequence
    of homogeneous data is needed (such as allowing storage in a "set" or
@@ -38,10 +38,9 @@ R"==~~~~==(tuple~~CPP==map==key==delim~~
    appropriate choice than a simple tuple object.
 
 
-\033[32;1mtuple([iterable])\033[0m
+tuple([iterable])
+
    Rather than being a function, "tuple" is actually an immutable
    sequence type, as documented in Tuples and Sequence Types --- list,
    tuple, range.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

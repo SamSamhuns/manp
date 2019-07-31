@@ -1,6 +1,6 @@
-R"==~~~~==(help~~CPP==map==key==delim~~
 "help"
-\033[32;1mhelp([object])\033[0m   Invoke the built-in help system.  (This function is intended for
+help([object])
+   Invoke the built-in help system.  (This function is intended for
    interactive use.)  If no argument is given, the interactive help
    system starts on the interpreter console.  If the argument is a
    string, then the string is looked up as the name of a module,
@@ -20,5 +20,3 @@ R"==~~~~==(help~~CPP==map==key==delim~~
    the reported signatures for callables are now more comprehensive
    and consistent.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

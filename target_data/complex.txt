@@ -1,6 +1,7 @@
 R"==~~~~==(complex~~CPP==map==key==delim~~
 "complex"
-\033[32;1mclass complex([real[, imag]])\033[0m
+class complex([real[, imag]])
+
    Return a complex number with the value *real* + *imag**1j or
    convert a string or number to a complex number.  If the first
    parameter is a string, it will be interpreted as a complex number

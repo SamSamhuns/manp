@@ -1,6 +1,6 @@
-R"==~~~~==(dict~~CPP==map==key==delim~~
 "dict"
-\033[32;1mclass dict(**kwarg), class dict(mapping, **kwarg), class dict(iterable, **kwarg)\033[0m   Return a new dictionary initialized from an optional positional
+class dict(**kwarg), class dict(mapping, **kwarg), class dict(iterable, **kwarg)
+   Return a new dictionary initialized from an optional positional
    argument and a possibly empty set of keyword arguments.
 
    If no positional argument is given, an empty dictionary is created.
@@ -270,7 +270,9 @@ R"==~~~~==(dict~~CPP==map==key==delim~~
        {'juice', 'sausage', 'bacon', 'spam'}
 
 
-\033[32;1mclass dict(**kwarg)\033[0m\033[32;1mclass dict(mapping, **kwarg)\033[0m
+class dict(**kwarg)
+class dict(mapping, **kwarg)
+
    Create a new dictionary.  The "dict" object is the dictionary
    class. See "dict" and Mapping Types --- dict for documentation
    about this class.
@@ -278,5 +280,3 @@ R"==~~~~==(dict~~CPP==map==key==delim~~
    For other containers see the built-in "list", "set", and "tuple"
    classes, as well as the "collections" module.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

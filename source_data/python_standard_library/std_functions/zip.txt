@@ -1,6 +1,6 @@
-R"==~~~~==(zip~~CPP==map==key==delim~~
 "zip"
-\033[32;1mzip(*iterables)\033[0m   Make an iterator that aggregates elements from each of the
+zip(*iterables)
+   Make an iterator that aggregates elements from each of the
    iterables.
 
    Returns an iterator of tuples, where the *i*-th tuple contains the
@@ -47,5 +47,3 @@ R"==~~~~==(zip~~CPP==map==key==delim~~
       >>> x == list(x2) and y == list(y2)
       True
 
-~~CPP==new==module==delim~~
-)==~~~~=="

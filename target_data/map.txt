@@ -1,6 +1,7 @@
 R"==~~~~==(map~~CPP==map==key==delim~~
 "map"
-\033[32;1mmap(function, iterable, ...)\033[0m
+map(function, iterable, ...)
+
    Return an iterator that applies *function* to every item of
    *iterable*, yielding the results.  If additional *iterable*
    arguments are passed, *function* must take that many arguments and

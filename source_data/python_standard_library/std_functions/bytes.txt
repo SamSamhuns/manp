@@ -1,6 +1,6 @@
-R"==~~~~==(bytes~~CPP==map==key==delim~~
 "bytes"
-\033[32;1mclass bytes([source[, encoding[, errors]]])\033[0m
+class bytes([source[, encoding[, errors]]])
+
     Bytes objects are immutable sequences of single bytes. Since many
     major binary protocols are based on the ASCII text encoding, bytes
     objects offer several methods that are only valid when working with
@@ -101,7 +101,8 @@ R"==~~~~==(bytes~~CPP==map==key==delim~~
       always compare unequal.
 
 
-\033[32;1mclass bytes([source[, encoding[, errors]]])\033[0m   Return a new "bytes" object, which is an immutable sequence of
+class bytes([source[, encoding[, errors]]])
+   Return a new "bytes" object, which is an immutable sequence of
    integers in the range "0 <= x < 256".  "bytes" is an immutable
    version of "bytearray" -- it has the same non-mutating methods and
    the same indexing and slicing behavior.
@@ -115,5 +116,3 @@ R"==~~~~==(bytes~~CPP==map==key==delim~~
    See also Binary Sequence Types --- bytes, bytearray, memoryview,
    Bytes Objects, and Bytes and Bytearray Operations.
 
-~~CPP==new==module==delim~~
-)==~~~~=="
