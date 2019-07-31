@@ -1,5 +1,5 @@
 R"==~~~~==(modules~~CPP==map==key==delim~~
-"modules/modules.txt"
+"modules"
 Importing Modules
 *****************
 

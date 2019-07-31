@@ -1,5 +1,5 @@
 R"==~~~~==(unittest.mock-examples~~CPP==map==key==delim~~
-"modules/unittest.mock-examples.txt"
+"unittest.mock-examples"
 "unittest.mock" --- getting started
 ***********************************
 

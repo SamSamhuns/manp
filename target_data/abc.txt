@@ -1,5 +1,5 @@
 R"==~~~~==(abc~~CPP==map==key==delim~~
-"modules/abc.txt"
+"abc"
 "abc" --- Abstract Base Classes
 *******************************
 

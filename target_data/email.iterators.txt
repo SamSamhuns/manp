@@ -1,5 +1,5 @@
 R"==~~~~==(email.iterators~~CPP==map==key==delim~~
-"modules/email.iterators.txt"
+"email.iterators"
 "email.iterators": Iterators
 ****************************
 

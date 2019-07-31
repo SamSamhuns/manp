@@ -1,5 +1,5 @@
 R"==~~~~==(asyncio-subprocess~~CPP==map==key==delim~~
-"modules/asyncio-subprocess.txt"
+"asyncio-subprocess"
 Subprocesses
 ************
 

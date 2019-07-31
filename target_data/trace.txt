@@ -1,5 +1,5 @@
 R"==~~~~==(trace~~CPP==map==key==delim~~
-"modules/trace.txt"
+"trace"
 "trace" --- Trace or track Python statement execution
 *****************************************************
 

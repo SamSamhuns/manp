@@ -1,5 +1,5 @@
 R"==~~~~==(functools~~CPP==map==key==delim~~
-"modules/functools.txt"
+"functools"
 "functools" --- Higher-order functions and operations on callable objects
 *************************************************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(ossaudiodev~~CPP==map==key==delim~~
-"modules/ossaudiodev.txt"
+"ossaudiodev"
 "ossaudiodev" --- Access to OSS-compatible audio devices
 ********************************************************
 

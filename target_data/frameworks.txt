@@ -1,5 +1,5 @@
 R"==~~~~==(frameworks~~CPP==map==key==delim~~
-"modules/frameworks.txt"
+"frameworks"
 Program Frameworks
 ******************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(asyncio-protocol~~CPP==map==key==delim~~
-"modules/asyncio-protocol.txt"
+"asyncio-protocol"
 Transports and Protocols
 ************************
 

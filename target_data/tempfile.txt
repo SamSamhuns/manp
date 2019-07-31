@@ -1,5 +1,5 @@
 R"==~~~~==(tempfile~~CPP==map==key==delim~~
-"modules/tempfile.txt"
+"tempfile"
 "tempfile" --- Generate temporary files and directories
 *******************************************************
 

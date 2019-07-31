@@ -1,5 +1,5 @@
 R"==~~~~==(warnings~~CPP==map==key==delim~~
-"modules/warnings.txt"
+"warnings"
 "warnings" --- Warning control
 ******************************
 

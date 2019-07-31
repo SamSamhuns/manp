@@ -1,5 +1,5 @@
 R"==~~~~==(binary~~CPP==map==key==delim~~
-"modules/binary.txt"
+"binary"
 Binary Data Services
 ********************
 

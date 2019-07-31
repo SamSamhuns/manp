@@ -1,5 +1,5 @@
 R"==~~~~==(crypt~~CPP==map==key==delim~~
-"modules/crypt.txt"
+"crypt"
 "crypt" --- Function to check Unix passwords
 ********************************************
 

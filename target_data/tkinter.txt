@@ -1,5 +1,5 @@
 R"==~~~~==(tkinter~~CPP==map==key==delim~~
-"modules/tkinter.txt"
+"tkinter"
 "tkinter" --- Python interface to Tcl/Tk
 ****************************************
 

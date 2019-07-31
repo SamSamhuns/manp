@@ -1,5 +1,5 @@
 R"==~~~~==(index~~CPP==map==key==delim~~
-"modules/index.txt"
+"index"
 The Python Standard Library
 ***************************
 

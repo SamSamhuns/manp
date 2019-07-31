@@ -1,5 +1,5 @@
 R"==~~~~==(aifc~~CPP==map==key==delim~~
-"modules/aifc.txt"
+"aifc"
 "aifc" --- Read and write AIFF and AIFC files
 *********************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(multiprocessing~~CPP==map==key==delim~~
-"modules/multiprocessing.txt"
+"multiprocessing"
 "multiprocessing" --- Process-based parallelism
 ***********************************************
 

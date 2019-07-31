@@ -1,5 +1,5 @@
 R"==~~~~==(http.cookies~~CPP==map==key==delim~~
-"modules/http.cookies.txt"
+"http.cookies"
 "http.cookies" --- HTTP state management
 ****************************************
 

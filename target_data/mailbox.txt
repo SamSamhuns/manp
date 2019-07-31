@@ -1,5 +1,5 @@
 R"==~~~~==(mailbox~~CPP==map==key==delim~~
-"modules/mailbox.txt"
+"mailbox"
 "mailbox" --- Manipulate mailboxes in various formats
 *****************************************************
 

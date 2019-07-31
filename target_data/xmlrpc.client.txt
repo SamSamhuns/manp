@@ -1,5 +1,5 @@
 R"==~~~~==(xmlrpc.client~~CPP==map==key==delim~~
-"modules/xmlrpc.client.txt"
+"xmlrpc.client"
 "xmlrpc.client" --- XML-RPC client access
 *****************************************
 

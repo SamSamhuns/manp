@@ -1,5 +1,5 @@
 R"==~~~~==(http.server~~CPP==map==key==delim~~
-"modules/http.server.txt"
+"http.server"
 "http.server" --- HTTP servers
 ******************************
 

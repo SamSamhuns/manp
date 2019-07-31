@@ -1,5 +1,5 @@
 R"==~~~~==(urllib.robotparser~~CPP==map==key==delim~~
-"modules/urllib.robotparser.txt"
+"urllib.robotparser"
 "urllib.robotparser" ---  Parser for robots.txt
 ***********************************************
 

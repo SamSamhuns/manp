@@ -1,5 +1,5 @@
 R"==~~~~==(tabnanny~~CPP==map==key==delim~~
-"modules/tabnanny.txt"
+"tabnanny"
 "tabnanny" --- Detection of ambiguous indentation
 *************************************************
 

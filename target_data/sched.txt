@@ -1,5 +1,5 @@
 R"==~~~~==(sched~~CPP==map==key==delim~~
-"modules/sched.txt"
+"sched"
 "sched" --- Event scheduler
 ***************************
 

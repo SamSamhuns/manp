@@ -1,5 +1,5 @@
 R"==~~~~==(tkinter.ttk~~CPP==map==key==delim~~
-"modules/tkinter.ttk.txt"
+"tkinter.ttk"
 "tkinter.ttk" --- Tk themed widgets
 ***********************************
 

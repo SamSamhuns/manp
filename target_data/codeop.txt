@@ -1,5 +1,5 @@
 R"==~~~~==(codeop~~CPP==map==key==delim~~
-"modules/codeop.txt"
+"codeop"
 "codeop" --- Compile Python code
 ********************************
 

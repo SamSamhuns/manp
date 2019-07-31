@@ -1,5 +1,5 @@
 R"==~~~~==(archiving~~CPP==map==key==delim~~
-"modules/archiving.txt"
+"archiving"
 Data Compression and Archiving
 ******************************
 

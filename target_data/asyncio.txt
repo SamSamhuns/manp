@@ -1,5 +1,5 @@
 R"==~~~~==(asyncio~~CPP==map==key==delim~~
-"modules/asyncio.txt"
+"asyncio"
 "asyncio" --- Asynchronous I/O
 ******************************
 

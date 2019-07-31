@@ -1,5 +1,5 @@
 R"==~~~~==(test~~CPP==map==key==delim~~
-"modules/test.txt"
+"test"
 "test" --- Regression tests package for Python
 **********************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(python~~CPP==map==key==delim~~
-"modules/python.txt"
+"python"
 Python Runtime Services
 ***********************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(enum~~CPP==map==key==delim~~
-"modules/enum.txt"
+"enum"
 "enum" --- Support for enumerations
 ***********************************
 

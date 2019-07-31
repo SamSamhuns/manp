@@ -1,5 +1,5 @@
 R"==~~~~==(superseded~~CPP==map==key==delim~~
-"modules/superseded.txt"
+"superseded"
 Superseded Modules
 ******************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(xml.dom~~CPP==map==key==delim~~
-"modules/xml.dom.txt"
+"xml.dom"
 "xml.dom" --- The Document Object Model API
 *******************************************
 

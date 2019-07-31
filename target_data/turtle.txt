@@ -1,5 +1,5 @@
 R"==~~~~==(turtle~~CPP==map==key==delim~~
-"modules/turtle.txt"
+"turtle"
 "turtle" --- Turtle graphics
 ****************************
 

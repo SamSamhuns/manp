@@ -1,5 +1,5 @@
 R"==~~~~==(copyreg~~CPP==map==key==delim~~
-"modules/copyreg.txt"
+"copyreg"
 "copyreg" --- Register "pickle" support functions
 *************************************************
 

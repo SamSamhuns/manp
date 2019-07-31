@@ -1,5 +1,5 @@
 R"==~~~~==(concurrency~~CPP==map==key==delim~~
-"modules/concurrency.txt"
+"concurrency"
 Concurrent Execution
 ********************
 

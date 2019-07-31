@@ -1,5 +1,5 @@
 R"==~~~~==(uuid~~CPP==map==key==delim~~
-"modules/uuid.txt"
+"uuid"
 "uuid" --- UUID objects according to **RFC 4122**
 *************************************************
 

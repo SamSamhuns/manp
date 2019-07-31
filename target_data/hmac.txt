@@ -1,5 +1,5 @@
 R"==~~~~==(hmac~~CPP==map==key==delim~~
-"modules/hmac.txt"
+"hmac"
 "hmac" --- Keyed-Hashing for Message Authentication
 ***************************************************
 

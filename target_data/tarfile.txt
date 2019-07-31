@@ -1,5 +1,5 @@
 R"==~~~~==(tarfile~~CPP==map==key==delim~~
-"modules/tarfile.txt"
+"tarfile"
 "tarfile" --- Read and write tar archive files
 **********************************************
 

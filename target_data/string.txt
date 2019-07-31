@@ -1,5 +1,5 @@
 R"==~~~~==(string~~CPP==map==key==delim~~
-"modules/string.txt"
+"string"
 "string" --- Common string operations
 *************************************
 

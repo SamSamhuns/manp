@@ -1,5 +1,5 @@
 R"==~~~~==(imp~~CPP==map==key==delim~~
-"modules/imp.txt"
+"imp"
 "imp" --- Access the import internals
 *************************************
 

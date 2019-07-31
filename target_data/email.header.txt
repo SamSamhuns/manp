@@ -1,5 +1,5 @@
 R"==~~~~==(email.header~~CPP==map==key==delim~~
-"modules/email.header.txt"
+"email.header"
 "email.header": Internationalized headers
 *****************************************
 

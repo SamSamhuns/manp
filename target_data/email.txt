@@ -1,5 +1,5 @@
 R"==~~~~==(email~~CPP==map==key==delim~~
-"modules/email.txt"
+"email"
 "email" --- An email and MIME handling package
 **********************************************
 

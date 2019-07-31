@@ -1,5 +1,5 @@
 R"==~~~~==(html.entities~~CPP==map==key==delim~~
-"modules/html.entities.txt"
+"html.entities"
 "html.entities" --- Definitions of HTML general entities
 ********************************************************
 

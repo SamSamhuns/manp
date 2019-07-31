@@ -1,5 +1,5 @@
 R"==~~~~==(asyncio-dev~~CPP==map==key==delim~~
-"modules/asyncio-dev.txt"
+"asyncio-dev"
 Developing with asyncio
 ***********************
 

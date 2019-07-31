@@ -1,5 +1,5 @@
 R"==~~~~==(distutils~~CPP==map==key==delim~~
-"modules/distutils.txt"
+"distutils"
 "distutils" --- Building and installing Python modules
 ******************************************************
 

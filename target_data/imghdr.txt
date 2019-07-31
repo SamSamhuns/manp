@@ -1,5 +1,5 @@
 R"==~~~~==(imghdr~~CPP==map==key==delim~~
-"modules/imghdr.txt"
+"imghdr"
 "imghdr" --- Determine the type of an image
 *******************************************
 

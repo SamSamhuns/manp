@@ -1,5 +1,5 @@
 R"==~~~~==(reprlib~~CPP==map==key==delim~~
-"modules/reprlib.txt"
+"reprlib"
 "reprlib" --- Alternate "repr()" implementation
 ***********************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(codecs~~CPP==map==key==delim~~
-"modules/codecs.txt"
+"codecs"
 "codecs" --- Codec registry and base classes
 ********************************************
 

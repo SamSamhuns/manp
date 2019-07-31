@@ -1,5 +1,5 @@
 R"==~~~~==(pdb~~CPP==map==key==delim~~
-"modules/pdb.txt"
+"pdb"
 "pdb" --- The Python Debugger
 *****************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(fcntl~~CPP==map==key==delim~~
-"modules/fcntl.txt"
+"fcntl"
 "fcntl" --- The "fcntl" and "ioctl" system calls
 ************************************************
 

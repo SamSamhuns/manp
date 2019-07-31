@@ -1,5 +1,5 @@
 R"==~~~~==(msvcrt~~CPP==map==key==delim~~
-"modules/msvcrt.txt"
+"msvcrt"
 "msvcrt" --- Useful routines from the MS VC++ runtime
 *****************************************************
 

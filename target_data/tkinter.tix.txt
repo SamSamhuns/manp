@@ -1,5 +1,5 @@
 R"==~~~~==(tkinter.tix~~CPP==map==key==delim~~
-"modules/tkinter.tix.txt"
+"tkinter.tix"
 "tkinter.tix" --- Extension widgets for Tk
 ******************************************
 

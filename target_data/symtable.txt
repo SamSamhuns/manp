@@ -1,5 +1,5 @@
 R"==~~~~==(symtable~~CPP==map==key==delim~~
-"modules/symtable.txt"
+"symtable"
 "symtable" --- Access to the compiler's symbol tables
 *****************************************************
 

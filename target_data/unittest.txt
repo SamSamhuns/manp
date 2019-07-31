@@ -1,5 +1,5 @@
 R"==~~~~==(unittest~~CPP==map==key==delim~~
-"modules/unittest.txt"
+"unittest"
 "unittest" --- Unit testing framework
 *************************************
 

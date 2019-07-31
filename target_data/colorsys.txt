@@ -1,5 +1,5 @@
 R"==~~~~==(colorsys~~CPP==map==key==delim~~
-"modules/colorsys.txt"
+"colorsys"
 "colorsys" --- Conversions between color systems
 ************************************************
 

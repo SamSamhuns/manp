@@ -1,5 +1,5 @@
 R"==~~~~==(__future__~~CPP==map==key==delim~~
-"modules/__future__.txt"
+"__future__"
 "__future__" --- Future statement definitions
 *********************************************
 

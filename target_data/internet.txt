@@ -1,5 +1,5 @@
 R"==~~~~==(internet~~CPP==map==key==delim~~
-"modules/internet.txt"
+"internet"
 Internet Protocols and Support
 ******************************
 

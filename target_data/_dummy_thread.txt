@@ -1,5 +1,5 @@
 R"==~~~~==(_dummy_thread~~CPP==map==key==delim~~
-"modules/_dummy_thread.txt"
+"_dummy_thread"
 "_dummy_thread" --- Drop-in replacement for the "_thread" module
 ****************************************************************
 

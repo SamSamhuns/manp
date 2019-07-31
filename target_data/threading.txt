@@ -1,5 +1,5 @@
 R"==~~~~==(threading~~CPP==map==key==delim~~
-"modules/threading.txt"
+"threading"
 "threading" --- Thread-based parallelism
 ****************************************
 

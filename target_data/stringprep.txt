@@ -1,5 +1,5 @@
 R"==~~~~==(stringprep~~CPP==map==key==delim~~
-"modules/stringprep.txt"
+"stringprep"
 "stringprep" --- Internet String Preparation
 ********************************************
 

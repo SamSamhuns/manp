@@ -1,5 +1,5 @@
 R"==~~~~==(pkgutil~~CPP==map==key==delim~~
-"modules/pkgutil.txt"
+"pkgutil"
 "pkgutil" --- Package extension utility
 ***************************************
 

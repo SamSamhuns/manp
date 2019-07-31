@@ -1,5 +1,5 @@
 R"==~~~~==(ftplib~~CPP==map==key==delim~~
-"modules/ftplib.txt"
+"ftplib"
 "ftplib" --- FTP protocol client
 ********************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(bz2~~CPP==map==key==delim~~
-"modules/bz2.txt"
+"bz2"
 "bz2" --- Support for **bzip2** compression
 *******************************************
 

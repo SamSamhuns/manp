@@ -1,5 +1,5 @@
 R"==~~~~==(custominterp~~CPP==map==key==delim~~
-"modules/custominterp.txt"
+"custominterp"
 Custom Python Interpreters
 **************************
 

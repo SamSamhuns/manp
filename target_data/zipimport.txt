@@ -1,5 +1,5 @@
 R"==~~~~==(zipimport~~CPP==map==key==delim~~
-"modules/zipimport.txt"
+"zipimport"
 "zipimport" --- Import modules from Zip archives
 ************************************************
 

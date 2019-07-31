@@ -1,5 +1,5 @@
 R"==~~~~==(xml~~CPP==map==key==delim~~
-"modules/xml.txt"
+"xml"
 XML Processing Modules
 **********************
 

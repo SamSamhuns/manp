@@ -1,5 +1,5 @@
 R"==~~~~==(tokenize~~CPP==map==key==delim~~
-"modules/tokenize.txt"
+"tokenize"
 "tokenize" --- Tokenizer for Python source
 ******************************************
 

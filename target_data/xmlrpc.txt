@@ -1,5 +1,5 @@
 R"==~~~~==(xmlrpc~~CPP==map==key==delim~~
-"modules/xmlrpc.txt"
+"xmlrpc"
 "xmlrpc" --- XMLRPC server and client modules
 *********************************************
 

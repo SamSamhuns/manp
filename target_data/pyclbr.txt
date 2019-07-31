@@ -1,5 +1,5 @@
 R"==~~~~==(pyclbr~~CPP==map==key==delim~~
-"modules/pyclbr.txt"
+"pyclbr"
 "pyclbr" --- Python class browser support
 *****************************************
 

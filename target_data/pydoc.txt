@@ -1,5 +1,5 @@
 R"==~~~~==(pydoc~~CPP==map==key==delim~~
-"modules/pydoc.txt"
+"pydoc"
 "pydoc" --- Documentation generator and online help system
 **********************************************************
 

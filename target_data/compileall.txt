@@ -1,5 +1,5 @@
 R"==~~~~==(compileall~~CPP==map==key==delim~~
-"modules/compileall.txt"
+"compileall"
 "compileall" --- Byte-compile Python libraries
 **********************************************
 

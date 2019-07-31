@@ -1,5 +1,5 @@
 R"==~~~~==(asyncore~~CPP==map==key==delim~~
-"modules/asyncore.txt"
+"asyncore"
 "asyncore" --- Asynchronous socket handler
 ******************************************
 

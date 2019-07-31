@@ -1,5 +1,5 @@
 R"==~~~~==(html~~CPP==map==key==delim~~
-"modules/html.txt"
+"html"
 "html" --- HyperText Markup Language support
 ********************************************
 

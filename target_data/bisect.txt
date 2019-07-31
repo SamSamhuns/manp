@@ -1,5 +1,5 @@
 R"==~~~~==(bisect~~CPP==map==key==delim~~
-"modules/bisect.txt"
+"bisect"
 "bisect" --- Array bisection algorithm
 **************************************
 

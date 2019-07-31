@@ -1,5 +1,5 @@
 R"==~~~~==(urllib.request~~CPP==map==key==delim~~
-"modules/urllib.request.txt"
+"urllib.request"
 "urllib.request" --- Extensible library for opening URLs
 ********************************************************
 

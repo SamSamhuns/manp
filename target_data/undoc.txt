@@ -1,5 +1,5 @@
 R"==~~~~==(undoc~~CPP==map==key==delim~~
-"modules/undoc.txt"
+"undoc"
 Undocumented Modules
 ********************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(bdb~~CPP==map==key==delim~~
-"modules/bdb.txt"
+"bdb"
 "bdb" --- Debugger framework
 ****************************
 

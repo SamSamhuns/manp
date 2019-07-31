@@ -1,5 +1,5 @@
 R"==~~~~==(ssl~~CPP==map==key==delim~~
-"modules/ssl.txt"
+"ssl"
 "ssl" --- TLS/SSL wrapper for socket objects
 ********************************************
 

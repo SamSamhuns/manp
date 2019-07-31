@@ -1,5 +1,5 @@
 R"==~~~~==(modulefinder~~CPP==map==key==delim~~
-"modules/modulefinder.txt"
+"modulefinder"
 "modulefinder" --- Find modules used by a script
 ************************************************
 

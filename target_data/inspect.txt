@@ -1,5 +1,5 @@
 R"==~~~~==(inspect~~CPP==map==key==delim~~
-"modules/inspect.txt"
+"inspect"
 "inspect" --- Inspect live objects
 **********************************
 

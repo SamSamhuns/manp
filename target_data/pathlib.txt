@@ -1,5 +1,5 @@
 R"==~~~~==(pathlib~~CPP==map==key==delim~~
-"modules/pathlib.txt"
+"pathlib"
 "pathlib" --- Object-oriented filesystem paths
 **********************************************
 

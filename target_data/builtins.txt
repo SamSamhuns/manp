@@ -1,5 +1,5 @@
 R"==~~~~==(builtins~~CPP==map==key==delim~~
-"modules/builtins.txt"
+"builtins"
 "builtins" --- Built-in objects
 *******************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(atexit~~CPP==map==key==delim~~
-"modules/atexit.txt"
+"atexit"
 "atexit" --- Exit handlers
 **************************
 

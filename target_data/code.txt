@@ -1,5 +1,5 @@
 R"==~~~~==(code~~CPP==map==key==delim~~
-"modules/code.txt"
+"code"
 "code" --- Interpreter base classes
 ***********************************
 

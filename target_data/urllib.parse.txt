@@ -1,5 +1,5 @@
 R"==~~~~==(urllib.parse~~CPP==map==key==delim~~
-"modules/urllib.parse.txt"
+"urllib.parse"
 "urllib.parse" --- Parse URLs into components
 *********************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(py_compile~~CPP==map==key==delim~~
-"modules/py_compile.txt"
+"py_compile"
 "py_compile" --- Compile Python source files
 ********************************************
 

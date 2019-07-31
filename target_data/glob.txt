@@ -1,5 +1,5 @@
 R"==~~~~==(glob~~CPP==map==key==delim~~
-"modules/glob.txt"
+"glob"
 "glob" --- Unix style pathname pattern expansion
 ************************************************
 

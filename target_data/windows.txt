@@ -1,5 +1,5 @@
 R"==~~~~==(windows~~CPP==map==key==delim~~
-"modules/windows.txt"
+"windows"
 MS Windows Specific Services
 ****************************
 

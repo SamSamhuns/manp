@@ -1,5 +1,5 @@
 R"==~~~~==(unicodedata~~CPP==map==key==delim~~
-"modules/unicodedata.txt"
+"unicodedata"
 "unicodedata" --- Unicode Database
 **********************************
 

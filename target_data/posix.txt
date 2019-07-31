@@ -1,5 +1,5 @@
 R"==~~~~==(posix~~CPP==map==key==delim~~
-"modules/posix.txt"
+"posix"
 "posix" --- The most common POSIX system calls
 **********************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(asynchat~~CPP==map==key==delim~~
-"modules/asynchat.txt"
+"asynchat"
 "asynchat" --- Asynchronous socket command/response handler
 ***********************************************************
 

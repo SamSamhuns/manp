@@ -1,5 +1,5 @@
 R"==~~~~==(telnetlib~~CPP==map==key==delim~~
-"modules/telnetlib.txt"
+"telnetlib"
 "telnetlib" --- Telnet client
 *****************************
 

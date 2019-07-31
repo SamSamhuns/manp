@@ -1,5 +1,5 @@
 R"==~~~~==(dis~~CPP==map==key==delim~~
-"modules/dis.txt"
+"dis"
 "dis" --- Disassembler for Python bytecode
 ******************************************
 

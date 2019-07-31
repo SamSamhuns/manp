@@ -1,5 +1,5 @@
 R"==~~~~==(runpy~~CPP==map==key==delim~~
-"modules/runpy.txt"
+"runpy"
 "runpy" --- Locating and executing Python modules
 *************************************************
 

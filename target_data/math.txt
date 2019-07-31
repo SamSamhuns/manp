@@ -1,5 +1,5 @@
 R"==~~~~==(math~~CPP==map==key==delim~~
-"modules/math.txt"
+"math"
 "math" --- Mathematical functions
 *********************************
 

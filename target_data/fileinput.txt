@@ -1,5 +1,5 @@
 R"==~~~~==(fileinput~~CPP==map==key==delim~~
-"modules/fileinput.txt"
+"fileinput"
 "fileinput" --- Iterate over lines from multiple input streams
 **************************************************************
 

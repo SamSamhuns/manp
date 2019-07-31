@@ -1,5 +1,5 @@
 R"==~~~~==(token~~CPP==map==key==delim~~
-"modules/token.txt"
+"token"
 "token" --- Constants used with Python parse trees
 **************************************************
 

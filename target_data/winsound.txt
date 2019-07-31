@@ -1,5 +1,5 @@
 R"==~~~~==(winsound~~CPP==map==key==delim~~
-"modules/winsound.txt"
+"winsound"
 "winsound" --- Sound-playing interface for Windows
 **************************************************
 

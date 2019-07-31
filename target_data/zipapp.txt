@@ -1,5 +1,5 @@
 R"==~~~~==(zipapp~~CPP==map==key==delim~~
-"modules/zipapp.txt"
+"zipapp"
 "zipapp" --- Manage executable Python zip archives
 **************************************************
 

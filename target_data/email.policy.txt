@@ -1,5 +1,5 @@
 R"==~~~~==(email.policy~~CPP==map==key==delim~~
-"modules/email.policy.txt"
+"email.policy"
 "email.policy": Policy Objects
 ******************************
 

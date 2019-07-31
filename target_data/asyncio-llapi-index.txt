@@ -1,5 +1,5 @@
 R"==~~~~==(asyncio-llapi-index~~CPP==map==key==delim~~
-"modules/asyncio-llapi-index.txt"
+"asyncio-llapi-index"
 Low-level API Index
 *******************
 

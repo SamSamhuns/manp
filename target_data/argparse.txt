@@ -1,5 +1,5 @@
 R"==~~~~==(argparse~~CPP==map==key==delim~~
-"modules/argparse.txt"
+"argparse"
 "argparse" --- Parser for command-line options, arguments and sub-commands
 **************************************************************************
 

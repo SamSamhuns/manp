@@ -1,5 +1,5 @@
 R"==~~~~==(exceptions~~CPP==map==key==delim~~
-"modules/exceptions.txt"
+"exceptions"
 Built-in Exceptions
 *******************
 

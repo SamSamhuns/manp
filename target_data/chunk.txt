@@ -1,5 +1,5 @@
 R"==~~~~==(chunk~~CPP==map==key==delim~~
-"modules/chunk.txt"
+"chunk"
 "chunk" --- Read IFF chunked data
 *********************************
 

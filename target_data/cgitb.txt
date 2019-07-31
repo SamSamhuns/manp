@@ -1,5 +1,5 @@
 R"==~~~~==(cgitb~~CPP==map==key==delim~~
-"modules/cgitb.txt"
+"cgitb"
 "cgitb" --- Traceback manager for CGI scripts
 *********************************************
 

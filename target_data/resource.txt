@@ -1,5 +1,5 @@
 R"==~~~~==(resource~~CPP==map==key==delim~~
-"modules/resource.txt"
+"resource"
 "resource" --- Resource usage information
 *****************************************
 

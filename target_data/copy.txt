@@ -1,5 +1,5 @@
 R"==~~~~==(copy~~CPP==map==key==delim~~
-"modules/copy.txt"
+"copy"
 "copy" --- Shallow and deep copy operations
 *******************************************
 

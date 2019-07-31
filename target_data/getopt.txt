@@ -1,5 +1,5 @@
 R"==~~~~==(getopt~~CPP==map==key==delim~~
-"modules/getopt.txt"
+"getopt"
 "getopt" --- C-style parser for command line options
 ****************************************************
 

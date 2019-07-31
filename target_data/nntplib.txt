@@ -1,5 +1,5 @@
 R"==~~~~==(nntplib~~CPP==map==key==delim~~
-"modules/nntplib.txt"
+"nntplib"
 "nntplib" --- NNTP protocol client
 **********************************
 

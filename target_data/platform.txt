@@ -1,5 +1,5 @@
 R"==~~~~==(platform~~CPP==map==key==delim~~
-"modules/platform.txt"
+"platform"
 "platform" ---  Access to underlying platform's identifying data
 ****************************************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(plistlib~~CPP==map==key==delim~~
-"modules/plistlib.txt"
+"plistlib"
 "plistlib" --- Generate and parse Mac OS X ".plist" files
 *********************************************************
 

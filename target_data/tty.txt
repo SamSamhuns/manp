@@ -1,5 +1,5 @@
 R"==~~~~==(tty~~CPP==map==key==delim~~
-"modules/tty.txt"
+"tty"
 "tty" --- Terminal control functions
 ************************************
 

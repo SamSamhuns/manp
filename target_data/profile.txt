@@ -1,5 +1,5 @@
 R"==~~~~==(profile~~CPP==map==key==delim~~
-"modules/profile.txt"
+"profile"
 The Python Profilers
 ********************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(_thread~~CPP==map==key==delim~~
-"modules/_thread.txt"
+"_thread"
 "_thread" --- Low-level threading API
 *************************************
 

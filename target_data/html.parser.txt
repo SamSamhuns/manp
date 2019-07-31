@@ -1,5 +1,5 @@
 R"==~~~~==(html.parser~~CPP==map==key==delim~~
-"modules/html.parser.txt"
+"html.parser"
 "html.parser" --- Simple HTML and XHTML parser
 **********************************************
 

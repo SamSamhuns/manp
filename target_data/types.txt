@@ -1,5 +1,5 @@
 R"==~~~~==(types~~CPP==map==key==delim~~
-"modules/types.txt"
+"types"
 "types" --- Dynamic type creation and names for built-in types
 **************************************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(email.contentmanager~~CPP==map==key==delim~~
-"modules/email.contentmanager.txt"
+"email.contentmanager"
 "email.contentmanager": Managing MIME Content
 *********************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(difflib~~CPP==map==key==delim~~
-"modules/difflib.txt"
+"difflib"
 "difflib" --- Helpers for computing deltas
 ******************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(grp~~CPP==map==key==delim~~
-"modules/grp.txt"
+"grp"
 "grp" --- The group database
 ****************************
 

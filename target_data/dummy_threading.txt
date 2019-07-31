@@ -1,5 +1,5 @@
 R"==~~~~==(dummy_threading~~CPP==map==key==delim~~
-"modules/dummy_threading.txt"
+"dummy_threading"
 "dummy_threading" --- Drop-in replacement for the "threading" module
 ********************************************************************
 

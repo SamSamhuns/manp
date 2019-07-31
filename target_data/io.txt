@@ -1,5 +1,5 @@
 R"==~~~~==(io~~CPP==map==key==delim~~
-"modules/io.txt"
+"io"
 "io" --- Core tools for working with streams
 ********************************************
 

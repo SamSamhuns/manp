@@ -1,5 +1,5 @@
 R"==~~~~==(ast~~CPP==map==key==delim~~
-"modules/ast.txt"
+"ast"
 "ast" --- Abstract Syntax Trees
 *******************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(crypto~~CPP==map==key==delim~~
-"modules/crypto.txt"
+"crypto"
 Cryptographic Services
 **********************
 

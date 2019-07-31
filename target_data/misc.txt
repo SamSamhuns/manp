@@ -1,5 +1,5 @@
 R"==~~~~==(misc~~CPP==map==key==delim~~
-"modules/misc.txt"
+"misc"
 Miscellaneous Services
 **********************
 

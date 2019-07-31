@@ -1,5 +1,5 @@
 R"==~~~~==(calendar~~CPP==map==key==delim~~
-"modules/calendar.txt"
+"calendar"
 "calendar" --- General calendar-related functions
 *************************************************
 

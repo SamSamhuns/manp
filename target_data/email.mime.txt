@@ -1,5 +1,5 @@
 R"==~~~~==(email.mime~~CPP==map==key==delim~~
-"modules/email.mime.txt"
+"email.mime"
 "email.mime": Creating email and MIME objects from scratch
 **********************************************************
 

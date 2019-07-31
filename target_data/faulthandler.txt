@@ -1,5 +1,5 @@
 R"==~~~~==(faulthandler~~CPP==map==key==delim~~
-"modules/faulthandler.txt"
+"faulthandler"
 "faulthandler" --- Dump the Python traceback
 ********************************************
 

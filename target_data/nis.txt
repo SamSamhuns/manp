@@ -1,5 +1,5 @@
 R"==~~~~==(nis~~CPP==map==key==delim~~
-"modules/nis.txt"
+"nis"
 "nis" --- Interface to Sun's NIS (Yellow Pages)
 ***********************************************
 

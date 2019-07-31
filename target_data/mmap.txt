@@ -1,5 +1,5 @@
 R"==~~~~==(mmap~~CPP==map==key==delim~~
-"modules/mmap.txt"
+"mmap"
 "mmap" --- Memory-mapped file support
 *************************************
 

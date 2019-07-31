@@ -1,5 +1,5 @@
 R"==~~~~==(gzip~~CPP==map==key==delim~~
-"modules/gzip.txt"
+"gzip"
 "gzip" --- Support for **gzip** files
 *************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(netrc~~CPP==map==key==delim~~
-"modules/netrc.txt"
+"netrc"
 "netrc" --- netrc file processing
 *********************************
 

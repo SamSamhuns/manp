@@ -1,5 +1,5 @@
 R"==~~~~==(dbm~~CPP==map==key==delim~~
-"modules/dbm.txt"
+"dbm"
 "dbm" --- Interfaces to Unix "databases"
 ****************************************
 

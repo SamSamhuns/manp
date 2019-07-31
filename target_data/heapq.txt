@@ -1,5 +1,5 @@
 R"==~~~~==(heapq~~CPP==map==key==delim~~
-"modules/heapq.txt"
+"heapq"
 "heapq" --- Heap queue algorithm
 ********************************
 

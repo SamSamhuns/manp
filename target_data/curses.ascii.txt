@@ -1,5 +1,5 @@
 R"==~~~~==(curses.ascii~~CPP==map==key==delim~~
-"modules/curses.ascii.txt"
+"curses.ascii"
 "curses.ascii" --- Utilities for ASCII characters
 *************************************************
 

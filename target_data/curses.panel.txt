@@ -1,5 +1,5 @@
 R"==~~~~==(curses.panel~~CPP==map==key==delim~~
-"modules/curses.panel.txt"
+"curses.panel"
 "curses.panel" --- A panel stack extension for curses
 *****************************************************
 

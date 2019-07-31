@@ -1,5 +1,5 @@
 R"==~~~~==(subprocess~~CPP==map==key==delim~~
-"modules/subprocess.txt"
+"subprocess"
 "subprocess" --- Subprocess management
 **************************************
 

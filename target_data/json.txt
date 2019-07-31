@@ -1,5 +1,5 @@
 R"==~~~~==(json~~CPP==map==key==delim~~
-"modules/json.txt"
+"json"
 "json" --- JSON encoder and decoder
 ***********************************
 

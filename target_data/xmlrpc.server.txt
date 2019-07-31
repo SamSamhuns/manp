@@ -1,5 +1,5 @@
 R"==~~~~==(xmlrpc.server~~CPP==map==key==delim~~
-"modules/xmlrpc.server.txt"
+"xmlrpc.server"
 "xmlrpc.server" --- Basic XML-RPC servers
 *****************************************
 

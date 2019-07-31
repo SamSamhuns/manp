@@ -1,5 +1,5 @@
 R"==~~~~==(numeric~~CPP==map==key==delim~~
-"modules/numeric.txt"
+"numeric"
 Numeric and Mathematical Modules
 ********************************
 

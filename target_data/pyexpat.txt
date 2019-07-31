@@ -1,5 +1,5 @@
 R"==~~~~==(pyexpat~~CPP==map==key==delim~~
-"modules/pyexpat.txt"
+"pyexpat"
 "xml.parsers.expat" --- Fast XML parsing using Expat
 ****************************************************
 

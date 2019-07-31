@@ -1,5 +1,5 @@
 R"==~~~~==(binhex~~CPP==map==key==delim~~
-"modules/binhex.txt"
+"binhex"
 "binhex" --- Encode and decode binhex4 files
 ********************************************
 

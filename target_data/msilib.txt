@@ -1,5 +1,5 @@
 R"==~~~~==(msilib~~CPP==map==key==delim~~
-"modules/msilib.txt"
+"msilib"
 "msilib" --- Read and write Microsoft Installer files
 *****************************************************
 

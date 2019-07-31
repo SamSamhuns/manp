@@ -1,5 +1,5 @@
 R"==~~~~==(email.message~~CPP==map==key==delim~~
-"modules/email.message.txt"
+"email.message"
 "email.message": Representing an email message
 **********************************************
 

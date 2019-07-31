@@ -1,5 +1,5 @@
 R"==~~~~==(mm~~CPP==map==key==delim~~
-"modules/mm.txt"
+"mm"
 Multimedia Services
 *******************
 

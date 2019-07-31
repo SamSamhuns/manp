@@ -1,5 +1,5 @@
 R"==~~~~==(logging.config~~CPP==map==key==delim~~
-"modules/logging.config.txt"
+"logging.config"
 "logging.config" --- Logging configuration
 ******************************************
 

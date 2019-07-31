@@ -1,5 +1,5 @@
 R"==~~~~==(text~~CPP==map==key==delim~~
-"modules/text.txt"
+"text"
 Text Processing Services
 ************************
 

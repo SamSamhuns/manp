@@ -1,5 +1,5 @@
 R"==~~~~==(gettext~~CPP==map==key==delim~~
-"modules/gettext.txt"
+"gettext"
 "gettext" --- Multilingual internationalization services
 ********************************************************
 

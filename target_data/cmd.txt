@@ -1,5 +1,5 @@
 R"==~~~~==(cmd~~CPP==map==key==delim~~
-"modules/cmd.txt"
+"cmd"
 "cmd" --- Support for line-oriented command interpreters
 ********************************************************
 

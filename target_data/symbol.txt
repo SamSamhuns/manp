@@ -1,5 +1,5 @@
 R"==~~~~==(symbol~~CPP==map==key==delim~~
-"modules/symbol.txt"
+"symbol"
 "symbol" --- Constants used with Python parse trees
 ***************************************************
 

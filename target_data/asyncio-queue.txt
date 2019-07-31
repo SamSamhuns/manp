@@ -1,5 +1,5 @@
 R"==~~~~==(asyncio-queue~~CPP==map==key==delim~~
-"modules/asyncio-queue.txt"
+"asyncio-queue"
 Queues
 ******
 

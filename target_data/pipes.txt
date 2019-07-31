@@ -1,5 +1,5 @@
 R"==~~~~==(pipes~~CPP==map==key==delim~~
-"modules/pipes.txt"
+"pipes"
 "pipes" --- Interface to shell pipelines
 ****************************************
 

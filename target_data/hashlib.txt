@@ -1,5 +1,5 @@
 R"==~~~~==(hashlib~~CPP==map==key==delim~~
-"modules/hashlib.txt"
+"hashlib"
 "hashlib" --- Secure hashes and message digests
 ***********************************************
 

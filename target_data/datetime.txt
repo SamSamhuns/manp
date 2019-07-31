@@ -1,5 +1,5 @@
 R"==~~~~==(datetime~~CPP==map==key==delim~~
-"modules/datetime.txt"
+"datetime"
 "datetime" --- Basic date and time types
 ****************************************
 

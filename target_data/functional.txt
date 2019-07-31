@@ -1,5 +1,5 @@
 R"==~~~~==(functional~~CPP==map==key==delim~~
-"modules/functional.txt"
+"functional"
 Functional Programming Modules
 ******************************
 

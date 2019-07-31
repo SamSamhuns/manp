@@ -1,5 +1,5 @@
 R"==~~~~==(xml.dom.minidom~~CPP==map==key==delim~~
-"modules/xml.dom.minidom.txt"
+"xml.dom.minidom"
 "xml.dom.minidom" --- Minimal DOM implementation
 ************************************************
 

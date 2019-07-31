@@ -1,5 +1,5 @@
 R"==~~~~==(email.parser~~CPP==map==key==delim~~
-"modules/email.parser.txt"
+"email.parser"
 "email.parser": Parsing email messages
 **************************************
 

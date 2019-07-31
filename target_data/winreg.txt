@@ -1,5 +1,5 @@
 R"==~~~~==(winreg~~CPP==map==key==delim~~
-"modules/winreg.txt"
+"winreg"
 "winreg" --- Windows registry access
 ************************************
 

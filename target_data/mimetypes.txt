@@ -1,5 +1,5 @@
 R"==~~~~==(mimetypes~~CPP==map==key==delim~~
-"modules/mimetypes.txt"
+"mimetypes"
 "mimetypes" --- Map filenames to MIME types
 *******************************************
 

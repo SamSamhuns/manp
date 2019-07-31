@@ -1,5 +1,5 @@
 R"==~~~~==(asyncio-sync~~CPP==map==key==delim~~
-"modules/asyncio-sync.txt"
+"asyncio-sync"
 Synchronization Primitives
 **************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(socketserver~~CPP==map==key==delim~~
-"modules/socketserver.txt"
+"socketserver"
 "socketserver" --- A framework for network servers
 **************************************************
 

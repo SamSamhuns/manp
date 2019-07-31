@@ -1,5 +1,5 @@
 R"==~~~~==(unittest.mock~~CPP==map==key==delim~~
-"modules/unittest.mock.txt"
+"unittest.mock"
 "unittest.mock" --- mock object library
 ***************************************
 

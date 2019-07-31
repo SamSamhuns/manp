@@ -1,5 +1,5 @@
 R"==~~~~==(array~~CPP==map==key==delim~~
-"modules/array.txt"
+"array"
 "array" --- Efficient arrays of numeric values
 **********************************************
 

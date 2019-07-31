@@ -1,5 +1,5 @@
 R"==~~~~==(sunau~~CPP==map==key==delim~~
-"modules/sunau.txt"
+"sunau"
 "sunau" --- Read and write Sun AU files
 ***************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(lzma~~CPP==map==key==delim~~
-"modules/lzma.txt"
+"lzma"
 "lzma" --- Compression using the LZMA algorithm
 ***********************************************
 

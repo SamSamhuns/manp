@@ -1,5 +1,5 @@
 R"==~~~~==(smtpd~~CPP==map==key==delim~~
-"modules/smtpd.txt"
+"smtpd"
 "smtpd" --- SMTP Server
 ***********************
 

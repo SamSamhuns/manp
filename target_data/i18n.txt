@@ -1,5 +1,5 @@
 R"==~~~~==(i18n~~CPP==map==key==delim~~
-"modules/i18n.txt"
+"i18n"
 Internationalization
 ********************
 

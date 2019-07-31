@@ -1,5 +1,5 @@
 R"==~~~~==(logging.handlers~~CPP==map==key==delim~~
-"modules/logging.handlers.txt"
+"logging.handlers"
 "logging.handlers" --- Logging handlers
 ***************************************
 

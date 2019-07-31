@@ -1,5 +1,5 @@
 R"==~~~~==(random~~CPP==map==key==delim~~
-"modules/random.txt"
+"random"
 "random" --- Generate pseudo-random numbers
 *******************************************
 

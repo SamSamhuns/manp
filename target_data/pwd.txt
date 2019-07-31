@@ -1,5 +1,5 @@
 R"==~~~~==(pwd~~CPP==map==key==delim~~
-"modules/pwd.txt"
+"pwd"
 "pwd" --- The password database
 *******************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(cgi~~CPP==map==key==delim~~
-"modules/cgi.txt"
+"cgi"
 "cgi" --- Common Gateway Interface support
 ******************************************
 

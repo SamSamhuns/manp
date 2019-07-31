@@ -1,5 +1,5 @@
 R"==~~~~==(readline~~CPP==map==key==delim~~
-"modules/readline.txt"
+"readline"
 "readline" --- GNU readline interface
 *************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(datatypes~~CPP==map==key==delim~~
-"modules/datatypes.txt"
+"datatypes"
 Data Types
 **********
 

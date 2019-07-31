@@ -1,5 +1,5 @@
 R"==~~~~==(numbers~~CPP==map==key==delim~~
-"modules/numbers.txt"
+"numbers"
 "numbers" --- Numeric abstract base classes
 *******************************************
 

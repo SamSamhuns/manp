@@ -1,5 +1,5 @@
 R"==~~~~==(errno~~CPP==map==key==delim~~
-"modules/errno.txt"
+"errno"
 "errno" --- Standard errno system symbols
 *****************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(spwd~~CPP==map==key==delim~~
-"modules/spwd.txt"
+"spwd"
 "spwd" --- The shadow password database
 ***************************************
 

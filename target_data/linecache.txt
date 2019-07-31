@@ -1,5 +1,5 @@
 R"==~~~~==(linecache~~CPP==map==key==delim~~
-"modules/linecache.txt"
+"linecache"
 "linecache" --- Random access to text lines
 *******************************************
 

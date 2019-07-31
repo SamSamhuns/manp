@@ -1,5 +1,5 @@
 R"==~~~~==(concurrent~~CPP==map==key==delim~~
-"modules/concurrent.txt"
+"concurrent"
 The "concurrent" package
 ************************
 

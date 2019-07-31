@@ -1,5 +1,5 @@
 R"==~~~~==(typing~~CPP==map==key==delim~~
-"modules/typing.txt"
+"typing"
 "typing" --- Support for type hints
 ***********************************
 

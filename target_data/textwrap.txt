@@ -1,5 +1,5 @@
 R"==~~~~==(textwrap~~CPP==map==key==delim~~
-"modules/textwrap.txt"
+"textwrap"
 "textwrap" --- Text wrapping and filling
 ****************************************
 

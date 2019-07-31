@@ -1,5 +1,5 @@
 R"==~~~~==(fnmatch~~CPP==map==key==delim~~
-"modules/fnmatch.txt"
+"fnmatch"
 "fnmatch" --- Unix filename pattern matching
 ********************************************
 

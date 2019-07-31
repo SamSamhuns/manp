@@ -1,5 +1,5 @@
 R"==~~~~==(email.headerregistry~~CPP==map==key==delim~~
-"modules/email.headerregistry.txt"
+"email.headerregistry"
 "email.headerregistry": Custom Header Objects
 *********************************************
 

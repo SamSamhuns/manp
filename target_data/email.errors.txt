@@ -1,5 +1,5 @@
 R"==~~~~==(email.errors~~CPP==map==key==delim~~
-"modules/email.errors.txt"
+"email.errors"
 "email.errors": Exception and Defect classes
 ********************************************
 

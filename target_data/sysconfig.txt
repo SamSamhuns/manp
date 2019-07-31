@@ -1,5 +1,5 @@
 R"==~~~~==(sysconfig~~CPP==map==key==delim~~
-"modules/sysconfig.txt"
+"sysconfig"
 "sysconfig" --- Provide access to Python's configuration information
 ********************************************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(othergui~~CPP==map==key==delim~~
-"modules/othergui.txt"
+"othergui"
 Other Graphical User Interface Packages
 ***************************************
 

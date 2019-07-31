@@ -1,5 +1,5 @@
 R"==~~~~==(xml.sax.reader~~CPP==map==key==delim~~
-"modules/xml.sax.reader.txt"
+"xml.sax.reader"
 "xml.sax.xmlreader" --- Interface for XML parsers
 *************************************************
 

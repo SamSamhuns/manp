@@ -1,5 +1,5 @@
 R"==~~~~==(tk~~CPP==map==key==delim~~
-"modules/tk.txt"
+"tk"
 Graphical User Interfaces with Tk
 *********************************
 

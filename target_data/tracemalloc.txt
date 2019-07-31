@@ -1,5 +1,5 @@
 R"==~~~~==(tracemalloc~~CPP==map==key==delim~~
-"modules/tracemalloc.txt"
+"tracemalloc"
 "tracemalloc" --- Trace memory allocations
 ******************************************
 

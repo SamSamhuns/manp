@@ -1,5 +1,5 @@
 R"==~~~~==(locale~~CPP==map==key==delim~~
-"modules/locale.txt"
+"locale"
 "locale" --- Internationalization services
 ******************************************
 

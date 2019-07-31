@@ -1,5 +1,5 @@
 R"==~~~~==(email.charset~~CPP==map==key==delim~~
-"modules/email.charset.txt"
+"email.charset"
 "email.charset": Representing character sets
 ********************************************
 

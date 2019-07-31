@@ -1,5 +1,5 @@
 R"==~~~~==(gc~~CPP==map==key==delim~~
-"modules/gc.txt"
+"gc"
 "gc" --- Garbage Collector interface
 ************************************
 

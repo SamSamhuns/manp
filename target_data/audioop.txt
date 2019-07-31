@@ -1,5 +1,5 @@
 R"==~~~~==(audioop~~CPP==map==key==delim~~
-"modules/audioop.txt"
+"audioop"
 "audioop" --- Manipulate raw audio data
 ***************************************
 

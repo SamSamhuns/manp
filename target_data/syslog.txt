@@ -1,5 +1,5 @@
 R"==~~~~==(syslog~~CPP==map==key==delim~~
-"modules/syslog.txt"
+"syslog"
 "syslog" --- Unix syslog library routines
 *****************************************
 

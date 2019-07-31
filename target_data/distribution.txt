@@ -1,5 +1,5 @@
 R"==~~~~==(distribution~~CPP==map==key==delim~~
-"modules/distribution.txt"
+"distribution"
 Software Packaging and Distribution
 ***********************************
 

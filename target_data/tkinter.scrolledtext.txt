@@ -1,5 +1,5 @@
 R"==~~~~==(tkinter.scrolledtext~~CPP==map==key==delim~~
-"modules/tkinter.scrolledtext.txt"
+"tkinter.scrolledtext"
 "tkinter.scrolledtext" --- Scrolled Text Widget
 ***********************************************
 

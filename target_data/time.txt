@@ -1,5 +1,5 @@
 R"==~~~~==(time~~CPP==map==key==delim~~
-"modules/time.txt"
+"time"
 "time" --- Time access and conversions
 **************************************
 

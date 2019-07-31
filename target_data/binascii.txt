@@ -1,5 +1,5 @@
 R"==~~~~==(binascii~~CPP==map==key==delim~~
-"modules/binascii.txt"
+"binascii"
 "binascii" --- Convert between binary and ASCII
 ***********************************************
 

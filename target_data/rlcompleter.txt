@@ -1,5 +1,5 @@
 R"==~~~~==(rlcompleter~~CPP==map==key==delim~~
-"modules/rlcompleter.txt"
+"rlcompleter"
 "rlcompleter" --- Completion function for GNU readline
 ******************************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(doctest~~CPP==map==key==delim~~
-"modules/doctest.txt"
+"doctest"
 "doctest" --- Test interactive Python examples
 **********************************************
 

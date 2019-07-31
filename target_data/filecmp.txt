@@ -1,5 +1,5 @@
 R"==~~~~==(filecmp~~CPP==map==key==delim~~
-"modules/filecmp.txt"
+"filecmp"
 "filecmp" --- File and Directory Comparisons
 ********************************************
 

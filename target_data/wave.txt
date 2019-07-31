@@ -1,5 +1,5 @@
 R"==~~~~==(wave~~CPP==map==key==delim~~
-"modules/wave.txt"
+"wave"
 "wave" --- Read and write WAV files
 ***********************************
 

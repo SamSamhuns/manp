@@ -1,5 +1,5 @@
 R"==~~~~==(filesys~~CPP==map==key==delim~~
-"modules/filesys.txt"
+"filesys"
 File and Directory Access
 *************************
 

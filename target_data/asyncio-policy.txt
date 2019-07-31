@@ -1,5 +1,5 @@
 R"==~~~~==(asyncio-policy~~CPP==map==key==delim~~
-"modules/asyncio-policy.txt"
+"asyncio-policy"
 Policies
 ********
 

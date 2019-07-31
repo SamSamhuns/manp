@@ -1,5 +1,5 @@
 R"==~~~~==(markup~~CPP==map==key==delim~~
-"modules/markup.txt"
+"markup"
 Structured Markup Processing Tools
 **********************************
 

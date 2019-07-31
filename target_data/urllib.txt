@@ -1,5 +1,5 @@
 R"==~~~~==(urllib~~CPP==map==key==delim~~
-"modules/urllib.txt"
+"urllib"
 "urllib" --- URL handling modules
 *********************************
 

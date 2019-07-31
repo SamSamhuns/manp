@@ -1,5 +1,5 @@
 R"==~~~~==(webbrowser~~CPP==map==key==delim~~
-"modules/webbrowser.txt"
+"webbrowser"
 "webbrowser" --- Convenient Web-browser controller
 **************************************************
 

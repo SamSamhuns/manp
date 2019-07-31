@@ -1,5 +1,5 @@
 R"==~~~~==(importlib~~CPP==map==key==delim~~
-"modules/importlib.txt"
+"importlib"
 "importlib" --- The implementation of "import"
 **********************************************
 

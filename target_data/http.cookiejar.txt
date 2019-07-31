@@ -1,5 +1,5 @@
 R"==~~~~==(http.cookiejar~~CPP==map==key==delim~~
-"modules/http.cookiejar.txt"
+"http.cookiejar"
 "http.cookiejar" --- Cookie handling for HTTP clients
 *****************************************************
 

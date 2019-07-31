@@ -1,5 +1,5 @@
 R"==~~~~==(__main__~~CPP==map==key==delim~~
-"modules/__main__.txt"
+"__main__"
 "__main__" --- Top-level script environment
 *******************************************
 

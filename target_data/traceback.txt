@@ -1,5 +1,5 @@
 R"==~~~~==(traceback~~CPP==map==key==delim~~
-"modules/traceback.txt"
+"traceback"
 "traceback" --- Print or retrieve a stack traceback
 ***************************************************
 

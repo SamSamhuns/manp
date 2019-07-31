@@ -1,5 +1,5 @@
 R"==~~~~==(mailcap~~CPP==map==key==delim~~
-"modules/mailcap.txt"
+"mailcap"
 "mailcap" --- Mailcap file handling
 ***********************************
 

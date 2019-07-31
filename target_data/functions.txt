@@ -1,5 +1,5 @@
 R"==~~~~==(functions~~CPP==map==key==delim~~
-"modules/functions.txt"
+"functions"
 Built-in Functions
 ******************
 

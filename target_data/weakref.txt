@@ -1,5 +1,5 @@
 R"==~~~~==(weakref~~CPP==map==key==delim~~
-"modules/weakref.txt"
+"weakref"
 "weakref" --- Weak references
 *****************************
 

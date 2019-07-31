@@ -1,5 +1,5 @@
 R"==~~~~==(zipfile~~CPP==map==key==delim~~
-"modules/zipfile.txt"
+"zipfile"
 "zipfile" --- Work with ZIP archives
 ************************************
 

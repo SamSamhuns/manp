@@ -1,5 +1,5 @@
 R"==~~~~==(collections~~CPP==map==key==delim~~
-"modules/collections.txt"
+"collections"
 "collections" --- Container datatypes
 *************************************
 

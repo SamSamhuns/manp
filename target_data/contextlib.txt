@@ -1,5 +1,5 @@
 R"==~~~~==(contextlib~~CPP==map==key==delim~~
-"modules/contextlib.txt"
+"contextlib"
 "contextlib" --- Utilities for "with"-statement contexts
 ********************************************************
 

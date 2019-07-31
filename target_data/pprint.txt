@@ -1,5 +1,5 @@
 R"==~~~~==(pprint~~CPP==map==key==delim~~
-"modules/pprint.txt"
+"pprint"
 "pprint" --- Data pretty printer
 ********************************
 

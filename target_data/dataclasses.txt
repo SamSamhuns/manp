@@ -1,5 +1,5 @@
 R"==~~~~==(dataclasses~~CPP==map==key==delim~~
-"modules/dataclasses.txt"
+"dataclasses"
 "dataclasses" --- Data Classes
 ******************************
 

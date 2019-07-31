@@ -1,5 +1,5 @@
 R"==~~~~==(logging~~CPP==map==key==delim~~
-"modules/logging.txt"
+"logging"
 "logging" --- Logging facility for Python
 *****************************************
 

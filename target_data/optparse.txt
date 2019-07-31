@@ -1,5 +1,5 @@
 R"==~~~~==(optparse~~CPP==map==key==delim~~
-"modules/optparse.txt"
+"optparse"
 "optparse" --- Parser for command line options
 **********************************************
 

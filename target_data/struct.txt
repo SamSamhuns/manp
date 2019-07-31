@@ -1,5 +1,5 @@
 R"==~~~~==(struct~~CPP==map==key==delim~~
-"modules/struct.txt"
+"struct"
 "struct" --- Interpret bytes as packed binary data
 **************************************************
 

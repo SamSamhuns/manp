@@ -1,5 +1,5 @@
 R"==~~~~==(pickletools~~CPP==map==key==delim~~
-"modules/pickletools.txt"
+"pickletools"
 "pickletools" --- Tools for pickle developers
 *********************************************
 

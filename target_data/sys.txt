@@ -1,5 +1,5 @@
 R"==~~~~==(sys~~CPP==map==key==delim~~
-"modules/sys.txt"
+"sys"
 "sys" --- System-specific parameters and functions
 **************************************************
 

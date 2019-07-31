@@ -1,5 +1,5 @@
 R"==~~~~==(os.path~~CPP==map==key==delim~~
-"modules/os.path.txt"
+"os.path"
 "os.path" --- Common pathname manipulations
 *******************************************
 

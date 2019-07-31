@@ -1,5 +1,5 @@
 R"==~~~~==(re~~CPP==map==key==delim~~
-"modules/re.txt"
+"re"
 "re" --- Regular expression operations
 **************************************
 

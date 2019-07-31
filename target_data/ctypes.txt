@@ -1,5 +1,5 @@
 R"==~~~~==(ctypes~~CPP==map==key==delim~~
-"modules/ctypes.txt"
+"ctypes"
 "ctypes" --- A foreign function library for Python
 **************************************************
 

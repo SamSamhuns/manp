@@ -1,5 +1,5 @@
 R"==~~~~==(termios~~CPP==map==key==delim~~
-"modules/termios.txt"
+"termios"
 "termios" --- POSIX style tty control
 *************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(http.client~~CPP==map==key==delim~~
-"modules/http.client.txt"
+"http.client"
 "http.client" --- HTTP protocol client
 **************************************
 

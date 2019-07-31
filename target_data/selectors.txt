@@ -1,5 +1,5 @@
 R"==~~~~==(selectors~~CPP==map==key==delim~~
-"modules/selectors.txt"
+"selectors"
 "selectors" --- High-level I/O multiplexing
 *******************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(2to3~~CPP==map==key==delim~~
-"modules/2to3.txt"
+"2to3"
 2to3 - Automated Python 2 to 3 code translation
 ***********************************************
 

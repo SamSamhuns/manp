@@ -1,5 +1,5 @@
 R"==~~~~==(email.encoders~~CPP==map==key==delim~~
-"modules/email.encoders.txt"
+"email.encoders"
 "email.encoders": Encoders
 **************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(development~~CPP==map==key==delim~~
-"modules/development.txt"
+"development"
 Development Tools
 *****************
 

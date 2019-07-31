@@ -1,5 +1,5 @@
 R"==~~~~==(macpath~~CPP==map==key==delim~~
-"modules/macpath.txt"
+"macpath"
 "macpath" --- Mac OS 9 path manipulation functions
 **************************************************
 

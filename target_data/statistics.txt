@@ -1,5 +1,5 @@
 R"==~~~~==(statistics~~CPP==map==key==delim~~
-"modules/statistics.txt"
+"statistics"
 "statistics" --- Mathematical statistics functions
 **************************************************
 

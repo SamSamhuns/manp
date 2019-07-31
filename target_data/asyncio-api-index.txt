@@ -1,5 +1,5 @@
 R"==~~~~==(asyncio-api-index~~CPP==map==key==delim~~
-"modules/asyncio-api-index.txt"
+"asyncio-api-index"
 High-level API Index
 ********************
 

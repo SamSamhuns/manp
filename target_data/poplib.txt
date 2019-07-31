@@ -1,5 +1,5 @@
 R"==~~~~==(poplib~~CPP==map==key==delim~~
-"modules/poplib.txt"
+"poplib"
 "poplib" --- POP3 protocol client
 *********************************
 

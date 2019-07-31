@@ -1,5 +1,5 @@
 R"==~~~~==(decimal~~CPP==map==key==delim~~
-"modules/decimal.txt"
+"decimal"
 "decimal" --- Decimal fixed point and floating point arithmetic
 ***************************************************************
 

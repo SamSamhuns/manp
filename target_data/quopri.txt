@@ -1,5 +1,5 @@
 R"==~~~~==(quopri~~CPP==map==key==delim~~
-"modules/quopri.txt"
+"quopri"
 "quopri" --- Encode and decode MIME quoted-printable data
 *********************************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(email.utils~~CPP==map==key==delim~~
-"modules/email.utils.txt"
+"email.utils"
 "email.utils": Miscellaneous utilities
 **************************************
 

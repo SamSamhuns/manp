@@ -1,5 +1,5 @@
 R"==~~~~==(pty~~CPP==map==key==delim~~
-"modules/pty.txt"
+"pty"
 "pty" --- Pseudo-terminal utilities
 ***********************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(getpass~~CPP==map==key==delim~~
-"modules/getpass.txt"
+"getpass"
 "getpass" --- Portable password input
 *************************************
 

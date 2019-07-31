@@ -1,5 +1,5 @@
 R"==~~~~==(keyword~~CPP==map==key==delim~~
-"modules/keyword.txt"
+"keyword"
 "keyword" --- Testing for Python keywords
 *****************************************
 

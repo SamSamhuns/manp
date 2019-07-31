@@ -1,5 +1,5 @@
 R"==~~~~==(urllib.error~~CPP==map==key==delim~~
-"modules/urllib.error.txt"
+"urllib.error"
 "urllib.error" --- Exception classes raised by urllib.request
 *************************************************************
 

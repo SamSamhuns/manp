@@ -1,5 +1,5 @@
 R"==~~~~==(os~~CPP==map==key==delim~~
-"modules/os.txt"
+"os"
 "os" --- Miscellaneous operating system interfaces
 **************************************************
 

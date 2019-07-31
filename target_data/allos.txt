@@ -1,5 +1,5 @@
 R"==~~~~==(allos~~CPP==map==key==delim~~
-"modules/allos.txt"
+"allos"
 Generic Operating System Services
 *********************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(timeit~~CPP==map==key==delim~~
-"modules/timeit.txt"
+"timeit"
 "timeit" --- Measure execution time of small code snippets
 **********************************************************
 

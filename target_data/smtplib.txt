@@ -1,5 +1,5 @@
 R"==~~~~==(smtplib~~CPP==map==key==delim~~
-"modules/smtplib.txt"
+"smtplib"
 "smtplib" --- SMTP protocol client
 **********************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(collections.abc~~CPP==map==key==delim~~
-"modules/collections.abc.txt"
+"collections.abc"
 "collections.abc" --- Abstract Base Classes for Containers
 **********************************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(formatter~~CPP==map==key==delim~~
-"modules/formatter.txt"
+"formatter"
 "formatter" --- Generic output formatting
 *****************************************
 

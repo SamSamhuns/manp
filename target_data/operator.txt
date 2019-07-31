@@ -1,5 +1,5 @@
 R"==~~~~==(operator~~CPP==map==key==delim~~
-"modules/operator.txt"
+"operator"
 "operator" --- Standard operators as functions
 **********************************************
 

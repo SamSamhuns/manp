@@ -1,5 +1,5 @@
 R"==~~~~==(shutil~~CPP==map==key==delim~~
-"modules/shutil.txt"
+"shutil"
 "shutil" --- High-level file operations
 ***************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(base64~~CPP==map==key==delim~~
-"modules/base64.txt"
+"base64"
 "base64" --- Base16, Base32, Base64, Base85 Data Encodings
 **********************************************************
 

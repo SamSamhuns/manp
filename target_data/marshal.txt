@@ -1,5 +1,5 @@
 R"==~~~~==(marshal~~CPP==map==key==delim~~
-"modules/marshal.txt"
+"marshal"
 "marshal" --- Internal Python object serialization
 **************************************************
 

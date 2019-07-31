@@ -1,5 +1,5 @@
 R"==~~~~==(zlib~~CPP==map==key==delim~~
-"modules/zlib.txt"
+"zlib"
 "zlib" --- Compression compatible with **gzip**
 ***********************************************
 

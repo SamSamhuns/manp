@@ -1,5 +1,5 @@
 R"==~~~~==(asyncio-exceptions~~CPP==map==key==delim~~
-"modules/asyncio-exceptions.txt"
+"asyncio-exceptions"
 Exceptions
 **********
 

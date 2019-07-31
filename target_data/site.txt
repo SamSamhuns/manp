@@ -1,5 +1,5 @@
 R"==~~~~==(site~~CPP==map==key==delim~~
-"modules/site.txt"
+"site"
 "site" --- Site-specific configuration hook
 *******************************************
 

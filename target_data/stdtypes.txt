@@ -1,5 +1,5 @@
 R"==~~~~==(stdtypes~~CPP==map==key==delim~~
-"modules/stdtypes.txt"
+"stdtypes"
 Built-in Types
 **************
 

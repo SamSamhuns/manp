@@ -1,5 +1,5 @@
 R"==~~~~==(configparser~~CPP==map==key==delim~~
-"modules/configparser.txt"
+"configparser"
 "configparser" --- Configuration file parser
 ********************************************
 

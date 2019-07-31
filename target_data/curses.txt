@@ -1,5 +1,5 @@
 R"==~~~~==(curses~~CPP==map==key==delim~~
-"modules/curses.txt"
+"curses"
 "curses" --- Terminal handling for character-cell displays
 **********************************************************
 

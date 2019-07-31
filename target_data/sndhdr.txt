@@ -1,5 +1,5 @@
 R"==~~~~==(sndhdr~~CPP==map==key==delim~~
-"modules/sndhdr.txt"
+"sndhdr"
 "sndhdr" --- Determine type of sound file
 *****************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(shelve~~CPP==map==key==delim~~
-"modules/shelve.txt"
+"shelve"
 "shelve" --- Python object persistence
 **************************************
 

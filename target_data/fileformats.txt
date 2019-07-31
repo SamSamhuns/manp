@@ -1,5 +1,5 @@
 R"==~~~~==(fileformats~~CPP==map==key==delim~~
-"modules/fileformats.txt"
+"fileformats"
 File Formats
 ************
 

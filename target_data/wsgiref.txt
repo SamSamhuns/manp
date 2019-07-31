@@ -1,5 +1,5 @@
 R"==~~~~==(wsgiref~~CPP==map==key==delim~~
-"modules/wsgiref.txt"
+"wsgiref"
 "wsgiref" --- WSGI Utilities and Reference Implementation
 *********************************************************
 

@@ -1,5 +1,5 @@
 R"==~~~~==(email.compat32-message~~CPP==map==key==delim~~
-"modules/email.compat32-message.txt"
+"email.compat32-message"
 "email.message.Message": Representing an email message using the "compat32" API
 *******************************************************************************
 

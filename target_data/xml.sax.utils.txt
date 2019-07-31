@@ -1,5 +1,5 @@
 R"==~~~~==(xml.sax.utils~~CPP==map==key==delim~~
-"modules/xml.sax.utils.txt"
+"xml.sax.utils"
 "xml.sax.saxutils" --- SAX Utilities
 ************************************
 
