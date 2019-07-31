@@ -1,4 +1,3 @@
-R"==~~~~==(code~~CPP==map==key==delim~~
 "code" --- Interpreter base classes
 ***********************************
 
@@ -171,5 +170,3 @@ InteractiveConsole.raw_input(prompt="")
    "EOFError" is raised. The base implementation reads from
    "sys.stdin"; a subclass may replace this with a different
    implementation.
-~~CPP==new==module==delim~~
-)==~~~~=="

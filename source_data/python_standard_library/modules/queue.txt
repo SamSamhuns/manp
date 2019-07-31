@@ -1,4 +1,3 @@
-R"==~~~~==(queue~~CPP==map==key==delim~~
 "queue" --- A synchronized queue class
 **************************************
 
@@ -267,5 +266,3 @@ See also:
   "collections.deque" is an alternative implementation of unbounded
   queues with fast atomic "append()" and "popleft()" operations that
   do not require locking.
-~~CPP==new==module==delim~~
-)==~~~~=="

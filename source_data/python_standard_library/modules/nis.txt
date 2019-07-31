@@ -1,4 +1,3 @@
-R"==~~~~==(nis~~CPP==map==key==delim~~
 "nis" --- Interface to Sun's NIS (Yellow Pages)
 ***********************************************
 
@@ -53,5 +52,3 @@ The "nis" module defines the following exception:
 exception nis.error
 
    An error raised when a NIS function returns an error code.
-~~CPP==new==module==delim~~
-)==~~~~=="

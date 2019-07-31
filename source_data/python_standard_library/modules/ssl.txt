@@ -1,4 +1,3 @@
-R"==~~~~==(ssl~~CPP==map==key==delim~~
 "ssl" --- TLS/SSL wrapper for socket objects
 ********************************************
 
@@ -2725,5 +2724,3 @@ See also:
 
   Mozilla's Server Side TLS recommendations
      Mozilla
-~~CPP==new==module==delim~~
-)==~~~~=="

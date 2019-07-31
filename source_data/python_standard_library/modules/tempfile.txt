@@ -1,4 +1,3 @@
-R"==~~~~==(tempfile~~CPP==map==key==delim~~
 "tempfile" --- Generate temporary files and directories
 *******************************************************
 
@@ -314,5 +313,3 @@ tempfile.mktemp(suffix='', prefix='tmp', dir=None)
         >>> os.unlink(f.name)
         >>> os.path.exists(f.name)
         False
-~~CPP==new==module==delim~~
-)==~~~~=="

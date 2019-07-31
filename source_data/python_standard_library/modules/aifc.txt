@@ -1,4 +1,3 @@
-R"==~~~~==(aifc~~CPP==map==key==delim~~
 "aifc" --- Read and write AIFF and AIFC files
 *********************************************
 
@@ -198,5 +197,3 @@ aifc.close()
    Close the AIFF file.  The header of the file is updated to reflect
    the actual size of the audio data. After calling this method, the
    object can no longer be used.
-~~CPP==new==module==delim~~
-)==~~~~=="

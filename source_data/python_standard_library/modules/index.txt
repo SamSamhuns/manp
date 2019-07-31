@@ -1,4 +1,3 @@
-R"==~~~~==(index~~CPP==map==key==delim~~
 The Python Standard Library
 ***************************
 
@@ -648,5 +647,3 @@ from the Python Package Index.
 * Undocumented Modules
 
   * Platform specific modules
-~~CPP==new==module==delim~~
-)==~~~~=="

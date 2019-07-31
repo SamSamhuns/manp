@@ -1,4 +1,3 @@
-R"==~~~~==(curses.panel~~CPP==map==key==delim~~
 "curses.panel" --- A panel stack extension for curses
 *****************************************************
 
@@ -99,5 +98,3 @@ Panel.userptr()
 Panel.window()
 
    Returns the window object associated with the panel.
-~~CPP==new==module==delim~~
-)==~~~~=="

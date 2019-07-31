@@ -1,4 +1,3 @@
-R"==~~~~==(compileall~~CPP==map==key==delim~~
 "compileall" --- Byte-compile Python libraries
 **********************************************
 
@@ -262,5 +261,3 @@ See also:
 
   Module "py_compile"
      Byte-compile a single source file.
-~~CPP==new==module==delim~~
-)==~~~~=="

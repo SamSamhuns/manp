@@ -1,4 +1,3 @@
-R"==~~~~==(uu~~CPP==map==key==delim~~
 "uu" --- Encode and decode uuencode files
 *****************************************
 
@@ -56,5 +55,3 @@ See also:
   Module "binascii"
      Support module containing ASCII-to-binary and binary-to-ASCII
      conversions.
-~~CPP==new==module==delim~~
-)==~~~~=="

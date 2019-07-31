@@ -1,4 +1,3 @@
-R"==~~~~==(fractions~~CPP==map==key==delim~~
 "fractions" --- Rational numbers
 ********************************
 
@@ -163,5 +162,3 @@ See also:
 
   Module "numbers"
      The abstract base classes making up the numeric tower.
-~~CPP==new==module==delim~~
-)==~~~~=="

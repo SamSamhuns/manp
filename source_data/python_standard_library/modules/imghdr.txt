@@ -1,4 +1,3 @@
-R"==~~~~==(imghdr~~CPP==map==key==delim~~
 "imghdr" --- Determine the type of an image
 *******************************************
 
@@ -73,5 +72,3 @@ Example:
    >>> import imghdr
    >>> imghdr.what('bass.gif')
    'gif'
-~~CPP==new==module==delim~~
-)==~~~~=="

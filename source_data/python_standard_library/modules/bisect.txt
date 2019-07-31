@@ -1,4 +1,3 @@
-R"==~~~~==(bisect~~CPP==map==key==delim~~
 "bisect" --- Array bisection algorithm
 **************************************
 
@@ -137,5 +136,3 @@ index of the record in question:
    ('red', 5)
    >>> data[bisect_left(keys, 8)]
    ('yellow', 8)
-~~CPP==new==module==delim~~
-)==~~~~=="

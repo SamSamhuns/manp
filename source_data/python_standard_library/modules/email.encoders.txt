@@ -1,4 +1,3 @@
-R"==~~~~==(email.encoders~~CPP==map==key==delim~~
 "email.encoders": Encoders
 **************************
 
@@ -67,5 +66,3 @@ email.encoders.encode_noop(msg)
 
 [1] Note that encoding with "encode_quopri()" also encodes all
     tabs and space characters in the data.
-~~CPP==new==module==delim~~
-)==~~~~=="

@@ -1,4 +1,3 @@
-R"==~~~~==(ipc~~CPP==map==key==delim~~
 Networking and Interprocess Communication
 *****************************************
 
@@ -28,5 +27,3 @@ The list of modules described in this chapter is:
 * "signal" --- Set handlers for asynchronous events
 
 * "mmap" --- Memory-mapped file support
-~~CPP==new==module==delim~~
-)==~~~~=="

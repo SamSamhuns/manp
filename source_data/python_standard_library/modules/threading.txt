@@ -1,4 +1,3 @@
-R"==~~~~==(threading~~CPP==map==key==delim~~
 "threading" --- Thread-based parallelism
 ****************************************
 
@@ -965,5 +964,3 @@ is equivalent to:
 Currently, "Lock", "RLock", "Condition", "Semaphore", and
 "BoundedSemaphore" objects may be used as "with" statement context
 managers.
-~~CPP==new==module==delim~~
-)==~~~~=="

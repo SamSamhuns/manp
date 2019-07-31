@@ -1,4 +1,3 @@
-R"==~~~~==(bz2~~CPP==map==key==delim~~
 "bz2" --- Support for **bzip2** compression
 *******************************************
 
@@ -308,5 +307,3 @@ Writing and reading a bzip2-compressed file in binary mode:
 
 >>> content == data  # Check equality to original object after round-trip
 True
-~~CPP==new==module==delim~~
-)==~~~~=="

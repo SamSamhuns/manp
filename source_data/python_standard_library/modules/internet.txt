@@ -1,4 +1,3 @@
-R"==~~~~==(internet~~CPP==map==key==delim~~
 Internet Protocols and Support
 ******************************
 
@@ -303,5 +302,3 @@ platforms.  Here is an overview:
   * Other Module Level Functions
 
   * Custom Exceptions
-~~CPP==new==module==delim~~
-)==~~~~=="

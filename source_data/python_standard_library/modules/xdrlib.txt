@@ -1,4 +1,3 @@
-R"==~~~~==(xdrlib~~CPP==map==key==delim~~
 "xdrlib" --- Encode and decode XDR data
 ***************************************
 
@@ -241,5 +240,3 @@ Here is an example of how you would catch one of these exceptions:
        p.pack_double(8.01)
    except xdrlib.ConversionError as instance:
        print('packing the double failed:', instance.msg)
-~~CPP==new==module==delim~~
-)==~~~~=="

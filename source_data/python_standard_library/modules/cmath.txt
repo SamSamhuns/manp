@@ -1,4 +1,3 @@
-R"==~~~~==(cmath~~CPP==map==key==delim~~
 "cmath" --- Mathematical functions for complex numbers
 ******************************************************
 
@@ -284,5 +283,3 @@ See also: Kahan, W:  Branch cuts for complex elementary functions;
   or, Much ado about nothing's sign bit.  In Iserles, A., and Powell,
   M. (eds.), The state of the art in numerical analysis. Clarendon
   Press (1987) pp165--211.
-~~CPP==new==module==delim~~
-)==~~~~=="

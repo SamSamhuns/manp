@@ -1,4 +1,3 @@
-R"==~~~~==(_thread~~CPP==map==key==delim~~
 "_thread" --- Low-level threading API
 *************************************
 
@@ -161,5 +160,3 @@ In addition to these methods, lock objects can also be used via the
 * When the main thread exits, it does not do any of its usual
   cleanup (except that "try" ... "finally" clauses are honored), and
   the standard I/O files are not flushed.
-~~CPP==new==module==delim~~
-)==~~~~=="

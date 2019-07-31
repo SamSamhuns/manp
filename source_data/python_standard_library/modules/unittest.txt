@@ -1,4 +1,3 @@
-R"==~~~~==(unittest~~CPP==map==key==delim~~
 "unittest" --- Unit testing framework
 *************************************
 
@@ -2222,5 +2221,3 @@ unittest.removeHandler(function=None)
       @unittest.removeHandler
       def test_signal_handling(self):
           ...
-~~CPP==new==module==delim~~
-)==~~~~=="

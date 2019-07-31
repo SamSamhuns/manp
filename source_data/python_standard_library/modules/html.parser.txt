@@ -1,4 +1,3 @@
-R"==~~~~==(html.parser~~CPP==map==key==delim~~
 "html.parser" --- Simple HTML and XHTML parser
 **********************************************
 
@@ -326,5 +325,3 @@ Parsing invalid HTML (e.g. unquoted attributes) also works:
    Data     : tag soup
    End tag  : p
    End tag  : a
-~~CPP==new==module==delim~~
-)==~~~~=="

@@ -1,4 +1,3 @@
-R"==~~~~==(cmd~~CPP==map==key==delim~~
 "cmd" --- Support for line-oriented command interpreters
 ********************************************************
 
@@ -359,5 +358,3 @@ and playback facility:
 
    (turtle) bye
    Thank you for using Turtle
-~~CPP==new==module==delim~~
-)==~~~~=="

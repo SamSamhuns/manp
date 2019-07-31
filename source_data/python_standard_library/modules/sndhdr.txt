@@ -1,4 +1,3 @@
-R"==~~~~==(sndhdr~~CPP==map==key==delim~~
 "sndhdr" --- Determine type of sound file
 *****************************************
 
@@ -39,5 +38,3 @@ sndhdr.whathdr(filename)
 
    Changed in version 3.5: Result changed from a tuple to a
    namedtuple.
-~~CPP==new==module==delim~~
-)==~~~~=="

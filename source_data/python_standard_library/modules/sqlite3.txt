@@ -1,4 +1,3 @@
-R"==~~~~==(sqlite3~~CPP==map==key==delim~~
 "sqlite3" --- DB-API 2.0 interface for SQLite databases
 *******************************************************
 
@@ -1504,5 +1503,3 @@ makes sense to call from a different thread.
     SQLite libraries which are compiled without this feature. To get
     loadable extension support, you must pass --enable-loadable-
     sqlite- extensions to configure.
-~~CPP==new==module==delim~~
-)==~~~~=="

@@ -1,4 +1,3 @@
-R"==~~~~==(enum~~CPP==map==key==delim~~
 "enum" --- Support for enumerations
 ***********************************
 
@@ -1126,5 +1125,3 @@ in the value:
    <Color.YELLOW: 3>
    >>> Color(7)      # not named combination
    <Color.CYAN|MAGENTA|BLUE|YELLOW|GREEN|RED: 7>
-~~CPP==new==module==delim~~
-)==~~~~=="

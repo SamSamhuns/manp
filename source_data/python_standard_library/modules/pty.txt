@@ -1,4 +1,3 @@
-R"==~~~~==(pty~~CPP==map==key==delim~~
 "pty" --- Pseudo-terminal utilities
 ***********************************
 
@@ -104,5 +103,3 @@ in a "typescript".
 
        script.write(('Script done on %s\n' % time.asctime()).encode())
        print('Script done, file is', filename)
-~~CPP==new==module==delim~~
-)==~~~~=="

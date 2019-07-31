@@ -1,4 +1,3 @@
-R"==~~~~==(copy~~CPP==map==key==delim~~
 "copy" --- Shallow and deep copy operations
 *******************************************
 
@@ -84,5 +83,3 @@ See also:
   Module "pickle"
      Discussion of the special methods used to support object state
      retrieval and restoration.
-~~CPP==new==module==delim~~
-)==~~~~=="

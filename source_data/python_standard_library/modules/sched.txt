@@ -1,4 +1,3 @@
-R"==~~~~==(sched~~CPP==map==key==delim~~
 "sched" --- Event scheduler
 ***************************
 
@@ -123,5 +122,3 @@ scheduler.queue
    order they will be run.  Each event is shown as a *named tuple*
    with the following fields:  time, priority, action, argument,
    kwargs.
-~~CPP==new==module==delim~~
-)==~~~~=="

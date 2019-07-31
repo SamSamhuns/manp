@@ -1,4 +1,3 @@
-R"==~~~~==(smtplib~~CPP==map==key==delim~~
 "smtplib" --- SMTP protocol client
 **********************************
 
@@ -542,5 +541,3 @@ must be included in the message headers explicitly.
 Note: In general, you will want to use the "email" package's
   features to construct an email message, which you can then send via
   "send_message()"; see email: Examples.
-~~CPP==new==module==delim~~
-)==~~~~=="

@@ -1,4 +1,3 @@
-R"==~~~~==(email.contentmanager~~CPP==map==key==delim~~
 "email.contentmanager": Managing MIME Content
 *********************************************
 
@@ -186,5 +185,3 @@ email.contentmanager.raw_data_manager
 -[ Footnotes ]-
 
 [1] Originally added in 3.4 as a *provisional module*
-~~CPP==new==module==delim~~
-)==~~~~=="

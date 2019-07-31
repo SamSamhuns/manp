@@ -1,4 +1,3 @@
-R"==~~~~==(selectors~~CPP==map==key==delim~~
 "selectors" --- High-level I/O multiplexing
 *******************************************
 
@@ -268,5 +267,3 @@ Here is a simple echo server implementation:
        for key, mask in events:
            callback = key.data
            callback(key.fileobj, mask)
-~~CPP==new==module==delim~~
-)==~~~~=="

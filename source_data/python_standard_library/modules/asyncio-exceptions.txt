@@ -1,4 +1,3 @@
-R"==~~~~==(asyncio-exceptions~~CPP==map==key==delim~~
 Exceptions
 **********
 
@@ -76,5 +75,3 @@ exception asyncio.LimitOverrunError
    consumed
 
       The total number of to be consumed bytes.
-~~CPP==new==module==delim~~
-)==~~~~=="

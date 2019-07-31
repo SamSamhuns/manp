@@ -1,4 +1,3 @@
-R"==~~~~==(2to3~~CPP==map==key==delim~~
 2to3 - Automated Python 2 to 3 code translation
 ***********************************************
 
@@ -448,5 +447,3 @@ zip
 
 Note: The "lib2to3" API should be considered unstable and may change
   drastically in the future.
-~~CPP==new==module==delim~~
-)==~~~~=="

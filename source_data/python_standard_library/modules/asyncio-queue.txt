@@ -1,4 +1,3 @@
-R"==~~~~==(asyncio-queue~~CPP==map==key==delim~~
 Queues
 ******
 
@@ -191,5 +190,3 @@ tasks:
 
 
    asyncio.run(main())
-~~CPP==new==module==delim~~
-)==~~~~=="

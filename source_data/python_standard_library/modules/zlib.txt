@@ -1,4 +1,3 @@
-R"==~~~~==(zlib~~CPP==map==key==delim~~
 "zlib" --- Compression compatible with **gzip**
 ***********************************************
 
@@ -312,5 +311,3 @@ See also:
   http://www.zlib.net/manual.html
      The zlib manual explains  the semantics and usage of the
      library's many functions.
-~~CPP==new==module==delim~~
-)==~~~~=="

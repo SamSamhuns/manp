@@ -1,4 +1,3 @@
-R"==~~~~==(types~~CPP==map==key==delim~~
 "types" --- Dynamic type creation and names for built-in types
 **************************************************************
 
@@ -355,5 +354,3 @@ types.coroutine(gen_func)
    objects will be returned as is.
 
    New in version 3.5.
-~~CPP==new==module==delim~~
-)==~~~~=="

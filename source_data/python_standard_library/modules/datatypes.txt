@@ -1,4 +1,3 @@
-R"==~~~~==(datatypes~~CPP==map==key==delim~~
 Data Types
 **********
 
@@ -190,5 +189,3 @@ The following modules are documented in this chapter:
       * "Enum" classes with methods
 
       * Combining members of "Flag"
-~~CPP==new==module==delim~~
-)==~~~~=="

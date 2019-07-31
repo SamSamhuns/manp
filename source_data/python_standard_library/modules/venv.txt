@@ -1,4 +1,3 @@
-R"==~~~~==(venv~~CPP==map==key==delim~~
 "venv" --- Creation of virtual environments
 *******************************************
 
@@ -578,5 +577,3 @@ environment:
        sys.exit(rc)
 
 This script is also available for download online.
-~~CPP==new==module==delim~~
-)==~~~~=="

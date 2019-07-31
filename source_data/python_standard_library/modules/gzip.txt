@@ -1,4 +1,3 @@
-R"==~~~~==(gzip~~CPP==map==key==delim~~
 "gzip" --- Support for **gzip** files
 *************************************
 
@@ -204,5 +203,3 @@ See also:
   Module "zlib"
      The basic data compression module needed to support the **gzip**
      file format.
-~~CPP==new==module==delim~~
-)==~~~~=="

@@ -1,4 +1,3 @@
-R"==~~~~==(hashlib~~CPP==map==key==delim~~
 "hashlib" --- Secure hashes and message digests
 ***********************************************
 
@@ -695,5 +694,3 @@ See also:
 
   https://www.ietf.org/rfc/rfc2898.txt
      PKCS #5: Password-Based Cryptography Specification Version 2.0
-~~CPP==new==module==delim~~
-)==~~~~=="

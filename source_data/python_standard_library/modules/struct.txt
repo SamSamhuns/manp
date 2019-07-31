@@ -1,4 +1,3 @@
-R"==~~~~==(struct~~CPP==map==key==delim~~
 "struct" --- Interpret bytes as packed binary data
 **************************************************
 
@@ -424,5 +423,3 @@ class struct.Struct(format)
 
       The calculated size of the struct (and hence of the bytes object
       produced by the "pack()" method) corresponding to "format".
-~~CPP==new==module==delim~~
-)==~~~~=="

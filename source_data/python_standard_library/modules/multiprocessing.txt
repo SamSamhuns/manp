@@ -1,4 +1,3 @@
-R"==~~~~==(multiprocessing~~CPP==map==key==delim~~
 "multiprocessing" --- Process-based parallelism
 ***********************************************
 
@@ -3108,5 +3107,3 @@ worker processes and collect the results:
    if __name__ == '__main__':
        freeze_support()
        test()
-~~CPP==new==module==delim~~
-)==~~~~=="

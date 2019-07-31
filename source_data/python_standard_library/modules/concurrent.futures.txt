@@ -1,4 +1,3 @@
-R"==~~~~==(concurrent.futures~~CPP==map==key==delim~~
 "concurrent.futures" --- Launching parallel tasks
 *************************************************
 
@@ -476,5 +475,3 @@ exception concurrent.futures.process.BrokenProcessPool
    example, if it was killed from the outside).
 
    New in version 3.3.
-~~CPP==new==module==delim~~
-)==~~~~=="

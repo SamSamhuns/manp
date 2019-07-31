@@ -1,4 +1,3 @@
-R"==~~~~==(asyncio-subprocess~~CPP==map==key==delim~~
 Subprocesses
 ************
 
@@ -319,5 +318,3 @@ The subprocess is created by the "create_subprocess_exec()" function:
    print(f"Current date: {date}")
 
 See also the same example written using low-level APIs.
-~~CPP==new==module==delim~~
-)==~~~~=="

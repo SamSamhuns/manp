@@ -1,4 +1,3 @@
-R"==~~~~==(dataclasses~~CPP==map==key==delim~~
 "dataclasses" --- Data Classes
 ******************************
 
@@ -591,5 +590,3 @@ exception dataclasses.FrozenInstanceError
    Raised when an implicitly defined "__setattr__()" or
    "__delattr__()" is called on a dataclass which was defined with
    "frozen=True".
-~~CPP==new==module==delim~~
-)==~~~~=="

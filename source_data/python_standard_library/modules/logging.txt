@@ -1,4 +1,3 @@
-R"==~~~~==(logging~~CPP==map==key==delim~~
 "logging" --- Logging facility for Python
 *****************************************
 
@@ -1287,5 +1286,3 @@ See also:
      version of the package available from this site is suitable for
      use with Python 1.5.2, 2.1.x and 2.2.x, which do not include the
      "logging" package in the standard library.
-~~CPP==new==module==delim~~
-)==~~~~=="

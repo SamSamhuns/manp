@@ -1,4 +1,3 @@
-R"==~~~~==(xmlrpc~~CPP==map==key==delim~~
 "xmlrpc" --- XMLRPC server and client modules
 *********************************************
 
@@ -13,5 +12,3 @@ implementing XML-RPC.  The modules are:
 * "xmlrpc.client"
 
 * "xmlrpc.server"
-~~CPP==new==module==delim~~
-)==~~~~=="

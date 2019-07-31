@@ -1,4 +1,3 @@
-R"==~~~~==(collections.abc~~CPP==map==key==delim~~
 "collections.abc" --- Abstract Base Classes for Containers
 **********************************************************
 
@@ -284,5 +283,3 @@ See also:
   * OrderedSet recipe for an example built on "MutableSet".
 
   * For more about ABCs, see the "abc" module and **PEP 3119**.
-~~CPP==new==module==delim~~
-)==~~~~=="

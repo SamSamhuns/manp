@@ -1,4 +1,3 @@
-R"==~~~~==(linecache~~CPP==map==key==delim~~
 "linecache" --- Random access to text lines
 *******************************************
 
@@ -57,5 +56,3 @@ Example:
    >>> import linecache
    >>> linecache.getline(linecache.__file__, 8)
    'import sys\n'
-~~CPP==new==module==delim~~
-)==~~~~=="

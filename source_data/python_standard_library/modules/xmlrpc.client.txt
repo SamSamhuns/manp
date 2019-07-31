@@ -1,4 +1,3 @@
-R"==~~~~==(xmlrpc.client~~CPP==map==key==delim~~
 "xmlrpc.client" --- XML-RPC client access
 *****************************************
 
@@ -559,5 +558,3 @@ See SimpleXMLRPCServer Example.
 
 [1] This approach has been first presented in a discussion on
     xmlrpc.com.
-~~CPP==new==module==delim~~
-)==~~~~=="

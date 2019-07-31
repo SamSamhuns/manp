@@ -1,4 +1,3 @@
-R"==~~~~==(sysconfig~~CPP==map==key==delim~~
 "sysconfig" --- Provide access to Python's configuration information
 ********************************************************************
 
@@ -267,5 +266,3 @@ You can use "sysconfig" as a script with Python's *-m* option:
 This call will print in the standard output the information returned
 by "get_platform()", "get_python_version()", "get_path()" and
 "get_config_vars()".
-~~CPP==new==module==delim~~
-)==~~~~=="

@@ -1,4 +1,3 @@
-R"==~~~~==(warnings~~CPP==map==key==delim~~
 "warnings" --- Warning control
 ******************************
 
@@ -486,5 +485,3 @@ class warnings.catch_warnings(*, record=False, module=None)
      internal list of filter specifications.  This means the context
      manager is modifying global state and therefore is not thread-
      safe.
-~~CPP==new==module==delim~~
-)==~~~~=="

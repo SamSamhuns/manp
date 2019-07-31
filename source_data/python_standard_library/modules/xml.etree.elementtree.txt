@@ -1,4 +1,3 @@
-R"==~~~~==(xml.etree.elementtree~~CPP==map==key==delim~~
 "xml.etree.ElementTree" --- The ElementTree XML API
 ***************************************************
 
@@ -1131,5 +1130,3 @@ class xml.etree.ElementTree.ParseError
     xml11-20060816/#NT- EncodingDecl and
     https://www.iana.org/assignments/character-sets /character-
     sets.xhtml.
-~~CPP==new==module==delim~~
-)==~~~~=="

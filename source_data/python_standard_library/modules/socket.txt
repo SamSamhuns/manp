@@ -1,4 +1,3 @@
-R"==~~~~==(socket~~CPP==map==key==delim~~
 "socket" --- Low-level networking interface
 *******************************************
 
@@ -1799,5 +1798,3 @@ See also: For an introduction to socket programming (in C), see the
   (or Winsock 2) specification.  For IPv6-ready APIs, readers may want
   to refer to **RFC 3493** titled Basic Socket Interface Extensions
   for IPv6.
-~~CPP==new==module==delim~~
-)==~~~~=="

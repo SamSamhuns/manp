@@ -1,4 +1,3 @@
-R"==~~~~==(math~~CPP==map==key==delim~~
 "math" --- Mathematical functions
 *********************************
 
@@ -455,5 +454,3 @@ See also:
 
   Module "cmath"
      Complex number versions of many of these functions.
-~~CPP==new==module==delim~~
-)==~~~~=="

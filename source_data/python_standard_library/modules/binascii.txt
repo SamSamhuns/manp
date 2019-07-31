@@ -1,4 +1,3 @@
-R"==~~~~==(binascii~~CPP==map==key==delim~~
 "binascii" --- Convert between binary and ASCII
 ***********************************************
 
@@ -173,5 +172,3 @@ See also:
   Module "quopri"
      Support for quoted-printable encoding used in MIME email
      messages.
-~~CPP==new==module==delim~~
-)==~~~~=="

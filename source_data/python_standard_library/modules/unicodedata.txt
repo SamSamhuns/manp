@@ -1,4 +1,3 @@
-R"==~~~~==(unicodedata~~CPP==map==key==delim~~
 "unicodedata" --- Unicode Database
 **********************************
 
@@ -150,5 +149,3 @@ ValueError: not a decimal
 [1] http://www.unicode.org/Public/11.0.0/ucd/NameAliases.txt
 
 [2] http://www.unicode.org/Public/11.0.0/ucd/NamedSequences.txt
-~~CPP==new==module==delim~~
-)==~~~~=="

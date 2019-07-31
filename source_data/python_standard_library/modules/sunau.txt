@@ -1,4 +1,3 @@
-R"==~~~~==(sunau~~CPP==map==key==delim~~
 "sunau" --- Read and write Sun AU files
 ***************************************
 
@@ -234,5 +233,3 @@ AU_write.close()
 
 Note that it is invalid to set any parameters after calling
 "writeframes()" or "writeframesraw()".
-~~CPP==new==module==delim~~
-)==~~~~=="

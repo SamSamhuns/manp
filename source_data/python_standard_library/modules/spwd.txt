@@ -1,4 +1,3 @@
-R"==~~~~==(spwd~~CPP==map==key==delim~~
 "spwd" --- The shadow password database
 ***************************************
 
@@ -65,5 +64,3 @@ See also:
 
   Module "pwd"
      An interface to the normal password database, similar to this.
-~~CPP==new==module==delim~~
-)==~~~~=="

@@ -1,4 +1,3 @@
-R"==~~~~==(stat~~CPP==map==key==delim~~
 "stat" --- Interpreting "stat()" results
 ****************************************
 
@@ -406,5 +405,3 @@ stat.FILE_ATTRIBUTE_TEMPORARY
 stat.FILE_ATTRIBUTE_VIRTUAL
 
    New in version 3.5.
-~~CPP==new==module==delim~~
-)==~~~~=="

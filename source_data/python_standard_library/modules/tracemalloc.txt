@@ -1,4 +1,3 @@
-R"==~~~~==(tracemalloc~~CPP==map==key==delim~~
 "tracemalloc" --- Trace memory allocations
 ******************************************
 
@@ -693,5 +692,3 @@ class tracemalloc.Traceback
              obj = Object()
            File "test.py", line 12
              tb = tracemalloc.get_object_traceback(f())
-~~CPP==new==module==delim~~
-)==~~~~=="

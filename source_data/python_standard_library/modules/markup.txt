@@ -1,4 +1,3 @@
-R"==~~~~==(markup~~CPP==map==key==delim~~
 Structured Markup Processing Tools
 **********************************
 
@@ -159,5 +158,3 @@ Extensible Markup Language (XML).
   * Content Model Descriptions
 
   * Expat error constants
-~~CPP==new==module==delim~~
-)==~~~~=="

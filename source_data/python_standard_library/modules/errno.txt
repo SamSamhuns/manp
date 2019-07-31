@@ -1,4 +1,3 @@
-R"==~~~~==(errno~~CPP==map==key==delim~~
 "errno" --- Standard errno system symbols
 *****************************************
 
@@ -513,5 +512,3 @@ errno.EREMOTEIO
 errno.EDQUOT
 
    Quota exceeded
-~~CPP==new==module==delim~~
-)==~~~~=="

@@ -1,4 +1,3 @@
-R"==~~~~==(stringprep~~CPP==map==key==delim~~
 "stringprep" --- Internet String Preparation
 ********************************************
 
@@ -127,5 +126,3 @@ stringprep.in_table_d2(code)
 
    Determine whether *code* is in tableD.2  (Characters with
    bidirectional property "L").
-~~CPP==new==module==delim~~
-)==~~~~=="

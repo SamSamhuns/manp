@@ -1,4 +1,3 @@
-R"==~~~~==(curses~~CPP==map==key==delim~~
 "curses" --- Terminal handling for character-cell displays
 **********************************************************
 
@@ -1710,5 +1709,3 @@ class curses.textpad.Textbox(win)
       on a trailing blank goes to the end of that line instead, and
       trailing blanks are stripped when the window contents are
       gathered.
-~~CPP==new==module==delim~~
-)==~~~~=="

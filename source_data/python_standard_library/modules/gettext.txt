@@ -1,4 +1,3 @@
-R"==~~~~==(gettext~~CPP==map==key==delim~~
 "gettext" --- Multilingual internationalization services
 ********************************************************
 
@@ -642,5 +641,3 @@ this module:
     absolute path at the start of your application.
 
 [2] See the footnote for "bindtextdomain()" above.
-~~CPP==new==module==delim~~
-)==~~~~=="

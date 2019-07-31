@@ -1,4 +1,3 @@
-R"==~~~~==(pyclbr~~CPP==map==key==delim~~
 "pyclbr" --- Python class browser support
 *****************************************
 
@@ -129,5 +128,3 @@ Class.methods
    A dictionary mapping method names to line numbers.  This can be
    derived from the newer children dictionary, but remains for back-
    compatibility.
-~~CPP==new==module==delim~~
-)==~~~~=="

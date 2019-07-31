@@ -1,4 +1,3 @@
-R"==~~~~==(tty~~CPP==map==key==delim~~
 "tty" --- Terminal control functions
 ************************************
 
@@ -29,5 +28,3 @@ See also:
 
   Module "termios"
      Low-level terminal control interface.
-~~CPP==new==module==delim~~
-)==~~~~=="

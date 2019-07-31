@@ -1,4 +1,3 @@
-R"==~~~~==(chunk~~CPP==map==key==delim~~
 "chunk" --- Read IFF chunked data
 *********************************
 
@@ -116,5 +115,3 @@ class chunk.Chunk(file, align=True, bigendian=True, inclheader=False)
 
 [1] "EA IFF 85" Standard for Interchange Format Files, Jerry
     Morrison, Electronic Arts, January 1985.
-~~CPP==new==module==delim~~
-)==~~~~=="

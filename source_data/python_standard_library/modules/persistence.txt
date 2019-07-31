@@ -1,4 +1,3 @@
-R"==~~~~==(persistence~~CPP==map==key==delim~~
 Data Persistence
 ****************
 
@@ -99,5 +98,3 @@ The list of modules described in this chapter is:
   * Common issues
 
     * Multithreading
-~~CPP==new==module==delim~~
-)==~~~~=="

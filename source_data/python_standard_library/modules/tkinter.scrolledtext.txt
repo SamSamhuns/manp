@@ -1,4 +1,3 @@
-R"==~~~~==(tkinter.scrolledtext~~CPP==map==key==delim~~
 "tkinter.scrolledtext" --- Scrolled Text Widget
 ***********************************************
 
@@ -27,5 +26,3 @@ ScrolledText.frame
 ScrolledText.vbar
 
    The scroll bar widget.
-~~CPP==new==module==delim~~
-)==~~~~=="

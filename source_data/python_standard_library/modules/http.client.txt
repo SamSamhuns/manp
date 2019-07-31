@@ -1,4 +1,3 @@
-R"==~~~~==(http.client~~CPP==map==key==delim~~
 "http.client" --- HTTP protocol client
 **************************************
 
@@ -499,5 +498,3 @@ HTTPMessage Objects
 
 An "http.client.HTTPMessage" instance holds the headers from an HTTP
 response.  It is implemented using the "email.message.Message" class.
-~~CPP==new==module==delim~~
-)==~~~~=="

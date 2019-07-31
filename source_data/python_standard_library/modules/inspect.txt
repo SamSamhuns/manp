@@ -1,4 +1,3 @@
-R"==~~~~==(inspect~~CPP==map==key==delim~~
 "inspect" --- Inspect live objects
 **********************************
 
@@ -1281,5 +1280,3 @@ by appended a colon and the qualified name of the target object.
 
    Print information about the specified object rather than the source
    code
-~~CPP==new==module==delim~~
-)==~~~~=="

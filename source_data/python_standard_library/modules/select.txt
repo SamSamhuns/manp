@@ -1,4 +1,3 @@
-R"==~~~~==(select~~CPP==map==key==delim~~
 "select" --- Waiting for I/O completion
 ***************************************
 
@@ -596,5 +595,3 @@ kevent.data
 kevent.udata
 
    User defined value.
-~~CPP==new==module==delim~~
-)==~~~~=="

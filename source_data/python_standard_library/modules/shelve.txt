@@ -1,4 +1,3 @@
-R"==~~~~==(shelve~~CPP==map==key==delim~~
 "shelve" --- Python object persistence
 **************************************
 
@@ -183,5 +182,3 @@ See also:
 
   Module "pickle"
      Object serialization used by "shelve".
-~~CPP==new==module==delim~~
-)==~~~~=="

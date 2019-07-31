@@ -1,4 +1,3 @@
-R"==~~~~==(mm~~CPP==map==key==delim~~
 Multimedia Services
 *******************
 
@@ -36,5 +35,3 @@ overview:
   * Audio Device Objects
 
   * Mixer Device Objects
-~~CPP==new==module==delim~~
-)==~~~~=="

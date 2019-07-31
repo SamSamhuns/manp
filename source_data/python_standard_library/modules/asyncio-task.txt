@@ -1,4 +1,3 @@
-R"==~~~~==(asyncio-task~~CPP==map==key==delim~~
 Coroutines and Tasks
 ********************
 
@@ -872,5 +871,3 @@ asyncio.iscoroutinefunction(func)
    This method is different from "inspect.iscoroutinefunction()"
    because it returns "True" for generator-based coroutine functions
    decorated with "@coroutine".
-~~CPP==new==module==delim~~
-)==~~~~=="

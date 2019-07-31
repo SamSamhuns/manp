@@ -1,4 +1,3 @@
-R"==~~~~==(getopt~~CPP==map==key==delim~~
 "getopt" --- C-style parser for command line options
 ****************************************************
 
@@ -155,5 +154,3 @@ See also:
 
   Module "argparse"
      Alternative command line option and argument parsing library.
-~~CPP==new==module==delim~~
-)==~~~~=="

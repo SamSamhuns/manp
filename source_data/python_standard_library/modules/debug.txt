@@ -1,4 +1,3 @@
-R"==~~~~==(debug~~CPP==map==key==delim~~
 Debugging and Profiling
 ***********************
 
@@ -99,5 +98,3 @@ programs.
     * Trace
 
     * Traceback
-~~CPP==new==module==delim~~
-)==~~~~=="

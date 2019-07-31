@@ -1,4 +1,3 @@
-R"==~~~~==(asyncio-api-index~~CPP==map==key==delim~~
 High-level API Index
 ********************
 
@@ -160,5 +159,3 @@ Exceptions
 * Handling CancelledError to run code on cancellation request.
 
 * See also the full list of asyncio-specific exceptions.
-~~CPP==new==module==delim~~
-)==~~~~=="

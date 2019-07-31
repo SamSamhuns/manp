@@ -1,4 +1,3 @@
-R"==~~~~==(zipfile~~CPP==map==key==delim~~
 "zipfile" --- Work with ZIP archives
 ************************************
 
@@ -639,5 +638,3 @@ Command-line options
 --test <zipfile>
 
    Test whether the zipfile is valid or not.
-~~CPP==new==module==delim~~
-)==~~~~=="

@@ -1,4 +1,3 @@
-R"==~~~~==(collections~~CPP==map==key==delim~~
 "collections" --- Container datatypes
 *************************************
 
@@ -1213,5 +1212,3 @@ class collections.UserString(seq)
 
    Changed in version 3.5: New methods "__getnewargs__", "__rmod__",
    "casefold", "format_map", "isprintable", and "maketrans".
-~~CPP==new==module==delim~~
-)==~~~~=="

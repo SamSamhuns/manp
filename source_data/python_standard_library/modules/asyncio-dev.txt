@@ -1,4 +1,3 @@
-R"==~~~~==(asyncio-dev~~CPP==map==key==delim~~
 Developing with asyncio
 ***********************
 
@@ -215,5 +214,3 @@ Output in debug mode:
      File "../t.py", line 4, in bug
        raise Exception("not consumed")
    Exception: not consumed
-~~CPP==new==module==delim~~
-)==~~~~=="

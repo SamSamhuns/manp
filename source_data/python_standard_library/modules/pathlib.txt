@@ -1,4 +1,3 @@
-R"==~~~~==(pathlib~~CPP==map==key==delim~~
 "pathlib" --- Object-oriented filesystem paths
 **********************************************
 
@@ -1077,5 +1076,3 @@ Note: Although "os.path.relpath()" and "PurePath.relative_to()" have
 +--------------------------------------+--------------------------------+
 | "os.path.splitext()"                 | "PurePath.suffix"              |
 +--------------------------------------+--------------------------------+
-~~CPP==new==module==delim~~
-)==~~~~=="

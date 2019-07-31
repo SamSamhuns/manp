@@ -1,4 +1,3 @@
-R"==~~~~==(xml.sax~~CPP==map==key==delim~~
 "xml.sax" --- Support for SAX2 parsers
 **************************************
 
@@ -145,5 +144,3 @@ SAXException.getMessage()
 SAXException.getException()
 
    Return an encapsulated exception object, or "None".
-~~CPP==new==module==delim~~
-)==~~~~=="

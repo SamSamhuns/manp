@@ -1,4 +1,3 @@
-R"==~~~~==(binary~~CPP==map==key==delim~~
 Binary Data Services
 ********************
 
@@ -70,5 +69,3 @@ types in Binary Sequence Types --- bytes, bytearray, memoryview.
   * "encodings.mbcs" --- Windows ANSI codepage
 
   * "encodings.utf_8_sig" --- UTF-8 codec with BOM signature
-~~CPP==new==module==delim~~
-)==~~~~=="

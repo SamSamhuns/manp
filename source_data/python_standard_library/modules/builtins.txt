@@ -1,4 +1,3 @@
-R"==~~~~==(builtins~~CPP==map==key==delim~~
 "builtins" --- Built-in objects
 *******************************
 
@@ -38,5 +37,3 @@ made available as part of their globals.  The value of "__builtins__"
 is normally either this module or the value of this module's
 "__dict__" attribute. Since this is an implementation detail, it may
 not be used by alternate implementations of Python.
-~~CPP==new==module==delim~~
-)==~~~~=="

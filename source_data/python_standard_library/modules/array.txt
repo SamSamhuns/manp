@@ -1,4 +1,3 @@
-R"==~~~~==(array~~CPP==map==key==delim~~
 "array" --- Efficient arrays of numeric values
 **********************************************
 
@@ -253,5 +252,3 @@ See also:
      The Numeric Python extension (NumPy) defines another array type;
      see http://www.numpy.org/ for further information about Numerical
      Python.
-~~CPP==new==module==delim~~
-)==~~~~=="

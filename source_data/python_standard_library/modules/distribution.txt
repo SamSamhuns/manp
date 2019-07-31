@@ -1,4 +1,3 @@
-R"==~~~~==(distribution~~CPP==map==key==delim~~
 Software Packaging and Distribution
 ***********************************
 
@@ -42,5 +41,3 @@ server, or without any index server at all.
     * Caveats
 
   * The Python Zip Application Archive Format
-~~CPP==new==module==delim~~
-)==~~~~=="

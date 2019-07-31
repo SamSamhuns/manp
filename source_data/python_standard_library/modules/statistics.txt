@@ -1,4 +1,3 @@
-R"==~~~~==(statistics~~CPP==map==key==delim~~
 "statistics" --- Mathematical statistics functions
 **************************************************
 
@@ -397,5 +396,3 @@ A single exception is defined:
 exception statistics.StatisticsError
 
    Subclass of "ValueError" for statistics-related exceptions.
-~~CPP==new==module==delim~~
-)==~~~~=="

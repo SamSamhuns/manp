@@ -1,4 +1,3 @@
-R"==~~~~==(zipimport~~CPP==map==key==delim~~
 "zipimport" --- Import modules from Zip archives
 ************************************************
 
@@ -149,5 +148,3 @@ that the "zipimport" module is not explicitly used.
    >>> import jwzthreading
    >>> jwzthreading.__file__
    'example.zip/jwzthreading.py'
-~~CPP==new==module==delim~~
-)==~~~~=="

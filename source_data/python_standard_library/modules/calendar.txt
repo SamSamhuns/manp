@@ -1,4 +1,3 @@
-R"==~~~~==(calendar~~CPP==map==key==delim~~
 "calendar" --- General calendar-related functions
 *************************************************
 
@@ -383,5 +382,3 @@ See also:
 
   Module "time"
      Low-level time related functions.
-~~CPP==new==module==delim~~
-)==~~~~=="

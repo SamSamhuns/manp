@@ -1,4 +1,3 @@
-R"==~~~~==(telnetlib~~CPP==map==key==delim~~
 "telnetlib" --- Telnet client
 *****************************
 
@@ -222,5 +221,3 @@ A simple example illustrating typical use:
    tn.write(b"exit\n")
 
    print(tn.read_all().decode('ascii'))
-~~CPP==new==module==delim~~
-)==~~~~=="

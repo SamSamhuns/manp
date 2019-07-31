@@ -1,4 +1,3 @@
-R"==~~~~==(pdb~~CPP==map==key==delim~~
 "pdb" --- The Python Debugger
 *****************************
 
@@ -508,5 +507,3 @@ q(uit)
 
 [1] Whether a frame is considered to originate in a certain module
     is determined by the "__name__" in the frame globals.
-~~CPP==new==module==delim~~
-)==~~~~=="

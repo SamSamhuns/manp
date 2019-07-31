@@ -1,4 +1,3 @@
-R"==~~~~==(abc~~CPP==map==key==delim~~
 "abc" --- Abstract Base Classes
 *******************************
 
@@ -326,5 +325,3 @@ abc.get_cache_token()
 
 [1] C++ programmers should note that Python's virtual base class
     concept is not the same as C++'s.
-~~CPP==new==module==delim~~
-)==~~~~=="

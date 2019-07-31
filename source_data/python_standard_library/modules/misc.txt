@@ -1,4 +1,3 @@
-R"==~~~~==(misc~~CPP==map==key==delim~~
 Miscellaneous Services
 **********************
 
@@ -14,5 +13,3 @@ that are available in all Python versions.  Here's an overview:
   * The Writer Interface
 
   * Writer Implementations
-~~CPP==new==module==delim~~
-)==~~~~=="

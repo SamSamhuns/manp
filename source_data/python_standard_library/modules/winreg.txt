@@ -1,4 +1,3 @@
-R"==~~~~==(winreg~~CPP==map==key==delim~~
 "winreg" --- Windows registry access
 ************************************
 
@@ -704,5 +703,3 @@ PyHKEY.__exit__(*exc_info)
 
    will automatically close *key* when control leaves the "with"
    block.
-~~CPP==new==module==delim~~
-)==~~~~=="

@@ -1,4 +1,3 @@
-R"==~~~~==(glob~~CPP==map==key==delim~~
 "glob" --- Unix style pathname pattern expansion
 ************************************************
 
@@ -86,5 +85,3 @@ See also:
 
   Module "fnmatch"
      Shell-style filename (not path) expansion
-~~CPP==new==module==delim~~
-)==~~~~=="

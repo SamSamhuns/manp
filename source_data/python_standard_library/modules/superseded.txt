@@ -1,4 +1,3 @@
-R"==~~~~==(superseded~~CPP==map==key==delim~~
 Superseded Modules
 ******************
 
@@ -90,5 +89,3 @@ backwards compatibility. They have been superseded by other modules.
 * "imp" --- Access the *import* internals
 
   * Examples
-~~CPP==new==module==delim~~
-)==~~~~=="

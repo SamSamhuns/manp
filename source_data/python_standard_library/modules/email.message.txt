@@ -1,4 +1,3 @@
-R"==~~~~==(email.message~~CPP==map==key==delim~~
 "email.message": Representing an email message
 **********************************************
 
@@ -698,5 +697,3 @@ class email.message.MIMEPart(policy=default)
 [1] Originally added in 3.4 as a *provisional module*.  Docs for
     legacy message class moved to email.message.Message: Representing
     an email message using the compat32 API.
-~~CPP==new==module==delim~~
-)==~~~~=="

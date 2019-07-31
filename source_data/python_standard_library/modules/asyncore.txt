@@ -1,4 +1,3 @@
-R"==~~~~==(asyncore~~CPP==map==key==delim~~
 "asyncore" --- Asynchronous socket handler
 ******************************************
 
@@ -334,5 +333,3 @@ connections and dispatches the incoming connections to a handler:
 
    server = EchoServer('localhost', 8080)
    asyncore.loop()
-~~CPP==new==module==delim~~
-)==~~~~=="

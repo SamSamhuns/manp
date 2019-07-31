@@ -1,4 +1,3 @@
-R"==~~~~==(xml.dom~~CPP==map==key==delim~~
 "xml.dom" --- The Document Object Model API
 *******************************************
 
@@ -910,5 +909,3 @@ The IDL definitions do not fully embody the requirements of the W3C
 DOM API, such as the notion of certain objects, such as the return
 value of "getElementsByTagName()", being "live".  The Python DOM API
 does not require implementations to enforce such requirements.
-~~CPP==new==module==delim~~
-)==~~~~=="

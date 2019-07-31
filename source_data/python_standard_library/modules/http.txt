@@ -1,4 +1,3 @@
-R"==~~~~==(http~~CPP==map==key==delim~~
 "http" --- HTTP modules
 ***********************
 
@@ -180,5 +179,3 @@ name is equal to the constant name (i.e. "http.HTTPStatus.OK" is also
 available as "http.client.OK").
 
 Changed in version 3.7: Added "421 MISDIRECTED_REQUEST" status code.
-~~CPP==new==module==delim~~
-)==~~~~=="

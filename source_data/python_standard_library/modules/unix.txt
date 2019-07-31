@@ -1,4 +1,3 @@
-R"==~~~~==(unix~~CPP==map==key==delim~~
 Unix Specific Services
 **********************
 
@@ -57,5 +56,3 @@ or many variants of it.  Here's an overview:
   * Examples
 
     * Simple example
-~~CPP==new==module==delim~~
-)==~~~~=="

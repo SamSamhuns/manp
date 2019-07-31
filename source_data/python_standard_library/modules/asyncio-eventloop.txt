@@ -1,4 +1,3 @@
-R"==~~~~==(asyncio-eventloop~~CPP==map==key==delim~~
 Event Loop
 **********
 
@@ -1518,5 +1517,3 @@ Register handlers for signals "SIGINT" and "SIGTERM" using the
    print(f"pid {os.getpid()}: send SIGINT or SIGTERM to exit.")
 
    asyncio.run(main())
-~~CPP==new==module==delim~~
-)==~~~~=="

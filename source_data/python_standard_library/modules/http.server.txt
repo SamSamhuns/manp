@@ -1,4 +1,3 @@
-R"==~~~~==(http.server~~CPP==map==key==delim~~
 "http.server" --- HTTP servers
 ******************************
 
@@ -469,5 +468,3 @@ class http.server.CGIHTTPRequestHandler(request, client_address, server)
 the "--cgi" option:
 
    python -m http.server --cgi 8000
-~~CPP==new==module==delim~~
-)==~~~~=="

@@ -1,4 +1,3 @@
-R"==~~~~==(i18n~~CPP==map==key==delim~~
 Internationalization
 ********************
 
@@ -42,5 +41,3 @@ The list of modules described in this chapter is:
   * For extension writers and programs that embed Python
 
   * Access to message catalogs
-~~CPP==new==module==delim~~
-)==~~~~=="

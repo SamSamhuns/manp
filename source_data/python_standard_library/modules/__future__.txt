@@ -1,4 +1,3 @@
-R"==~~~~==(__future__~~CPP==map==key==delim~~
 "__future__" --- Future statement definitions
 *********************************************
 
@@ -91,5 +90,3 @@ See also:
 
   Future statements
      How the compiler treats future imports.
-~~CPP==new==module==delim~~
-)==~~~~=="

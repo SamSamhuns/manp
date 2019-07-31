@@ -1,4 +1,3 @@
-R"==~~~~==(mailcap~~CPP==map==key==delim~~
 "mailcap" --- Mailcap file handling
 ***********************************
 
@@ -74,5 +73,3 @@ An example usage:
    >>> d = mailcap.getcaps()
    >>> mailcap.findmatch(d, 'video/mpeg', filename='tmp1223')
    ('xmpeg tmp1223', {'view': 'xmpeg %s'})
-~~CPP==new==module==delim~~
-)==~~~~=="

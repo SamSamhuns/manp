@@ -1,4 +1,3 @@
-R"==~~~~==(contextlib~~CPP==map==key==delim~~
 "contextlib" --- Utilities for "with"-statement contexts
 ********************************************************
 
@@ -869,5 +868,3 @@ instance avoids that problem:
    Callback: from inner context
    Leaving outer context
    Callback: from outer context
-~~CPP==new==module==delim~~
-)==~~~~=="

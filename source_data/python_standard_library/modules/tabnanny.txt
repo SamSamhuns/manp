@@ -1,4 +1,3 @@
-R"==~~~~==(tabnanny~~CPP==map==key==delim~~
 "tabnanny" --- Detection of ambiguous indentation
 *************************************************
 
@@ -47,5 +46,3 @@ See also:
 
   Module "tokenize"
      Lexical scanner for Python source code.
-~~CPP==new==module==delim~~
-)==~~~~=="

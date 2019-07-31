@@ -1,4 +1,3 @@
-R"==~~~~==(argparse~~CPP==map==key==delim~~
 "argparse" --- Parser for command-line options, arguments and sub-commands
 **************************************************************************
 
@@ -2083,5 +2082,3 @@ A partial upgrade path from "optparse" to "argparse":
 * Replace the OptionParser constructor "version" argument with a
   call to "parser.add_argument('--version', action='version',
   version='<the version>')".
-~~CPP==new==module==delim~~
-)==~~~~=="

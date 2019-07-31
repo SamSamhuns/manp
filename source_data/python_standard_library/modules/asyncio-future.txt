@@ -1,4 +1,3 @@
-R"==~~~~==(asyncio-future~~CPP==map==key==delim~~
 Futures
 *******
 
@@ -230,5 +229,3 @@ Important: The Future object was designed to mimic
   * asyncio Future is not compatible with the
     "concurrent.futures.wait()" and
     "concurrent.futures.as_completed()" functions.
-~~CPP==new==module==delim~~
-)==~~~~=="

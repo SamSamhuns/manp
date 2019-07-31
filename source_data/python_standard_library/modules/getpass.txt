@@ -1,4 +1,3 @@
-R"==~~~~==(getpass~~CPP==map==key==delim~~
 "getpass" --- Portable password input
 *************************************
 
@@ -40,5 +39,3 @@ getpass.getuser()
    support the "pwd" module, otherwise, an exception is raised.
 
    In general, this function should be preferred over "os.getlogin()".
-~~CPP==new==module==delim~~
-)==~~~~=="

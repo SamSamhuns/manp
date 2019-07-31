@@ -1,4 +1,3 @@
-R"==~~~~==(email.header~~CPP==map==key==delim~~
 "email.header": Internationalized headers
 *****************************************
 
@@ -200,5 +199,3 @@ email.header.make_header(decoded_seq, maxlinelen=None, header_name=None, continu
    This function takes one of those sequence of pairs and returns a
    "Header" instance.  Optional *maxlinelen*, *header_name*, and
    *continuation_ws* are as in the "Header" constructor.
-~~CPP==new==module==delim~~
-)==~~~~=="

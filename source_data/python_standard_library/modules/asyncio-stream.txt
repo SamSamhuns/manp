@@ -1,4 +1,3 @@
-R"==~~~~==(asyncio-stream~~CPP==map==key==delim~~
 Streams
 *******
 
@@ -415,5 +414,3 @@ See also: The register an open socket to wait for data using a
 
   The watch a file descriptor for read events example uses the low-
   level "loop.add_reader()" method to watch a file descriptor.
-~~CPP==new==module==delim~~
-)==~~~~=="

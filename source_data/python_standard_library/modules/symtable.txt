@@ -1,4 +1,3 @@
-R"==~~~~==(symtable~~CPP==map==key==delim~~
 "symtable" --- Access to the compiler's symbol tables
 *****************************************************
 
@@ -183,5 +182,3 @@ class symtable.Symbol
 
       Return the namespace bound to this name.  If more than one
       namespace is bound, "ValueError" is raised.
-~~CPP==new==module==delim~~
-)==~~~~=="

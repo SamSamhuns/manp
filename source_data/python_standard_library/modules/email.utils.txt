@@ -1,4 +1,3 @@
-R"==~~~~==(email.utils~~CPP==map==key==delim~~
 "email.utils": Miscellaneous utilities
 **************************************
 
@@ -204,5 +203,3 @@ email.utils.decode_params(params)
     the sign of the "time.timezone" variable for the same timezone;
     the latter variable follows the POSIX standard while this module
     follows **RFC 2822**.
-~~CPP==new==module==delim~~
-)==~~~~=="

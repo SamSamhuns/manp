@@ -1,4 +1,3 @@
-R"==~~~~==(bdb~~CPP==map==key==delim~~
 "bdb" --- Debugger framework
 ****************************
 
@@ -384,5 +383,3 @@ bdb.effective(file, line, frame)
 bdb.set_trace()
 
    Start debugging with a "Bdb" instance from caller's frame.
-~~CPP==new==module==delim~~
-)==~~~~=="

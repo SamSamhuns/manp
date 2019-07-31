@@ -1,4 +1,3 @@
-R"==~~~~==(smtpd~~CPP==map==key==delim~~
 "smtpd" --- SMTP Server
 ***********************
 
@@ -276,5 +275,3 @@ class smtpd.SMTPChannel(server, conn, addr, data_size_limit=33554432, map=None, 
    +----------+---------------------------------------------------------------------+
    | EXPN     | Reports that the command is not implemented.                        |
    +----------+---------------------------------------------------------------------+
-~~CPP==new==module==delim~~
-)==~~~~=="

@@ -1,4 +1,3 @@
-R"==~~~~==(crypto~~CPP==map==key==delim~~
 Cryptographic Services
 **********************
 
@@ -50,5 +49,3 @@ available. Here's an overview:
   * Other functions
 
   * Recipes and best practices
-~~CPP==new==module==delim~~
-)==~~~~=="

@@ -1,4 +1,3 @@
-R"==~~~~==(tkinter~~CPP==map==key==delim~~
 "tkinter" --- Python interface to Tcl/Tk
 ****************************************
 
@@ -855,5 +854,3 @@ tkinter.WRITABLE
 tkinter.EXCEPTION
 
    Constants used in the *mask* arguments.
-~~CPP==new==module==delim~~
-)==~~~~=="

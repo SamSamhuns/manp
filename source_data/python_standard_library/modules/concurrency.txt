@@ -1,4 +1,3 @@
-R"==~~~~==(concurrency~~CPP==map==key==delim~~
 Concurrent Execution
 ********************
 
@@ -172,5 +171,3 @@ The following are support modules for some of the above services:
 
 * "dummy_threading" --- Drop-in replacement for the "threading"
   module
-~~CPP==new==module==delim~~
-)==~~~~=="

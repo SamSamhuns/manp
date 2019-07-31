@@ -1,4 +1,3 @@
-R"==~~~~==(urllib.robotparser~~CPP==map==key==delim~~
 "urllib.robotparser" ---  Parser for robots.txt
 ***********************************************
 
@@ -84,5 +83,3 @@ class:
    False
    >>> rp.can_fetch("*", "http://www.musi-cal.com/")
    True
-~~CPP==new==module==delim~~
-)==~~~~=="

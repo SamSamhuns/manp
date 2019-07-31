@@ -1,4 +1,3 @@
-R"==~~~~==(random~~CPP==map==key==delim~~
 "random" --- Generate pseudo-random numbers
 *******************************************
 
@@ -480,5 +479,3 @@ See also: Statistics for Hackers a video tutorial by Jake Vanderplas
   A Concrete Introduction to Probability (using Python) a tutorial by
   Peter Norvig covering the basics of probability theory, how to write
   simulations, and how to perform data analysis using Python.
-~~CPP==new==module==delim~~
-)==~~~~=="

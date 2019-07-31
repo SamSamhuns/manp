@@ -1,4 +1,3 @@
-R"==~~~~==(http.cookies~~CPP==map==key==delim~~
 "http.cookies" --- HTTP state management
 ****************************************
 
@@ -257,5 +256,3 @@ module.
    >>> print(C)
    Set-Cookie: number=7
    Set-Cookie: string=seven
-~~CPP==new==module==delim~~
-)==~~~~=="
