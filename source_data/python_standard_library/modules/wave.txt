@@ -1,4 +1,3 @@
-"modules/wave.txt"
 "wave" --- Read and write WAV files
 ***********************************
 

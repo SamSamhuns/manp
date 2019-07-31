@@ -1,4 +1,3 @@
-"partition"
 str.partition(sep)
 
    Split the string at the first occurrence of *sep*, and return a

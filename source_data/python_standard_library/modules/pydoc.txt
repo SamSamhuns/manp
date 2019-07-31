@@ -1,4 +1,3 @@
-"modules/pydoc.txt"
 "pydoc" --- Documentation generator and online help system
 **********************************************************
 

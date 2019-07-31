@@ -1,4 +1,3 @@
-"modules/codecs.txt"
 "codecs" --- Codec registry and base classes
 ********************************************
 

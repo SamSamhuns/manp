@@ -1,4 +1,3 @@
-"modules/errno.txt"
 "errno" --- Standard errno system symbols
 *****************************************
 

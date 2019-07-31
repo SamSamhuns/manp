@@ -1,4 +1,3 @@
-"rsplit"
 str.rsplit(sep=None, maxsplit=-1)
 
    Return a list of the words in the string, using *sep* as the

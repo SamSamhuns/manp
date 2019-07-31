@@ -1,4 +1,3 @@
-"modules/nntplib.txt"
 "nntplib" --- NNTP protocol client
 **********************************
 

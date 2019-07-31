@@ -1,4 +1,3 @@
-"repr"
 repr(object)
 
    Return a string containing a printable representation of an object.

@@ -1,4 +1,3 @@
-"modules/traceback.txt"
 "traceback" --- Print or retrieve a stack traceback
 ***************************************************
 

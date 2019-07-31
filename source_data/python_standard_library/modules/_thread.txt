@@ -1,4 +1,3 @@
-"modules/_thread.txt"
 "_thread" --- Low-level threading API
 *************************************
 

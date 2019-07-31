@@ -1,4 +1,3 @@
-"modules/ast.txt"
 "ast" --- Abstract Syntax Trees
 *******************************
 

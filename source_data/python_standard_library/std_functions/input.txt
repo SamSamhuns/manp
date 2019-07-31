@@ -1,4 +1,3 @@
-"input"
 input([prompt])
 
    If the *prompt* argument is present, it is written to standard

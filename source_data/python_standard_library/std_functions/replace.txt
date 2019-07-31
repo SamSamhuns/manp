@@ -1,4 +1,3 @@
-"replace"
 str.replace(old, new[, count])
    Return a copy of the string with all occurrences of substring *old*
    replaced by *new*.  If the optional argument *count* is given, only

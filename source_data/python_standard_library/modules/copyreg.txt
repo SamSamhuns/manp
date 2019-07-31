@@ -1,4 +1,3 @@
-"modules/copyreg.txt"
 "copyreg" --- Register "pickle" support functions
 *************************************************
 

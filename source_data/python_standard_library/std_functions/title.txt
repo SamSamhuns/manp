@@ -1,4 +1,3 @@
-"title"
 str.title()
    Return a titlecased version of the string where words start with an
    uppercase character and the remaining characters are lowercase.

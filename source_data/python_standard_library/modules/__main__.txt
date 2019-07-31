@@ -1,4 +1,3 @@
-"modules/__main__.txt"
 "__main__" --- Top-level script environment
 *******************************************
 

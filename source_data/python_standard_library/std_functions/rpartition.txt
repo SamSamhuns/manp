@@ -1,4 +1,3 @@
-"rpartition"
 str.rpartition(sep)
    Split the string at the last occurrence of *sep*, and return a
    3-tuple containing the part before the separator, the separator

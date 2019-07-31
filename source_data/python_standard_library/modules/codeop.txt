@@ -1,4 +1,3 @@
-"modules/codeop.txt"
 "codeop" --- Compile Python code
 ********************************
 

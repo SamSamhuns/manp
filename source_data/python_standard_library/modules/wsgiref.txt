@@ -1,4 +1,3 @@
-"modules/wsgiref.txt"
 "wsgiref" --- WSGI Utilities and Reference Implementation
 *********************************************************
 

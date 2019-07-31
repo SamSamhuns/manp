@@ -1,4 +1,3 @@
-"modules/pwd.txt"
 "pwd" --- The password database
 *******************************
 

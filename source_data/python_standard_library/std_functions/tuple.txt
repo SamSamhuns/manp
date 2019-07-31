@@ -1,4 +1,3 @@
-"tuple"
 class tuple([iterable])
    Tuples are immutable sequences, typically used to store collections of
    heterogeneous data (such as the 2-tuples produced by the "enumerate()"

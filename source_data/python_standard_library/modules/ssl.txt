@@ -1,4 +1,3 @@
-"modules/ssl.txt"
 "ssl" --- TLS/SSL wrapper for socket objects
 ********************************************
 

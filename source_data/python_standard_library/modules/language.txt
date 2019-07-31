@@ -1,4 +1,3 @@
-"modules/language.txt"
 Python Language Services
 ************************
 

@@ -1,4 +1,3 @@
-"isspace"
 str.isspace()
 
    Return true if there are only whitespace characters in the string

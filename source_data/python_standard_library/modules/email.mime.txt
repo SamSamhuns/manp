@@ -1,4 +1,3 @@
-"modules/email.mime.txt"
 "email.mime": Creating email and MIME objects from scratch
 **********************************************************
 

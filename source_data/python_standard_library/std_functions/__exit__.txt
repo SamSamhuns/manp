@@ -1,4 +1,3 @@
-"__exit__"
 contextmanager.__exit__(exc_type, exc_val, exc_tb)
     Exit the runtime context and return a Boolean flag indicating if
     any exception that occurred should be suppressed. If an exception

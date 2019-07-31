@@ -1,4 +1,3 @@
-"modules/linecache.txt"
 "linecache" --- Random access to text lines
 *******************************************
 

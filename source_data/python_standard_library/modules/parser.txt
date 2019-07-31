@@ -1,4 +1,3 @@
-"modules/parser.txt"
 "parser" --- Access Python parse trees
 **************************************
 

@@ -1,4 +1,3 @@
-"__iter__"
 container.__iter__()
    Return an iterator object.  The object is required to support the
    iterator protocol described below.  If a container supports

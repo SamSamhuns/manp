@@ -1,4 +1,3 @@
-"modules/urllib.error.txt"
 "urllib.error" --- Exception classes raised by urllib.request
 *************************************************************
 

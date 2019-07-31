@@ -1,4 +1,3 @@
-"modules/email.parser.txt"
 "email.parser": Parsing email messages
 **************************************
 

@@ -1,4 +1,3 @@
-"eval"
 eval(expression, globals=None, locals=None)
    The arguments are a string and optional globals and locals.  If
    provided, *globals* must be a dictionary.  If provided, *locals*

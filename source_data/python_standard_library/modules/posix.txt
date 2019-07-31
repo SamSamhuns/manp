@@ -1,4 +1,3 @@
-"modules/posix.txt"
 "posix" --- The most common POSIX system calls
 **********************************************
 

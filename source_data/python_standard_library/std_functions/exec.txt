@@ -1,4 +1,3 @@
-"exec"
 exec(object[, globals[, locals]])
 
    This function supports dynamic execution of Python code. *object*

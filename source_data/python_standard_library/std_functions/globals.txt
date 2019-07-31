@@ -1,4 +1,3 @@
-"globals"
 globals()
 
    Return a dictionary representing the current global symbol table.

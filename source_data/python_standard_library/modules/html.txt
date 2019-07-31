@@ -1,4 +1,3 @@
-"modules/html.txt"
 "html" --- HyperText Markup Language support
 ********************************************
 

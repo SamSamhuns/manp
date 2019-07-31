@@ -1,4 +1,3 @@
-"modules/pickletools.txt"
 "pickletools" --- Tools for pickle developers
 *********************************************
 

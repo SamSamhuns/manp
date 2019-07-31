@@ -1,4 +1,3 @@
-"casefold"
 str.casefold()
    Return a casefolded copy of the string. Casefolded strings may be
    used for caseless matching.

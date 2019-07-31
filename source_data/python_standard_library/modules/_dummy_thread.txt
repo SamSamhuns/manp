@@ -1,4 +1,3 @@
-"modules/_dummy_thread.txt"
 "_dummy_thread" --- Drop-in replacement for the "_thread" module
 ****************************************************************
 

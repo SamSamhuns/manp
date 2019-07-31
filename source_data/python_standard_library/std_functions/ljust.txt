@@ -1,4 +1,3 @@
-"ljust"
 str.ljust(width[, fillchar])
 
    Return the string left justified in a string of length *width*.

@@ -1,4 +1,3 @@
-"modules/distutils.txt"
 "distutils" --- Building and installing Python modules
 ******************************************************
 

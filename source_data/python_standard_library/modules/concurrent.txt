@@ -1,4 +1,3 @@
-"modules/concurrent.txt"
 The "concurrent" package
 ************************
 

@@ -1,4 +1,3 @@
-"modules/imp.txt"
 "imp" --- Access the import internals
 *************************************
 

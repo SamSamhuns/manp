@@ -1,4 +1,3 @@
-"modules/superseded.txt"
 Superseded Modules
 ******************
 

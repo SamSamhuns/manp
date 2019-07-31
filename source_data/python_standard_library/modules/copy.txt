@@ -1,4 +1,3 @@
-"modules/copy.txt"
 "copy" --- Shallow and deep copy operations
 *******************************************
 

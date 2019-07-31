@@ -1,4 +1,3 @@
-"rfind"
 str.rfind(sub[, start[, end]])
 
    Return the highest index in the string where substring *sub* is

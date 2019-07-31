@@ -1,4 +1,3 @@
-"modules/contextlib.txt"
 "contextlib" --- Utilities for "with"-statement contexts
 ********************************************************
 

@@ -1,4 +1,3 @@
-"modules/unicodedata.txt"
 "unicodedata" --- Unicode Database
 **********************************
 

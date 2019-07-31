@@ -1,4 +1,3 @@
-"translate"
 str.translate(table)
 
    Return a copy of the string in which each character has been mapped

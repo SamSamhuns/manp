@@ -1,4 +1,3 @@
-"modules/urllib.robotparser.txt"
 "urllib.robotparser" ---  Parser for robots.txt
 ***********************************************
 

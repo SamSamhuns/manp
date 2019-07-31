@@ -1,4 +1,3 @@
-"setattr"
 setattr(object, name, value)
 
    This is the counterpart of "getattr()".  The arguments are an

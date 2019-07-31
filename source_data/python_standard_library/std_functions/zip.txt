@@ -1,4 +1,3 @@
-"zip"
 zip(*iterables)
    Make an iterator that aggregates elements from each of the
    iterables.

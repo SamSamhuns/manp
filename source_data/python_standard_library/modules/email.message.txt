@@ -1,4 +1,3 @@
-"modules/email.message.txt"
 "email.message": Representing an email message
 **********************************************
 

@@ -1,4 +1,3 @@
-"modules/optparse.txt"
 "optparse" --- Parser for command line options
 **********************************************
 

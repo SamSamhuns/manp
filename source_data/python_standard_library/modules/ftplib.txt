@@ -1,4 +1,3 @@
-"modules/ftplib.txt"
 "ftplib" --- FTP protocol client
 ********************************
 

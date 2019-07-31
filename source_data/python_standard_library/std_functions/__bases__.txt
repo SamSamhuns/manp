@@ -1,4 +1,3 @@
-"__bases__"
 class.__bases__
    The tuple of base classes of a class object.
 

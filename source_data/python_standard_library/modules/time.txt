@@ -1,4 +1,3 @@
-"modules/time.txt"
 "time" --- Time access and conversions
 **************************************
 

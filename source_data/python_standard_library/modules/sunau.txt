@@ -1,4 +1,3 @@
-"modules/sunau.txt"
 "sunau" --- Read and write Sun AU files
 ***************************************
 

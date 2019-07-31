@@ -1,4 +1,3 @@
-"__next__"
 iterator.__next__()
     Return the next item from the container.  If there are no further
     items, raise the "StopIteration" exception.  This method

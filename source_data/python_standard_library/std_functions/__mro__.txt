@@ -1,4 +1,3 @@
-"__mro__"
 class.__mro__
 
    This attribute is a tuple of classes that are considered when

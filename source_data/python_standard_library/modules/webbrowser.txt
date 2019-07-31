@@ -1,4 +1,3 @@
-"modules/webbrowser.txt"
 "webbrowser" --- Convenient Web-browser controller
 **************************************************
 

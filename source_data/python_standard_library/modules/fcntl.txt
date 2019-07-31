@@ -1,4 +1,3 @@
-"modules/fcntl.txt"
 "fcntl" --- The "fcntl" and "ioctl" system calls
 ************************************************
 

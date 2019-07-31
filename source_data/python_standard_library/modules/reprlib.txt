@@ -1,4 +1,3 @@
-"modules/reprlib.txt"
 "reprlib" --- Alternate "repr()" implementation
 ***********************************************
 

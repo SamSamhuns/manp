@@ -1,4 +1,3 @@
-"modules/custominterp.txt"
 Custom Python Interpreters
 **************************
 

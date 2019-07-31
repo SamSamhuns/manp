@@ -1,4 +1,3 @@
-"splitlines"
 str.splitlines([keepends])
    Return a list of the lines in the string, breaking at line
    boundaries.  Line breaks are not included in the resulting list

@@ -1,4 +1,3 @@
-"modules/html.entities.txt"
 "html.entities" --- Definitions of HTML general entities
 ********************************************************
 

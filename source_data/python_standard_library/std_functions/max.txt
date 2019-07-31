@@ -1,4 +1,3 @@
-"max"
 max(iterable, *[, key, default])
 
    Return the largest item in an iterable or the largest of two or

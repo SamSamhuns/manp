@@ -1,4 +1,3 @@
-"modules/zipapp.txt"
 "zipapp" --- Manage executable Python zip archives
 **************************************************
 

@@ -1,4 +1,3 @@
-"modules/tty.txt"
 "tty" --- Terminal control functions
 ************************************
 

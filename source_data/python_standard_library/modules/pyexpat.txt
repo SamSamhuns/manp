@@ -1,4 +1,3 @@
-"modules/pyexpat.txt"
 "xml.parsers.expat" --- Fast XML parsing using Expat
 ****************************************************
 

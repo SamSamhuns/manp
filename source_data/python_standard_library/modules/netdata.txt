@@ -1,4 +1,3 @@
-"modules/netdata.txt"
 Internet Data Handling
 **********************
 

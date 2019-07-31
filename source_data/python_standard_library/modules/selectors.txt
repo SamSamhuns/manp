@@ -1,4 +1,3 @@
-"modules/selectors.txt"
 "selectors" --- High-level I/O multiplexing
 *******************************************
 

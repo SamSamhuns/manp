@@ -1,4 +1,3 @@
-"modules/dbm.txt"
 "dbm" --- Interfaces to Unix "databases"
 ****************************************
 

@@ -1,4 +1,3 @@
-"modules/unittest.mock-examples.txt"
 "unittest.mock" --- getting started
 ***********************************
 

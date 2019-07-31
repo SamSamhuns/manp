@@ -1,4 +1,3 @@
-"modules/index.txt"
 The Python Standard Library
 ***************************
 

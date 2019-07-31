@@ -1,4 +1,3 @@
-"ascii"
 ascii(object)
 
    As "repr()", return a string containing a printable representation

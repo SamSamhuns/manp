@@ -1,4 +1,3 @@
-"modules/compileall.txt"
 "compileall" --- Byte-compile Python libraries
 **********************************************
 

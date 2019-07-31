@@ -1,4 +1,3 @@
-"range"
 class range(stop), class range(start, stop[, step])
 
     The "range" type represents an immutable sequence of numbers and is

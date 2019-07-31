@@ -1,4 +1,3 @@
-"modules/getopt.txt"
 "getopt" --- C-style parser for command line options
 ****************************************************
 

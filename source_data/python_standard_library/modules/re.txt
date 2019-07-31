@@ -1,4 +1,3 @@
-"modules/re.txt"
 "re" --- Regular expression operations
 **************************************
 

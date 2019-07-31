@@ -1,4 +1,3 @@
-"iter"
 iter(object[, sentinel])
 
    Return an *iterator* object.  The first argument is interpreted

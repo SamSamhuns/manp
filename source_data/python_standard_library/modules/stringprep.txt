@@ -1,4 +1,3 @@
-"modules/stringprep.txt"
 "stringprep" --- Internet String Preparation
 ********************************************
 

@@ -1,4 +1,3 @@
-"as_integer_ratio"
 float.as_integer_ratio()
    Return a pair of integers whose ratio is exactly equal to the
    original float and with a positive denominator.  Raises

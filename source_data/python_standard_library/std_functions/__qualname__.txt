@@ -1,4 +1,3 @@
-"__qualname__"
 definition.__qualname__
    The *qualified name* of the class, function, method, descriptor, or
    generator instance.

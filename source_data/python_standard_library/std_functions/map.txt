@@ -1,4 +1,3 @@
-"map"
 map(function, iterable, ...)
 
    Return an iterator that applies *function* to every item of

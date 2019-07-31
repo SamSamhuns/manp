@@ -1,4 +1,3 @@
-"modules/tkinter.scrolledtext.txt"
 "tkinter.scrolledtext" --- Scrolled Text Widget
 ***********************************************
 

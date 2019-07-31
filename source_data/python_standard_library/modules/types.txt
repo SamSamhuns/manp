@@ -1,4 +1,3 @@
-"modules/types.txt"
 "types" --- Dynamic type creation and names for built-in types
 **************************************************************
 

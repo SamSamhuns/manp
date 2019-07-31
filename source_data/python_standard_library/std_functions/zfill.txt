@@ -1,4 +1,3 @@
-"zfill"
 str.zfill(width)
 
    Return a copy of the string left filled with ASCII "'0'" digits to

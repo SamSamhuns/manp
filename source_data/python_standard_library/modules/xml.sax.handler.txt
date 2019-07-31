@@ -1,4 +1,3 @@
-"modules/xml.sax.handler.txt"
 "xml.sax.handler" --- Base classes for SAX handlers
 ***************************************************
 

@@ -1,4 +1,3 @@
-"memoryview"
 class memoryview(obj)
    "memoryview" objects allow Python code to access the internal data of
    an object that supports the buffer protocol without copying.

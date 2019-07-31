@@ -1,4 +1,3 @@
-"modules/curses.ascii.txt"
 "curses.ascii" --- Utilities for ASCII characters
 *************************************************
 

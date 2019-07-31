@@ -1,4 +1,3 @@
-"filter"
 filter(function, iterable)
    Construct an iterator from those elements of *iterable* for which
    *function* returns true.  *iterable* may be either a sequence, a

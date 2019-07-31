@@ -1,4 +1,3 @@
-"modules/http.cookiejar.txt"
 "http.cookiejar" --- Cookie handling for HTTP clients
 *****************************************************
 

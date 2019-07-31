@@ -1,4 +1,3 @@
-"issubclass"
 issubclass(class, classinfo)
    Return true if *class* is a subclass (direct, indirect or
    *virtual*) of *classinfo*.  A class is considered a subclass of

@@ -1,4 +1,3 @@
-"isinstance"
 isinstance(object, classinfo)
 
    Return true if the *object* argument is an instance of the

@@ -1,4 +1,3 @@
-"modules/doctest.txt"
 "doctest" --- Test interactive Python examples
 **********************************************
 

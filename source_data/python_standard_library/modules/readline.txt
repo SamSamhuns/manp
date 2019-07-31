@@ -1,4 +1,3 @@
-"modules/readline.txt"
 "readline" --- GNU readline interface
 *************************************
 

@@ -1,4 +1,3 @@
-"dir"
 dir([object])
 
    Without arguments, return the list of names in the current local

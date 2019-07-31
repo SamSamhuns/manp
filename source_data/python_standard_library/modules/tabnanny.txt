@@ -1,4 +1,3 @@
-"modules/tabnanny.txt"
 "tabnanny" --- Detection of ambiguous indentation
 *************************************************
 

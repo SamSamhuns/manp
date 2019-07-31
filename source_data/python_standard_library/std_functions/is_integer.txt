@@ -1,4 +1,3 @@
-"is_integer"
 float.is_integer()
 
    Return "True" if the float instance is finite with integral value,

@@ -1,4 +1,3 @@
-"modules/http.client.txt"
 "http.client" --- HTTP protocol client
 **************************************
 

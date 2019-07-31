@@ -1,4 +1,3 @@
-"modules/gettext.txt"
 "gettext" --- Multilingual internationalization services
 ********************************************************
 

@@ -1,4 +1,3 @@
-"center"
 str.center(width[, fillchar])
 
    Return centered in a string of length *width*. Padding is done

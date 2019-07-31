@@ -1,4 +1,3 @@
-"modules/winreg.txt"
 "winreg" --- Windows registry access
 ************************************
 

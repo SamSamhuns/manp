@@ -1,4 +1,3 @@
-"hex"
 float.hex()
    "float.hex()" is an instance method
 

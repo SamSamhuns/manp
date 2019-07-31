@@ -1,4 +1,3 @@
-"modules/fractions.txt"
 "fractions" --- Rational numbers
 ********************************
 

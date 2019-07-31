@@ -1,4 +1,3 @@
-"vars"
 vars([object])
 
    Return the "__dict__" attribute for a module, class, instance, or

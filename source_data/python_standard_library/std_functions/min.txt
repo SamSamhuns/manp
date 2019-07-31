@@ -1,4 +1,3 @@
-"min"
 min(iterable, *[, key, default])
 
    Return the smallest item in an iterable or the smallest of two or

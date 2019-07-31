@@ -1,4 +1,3 @@
-"modules/xml.dom.pulldom.txt"
 "xml.dom.pulldom" --- Support for building partial DOM trees
 ************************************************************
 

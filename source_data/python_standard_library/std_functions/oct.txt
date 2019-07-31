@@ -1,4 +1,3 @@
-"oct"
 oct(x)
 
    Convert an integer number to an octal string prefixed with "0o".

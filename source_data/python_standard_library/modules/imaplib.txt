@@ -1,4 +1,3 @@
-"modules/imaplib.txt"
 "imaplib" --- IMAP4 protocol client
 ***********************************
 

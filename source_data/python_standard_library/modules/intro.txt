@@ -1,4 +1,3 @@
-"modules/intro.txt"
 Introduction
 ************
 

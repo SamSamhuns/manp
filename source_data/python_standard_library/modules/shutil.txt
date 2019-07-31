@@ -1,4 +1,3 @@
-"modules/shutil.txt"
 "shutil" --- High-level file operations
 ***************************************
 

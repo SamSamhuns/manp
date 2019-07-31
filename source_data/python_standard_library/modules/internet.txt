@@ -1,4 +1,3 @@
-"modules/internet.txt"
 Internet Protocols and Support
 ******************************
 

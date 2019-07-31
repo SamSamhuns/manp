@@ -1,4 +1,3 @@
-"modules/json.txt"
 "json" --- JSON encoder and decoder
 ***********************************
 

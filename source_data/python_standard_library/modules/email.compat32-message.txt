@@ -1,4 +1,3 @@
-"modules/email.compat32-message.txt"
 "email.message.Message": Representing an email message using the "compat32" API
 *******************************************************************************
 

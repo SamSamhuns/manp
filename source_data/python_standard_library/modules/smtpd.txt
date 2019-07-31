@@ -1,4 +1,3 @@
-"modules/smtpd.txt"
 "smtpd" --- SMTP Server
 ***********************
 

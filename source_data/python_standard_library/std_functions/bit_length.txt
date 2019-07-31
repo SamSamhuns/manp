@@ -1,4 +1,3 @@
-"bit_length"
 int.bit_length()
 
    Return the number of bits necessary to represent an integer in

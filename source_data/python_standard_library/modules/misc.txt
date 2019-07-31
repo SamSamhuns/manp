@@ -1,4 +1,3 @@
-"modules/misc.txt"
 Miscellaneous Services
 **********************
 

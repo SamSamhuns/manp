@@ -1,4 +1,3 @@
-"__subclasses__"
 class.__subclasses__()
 
    Each class keeps a list of weak references to its immediate

@@ -1,4 +1,3 @@
-"modules/pathlib.txt"
 "pathlib" --- Object-oriented filesystem paths
 **********************************************
 

@@ -1,4 +1,3 @@
-"modules/bz2.txt"
 "bz2" --- Support for **bzip2** compression
 *******************************************
 

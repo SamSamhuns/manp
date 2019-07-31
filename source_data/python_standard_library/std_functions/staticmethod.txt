@@ -1,4 +1,3 @@
-"staticmethod"
 @staticmethod
    Transform a method into a static method.
 

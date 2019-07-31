@@ -1,4 +1,3 @@
-"expandtabs"
 str.expandtabs(tabsize=8)
 
    Return a copy of the string where all tab characters are replaced

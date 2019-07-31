@@ -1,4 +1,3 @@
-"modules/asyncio-task.txt"
 Coroutines and Tasks
 ********************
 

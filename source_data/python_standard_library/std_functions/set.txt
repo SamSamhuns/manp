@@ -1,4 +1,3 @@
-"set"
 class set([iterable]), class frozenset([iterable])
 
    Return a new set or frozenset object whose elements are taken from

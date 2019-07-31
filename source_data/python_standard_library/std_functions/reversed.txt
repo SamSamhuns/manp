@@ -1,4 +1,3 @@
-"reversed"
 reversed(seq)
    Return a reverse *iterator*.  *seq* must be an object which has a
    "__reversed__()" method or supports the sequence protocol (the

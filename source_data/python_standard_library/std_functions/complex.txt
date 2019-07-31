@@ -1,4 +1,3 @@
-"complex"
 class complex([real[, imag]])
 
    Return a complex number with the value *real* + *imag**1j or

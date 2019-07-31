@@ -1,4 +1,3 @@
-"modules/xml.dom.txt"
 "xml.dom" --- The Document Object Model API
 *******************************************
 

@@ -1,4 +1,3 @@
-"mro"
 class.mro()
    This method can be overridden by a metaclass to customize the
    method resolution order for its instances.  It is called at class

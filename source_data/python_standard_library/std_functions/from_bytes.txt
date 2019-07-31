@@ -1,4 +1,3 @@
-"from_bytes"
 classmethod int.from_bytes(bytes, byteorder, *, signed=False)
 
    Return the integer represented by the given array of bytes.

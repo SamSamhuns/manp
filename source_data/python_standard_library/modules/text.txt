@@ -1,4 +1,3 @@
-"modules/text.txt"
 Text Processing Services
 ************************
 

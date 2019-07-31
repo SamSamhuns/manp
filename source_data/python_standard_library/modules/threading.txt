@@ -1,4 +1,3 @@
-"modules/threading.txt"
 "threading" --- Thread-based parallelism
 ****************************************
 

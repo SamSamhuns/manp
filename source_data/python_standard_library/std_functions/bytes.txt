@@ -1,4 +1,3 @@
-"bytes"
 class bytes([source[, encoding[, errors]]])
 
     Bytes objects are immutable sequences of single bytes. Since many

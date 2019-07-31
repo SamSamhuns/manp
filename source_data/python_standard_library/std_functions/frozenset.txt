@@ -1,4 +1,3 @@
-"frozenset"
 class frozenset([iterable])
 
    Return a new "frozenset" object, optionally with elements taken

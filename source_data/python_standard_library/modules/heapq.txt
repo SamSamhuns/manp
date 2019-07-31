@@ -1,4 +1,3 @@
-"modules/heapq.txt"
 "heapq" --- Heap queue algorithm
 ********************************
 

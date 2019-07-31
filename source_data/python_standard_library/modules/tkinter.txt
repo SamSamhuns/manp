@@ -1,4 +1,3 @@
-"modules/tkinter.txt"
 "tkinter" --- Python interface to Tcl/Tk
 ****************************************
 

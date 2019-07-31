@@ -1,4 +1,3 @@
-"modules/email.headerregistry.txt"
 "email.headerregistry": Custom Header Objects
 *********************************************
 

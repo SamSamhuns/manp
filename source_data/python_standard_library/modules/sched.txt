@@ -1,4 +1,3 @@
-"modules/sched.txt"
 "sched" --- Event scheduler
 ***************************
 

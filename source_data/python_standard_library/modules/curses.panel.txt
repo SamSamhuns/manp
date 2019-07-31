@@ -1,4 +1,3 @@
-"modules/curses.panel.txt"
 "curses.panel" --- A panel stack extension for curses
 *****************************************************
 

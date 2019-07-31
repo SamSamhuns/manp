@@ -1,4 +1,3 @@
-"Methods"
 Methods
 
     Methods are functions that are called using the attribute notation.

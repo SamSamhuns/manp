@@ -1,4 +1,3 @@
-"modules/http.txt"
 "http" --- HTTP modules
 ***********************
 

@@ -1,4 +1,3 @@
-"modules/pkgutil.txt"
 "pkgutil" --- Package extension utility
 ***************************************
 

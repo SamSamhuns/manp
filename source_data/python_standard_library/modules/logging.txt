@@ -1,4 +1,3 @@
-"modules/logging.txt"
 "logging" --- Logging facility for Python
 *****************************************
 

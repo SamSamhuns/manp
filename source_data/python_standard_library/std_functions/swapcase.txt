@@ -1,4 +1,3 @@
-"swapcase"
 str.swapcase()
 
    Return a copy of the string with uppercase characters converted to

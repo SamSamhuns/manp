@@ -1,4 +1,3 @@
-"__class__"
 instance.__class__
 
    The class to which a class instance belongs.

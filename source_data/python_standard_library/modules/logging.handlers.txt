@@ -1,4 +1,3 @@
-"modules/logging.handlers.txt"
 "logging.handlers" --- Logging handlers
 ***************************************
 

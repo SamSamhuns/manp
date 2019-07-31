@@ -1,4 +1,3 @@
-"modules/ossaudiodev.txt"
 "ossaudiodev" --- Access to OSS-compatible audio devices
 ********************************************************
 

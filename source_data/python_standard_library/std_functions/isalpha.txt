@@ -1,4 +1,3 @@
-"isalpha"
 str.isalpha()
 
    Return true if all characters in the string are alphabetic and

@@ -1,4 +1,3 @@
-"modules/profile.txt"
 The Python Profilers
 ********************
 

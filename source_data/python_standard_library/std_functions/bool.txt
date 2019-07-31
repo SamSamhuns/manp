@@ -1,4 +1,3 @@
-"bool"
 class bool([x])
 
    Return a Boolean value, i.e. one of "True" or "False".  *x* is

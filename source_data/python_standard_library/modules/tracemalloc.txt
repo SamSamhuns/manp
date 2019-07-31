@@ -1,4 +1,3 @@
-"modules/tracemalloc.txt"
 "tracemalloc" --- Trace memory allocations
 ******************************************
 

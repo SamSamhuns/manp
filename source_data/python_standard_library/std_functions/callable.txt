@@ -1,4 +1,3 @@
-"callable"
 callable(object)
 
    Return "True" if the *object* argument appears callable, "False" if

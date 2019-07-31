@@ -1,4 +1,3 @@
-"strip"
 str.strip([chars])
    Return a copy of the string with the leading and trailing
    characters removed. The *chars* argument is a string specifying the

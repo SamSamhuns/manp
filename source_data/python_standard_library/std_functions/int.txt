@@ -1,4 +1,3 @@
-"int"
 class int([x])
 
    Return an integer object constructed from a number or string *x*,

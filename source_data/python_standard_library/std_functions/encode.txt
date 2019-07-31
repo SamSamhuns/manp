@@ -1,4 +1,3 @@
-"encode"
 str.encode(encoding="utf-8", errors="strict")
 
    Return an encoded version of the string as a bytes object. Default

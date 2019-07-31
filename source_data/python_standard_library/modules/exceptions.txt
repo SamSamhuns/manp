@@ -1,4 +1,3 @@
-"modules/exceptions.txt"
 Built-in Exceptions
 *******************
 

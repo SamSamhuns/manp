@@ -1,4 +1,3 @@
-"modules/http.cookies.txt"
 "http.cookies" --- HTTP state management
 ****************************************
 

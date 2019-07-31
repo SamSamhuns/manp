@@ -1,4 +1,3 @@
-"__enter__"
 contextmanager.__enter__()
 
     Python's "with" statement supports the concept of a runtime context

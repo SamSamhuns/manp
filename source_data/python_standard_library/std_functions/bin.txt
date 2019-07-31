@@ -1,4 +1,3 @@
-"bin"
 bin(x)
    Convert an integer number to a binary string prefixed with "0b".
    The result is a valid Python expression. If *x* is not a Python

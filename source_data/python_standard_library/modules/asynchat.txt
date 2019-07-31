@@ -1,4 +1,3 @@
-"modules/asynchat.txt"
 "asynchat" --- Asynchronous socket command/response handler
 ***********************************************************
 

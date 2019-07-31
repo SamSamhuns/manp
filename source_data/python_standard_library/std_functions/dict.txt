@@ -1,4 +1,3 @@
-"dict"
 class dict(**kwarg), class dict(mapping, **kwarg), class dict(iterable, **kwarg)
    Return a new dictionary initialized from an optional positional
    argument and a possibly empty set of keyword arguments.

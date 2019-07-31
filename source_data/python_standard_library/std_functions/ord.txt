@@ -1,4 +1,3 @@
-"ord"
 ord(c)
 
    Given a string representing one Unicode character, return an

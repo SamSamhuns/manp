@@ -1,4 +1,3 @@
-"modules/functional.txt"
 Functional Programming Modules
 ******************************
 

@@ -1,4 +1,3 @@
-"modules/keyword.txt"
 "keyword" --- Testing for Python keywords
 *****************************************
 

@@ -1,4 +1,3 @@
-"fromhex"
 classmethod float.fromhex(s)
 
     "float.fromhex()" is a class method.

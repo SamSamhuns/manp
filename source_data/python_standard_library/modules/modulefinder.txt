@@ -1,4 +1,3 @@
-"modules/modulefinder.txt"
 "modulefinder" --- Find modules used by a script
 ************************************************
 

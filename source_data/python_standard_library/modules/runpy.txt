@@ -1,4 +1,3 @@
-"modules/runpy.txt"
 "runpy" --- Locating and executing Python modules
 *************************************************
 

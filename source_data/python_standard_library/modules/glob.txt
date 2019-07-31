@@ -1,4 +1,3 @@
-"modules/glob.txt"
 "glob" --- Unix style pathname pattern expansion
 ************************************************
 

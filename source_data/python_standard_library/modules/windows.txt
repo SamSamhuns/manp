@@ -1,4 +1,3 @@
-"modules/windows.txt"
 MS Windows Specific Services
 ****************************
 

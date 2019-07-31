@@ -1,4 +1,3 @@
-"rjust"
 str.rjust(width[, fillchar])
 
    Return the string right justified in a string of length *width*.

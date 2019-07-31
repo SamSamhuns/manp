@@ -1,4 +1,3 @@
-"all"
 all(iterable)
 
    Return "True" if all elements of the *iterable* are true (or if the

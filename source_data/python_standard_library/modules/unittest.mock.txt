@@ -1,4 +1,3 @@
-"modules/unittest.mock.txt"
 "unittest.mock" --- mock object library
 ***************************************
 

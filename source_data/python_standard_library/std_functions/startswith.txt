@@ -1,4 +1,3 @@
-"startswith"
 str.startswith(prefix[, start[, end]])
 
    Return "True" if string starts with the *prefix*, otherwise return

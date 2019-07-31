@@ -1,4 +1,3 @@
-"lower"
 str.lower()
    Return a copy of the string with all the cased characters [4]
    converted to lowercase.

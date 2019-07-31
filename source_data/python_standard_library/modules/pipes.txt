@@ -1,4 +1,3 @@
-"modules/pipes.txt"
 "pipes" --- Interface to shell pipelines
 ****************************************
 

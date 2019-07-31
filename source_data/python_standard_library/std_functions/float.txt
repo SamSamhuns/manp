@@ -1,4 +1,3 @@
-"float"
 class float([x])
 
    Return a floating point number constructed from a number or string

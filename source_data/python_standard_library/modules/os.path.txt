@@ -1,4 +1,3 @@
-"modules/os.path.txt"
 "os.path" --- Common pathname manipulations
 *******************************************
 

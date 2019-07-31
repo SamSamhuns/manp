@@ -1,4 +1,3 @@
-"maketrans"
 static str.maketrans(x[, y[, z]])
    This static method returns a translation table usable for
    "str.translate()".

@@ -1,4 +1,3 @@
-"modules/mimetypes.txt"
 "mimetypes" --- Map filenames to MIME types
 *******************************************
 

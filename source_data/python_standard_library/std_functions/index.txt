@@ -1,4 +1,3 @@
-"index"
 str.index(sub[, start[, end]])
 
    Like "find()", but raise "ValueError" when the substring is not

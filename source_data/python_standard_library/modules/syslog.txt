@@ -1,4 +1,3 @@
-"modules/syslog.txt"
 "syslog" --- Unix syslog library routines
 *****************************************
 

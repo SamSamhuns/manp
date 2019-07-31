@@ -1,4 +1,3 @@
-"enumerate"
 enumerate(iterable, start=0)
 
    Return an enumerate object. *iterable* must be a sequence, an

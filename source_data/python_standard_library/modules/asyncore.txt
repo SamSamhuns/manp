@@ -1,4 +1,3 @@
-"modules/asyncore.txt"
 "asyncore" --- Asynchronous socket handler
 ******************************************
 

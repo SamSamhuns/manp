@@ -1,4 +1,3 @@
-"modules/email.iterators.txt"
 "email.iterators": Iterators
 ****************************
 

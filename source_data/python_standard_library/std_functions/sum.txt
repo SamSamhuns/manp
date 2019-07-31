@@ -1,4 +1,3 @@
-"sum"
 sum(iterable[, start])
 
    Sums *start* and the items of an *iterable* from left to right and

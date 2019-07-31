@@ -1,4 +1,3 @@
-"id"
 id(object)
    Return the "identity" of an object.  This is an integer which is
    guaranteed to be unique and constant for this object during its

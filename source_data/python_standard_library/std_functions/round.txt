@@ -1,4 +1,3 @@
-"round"
 round(number[, ndigits])
 
    Return *number* rounded to *ndigits* precision after the decimal

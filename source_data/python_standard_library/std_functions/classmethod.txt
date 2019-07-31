@@ -1,4 +1,3 @@
-"classmethod"
 @classmethod
 
    Transform a method into a class method.

@@ -1,4 +1,3 @@
-"modules/fnmatch.txt"
 "fnmatch" --- Unix filename pattern matching
 ********************************************
 

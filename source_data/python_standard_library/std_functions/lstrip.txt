@@ -1,4 +1,3 @@
-"lstrip"
 str.lstrip([chars])
 
    Return a copy of the string with leading characters removed.  The

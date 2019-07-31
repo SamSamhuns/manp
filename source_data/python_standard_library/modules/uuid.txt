@@ -1,4 +1,3 @@
-"modules/uuid.txt"
 "uuid" --- UUID objects according to **RFC 4122**
 *************************************************
 
