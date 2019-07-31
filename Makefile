@@ -83,5 +83,6 @@ clean-mac-fsys:
 
 clean-build:
 	rm -rf $(TARGET)
+	find . -name "__pycache__" -exec rm -rf {} \;
 	rm -rf text_to_raw_string
 	rm -rf raw_string_to_text
