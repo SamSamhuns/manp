@@ -32,7 +32,7 @@ HEADERS = $(wildcard $(IDIR)/*.h)
 # $(patsubst pattern, substitution, text_to_insert)
 # DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-all : text_to_raw_string raw_string_to_text run_text_to_raw_string run_combine_headers_sh generate_doc_artifacts_list $(TARGET)
+all : text_to_raw_string raw_string_to_text run_text_to_raw_string generate_combined_artifacts_headers $(TARGET)
 
 $(ODIR)/text_to_raw_string.o: $(SDIR)/text_to_raw_string.cpp $(HEADERS)
 	@mkdir -p $(@D)
@@ -53,13 +53,10 @@ raw_string_to_text: $(ODIR)/raw_string_to_text.o
 run_text_to_raw_string: text_to_raw_string
 	./text_to_raw_string $(TARGET_FILE_EXTENSION) $(SOURCE_DATA_DIR) $(TARGET_DATA_DIR)
 
-run_combine_headers_sh: run_text_to_raw_string
-	chmod u+x combine_headers.sh
-	./combine_headers.sh $(TARGET_DATA_DIR)
-
-generate_doc_artifacts_list: run_text_to_raw_string
-	chmod u+x generate_doc_artifacts_list.sh
-	./generate_doc_artifacts_list.sh $(TARGET_DATA_DIR)
+# Generate the combined_txt_header and doc_artifacts_list file for header includes
+generate_combined_artifacts_headers: run_text_to_raw_string
+	chmod u+x generate_combined_artifacts_headers.sh
+	./generate_combined_artifacts_headers.sh $(TARGET_DATA_DIR) $(TARGET_FILE_EXTENSION)
 
 $(ODIR)/%.o: $(SDIR)/%.cpp $(HEADERS)
 	@mkdir -p $(@D)

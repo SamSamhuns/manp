@@ -8,10 +8,19 @@ if [ $# -lt 2 ]
     exit 1
 fi
 
-FILE_LIST='doc_artifacts_list.txt'
+ARTIFACTS_LIST_FILE='doc_artifacts_list.txt'
+COMBINED_HEADER_FILE='combined_txt_header.h'
 DATA_DIR_TO_CHK=$1           # first cmd line argument is the source data directory
+if [ "${DATA_DIR_TO_CHK: -1}" == "/" ]
+    then
+        DATA_DIR_TO_CHK="${DATA_DIR_TO_CHK%?}"
+fi
 
-echo "R\"=~=~=(" > $FILE_LIST
+echo "R\"=~=~=(" > $ARTIFACTS_LIST_FILE
+
+echo "#ifndef COMBINED_HEADERS_TXT_H" > $COMBINED_HEADER_FILE
+echo "#define COMBINED_HEADERS_TXT_H" >> $COMBINED_HEADER_FILE
+
 IFS=$'\n' # temporarily setting internal field separator to \n
 set -f
 
@@ -23,15 +32,21 @@ do
     else
         EXTENSION_TO_SEARCH_FOR='*'${!i}
   fi
-  echo "THE EXTENSION IS " $EXTENSION_TO_SEARCH_FOR
+  # echo "THE EXTENSION IS " $EXTENSION_TO_SEARCH_FOR
   # loop through the data folder to find all files specified by the extension for multiple file types
   for file in $(find $DATA_DIR_TO_CHK -name $EXTENSION_TO_SEARCH_FOR)
   do
-      echo "$(basename ${file%.*} )" >> $FILE_LIST
+      echo "$(basename ${file%.*} )" >> $ARTIFACTS_LIST_FILE
+      echo "#include \"../$file\"" >> $COMBINED_HEADER_FILE
   done
 done
 
 unset IFS
 set +f
-echo ")=~=~=\"" >> $FILE_LIST
-mv $FILE_LIST include           # moves the combined txt header file inside include folder
+
+echo "#endif" >> $COMBINED_HEADER_FILE
+echo ")=~=~=\"" >> $ARTIFACTS_LIST_FILE
+
+# move both files to the include folder
+mv $COMBINED_HEADER_FILE include
+mv $ARTIFACTS_LIST_FILE include
