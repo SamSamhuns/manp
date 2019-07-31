@@ -1,8 +1,0 @@
-R"==~~~~==(str.islower~~CPP==map==key==delim~~
-"str.islower"
-str.islower()
-   Return true if all cased characters [4] in the string are lowercase
-   and there is at least one cased character, false otherwise.
-
-~~CPP==new==module==delim~~
-)==~~~~=="

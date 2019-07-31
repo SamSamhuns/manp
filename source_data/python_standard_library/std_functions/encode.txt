@@ -1,6 +1,6 @@
-R"==~~~~==(encode~~CPP==map==key==delim~~
 "encode"
-\033[32;1mstr.encode(encoding="utf-8", errors="strict")\033[0m
+str.encode(encoding="utf-8", errors="strict")
+
    Return an encoded version of the string as a bytes object. Default
    encoding is "'utf-8'". *errors* may be given to set a different
    error handling scheme. The default for *errors* is "'strict'",
@@ -12,5 +12,3 @@ R"==~~~~==(encode~~CPP==map==key==delim~~
 
    Changed in version 3.1: Support for keyword arguments added.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

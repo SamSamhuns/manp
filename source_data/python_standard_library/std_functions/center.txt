@@ -1,12 +1,13 @@
-R"==~~~~==(center~~CPP==map==key==delim~~
 "center"
-\033[32;1mstr.center(width[, fillchar])\033[0m
+str.center(width[, fillchar])
+
    Return centered in a string of length *width*. Padding is done
    using the specified *fillchar* (default is an ASCII space). The
    original string is returned if *width* is less than or equal to
    "len(s)".
 
-\033[32;1mbytes.center(width[, fillbyte]), bytearray.center(width[, fillbyte])\033[0m
+bytes.center(width[, fillbyte]), bytearray.center(width[, fillbyte])
+
    Return a copy of the object centered in a sequence of length
    *width*. Padding is done using the specified *fillbyte* (default is
    an ASCII space). For "bytes" objects, the original sequence is
@@ -16,5 +17,3 @@ R"==~~~~==(center~~CPP==map==key==delim~~
      place - it always produces a new object, even if no changes were
      made.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

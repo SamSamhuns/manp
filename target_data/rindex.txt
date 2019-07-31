@@ -1,9 +1,11 @@
 R"==~~~~==(rindex~~CPP==map==key==delim~~
 "rindex"
-\033[32;1mstr.rindex(sub[, start[, end]])\033[0m   Like "rfind()" but raises "ValueError" when the substring *sub* is
+str.rindex(sub[, start[, end]])
+   Like "rfind()" but raises "ValueError" when the substring *sub* is
    not found.
 
-\033[32;1mbytes.rindex(sub[, start[, end]]), bytearray.rindex(sub[, start[, end]])\033[0m
+bytes.rindex(sub[, start[, end]]), bytearray.rindex(sub[, start[, end]])
+
    Like "rfind()" but raises "ValueError" when the subsequence *sub*
    is not found.
 

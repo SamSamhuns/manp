@@ -1,6 +1,7 @@
 R"==~~~~==(__next__~~CPP==map==key==delim~~
 "__next__"
-\033[32;1miterator.__next__()\033[0m    Return the next item from the container.  If there are no further
+iterator.__next__()
+    Return the next item from the container.  If there are no further
     items, raise the "StopIteration" exception.  This method
     corresponds to the "tp_iternext" slot of the type structure for
     Python objects in the Python/C API.

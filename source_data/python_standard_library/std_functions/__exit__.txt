@@ -1,6 +1,6 @@
-R"==~~~~==(__exit__~~CPP==map==key==delim~~
 "__exit__"
-\033[32;1mcontextmanager.__exit__(exc_type, exc_val, exc_tb)\033[0m    Exit the runtime context and return a Boolean flag indicating if
+contextmanager.__exit__(exc_type, exc_val, exc_tb)
+    Exit the runtime context and return a Boolean flag indicating if
     any exception that occurred should be suppressed. If an exception
     occurred while executing the body of the "with" statement, the
     arguments contain the exception type, value and traceback
@@ -43,5 +43,3 @@ R"==~~~~==(__exit__~~CPP==map==key==delim~~
 
 
 
-~~CPP==new==module==delim~~
-)==~~~~=="

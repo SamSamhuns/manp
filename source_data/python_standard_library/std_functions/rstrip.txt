@@ -1,6 +1,6 @@
-R"==~~~~==(rstrip~~CPP==map==key==delim~~
 "rstrip"
-\033[32;1mstr.rstrip([chars])\033[0m   Return a copy of the string with trailing characters removed.  The
+str.rstrip([chars])
+   Return a copy of the string with trailing characters removed.  The
    *chars* argument is a string specifying the set of characters to be
    removed.  If omitted or "None", the *chars* argument defaults to
    removing whitespace.  The *chars* argument is not a suffix; rather,
@@ -11,7 +11,8 @@ R"==~~~~==(rstrip~~CPP==map==key==delim~~
       >>> 'mississippi'.rstrip('ipz')
       'mississ'
 
-\033[32;1mbytes.rstrip([chars]), bytearray.rstrip([chars])\033[0m   Return a copy of the sequence with specified trailing bytes
+bytes.rstrip([chars]), bytearray.rstrip([chars])
+   Return a copy of the sequence with specified trailing bytes
    removed.  The *chars* argument is a binary sequence specifying the
    set of byte values to be removed - the name refers to the fact this
    method is usually used with ASCII characters.  If omitted or
@@ -31,5 +32,3 @@ R"==~~~~==(rstrip~~CPP==map==key==delim~~
      place - it always produces a new object, even if no changes were
      made.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

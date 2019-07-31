@@ -1,6 +1,7 @@
 R"==~~~~==(__dict__~~CPP==map==key==delim~~
 "__dict__"
-\033[32;1mobject.__dict__\033[0m   A dictionary or other mapping object used to store an object's
+object.__dict__
+   A dictionary or other mapping object used to store an object's
    (writable) attributes.
 
    The implementation adds a few special read-only attributes to several

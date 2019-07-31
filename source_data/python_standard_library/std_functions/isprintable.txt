@@ -1,6 +1,6 @@
-R"==~~~~==(isprintable~~CPP==map==key==delim~~
 "isprintable"
-\033[32;1mstr.isprintable()\033[0m   Return true if all characters in the string are printable or the
+str.isprintable()
+   Return true if all characters in the string are printable or the
    string is empty, false otherwise.  Nonprintable characters are
    those characters defined in the Unicode character database as
    "Other" or "Separator", excepting the ASCII space (0x20) which is
@@ -9,5 +9,3 @@ R"==~~~~==(isprintable~~CPP==map==key==delim~~
    invoked on a string.  It has no bearing on the handling of strings
    written to "sys.stdout" or "sys.stderr".)
 
-~~CPP==new==module==delim~~
-)==~~~~=="

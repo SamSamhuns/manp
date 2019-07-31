@@ -1,6 +1,7 @@
 R"==~~~~==(__enter__~~CPP==map==key==delim~~
 "__enter__"
-\033[32;1mcontextmanager.__enter__()\033[0m
+contextmanager.__enter__()
+
     Python's "with" statement supports the concept of a runtime context
     defined by a context manager.  This is implemented using a pair of
     methods that allow user-defined classes to define a runtime context

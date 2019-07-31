@@ -1,11 +1,13 @@
 R"==~~~~==(endswith~~CPP==map==key==delim~~
 "endswith"
-\033[32;1mstr.endswith(suffix[, start[, end]])\033[0m   Return "True" if the string ends with the specified *suffix*,
+str.endswith(suffix[, start[, end]])
+   Return "True" if the string ends with the specified *suffix*,
    otherwise return "False".  *suffix* can also be a tuple of suffixes
    to look for.  With optional *start*, test beginning at that
    position.  With optional *end*, stop comparing at that position.
 
-\033[32;1mbytes.endswith(suffix[, start[, end]]), bytearray.endswith(suffix[, start[, end]])\033[0m
+bytes.endswith(suffix[, start[, end]]), bytearray.endswith(suffix[, start[, end]])
+
    Return "True" if the binary data ends with the specified *suffix*,
    otherwise return "False".  *suffix* can also be a tuple of suffixes
    to look for.  With optional *start*, test beginning at that

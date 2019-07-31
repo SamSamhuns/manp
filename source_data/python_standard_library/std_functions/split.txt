@@ -1,6 +1,6 @@
-R"==~~~~==(split~~CPP==map==key==delim~~
 "split"
-\033[32;1mstr.split(sep=None, maxsplit=-1)\033[0m
+str.split(sep=None, maxsplit=-1)
+
    Return a list of the words in the string, using *sep* as the
    delimiter string.  If *maxsplit* is given, at most *maxsplit*
    splits are done (thus, the list will have at most "maxsplit+1"
@@ -39,7 +39,8 @@ R"==~~~~==(split~~CPP==map==key==delim~~
       >>> '   1   2   3   '.split()
       ['1', '2', '3']
 
-\033[32;1mbytes.split(sep=None, maxsplit=-1), bytearray.split(sep=None, maxsplit=-1)\033[0m
+bytes.split(sep=None, maxsplit=-1), bytearray.split(sep=None, maxsplit=-1)
+
    Split the binary sequence into subsequences of the same type, using
    *sep* as the delimiter string. If *maxsplit* is given and non-
    negative, at most *maxsplit* splits are done (thus, the list will
@@ -82,5 +83,3 @@ R"==~~~~==(split~~CPP==map==key==delim~~
       >>> b'   1   2   3   '.split()
       [b'1', b'2', b'3']
 
-~~CPP==new==module==delim~~
-)==~~~~=="

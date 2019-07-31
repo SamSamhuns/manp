@@ -1,6 +1,7 @@
 R"==~~~~==(__mro__~~CPP==map==key==delim~~
 "__mro__"
-\033[32;1mclass.__mro__\033[0m
+class.__mro__
+
    This attribute is a tuple of classes that are considered when
    looking for base classes during method resolution.
 

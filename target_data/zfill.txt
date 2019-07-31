@@ -1,6 +1,7 @@
 R"==~~~~==(zfill~~CPP==map==key==delim~~
 "zfill"
-\033[32;1mstr.zfill(width)\033[0m
+str.zfill(width)
+
    Return a copy of the string left filled with ASCII "'0'" digits to
    make a string of length *width*. A leading sign prefix
    ("'+'"/"'-'") is handled by inserting the padding *after* the sign
@@ -15,7 +16,8 @@ R"==~~~~==(zfill~~CPP==map==key==delim~~
       '-0042'
 
 
-\033[32;1mbytes.zfill(width), bytearray.zfill(width)\033[0m   Return a copy of the sequence left filled with ASCII "b'0'" digits
+bytes.zfill(width), bytearray.zfill(width)
+   Return a copy of the sequence left filled with ASCII "b'0'" digits
    to make a sequence of length *width*. A leading sign prefix
    ("b'+'"/ "b'-'") is handled by inserting the padding *after* the
    sign character rather than before. For "bytes" objects, the

@@ -1,6 +1,7 @@
 R"==~~~~==(isalpha~~CPP==map==key==delim~~
 "isalpha"
-\033[32;1mstr.isalpha()\033[0m
+str.isalpha()
+
    Return true if all characters in the string are alphabetic and
    there is at least one character, false otherwise.  Alphabetic
    characters are those characters defined in the Unicode character
@@ -9,7 +10,8 @@ R"==~~~~==(isalpha~~CPP==map==key==delim~~
    different from the "Alphabetic" property defined in the Unicode
    Standard.
 
-\033[32;1mbytes.isalpha(), bytearray.isalpha()\033[0m   Return true if all bytes in the sequence are alphabetic ASCII
+bytes.isalpha(), bytearray.isalpha()
+   Return true if all bytes in the sequence are alphabetic ASCII
    characters and the sequence is not empty, false otherwise.
    Alphabetic ASCII characters are those byte values in the sequence
    "b'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'".

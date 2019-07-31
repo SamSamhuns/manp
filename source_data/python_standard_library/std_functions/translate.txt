@@ -1,6 +1,6 @@
-R"==~~~~==(translate~~CPP==map==key==delim~~
 "translate"
-\033[32;1mstr.translate(table)\033[0m
+str.translate(table)
+
    Return a copy of the string in which each character has been mapped
    through the given translation table.  The table must be an object
    that implements indexing via "__getitem__()", typically a *mapping*
@@ -16,7 +16,8 @@ R"==~~~~==(translate~~CPP==map==key==delim~~
    See also the "codecs" module for a more flexible approach to custom
    character mappings.
 
-\033[32;1mbytes.translate(table, delete=b''), bytearray.translate(table, delete=b'')\033[0m   Return a copy of the bytes or bytearray object where all bytes
+bytes.translate(table, delete=b''), bytearray.translate(table, delete=b'')
+   Return a copy of the bytes or bytearray object where all bytes
    occurring in the optional argument *delete* are removed, and the
    remaining bytes have been mapped through the given translation
    table, which must be a bytes object of length 256.
@@ -39,5 +40,3 @@ R"==~~~~==(translate~~CPP==map==key==delim~~
     arguments. Note that all of the bytearray methods in this section do
     *not* operate in place, and instead produce new objects.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

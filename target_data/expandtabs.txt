@@ -1,6 +1,7 @@
 R"==~~~~==(expandtabs~~CPP==map==key==delim~~
 "expandtabs"
-\033[32;1mstr.expandtabs(tabsize=8)\033[0m
+str.expandtabs(tabsize=8)
+
    Return a copy of the string where all tab characters are replaced
    by one or more spaces, depending on the current column and the
    given tab size.  Tab positions occur every *tabsize* characters
@@ -20,7 +21,8 @@ R"==~~~~==(expandtabs~~CPP==map==key==delim~~
    >>> '01\t012\t0123\t01234'.expandtabs(4)
    '01  012 0123    01234'
 
-\033[32;1mbytes.expandtabs(tabsize=8), bytearray.expandtabs(tabsize=8)\033[0m   Return a copy of the sequence where all ASCII tab characters are
+bytes.expandtabs(tabsize=8), bytearray.expandtabs(tabsize=8)
+   Return a copy of the sequence where all ASCII tab characters are
    replaced by one or more ASCII spaces, depending on the current
    column and the given tab size.  Tab positions occur every *tabsize*
    bytes (default is 8, giving tab positions at columns 0, 8, 16 and

@@ -1,6 +1,7 @@
 R"==~~~~==(title~~CPP==map==key==delim~~
 "title"
-\033[32;1mstr.title()\033[0m   Return a titlecased version of the string where words start with an
+str.title()
+   Return a titlecased version of the string where words start with an
    uppercase character and the remaining characters are lowercase.
 
    For example:
@@ -30,7 +31,8 @@ R"==~~~~==(title~~CPP==map==key==delim~~
       >>> titlecase("they're bill's friends.")
       "They're Bill's Friends."
 
-\033[32;1mbytes.title(), bytearray.title()\033[0m   Return a titlecased version of the binary sequence where words
+bytes.title(), bytearray.title()
+   Return a titlecased version of the binary sequence where words
    start with an uppercase ASCII character and the remaining
    characters are lowercase. Uncased byte values are left unmodified.
 

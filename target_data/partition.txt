@@ -1,13 +1,15 @@
 R"==~~~~==(partition~~CPP==map==key==delim~~
 "partition"
-\033[32;1mstr.partition(sep)\033[0m
+str.partition(sep)
+
    Split the string at the first occurrence of *sep*, and return a
    3-tuple containing the part before the separator, the separator
    itself, and the part after the separator.  If the separator is not
    found, return a 3-tuple containing the string itself, followed by
    two empty strings.
 
-\033[32;1mbytes.partition(sep), bytearray.partition(sep)\033[0m   Split the sequence at the first occurrence of *sep*, and return a
+bytes.partition(sep), bytearray.partition(sep)
+   Split the sequence at the first occurrence of *sep*, and return a
    3-tuple containing the part before the separator, the separator
    itself or its bytearray copy, and the part after the separator. If
    the separator is not found, return a 3-tuple containing a copy of

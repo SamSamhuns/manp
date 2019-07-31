@@ -1,6 +1,7 @@
 R"==~~~~==(isidentifier~~CPP==map==key==delim~~
 "isidentifier"
-\033[32;1mstr.isidentifier()\033[0m
+str.isidentifier()
+
    Return true if the string is a valid identifier according to the
    language definition, section Identifiers and keywords.
 

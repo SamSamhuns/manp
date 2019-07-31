@@ -1,6 +1,6 @@
-R"==~~~~==(casefold~~CPP==map==key==delim~~
 "casefold"
-\033[32;1mstr.casefold()\033[0m   Return a casefolded copy of the string. Casefolded strings may be
+str.casefold()
+   Return a casefolded copy of the string. Casefolded strings may be
    used for caseless matching.
 
    Casefolding is similar to lowercasing but more aggressive because
@@ -14,5 +14,3 @@ R"==~~~~==(casefold~~CPP==map==key==delim~~
 
    New in version 3.3.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

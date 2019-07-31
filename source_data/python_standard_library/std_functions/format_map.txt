@@ -1,6 +1,6 @@
-R"==~~~~==(format_map~~CPP==map==key==delim~~
 "format_map"
-\033[32;1mstr.format_map(mapping)\033[0m   Similar to "str.format(**mapping)", except that "mapping" is used
+str.format_map(mapping)
+   Similar to "str.format(**mapping)", except that "mapping" is used
    directly and not copied to a "dict".  This is useful if for example
    "mapping" is a dict subclass:
 
@@ -13,5 +13,3 @@ R"==~~~~==(format_map~~CPP==map==key==delim~~
 
    New in version 3.2.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

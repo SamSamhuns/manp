@@ -1,12 +1,13 @@
-R"==~~~~==(rjust~~CPP==map==key==delim~~
 "rjust"
-\033[32;1mstr.rjust(width[, fillchar])\033[0m
+str.rjust(width[, fillchar])
+
    Return the string right justified in a string of length *width*.
    Padding is done using the specified *fillchar* (default is an ASCII
    space). The original string is returned if *width* is less than or
    equal to "len(s)".
 
-\033[32;1mbytes.rjust(width[, fillbyte]), bytearray.rjust(width[, fillbyte])\033[0m   Return a copy of the object right justified in a sequence of length
+bytes.rjust(width[, fillbyte]), bytearray.rjust(width[, fillbyte])
+   Return a copy of the object right justified in a sequence of length
    *width*. Padding is done using the specified *fillbyte* (default is
    an ASCII space). For "bytes" objects, the original sequence is
    returned if *width* is less than or equal to "len(s)".
@@ -15,5 +16,3 @@ R"==~~~~==(rjust~~CPP==map==key==delim~~
      place - it always produces a new object, even if no changes were
      made.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

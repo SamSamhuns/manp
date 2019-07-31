@@ -1,6 +1,7 @@
 R"==~~~~==(splitlines~~CPP==map==key==delim~~
 "splitlines"
-\033[32;1mstr.splitlines([keepends])\033[0m   Return a list of the lines in the string, breaking at line
+str.splitlines([keepends])
+   Return a list of the lines in the string, breaking at line
    boundaries.  Line breaks are not included in the resulting list
    unless *keepends* is given and true.
 
@@ -59,7 +60,8 @@ R"==~~~~==(splitlines~~CPP==map==key==delim~~
       >>> 'Two lines\n'.split('\n')
       ['Two lines', '']
 
-\033[32;1mbytes.splitlines(keepends=False), bytearray.splitlines(keepends=False)\033[0m   Return a list of the lines in the binary sequence, breaking at
+bytes.splitlines(keepends=False), bytearray.splitlines(keepends=False)
+   Return a list of the lines in the binary sequence, breaking at
    ASCII line boundaries. This method uses the *universal newlines*
    approach to splitting lines. Line breaks are not included in the
    resulting list unless *keepends* is given and true.

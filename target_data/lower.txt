@@ -1,12 +1,14 @@
 R"==~~~~==(lower~~CPP==map==key==delim~~
 "lower"
-\033[32;1mstr.lower()\033[0m   Return a copy of the string with all the cased characters [4]
+str.lower()
+   Return a copy of the string with all the cased characters [4]
    converted to lowercase.
 
    The lowercasing algorithm used is described in section 3.13 of the
    Unicode Standard.
 
-\033[32;1mbytes.lower(), bytearray.lower()\033[0m
+bytes.lower(), bytearray.lower()
+
    Return a copy of the sequence with all the uppercase ASCII
    characters converted to their corresponding lowercase counterpart.
 

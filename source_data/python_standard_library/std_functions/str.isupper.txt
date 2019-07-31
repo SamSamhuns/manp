@@ -1,6 +1,0 @@
-"str.isupper"
-str.isupper()
-
-   Return true if all cased characters [4] in the string are uppercase
-   and there is at least one cased character, false otherwise.
-

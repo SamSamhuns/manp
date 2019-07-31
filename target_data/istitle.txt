@@ -1,11 +1,13 @@
 R"==~~~~==(istitle~~CPP==map==key==delim~~
 "istitle"
-\033[32;1mstr.istitle()\033[0m   Return true if the string is a titlecased string and there is at
+str.istitle()
+   Return true if the string is a titlecased string and there is at
    least one character, for example uppercase characters may only
    follow uncased characters and lowercase characters only cased ones.
    Return false otherwise.
 
-\033[32;1mbytes.istitle(), bytearray.istitle()\033[0m
+bytes.istitle(), bytearray.istitle()
+
    Return true if the sequence is ASCII titlecase and the sequence is
    not empty, false otherwise. See "bytes.title()" for more details on
    the definition of "titlecase".

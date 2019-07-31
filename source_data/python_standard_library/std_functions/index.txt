@@ -1,10 +1,11 @@
-R"==~~~~==(index~~CPP==map==key==delim~~
 "index"
-\033[32;1mstr.index(sub[, start[, end]])\033[0m
+str.index(sub[, start[, end]])
+
    Like "find()", but raise "ValueError" when the substring is not
    found.
 
-\033[32;1mbytes.index(sub[, start[, end]]), bytearray.index(sub[, start[, end]])\033[0m
+bytes.index(sub[, start[, end]]), bytearray.index(sub[, start[, end]])
+
    Like "find()", but raise "ValueError" when the subsequence is not
    found.
 
@@ -14,5 +15,3 @@ R"==~~~~==(index~~CPP==map==key==delim~~
    Changed in version 3.3: Also accept an integer in the range 0 to
    255 as the subsequence.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

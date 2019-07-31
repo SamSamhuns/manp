@@ -1,6 +1,7 @@
 R"==~~~~==(__qualname__~~CPP==map==key==delim~~
 "__qualname__"
-\033[32;1mdefinition.__qualname__\033[0m   The *qualified name* of the class, function, method, descriptor, or
+definition.__qualname__
+   The *qualified name* of the class, function, method, descriptor, or
    generator instance.
 
    New in version 3.3.

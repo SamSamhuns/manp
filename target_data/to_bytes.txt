@@ -1,6 +1,7 @@
 R"==~~~~==(to_bytes~~CPP==map==key==delim~~
 "to_bytes"
-\033[32;1mint.to_bytes(length, byteorder, *, signed=False)\033[0m   Return an array of bytes representing an integer.
+int.to_bytes(length, byteorder, *, signed=False)
+   Return an array of bytes representing an integer.
 
    >>> (1024).to_bytes(2, byteorder='big')
    b'\x04\x00'

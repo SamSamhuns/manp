@@ -1,16 +1,15 @@
-R"==~~~~==(isspace~~CPP==map==key==delim~~
 "isspace"
-\033[32;1mstr.isspace()\033[0m
+str.isspace()
+
    Return true if there are only whitespace characters in the string
    and there is at least one character, false otherwise.  Whitespace
    characters  are those characters defined in the Unicode character
    database as "Other" or "Separator" and those with bidirectional
    property being one of "WS", "B", or "S".
 
-\033[32;1mbytes.isspace(), bytearray.isspace()\033[0m   Return true if all bytes in the sequence are ASCII whitespace and
+bytes.isspace(), bytearray.isspace()
+   Return true if all bytes in the sequence are ASCII whitespace and
    the sequence is not empty, false otherwise.  ASCII whitespace
    characters are those byte values in the sequence "b' \t\n\r\x0b\f'"
    (space, tab, newline, carriage return, vertical tab, form feed).
 
-~~CPP==new==module==delim~~
-)==~~~~=="

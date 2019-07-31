@@ -1,6 +1,7 @@
 R"==~~~~==(__name__~~CPP==map==key==delim~~
 "__name__"
-\033[32;1mdefinition.__name__\033[0m
+definition.__name__
+
    The name of the class, function, method, descriptor, or generator
    instance.
 

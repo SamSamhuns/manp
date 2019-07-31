@@ -1,6 +1,7 @@
 R"==~~~~==(as_integer_ratio~~CPP==map==key==delim~~
 "as_integer_ratio"
-\033[32;1mfloat.as_integer_ratio()\033[0m   Return a pair of integers whose ratio is exactly equal to the
+float.as_integer_ratio()
+   Return a pair of integers whose ratio is exactly equal to the
    original float and with a positive denominator.  Raises
    "OverflowError" on infinities and a "ValueError" on NaNs.
 

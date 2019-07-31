@@ -1,6 +1,6 @@
-R"==~~~~==(fromhex~~CPP==map==key==delim~~
 "fromhex"
-\033[32;1mclassmethod float.fromhex(s)\033[0m
+classmethod float.fromhex(s)
+
     "float.fromhex()" is a class method.
 
     Class method to return the float represented by a hexadecimal
@@ -46,5 +46,3 @@ R"==~~~~==(fromhex~~CPP==map==key==delim~~
        >>> float.hex(3740.0)
        '0x1.d380000000000p+11'
 
-~~CPP==new==module==delim~~
-)==~~~~=="

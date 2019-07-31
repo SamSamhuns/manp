@@ -1,12 +1,13 @@
-R"==~~~~==(startswith~~CPP==map==key==delim~~
 "startswith"
-\033[32;1mstr.startswith(prefix[, start[, end]])\033[0m
+str.startswith(prefix[, start[, end]])
+
    Return "True" if string starts with the *prefix*, otherwise return
    "False". *prefix* can also be a tuple of prefixes to look for.
    With optional *start*, test string beginning at that position.
    With optional *end*, stop comparing string at that position.
 
-\033[32;1mbytes.startswith(prefix[, start[, end]]), bytearray.startswith(prefix[, start[, end]])\033[0m
+bytes.startswith(prefix[, start[, end]]), bytearray.startswith(prefix[, start[, end]])
+
    Return "True" if the binary data starts with the specified
    *prefix*, otherwise return "False".  *prefix* can also be a tuple
    of prefixes to look for.  With optional *start*, test beginning at
@@ -15,5 +16,3 @@ R"==~~~~==(startswith~~CPP==map==key==delim~~
 
    The prefix(es) to search for may be any *bytes-like object*.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

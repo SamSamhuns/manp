@@ -1,6 +1,7 @@
 R"==~~~~==(lstrip~~CPP==map==key==delim~~
 "lstrip"
-\033[32;1mstr.lstrip([chars])\033[0m
+str.lstrip([chars])
+
    Return a copy of the string with leading characters removed.  The
    *chars* argument is a string specifying the set of characters to be
    removed.  If omitted or "None", the *chars* argument defaults to
@@ -12,7 +13,8 @@ R"==~~~~==(lstrip~~CPP==map==key==delim~~
       >>> 'www.example.com'.lstrip('cmowz.')
       'example.com'
 
-\033[32;1mbytes.lstrip([chars]), bytearray.lstrip([chars])\033[0m
+bytes.lstrip([chars]), bytearray.lstrip([chars])
+
    Return a copy of the sequence with specified leading bytes removed.
    The *chars* argument is a binary sequence specifying the set of
    byte values to be removed - the name refers to the fact this method

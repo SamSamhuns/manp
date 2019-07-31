@@ -1,6 +1,6 @@
-R"==~~~~==(upper~~CPP==map==key==delim~~
 "upper"
-\033[32;1mstr.upper()\033[0m   Return a copy of the string with all the cased characters [4]
+str.upper()
+   Return a copy of the string with all the cased characters [4]
    converted to uppercase.  Note that "s.upper().isupper()" might be
    "False" if "s" contains uncased characters or if the Unicode
    category of the resulting character(s) is not "Lu" (Letter,
@@ -9,9 +9,8 @@ R"==~~~~==(upper~~CPP==map==key==delim~~
    The uppercasing algorithm used is described in section 3.13 of the
    Unicode Standard.
 
-   ?&dAThis combination is black on red.?&d@
+bytes.upper(), bytearray.upper()
 
-\033[32;1mbytes.upper(), bytearray.upper()\033[0m
    Return a copy of the sequence with all the lowercase ASCII
    characters converted to their corresponding uppercase counterpart.
 
@@ -28,5 +27,3 @@ R"==~~~~==(upper~~CPP==map==key==delim~~
      place - it always produces a new object, even if no changes were
      made.
 
-~~CPP==new==module==delim~~
-)==~~~~=="

@@ -1,6 +1,6 @@
-R"==~~~~==(from_bytes~~CPP==map==key==delim~~
 "from_bytes"
-\033[32;1mclassmethod int.from_bytes(bytes, byteorder, *, signed=False)\033[0m
+classmethod int.from_bytes(bytes, byteorder, *, signed=False)
+
    Return the integer represented by the given array of bytes.
 
    >>> int.from_bytes(b'\x00\x10', byteorder='big')
@@ -29,5 +29,3 @@ R"==~~~~==(from_bytes~~CPP==map==key==delim~~
 
    New in version 3.2.
 
-~~CPP==new==module==delim~~
-)==~~~~=="
