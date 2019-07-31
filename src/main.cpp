@@ -49,7 +49,7 @@ int main(int argc, char const *argv[]) {
 
 	std::fstream temp_dump_file_ptr;
 	std::string query_output;
-	std::string TEMP_DUMP_FILENAME = "query_output_temp";
+	std::string TEMP_DUMP_FILENAME = "query_output_temp.txt";
 
 	//TODO call generate_query_output
 	if (generate_query_output(argv, query_output) == 1) {
@@ -68,7 +68,7 @@ int main(int argc, char const *argv[]) {
 	temp_dump_file_ptr.close();         // close the file ptr before passing the temp file to less
 
 	// print the contents of the temp output file
-	system(("less -r < "+TEMP_DUMP_FILENAME).c_str());
+	system(("less -R < "+TEMP_DUMP_FILENAME).c_str());
 	// remove the temp files
 	system(("rm "+TEMP_DUMP_FILENAME).c_str());
 

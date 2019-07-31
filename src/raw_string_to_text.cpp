@@ -94,7 +94,8 @@ int recursively_find_files_with_ext(std::string &file_extension, std::string &di
 			raw_string_text_to_file(file_extension, dirpath);
 		}
 		else {
-			if (DEBUG) std::cerr << "\033[31;1mERROR:\033[0m " << dirpath << " is not a regular file or folder\n";
+			if (DEBUG) std::cerr << "\033[31;1mERROR:\033[0m " << dirpath
+				                 << " is not a regular file or folder\n";
 			return -1;
 		}
 	}
