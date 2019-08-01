@@ -46,7 +46,7 @@ int main(int argc, const char *argv[]) {
 	system(("mkdir -p "+target_path).c_str());
 
 	// loop through all the file extensions mentioned (starting from 1st not the oth argument)
-	for (size_t i = 1; i < argc-2; i++) {
+	for (size_t i = 1; i < (unsigned)argc-2; i++) {
 		std::string file_extension(argv[i]);
 		if (file_extension.front() != '.') {file_extension='.'+file_extension;}
 		recursively_find_files_with_ext(file_extension, source_path, target_path);

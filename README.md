@@ -1,6 +1,6 @@
 # manp
 
-Command-line utility for generating a `man-page` equivalent of your project.
+A portable command-line utility for generating a `man-page` equivalent for your custom project.
 
 Submission for tiancai-cup from @SamSamhuns
 
@@ -9,15 +9,17 @@ Submission for tiancai-cup from @SamSamhuns
 
 <img src='img/manp_demo_high.gif'>
 
-<br>Tired of looking throughout your build directory for the functions you wrote before and don't remember their parameters or even tired of Googling common Python modules and function documentations?
+<br>Tired of looking throughout the build directory of your project for the functions you wrote weeks before or don't remember their parameters. Want to find a quick way of querying functions and modules while displaying them like the `on-line man pages`?
 
-`manp` is a command-line utility that lets your create a `man pages` equivalent of your project. This is similar to how `man printf` works for C/C++ functions. But, now you can `manp [YOUR_FUNCTIONS]` from your source code instead.
+`manp` is a command-line utility that lets you create a `man pages` equivalent documentation of your project. This is similar to how `man printf` works for C/C++ functions. But, now you can `manp [YOUR_FUNCTIONS]` from your source code instead.
+
+All files of extension `TARGET_FILE_EXTN` are recursively searched inside the `manp/target_data` folder and added to the data section of the `manp` in the form of header includes.
 
 If incorrect modules are entered, `manp` also has a feature for auto-suggesting most similar named module.
 
 ## Installation
 
-*Running make without setting any SOURCE_DIR or TARGET_FILE_EXTN creates a default `manp` with documentation for the Python standard library modules and functions.*
+*Running make without setting any SOURCE_DIR or TARGET_FILE_EXTN creates a default `manp` portable executable with documentation for the Python standard library modules and functions.*
 
 **Requirements:**
 -   Python 3.5+
@@ -27,13 +29,14 @@ If incorrect modules are entered, `manp` also has a feature for auto-suggesting 
 **For OSX and Linux Only**
 
 1.  Clone the repository.
-2.  Set the `SOURCE_DIR` (The absolute path to your build directory) and `TARGET_FILE_EXTN`(File extensions to add to `manp`, separated by a single space inside double quotes) inside the `makefile_configuration.mk` file or the `make` command can be run with:
+2.  Set the `SOURCE_DIR` (The absolute path to your build directory) and `TARGET_FILE_EXTN`(File extensions to add to `manp`, separated by a single space inside double quotes) inside the `makefile_configuration.mk` file. The `SOURCE_DIR` can be specified to any directory, the make commands recursively search through the source to find all files of the extension `TARGET_FILE_EXTN`, so the source can be any directory (Even non-build ones)
 
+*Note:* If the `.mk` config file is not changed, the `make` command can also be run like so:
 ```bash
-$ make SOURCE_DIR=/usr/project/src ARGET_FILE_EXTN="txt py"
+$ make SOURCE_DIR=/usr/project/src TARGET_FILE_EXTN="txt py md"
 ```
 
-3.  Use the following command to compile the `manp` executable and set execute permissions. (The git builds the Python documentation `manp`)
+3.  After the Use `makefile_configuration.mk` config file has been properly set, `manp` can be compiled and the execute permissions be set. ( The original download from GitHub builds a `manp` Python documentation )
 
 ```bash
 $ make all
@@ -50,7 +53,7 @@ $ chmod a+x manp
         $ ln -s /[ABSOLUTE_PATH]/manp /usr/local/bin
         ```
 
-        \* If the original location of the `manp` executable is changed, the soft link must be updated again with the above command.
+        *Note:* If the original location of the `manp` executable is changed, the soft link must be updated again with the above command.
 
     -   **Alternative:**
 
@@ -60,13 +63,13 @@ $ chmod a+x manp
         $ cp manp /usr/local/bin
         ```
 
-        \* Every time, there is a change to the source code, the `manp` binary will have to be recopied to `usr/local/bin`.
+        *Note:* Every time, there is a change to the source code, the `manp` binary will have to be recopied to `usr/local/bin`.
 
 **Note:** If there are any permission issues, use `sudo`. The `manp` executable can be directly added to the `PATH` var if `sudo` access is not present.
 
 ### Utility functions
 
-**Only for Python project as of now**
+**Only for Python projects as of now:**
 
 The `python generate_txt_from_python_progs.py` function can be used to generate txt files containing information on individual functions and classes, the source folder is denoted by `[SOURCE_FILE_DIR]` while the target folder is denoted by `[TARGET_DIRECTORY]`.
 
@@ -74,6 +77,8 @@ The `python generate_txt_from_python_progs.py` function can be used to generate 
 $ python generate_funcs_from_modules [SOURCE_FILENAME] [TARGET_DIRECTORY]
 $ python generate_txt_from_python_progs.py [SOURCE_FILE_DIR] [TARGET_DIRECTORY]
 ```
+
+**Support for more projects will be added in the future**
 
 ## Uninstallation
 
@@ -93,18 +98,16 @@ $ unlink /usr/local/bin/manp
 
 ## Usage
 
-To get documentation for a standard lib module or a function:
+To get documentation for a artifact present in the `SOURCE_DIR`:
 
 ```bash
-$ manp [PYTHON_FUNCTION_NAME]
-$ manp [PYTHON_MODULE_NAME]
+$ manp [MODULE_OR_FUNCTION_NAME]
 ```
 
-Example:
+Example: (For the default Python std lib documentation)
 
 ```bash
-$ manp -m hashlib
-$ manp ascii
+$ manp zlib
 ```
 
 To display `help`:
@@ -113,16 +116,10 @@ To display `help`:
 $ manp -h
 ```
 
-To display list of all available modules:
+To display list of all available documented artifacts:
 
 ```bash
-$ manp -lm
-```
-
-To display list of all available functions:
-
-```bash
-$ manp -lf
+$ manp -l
 ```
 
 ## Workflow
