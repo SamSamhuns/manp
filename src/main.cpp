@@ -8,6 +8,7 @@
 #include <iostream>
 #include <unistd.h>
 #include <typeinfo>
+#include <algorithm>
 #include "common.h"
 
 // This is a modified C++ implementation of Felipe Farinon's <felipe.farinon(@)gmail.com> SpellingCorrector (MIT License)
