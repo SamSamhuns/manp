@@ -90,15 +90,29 @@ int generate_query_output(char const *argv[], std::string &query_output) {
 		std::cout << "\tmanp [ARTIFACT_LIB_FUNCTION_NAME] i.e. manp zlib" << '\n';
 		return 1;
 	}
-    /* listing all the available artifacts which have documentations available */
-    else if (query_input == "-l") {
-        std::cout << "\033[32;1mAvailable artifacts with documentation:\033[0m\n";
-        std::string artifacts_list =
-        #include "doc_artifacts_list.txt"
-        ;
-        std::cout << artifacts_list.substr(1, artifacts_list.size()-1); // exclude the leading new line char
-        return 1;
-    }
+	/* listing all the available artifacts which have documentations available */
+	else if (query_input == "-l") {
+		std::cout << "\033[32;1mAvailable artifacts with documentation:\033[0m";
+		std::string artifacts_list =
+		#include "doc_artifacts_list.txt"
+		;
+
+		/* split the artifacts_list by the newline char which is the delimiter
+		   and load it into a string vector to sort and print*/
+		std::stringstream str_stream(artifacts_list);
+		std::string artifact;
+		std::vector<std::string> splitted_artifacts;
+		while (std::getline(str_stream, artifact, '\n'))
+		{
+			splitted_artifacts.push_back(artifact);
+		}
+		std::sort(splitted_artifacts.begin(), splitted_artifacts.end());
+		for (size_t i = 0; i < splitted_artifacts.size(); i++) {
+			std::cout << "   "<< splitted_artifacts[i] << '\n';
+		}
+
+		return 1;
+	}
 	/* Python standard library function lookup i.e. manp setattr */
 	else {
 		/* Loading the entire txt documentation that has been pre-converted to
