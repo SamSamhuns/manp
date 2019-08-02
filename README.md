@@ -29,18 +29,18 @@ If incorrect modules are entered, `manp` also has a feature for auto-suggesting 
 **For OSX and Linux Only**
 
 1.  Clone the repository.
-2.  Set the `SOURCE_DIR` (The absolute path to your build directory) and `TARGET_FILE_EXTN`(File extensions to add to `manp`, separated by a single space inside double quotes) inside the `makefile_configuration.mk` file. The `SOURCE_DIR` can be specified to any directory, the make commands recursively search through the source to find all files of the extension `TARGET_FILE_EXTN`, so the source can be any directory (Even non-build ones)
-
-*Note:* If the `.mk` config file is not changed, the `make` command can also be run like so:
-```bash
-$ make SOURCE_DIR=/usr/project/src TARGET_FILE_EXTN="txt py md"
-```
+2.  Set the `SOURCE_DIR` (Absolute path to your build directory) and `TARGET_FILE_EXTN`(File extensions added to `manp`, separated by a single space inside double quotes) inside the `makefile_configuration.mk` file. The `SOURCE_DIR` can be specified to any directory, the make commands recursively search through the source to find all files of the extension `TARGET_FILE_EXTN`. The `REPLACE_OLD_TARGET` variable, if set to `True` will clean the `target_data` folder before make.
 
 3.  After the Use `makefile_configuration.mk` config file has been properly set, `manp` can be compiled and the execute permissions be set. ( The original download from GitHub builds a `manp` Python documentation )
 
 ```bash
 $ make all
 $ chmod a+x manp
+```
+
+*Note:* If the `.mk` config file is not changed, the `make` command can also be run like so:
+```bash
+$ make SOURCE_DIR=/usr/project/src TARGET_FILE_EXTN="txt py md"
 ```
 
 4.  Add the `manp` executable to `PATH` var for faster execution so that `manp` can be called using a `bash` shell from any directory and speeds documentation lookup.
