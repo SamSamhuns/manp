@@ -7,14 +7,14 @@ ODIR =obj# object file directory
 CPP =g++# compiler used
 CFLAGS =-std=c++11 -Wall -Wshadow -Werror -I$(IDIR)# compiler flags
 LDFLAGS =# -lm library flags
-TARGET =manp # file executable generated
+TARGET =manp# file executable generated
 # The TARGET_DIR where the files converted to raw string are created is set to target_data
-TARGET_DIR =target_data # location of the files coverted to raw string literal format
+TARGET_DIR =target_data# location of the files coverted to raw string literal format
 
 # User defined variables loaded from makefile_configuration.mk
-# SOURCE_DIR =        # location of the files to convert to raw string literal format
-# TARGET_FILE_EXTN =  # extension of target files to document
-
+# SOURCE_DIR =         # location of the files to convert to raw string literal format
+# TARGET_FILE_EXTN =   # extension of target files to document
+# REPLACE_OLD_TARGET = # flag to decide if to replace old TARGET_DIR
 
 # Getting the list of all cpp and object files
 # except text_to_raw_string.cpp and raw_string_to_text
@@ -56,6 +56,8 @@ raw_string_to_text: $(ODIR)/raw_string_to_text.o
 # Generate the raw string literals which are required for compiling $(TARGET)
 # The txt files must always be present in the data folder
 run_text_to_raw_string: text_to_raw_string
+	@mkdir -p $(TARGET_DIR)
+	if [ "${REPLACE_OLD_TARGET}" == "True" ]; then rm -fr "${TARGET_DIR}/*"; fi;
 	./text_to_raw_string $(TARGET_FILE_EXTN) $(SOURCE_DIR) $(TARGET_DIR)
 
 # Generate the combined_txt_header and doc_artifacts_list file for header includes
