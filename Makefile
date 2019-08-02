@@ -57,7 +57,7 @@ raw_string_to_text: $(ODIR)/raw_string_to_text.o
 # The txt files must always be present in the data folder
 run_text_to_raw_string: text_to_raw_string
 	@mkdir -p $(TARGET_DIR)
-	if [ "${REPLACE_OLD_TARGET}" == "True" ]; then rm -fr "${TARGET_DIR}/*"; fi;
+	if [ "${REPLACE_OLD_TARGET}" == "True" ]; then rm -fr ${TARGET_DIR}/*;fi;
 	./text_to_raw_string $(TARGET_FILE_EXTN) $(SOURCE_DIR) $(TARGET_DIR)
 
 # Generate the combined_txt_header and doc_artifacts_list file for header includes
