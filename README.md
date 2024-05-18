@@ -1,10 +1,10 @@
 # manp
 
+![Build](https://github.com/SamSamhuns/manp/actions/workflows/build.yml/badge.svg)
+
 A portable command-line utility for generating a `man-page` equivalent for your custom project.
 
 Submission for tiancai-cup from @SamSamhuns
-
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 <img src='img/manp_demo_high.gif'>
 
