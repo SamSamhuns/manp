@@ -1,12 +1,11 @@
+"""
+Use Example:
+python generate_txt_from_python_progs.py [SOURCE_FILE_DIR] [TARGET_DIRECTORY]
+"""
 import os
 import sys
 import glob   # Only for python 3.5+
 import generate_txt_from_pydocs as gen_txt
-
-
-''' Use Example:
-python generate_txt_from_python_progs.py [SOURCE_FILE_DIR] [TARGET_DIRECTORY]
-'''
 
 
 def gen_txt_from_python_files(source_path, target_directory):
@@ -16,7 +15,8 @@ def gen_txt_from_python_files(source_path, target_directory):
 
     f_target_mode = 'w'
     target_file_name = ''
-    save_class_or_func_name_only = True # Setting this True overrides the save_entire_path
+    # Setting this True overrides the save_entire_path
+    save_class_or_func_name_only = True
     save_entire_path = False
     for filename in glob.iglob(sys.argv[1] + '**/*.py', recursive=True):
         print(filename)
@@ -29,7 +29,7 @@ def gen_txt_from_python_files(source_path, target_directory):
             target_file_name = target_directory + \
                 (filename.split('/')[-1]).replace('.py', '')
 
-        with open(filename, 'r') as fr:
+        with open(filename, 'r', encoding="utf-8") as fr:
             split = []
             repeat = 0
             for line in fr:
@@ -43,7 +43,7 @@ def gen_txt_from_python_files(source_path, target_directory):
                     target_file_name_with_module = target_file_name_with_module.replace(
                         'class ', '').replace('def ', '').replace('.', '_')
                     print("\tTARGET=", target_file_name_with_module)
-                    with open(target_file_name_with_module+'.txt', f_target_mode) as fw:
+                    with open(target_file_name_with_module+'.txt', f_target_mode, encoding="utf-8") as fw:
                         fw.write('('.join(split))
                         for line in fr:
                             if line.find('def') == 0 or line.find('class') == 0:
@@ -61,7 +61,7 @@ def gen_txt_from_python_files(source_path, target_directory):
                         'class ', '').replace('def ', '').replace('.', '_')
                     print("\tTARGET=", target_file_name_with_module)
 
-                    with open(target_file_name_with_module+'.txt', f_target_mode) as fw:
+                    with open(target_file_name_with_module+'.txt', f_target_mode, encoding="utf-8") as fw:
                         fw.write(line)
                         for line in fr:
                             if line.find('def') == 0 or line.find('class') == 0:

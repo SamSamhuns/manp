@@ -4,7 +4,6 @@ A portable command-line utility for generating a `man-page` equivalent for your 
 
 Submission for tiancai-cup from @SamSamhuns
 
-[![Build Status](https://travis-ci.com/SamSamhuns/manp.svg?token=Z5sqtVdygQce8gKWkdrq&branch=master)](https://travis-ci.com/SamSamhuns/manp)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 <img src='img/manp_demo_high.gif'>

@@ -1,0 +1,22 @@
+name: C++ CI Build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Build on Linux and macOS
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup C++ Environment
+      uses: actions/setup-cpp@v2
+      with:
+        compiler: g++
+    
+    - name: Run Makefile
+      run: make all
