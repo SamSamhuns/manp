@@ -5,12 +5,12 @@
 
 using namespace std;
 
-bool sortBySecond(const pair<std::string, int>& left, const pair<std::string, int>& right)
+bool sortBySecond(const pair<std::string, int> &left, const pair<std::string, int> &right)
 {
 	return left.second < right.second;
 }
 
-char filterNonAlphabetic(char& letter)
+char filterNonAlphabetic(char &letter)
 {
 	if (letter < 0)
 		return '-';
@@ -19,12 +19,15 @@ char filterNonAlphabetic(char& letter)
 	return '-';
 }
 
-void SpellingCorrector::load(const std::string& module_string) {
+void SpellingCorrector::load(const std::string &module_string)
+{
 	std::string data = module_string;
 
-    // remove the leading and ending newline chars if any
-	if (data[data.length()-1] == '\n') data.erase(data.length()-1);
-	if (data[0] == '\n') data.erase(0, 1);
+	// remove the leading and ending newline chars if any
+	if (data[data.length() - 1] == '\n')
+		data.erase(data.length() - 1);
+	if (data[0] == '\n')
+		data.erase(0, 1);
 
 	transform(data.begin(), data.end(), data.begin(), filterNonAlphabetic);
 	for (string::size_type i = 0; i != string::npos;)
@@ -40,17 +43,23 @@ void SpellingCorrector::load(const std::string& module_string) {
 	}
 }
 
-string SpellingCorrector::correct(const std::string& word)
+string SpellingCorrector::correct(const std::string &word)
 {
 	Vector result;
 	Dictionary candidates;
 
-	if (dictionary.find(word) != dictionary.end()) { return word; }
+	if (dictionary.find(word) != dictionary.end())
+	{
+		return word;
+	}
 
 	edits(word, result);
 	known(result, candidates);
 
-	if (candidates.size() > 0) { return max_element(candidates.begin(), candidates.end(), sortBySecond)->first; }
+	if (candidates.size() > 0)
+	{
+		return max_element(candidates.begin(), candidates.end(), sortBySecond)->first;
+	}
 
 	for (unsigned int i = 0; i < result.size(); i++)
 	{
@@ -60,12 +69,15 @@ string SpellingCorrector::correct(const std::string& word)
 		known(subResult, candidates);
 	}
 
-	if (candidates.size() > 0) { return max_element(candidates.begin(), candidates.end(), sortBySecond)->first; }
+	if (candidates.size() > 0)
+	{
+		return max_element(candidates.begin(), candidates.end(), sortBySecond)->first;
+	}
 
 	return "";
 }
 
-void SpellingCorrector::known(Vector& results, Dictionary& candidates)
+void SpellingCorrector::known(Vector &results, Dictionary &candidates)
 {
 	Dictionary::iterator end = dictionary.end();
 
@@ -73,18 +85,23 @@ void SpellingCorrector::known(Vector& results, Dictionary& candidates)
 	{
 		Dictionary::iterator value = dictionary.find(results[i]);
 
-		if (value != end) candidates[value->first] = value->second;
+		if (value != end)
+			candidates[value->first] = value->second;
 	}
 }
 
-void SpellingCorrector::edits(const std::string& word, Vector& result)
+void SpellingCorrector::edits(const std::string &word, Vector &result)
 {
-	for (string::size_type i = 0; i < word.size(); i++) result.push_back(word.substr(0, i) + word.substr(i + 1)); //deletions
-	for (string::size_type i = 0; i < word.size() - 1; i++) result.push_back(word.substr(0, i) + word[i + 1] + word[i] + word.substr(i + 2)); //transposition
+	for (string::size_type i = 0; i < word.size(); i++)
+		result.push_back(word.substr(0, i) + word.substr(i + 1)); // deletions
+	for (string::size_type i = 0; i < word.size() - 1; i++)
+		result.push_back(word.substr(0, i) + word[i + 1] + word[i] + word.substr(i + 2)); // transposition
 
 	for (char j = 'a'; j <= 'z'; ++j)
 	{
-		for (string::size_type i = 0; i < word.size(); i++) result.push_back(word.substr(0, i) + j + word.substr(i + 1)); //alterations
-		for (string::size_type i = 0; i < word.size() + 1; i++) result.push_back(word.substr(0, i) + j + word.substr(i)); //insertion
+		for (string::size_type i = 0; i < word.size(); i++)
+			result.push_back(word.substr(0, i) + j + word.substr(i + 1)); // alterations
+		for (string::size_type i = 0; i < word.size() + 1; i++)
+			result.push_back(word.substr(0, i) + j + word.substr(i)); // insertion
 	}
 }
