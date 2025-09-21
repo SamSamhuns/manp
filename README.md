@@ -1,6 +1,6 @@
 # manp
 
-![Build](https://github.com/SamSamhuns/manp/actions/workflows/build.yml/badge.svg)
+[![C++ CI Build](https://github.com/SamSamhuns/manp/actions/workflows/main.yaml/badge.svg)](https://github.com/SamSamhuns/manp/actions/workflows/main.yaml)
 
 A portable command-line utility for generating a `man-page` equivalent for your custom project.
 
